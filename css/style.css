@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #0e0e0e;
+    --secondary-color: #1c1c1c;
+    --text-color: #fff;
+    --secondary-text: #A5A5A5;
+    --green-text: #95DF00;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: neue montreal;
+    color: var(--text-color);
+}
+
+h1,
+h2,
+p {
+    margin: 0px;
+}
+
+.text-secondary {
+    color: var(--green-text);
+}
+
+section {
+    width: 100%;
+    margin-block: 50px;
+}
+
+.container {
+    width: min(1200px, 90%);
+    margin-inline: auto;
+}
+
+.hero-section .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section .tagline-heading {
+    font-size: 54px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero-section .slogan {
+    font-size: 74px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-section .services-heading {
+    font-size: 54px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.trusted-companies {
+    background-color: var(--secondary-color);
+    padding-block: 20px;
+}
+
+.trusted-companies .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.trusted-companies .trusted-by {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.trusted-companies .container .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.services-section .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.services-section .services .service {
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    border: none;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-heading {
+    font-size: 36px;
+    font-weight: 500;
+    margin-block: 10px;
+}
+
+.sub-heading {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.service-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-text);
+}
