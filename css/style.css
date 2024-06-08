@@ -4,6 +4,12 @@
     --text-color: #fff;
     --secondary-text: #A5A5A5;
     --green-text: #95DF00;
+    --border-radius: 12px;
+    --radius-full: 30px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -12,6 +18,11 @@ body {
     background-color: var(--primary-color);
     font-family: neue montreal;
     color: var(--text-color);
+    letter-spacing: 1px;
+}
+
+.display-none {
+    display: none;
 }
 
 h1,
@@ -61,17 +72,15 @@ section {
     text-align: center;
 }
 
-.trusted-companies {
-    background-color: var(--secondary-color);
-    padding-block: 20px;
+.trusted-companies .section-heading {
+    text-align: center;
 }
 
-.trusted-companies .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+.trusted-companies .outer-container {
+    padding-block: 20px;
+    background-color: var(--secondary-color);
 }
+
 
 .trusted-companies .trusted-by {
     font-size: 16px;
@@ -94,7 +103,7 @@ section {
 
 .services-section .services .service {
     background-color: #1c1c1c;
-    border-radius: 12px;
+    border-radius: var(--border-radius);
     border: none;
     padding: 16px;
     display: flex;
@@ -102,10 +111,15 @@ section {
     gap: 10px;
 }
 
+.services-section .service img {
+    width: 50px;
+}
+
 .section-heading {
     font-size: 36px;
     font-weight: 500;
-    margin-block: 10px;
+    margin-block: 20px;
+    text-align: center;
 }
 
 .sub-heading {
@@ -117,4 +131,130 @@ section {
     font-size: 16px;
     font-weight: 400;
     color: var(--secondary-text);
+}
+
+.team-section .team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.team .member .img-container {
+    background-color: var(--secondary-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    padding: 16px;
+    padding-bottom: 0px;
+}
+
+.team .details .name {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.team .details .designation {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.call-to-action-section .container {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-section .details h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.call-to-action-section .details p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.call-to-action-section .button .call-to-action-btn {
+    background-color: var(--green-text);
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: var(--radius-full);
+}
+
+.testimonial-section .container {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    background-color: var(--secondary-color);
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial-section .details h2 {
+    font-size: 40px;
+}
+
+.testimonial-section .container .details,
+.testimonial-section .container .review-box {
+    width: 100%;
+}
+
+.testimonial-section .details p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.testimonial-section .review-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.testimonial-section .review-box .quote svg {
+    width: 60px;
+    height: 60px;
+    fill: white;
+}
+
+.testimonial-section .review-box .stars svg {
+    width: 15px;
+    fill: var(--green-text);
+}
+
+.testimonial-section .review-box .review p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.testimonial-section .review-box .author p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.testimonial-section .navigation-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonial-section .navigation-button div {
+    width: 30px;
+    height: 30px;
+    border: solid 1px var(--green-text);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-section .navigation-button svg {
+    fill: #D5E0D5;
 }
