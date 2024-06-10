@@ -28,7 +28,18 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .navbar-container {
+        padding: 18px 0;
+    }
 
     .services-section .services,
     .team-section .team {
@@ -52,6 +63,7 @@
     .footer-logo {
         gap: 10px;
     }
+
 }
 
 @media screen and (max-width: 425px) {

@@ -4,6 +4,7 @@
     --text-color: #fff;
     --secondary-text: #A5A5A5;
     --green-text: #95DF00;
+    --dark-green-text: #86c803;
     --border-radius: 12px;
     --radius-full: 30px;
     --border-color: #e4e5e750;
@@ -32,6 +33,12 @@ p {
     margin: 0px;
 }
 
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 a:hover {
     color: var(--green-text) !important;
     transition: all 0.3s;
@@ -46,9 +53,93 @@ section {
     margin-block: 50px;
 }
 
+.btn {
+    background-color: var(--green-text);
+    text-decoration: none;
+    padding: 10px 30px;
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: var(--radius-full);
+}
+
+.btn:hover {
+    color: var(--primary-color) !important;
+    background-color: var(--dark-green-text);
+}
+
 .container {
     max-width: 1400px;
     margin-inline: auto;
+}
+
+.mobile {
+    display: none;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-container {
+    padding: 15px 0;
+    height: 80px;
+}
+
+.navbar-inner {
+    justify-content: space-between;
+}
+
+
+.navbar-inner .menus,
+.navbar-inner .right-content {
+    gap: 50px;
+    color: var(--text-color);
+}
+
+.navbar-inner .right-content svg,
+.navbar-inner .right-content path {
+    fill: var(--text-color);
+
+}
+
+.navbar-container .sidebar-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    width: 90%;
+    z-index: 99;
+    background-color: #ffffff24;
+}
+
+.navbar-container .sidebar-inner {
+    width: 80%;
+    height: 100%;
+    background-color: var(--text-color);
+}
+
+body:has(.sidebar-menu.opened) {
+    overflow: hidden;
+}
+
+.navbar-container .sidebar-menu.opened {
+    width: 100%;
+    right: 0;
+    transition: all 0.6s ease;
+}
+
+.navbar-container .sidebar-menu.opened .sidebar-inner {
+    width: 90%;
+    transition: width 0.3s ease;
 }
 
 .hero-section .container {
