@@ -6,6 +6,7 @@
     --green-text: #95DF00;
     --border-radius: 12px;
     --radius-full: 30px;
+    --border-color: #e4e5e750;
 }
 
 * {
@@ -31,6 +32,11 @@ p {
     margin: 0px;
 }
 
+a:hover {
+    color: var(--green-text) !important;
+    transition: all 0.3s;
+}
+
 .text-secondary {
     color: var(--green-text);
 }
@@ -41,12 +47,12 @@ section {
 }
 
 .container {
-    width: min(1200px, 90%);
+    max-width: 1400px;
     margin-inline: auto;
 }
 
 .hero-section .container {
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -93,6 +99,8 @@ section {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    overflow: hidden;
+    overflow-x: auto;
 }
 
 .services-section .services {
@@ -133,29 +141,6 @@ section {
     color: var(--secondary-text);
 }
 
-.team-section .team {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
-}
-
-.team .member .img-container {
-    background-color: var(--secondary-color);
-    border-top-left-radius: var(--border-radius);
-    border-top-right-radius: var(--border-radius);
-    padding: 16px;
-    padding-bottom: 0px;
-}
-
-.team .details .name {
-    font-size: 22px;
-    font-weight: 400;
-}
-
-.team .details .designation {
-    font-weight: 400;
-    font-size: 16px;
-}
 
 .call-to-action-section .container {
     background-color: var(--secondary-color);
@@ -188,8 +173,7 @@ section {
 }
 
 .testimonial-section .container {
-    border-top-left-radius: var(--border-radius);
-    border-top-right-radius: var(--border-radius);
+    border-radius: var(--border-radius);
     background-color: var(--secondary-color);
     padding: 50px 40px;
     display: flex;
@@ -257,4 +241,85 @@ section {
 
 .testimonial-section .navigation-button svg {
     fill: #D5E0D5;
+}
+
+.footer-section {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.footer-section h3 {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.footer-section ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.footer-bottom {
+    padding-block: 20px;
+    border-top: 1px solid var(--border-color);
+}
+
+.footer-bottom-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-logo p {
+    font-weight: 300;
+}
+
+.footer-logo img {
+    height: 30px;
+}
+
+
+
+.footer-section .footer-icon svg {
+    fill: var(--secondary-text);
+    width: 25px;
+    height: 25px;
+}
+
+.footer-section .footer-icon svg:hover {
+    fill: var(--green-text);
+    transition: fill 0.3s;
 }

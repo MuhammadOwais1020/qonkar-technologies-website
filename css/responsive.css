@@ -1,0 +1,62 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        width: calc(100% - 50px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .testimonial-section .container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .call-to-action-section .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .services-section .services,
+    .team-section .team {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-inner {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .services-section .services,
+    .team-section .team {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-bottom {
+        padding-top: 30px;
+    }
+
+    .footer-bottom-inner,
+    .footer-logo {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer-logo {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .footer-inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
