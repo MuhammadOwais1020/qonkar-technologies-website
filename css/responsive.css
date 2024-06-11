@@ -67,6 +67,14 @@
 }
 
 @media screen and (max-width: 425px) {
+    .hero-section .slogan {
+        font-size: 40px;
+    }
+
+    .hero-section .tagline-heading,
+    .hero-section .services-heading {
+        font-size: 24px;
+    }
 
     .footer-inner {
         grid-template-columns: repeat(1, 1fr);
