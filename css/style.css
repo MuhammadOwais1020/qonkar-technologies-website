@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: neue-montreal;
-    src: url(assets/fonts/NeueMontreal-Regular.otf);
+    src: url(../assets/fonts/NeueMontreal-Regular.otf);
 }
 
 * {
@@ -38,7 +38,7 @@ p {
     margin: 0px;
 }
 
-li {
+ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -66,6 +66,8 @@ section {
     font-weight: 600;
     cursor: pointer;
     border-radius: var(--radius-full);
+    display: block;
+    max-width: max-content;
 }
 
 .btn:hover {
@@ -101,8 +103,8 @@ section {
 }
 
 .navbar-container {
-    padding: 15px 0;
-    height: 80px;
+    padding: 18px 0;
+    background-color: var(--secondary-color);
 }
 
 .navbar-inner {
@@ -110,12 +112,12 @@ section {
 }
 
 
-.navbar-inner .menus {
+.navbar-inner .desktop .menus {
     gap: 50px;
     color: var(--text-color);
 }
 
-.navbar-inner .right-content {
+.navbar-inner .right-content.desktop {
     gap: 50px;
     color: var(--primary-color);
 }
@@ -123,7 +125,11 @@ section {
 .navbar-inner .right-content svg,
 .navbar-inner .right-content path {
     fill: var(--text-color);
+}
 
+.navbar-inner .right-content svg {
+    width: 35px;
+    height: 35px;
 }
 
 .navbar-container .sidebar-menu {
@@ -134,12 +140,38 @@ section {
     width: 90%;
     z-index: 99;
     background-color: #ffffff24;
+    transition: width 0.3s ease, right 0.6s ease;
 }
 
 .navbar-container .sidebar-inner {
     width: 80%;
     height: 100%;
-    background-color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+.navbar-container .menu-contents {
+    padding: 20px;
+}
+
+.navbar-container .menu-header {
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border-color);
+    justify-content: space-between;
+}
+
+.navbar-container .menu-contents li {
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar-container .menu-contents li:first-child {
+    margin-top: 20px;
+}
+
+.navbar-container .menu-header .menu-title {
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 body:has(.sidebar-menu.opened) {
@@ -167,7 +199,7 @@ body:has(.sidebar-menu.opened) {
 }
 
 .hero-section .container {
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 10px;

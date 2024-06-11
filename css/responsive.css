@@ -5,6 +5,13 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
 
     .testimonial-section .container {
         flex-direction: column;
@@ -26,20 +33,18 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .navbar-container {
+        padding: 14px 0;
+    }
+
+    .hero-section .container {
+        min-height: 65vh;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
-    .desktop {
-        display: none;
-    }
 
-    .mobile {
-        display: block;
-    }
-
-    .navbar-container {
-        padding: 18px 0;
-    }
 
     .services-section .services,
     .team-section .team {
@@ -73,7 +78,7 @@
 
     .hero-section .tagline-heading,
     .hero-section .services-heading {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .footer-inner {
