@@ -162,6 +162,10 @@ body:has(.sidebar-menu.opened) {
     color: var(--text-color);
 }
 
+.navbar-container .logo img {
+    height: 40px;
+}
+
 .hero-section .container {
     height: 70vh;
     display: flex;
