@@ -115,53 +115,58 @@ OUR SERVICES:
   </nav>
 
   <!-- contact form start -->
-   <section class="contact-form-section">
-    <form action="contact-us.php" class="contact-form" method="post">
-      <div class="input-help field">
-        <label for="">How can we help you *</label>
-        <select name="" id="" class="help">
-          <option value="">Please select one</option>
-          <option value=""></option>
-          <option value=""></option>
-        </select>
-      </div>
-      <div class="fullname field">
-        <label for="">Full Name *</label>
-        <input type="text" class="input-field-name" placeholder="Full Name" required id="fullname" name="fullname">
-      </div>
-      <div class="email-field field">
-        <label for="">Email *</label>
-        <input type="email" class="input-field-email" placeholder="Email" required id="email" name="email">
-      </div>
-      <div class="whatsapp-number field">
-        <label for="">What's App Number *</label>
-        <input type="number" class="input-field-whatsapp" placeholder="What's App Number" required id="number" name="number">
-      </div>
-      <div class="country field">
-        <label for="">Country *</label>
-        <input type="text" class="input-field-country" placeholder="Country" required id="country" name="country">
-      </div>
-      <div class="company field">
-        <label for="">Company/Organization</label>
-        <input type="text" class="input-field-company" placeholder="Company/Organization" id="company" name="company">
-      </div>
-      <div class="message grid-span field" >
-        <label for="">Message</label>
-        <textarea name="message" class="input-field-message" id="message" placeholder="Type Here"></textarea>
-      </div>
-      <div class="agree-newsletter grid-span">
-        <input type="checkbox" class="checkbox-field-agree" id="agree-newsletter" name="agree-newsletter">
-        <label for="">I agree to sign up for the newsletter</label>
-      </div>
-      <div class="agree-terms">
-        <input type="checkbox" class="checkbox-field-agree" id="agree-terms" name="agree-terms">
-        <label for="">I agree to the <a href="#" >Privacy policy</a> and Terms and Conditions</label>
-      </div>
-      <div class="contact-submit-btn grid-span">
-        <input type="submit" class="submit-btn">
+  <section class="contact-form">
+    <div class="success-message" id="successMessage">
+      Form submitted successfully!
+    </div>
+    <form action="contact-us.php" class="contact-form" method="post" id="contactForm">
+        <div class="input-help field">
+            <label for="form_help">How can we help you *</label>
+            <select name="form_help" id="form_help" required>
+                <option value="">Please select one</option>
+                <option value="support">Support</option>
+                <option value="sales">Sales</option>
+                <option value="feedback">Feedback</option>
+            </select>
+        </div>
+        <div class="fullname field">
+            <label for="fullname">Full Name *</label>
+            <input type="text" class="input-field-name" placeholder="Full Name" required id="fullname" name="fullname">
+        </div>
+        <div class="email-field field">
+            <label for="email">Email *</label>
+            <input type="email" class="input-field-email" placeholder="Email" required id="email" name="email">
+        </div>
+        <div class="whatsapp-number field">
+            <label for="number">What's App Number *</label>
+            <input type="number" class="input-field-number" placeholder="What's App Number" required id="number" name="number">
+        </div>
+        <div class="country field">
+            <label for="country">Country *</label>
+            <input type="text" class="input-field-country" placeholder="Country" required id="country" name="country">
+        </div>
+        <div class="company field">
+            <label for="company">Company/Organization</label>
+            <input type="text" class="input-field-company" placeholder="Company/Organization" id="company" name="company">
+        </div>
+        <div class="message grid-span field">
+            <label for="message">Message</label>
+            <textarea name="message" class="input-field-message" id="message" placeholder="Type Here"></textarea>
+        </div>
+        <div class="agree-newsletter grid-span">
+            <input type="checkbox" class="checkbox-field-agree" id="agree_newsletter" name="agree_newsletter">
+            <label for="agree-newsletter">I agree to sign up for the newsletter</label>
+        </div>
+        <div class="agree-terms">
+            <input type="checkbox" class="checkbox-field-agree" id="agree_terms" name="agree_terms">
+            <label for="agree-terms">I agree to the <a href="#">Privacy policy</a> and Terms and Conditions</label>
+        </div>
+       
+        <div class="btn-submit grid-span">
+          <button class="btn" type="submit">Submit</button>
       </div>
     </form>
-  </section>
+</section>
   <!-- contact form end -->
 
   <footer>
@@ -290,5 +295,40 @@ OUR SERVICES:
   <script src="assets/script.js"></script>
 
 </body>
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function(event){
+		event.preventDefault();
+    var form_help = document.querySelector("select[name='form_help']").value;
+		var fullname = document.querySelector("input[name='fullname']").value;
+		var email = document.querySelector("input[name='email']").value;
+    var number = document.querySelector("input[name='number']").value;
+    var country = document.querySelector("input[name='country']").value;
+    var company = document.querySelector("input[name='company']").value;
+		var message = document.querySelector("textarea[name='message']").value;
+		var agree_newsletter = document.querySelector("input[name='agree_newsletter']").value;
+    var agree_terms = document.querySelector("input[name='agree_terms']").value;
+	
+		$.ajax({
+			type: "POST",
+			url: "contact-us.php",
+			data: {
+        form_help: form_help,
+				fullname: fullname,
+				email: email,
+        number: number,
+        country: country,
+        company: company,
+        message: message,
+        agree_newsletter: agree_newsletter,
+        agree_terms: agree_terms
+			},
+			success: function(response){
+				console.log(response);
+        document.getElementById("successMessage").style.display = "block";
+				document.getElementById("contactForm").reset();
+			}
+		});
+	});
+</script>
 
 </html>
