@@ -298,9 +298,11 @@ body:has(.sidebar-menu.opened) {
     align-items: center;
 }
 
-.call-to-action-section .details h2 {
+.call-to-action-section .details h2,
+.testimonial-section .details h2 {
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .call-to-action-section .details p {
@@ -328,9 +330,6 @@ body:has(.sidebar-menu.opened) {
     align-items: center;
 }
 
-.testimonial-section .details h2 {
-    font-size: 40px;
-}
 
 .testimonial-section .container .details,
 .testimonial-section .container .review-box {
@@ -406,7 +405,7 @@ body:has(.sidebar-menu.opened) {
 }
 
 .footer-section h3 {
-    font-weight: 500;
+    font-weight: 600;
     text-transform: capitalize;
 }
 

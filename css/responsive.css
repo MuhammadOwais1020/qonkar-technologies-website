@@ -15,7 +15,7 @@
 
     .testimonial-section .container {
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
     }
 
     .call-to-action-section .container {
@@ -83,5 +83,31 @@
 
     .footer-inner {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-heading {
+        font-size: 26px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+    }
+
+    .services-section .service img {
+        width: 40px;
+    }
+
+    .call-to-action-section .details h2,
+    .testimonial-section .details h2 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .footer-logo p {
+        text-align: center;
+    }
+
+    .testimonial-section .review-box .review p {
+        font-size: 14px;
     }
 }
