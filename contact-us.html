@@ -50,11 +50,13 @@ OUR SERVICES:
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
 
   <!-- css -->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/swiper.css" />
+  <link rel="stylesheet" href="css/contact-us.css">
 </head>
 
 <body>
@@ -113,9 +115,53 @@ OUR SERVICES:
   </nav>
 
   <!-- contact form start -->
-   <section class="contact-form">
-<form action=""></form>
-   </section>
+   <section class="contact-form-section">
+    <form action="contact-us.php" class="contact-form" method="post">
+      <div class="input-help field">
+        <label for="">How can we help you *</label>
+        <select name="" id="" class="help">
+          <option value="">Please select one</option>
+          <option value=""></option>
+          <option value=""></option>
+        </select>
+      </div>
+      <div class="fullname field">
+        <label for="">Full Name *</label>
+        <input type="text" class="input-field-name" placeholder="Full Name" required id="fullname" name="fullname">
+      </div>
+      <div class="email-field field">
+        <label for="">Email *</label>
+        <input type="email" class="input-field-email" placeholder="Email" required id="email" name="email">
+      </div>
+      <div class="whatsapp-number field">
+        <label for="">What's App Number *</label>
+        <input type="number" class="input-field-whatsapp" placeholder="What's App Number" required id="number" name="number">
+      </div>
+      <div class="country field">
+        <label for="">Country *</label>
+        <input type="text" class="input-field-country" placeholder="Country" required id="country" name="country">
+      </div>
+      <div class="company field">
+        <label for="">Company/Organization</label>
+        <input type="text" class="input-field-company" placeholder="Company/Organization" id="company" name="company">
+      </div>
+      <div class="message grid-span field" >
+        <label for="">Message</label>
+        <textarea name="message" class="input-field-message" id="message" placeholder="Type Here"></textarea>
+      </div>
+      <div class="agree-newsletter grid-span">
+        <input type="checkbox" class="checkbox-field-agree" id="agree-newsletter" name="agree-newsletter">
+        <label for="">I agree to sign up for the newsletter</label>
+      </div>
+      <div class="agree-terms">
+        <input type="checkbox" class="checkbox-field-agree" id="agree-terms" name="agree-terms">
+        <label for="">I agree to the <a href="#" >Privacy policy</a> and Terms and Conditions</label>
+      </div>
+      <div class="contact-submit-btn grid-span">
+        <input type="submit" class="submit-btn">
+      </div>
+    </form>
+  </section>
   <!-- contact form end -->
 
   <footer>
