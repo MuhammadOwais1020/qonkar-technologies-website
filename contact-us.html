@@ -122,8 +122,8 @@ OUR SERVICES:
     <form action="contact-us.php" class="contact-form" method="post" id="contactForm">
         <div class="input-help field">
             <label for="form_help">How can we help you *</label>
-            <select name="form_help" id="form_help" required>
-                <option value="">Please select one</option>
+            <select name="form_help" id="form_help" class="help-form" required>
+                <option value="" disabled selected hidden>Please Select One</option>
                 <option value="support">Support</option>
                 <option value="sales">Sales</option>
                 <option value="feedback">Feedback</option>
@@ -151,7 +151,7 @@ OUR SERVICES:
         </div>
         <div class="message grid-span field">
             <label for="message">Message</label>
-            <textarea name="message" class="input-field-message" id="message" placeholder="Type Here"></textarea>
+            <textarea name="message" class="input-field-message" id="message" placeholder="Type Here" rows="1"></textarea>
         </div>
         <div class="agree-newsletter grid-span">
             <input type="checkbox" class="checkbox-field-agree" id="agree_newsletter" name="agree_newsletter">
@@ -161,8 +161,8 @@ OUR SERVICES:
             <input type="checkbox" class="checkbox-field-agree" id="agree_terms" name="agree_terms" required>
             <label for="agree-terms">I agree to the <a href="#">Privacy policy</a> and Terms and Conditions</label>
         </div>
-        <div class="contact-btn grid-span">
-            <button type="submit" class="btn">Submit</button>
+        <div class="contact-button grid-span">
+            <button type="submit" class="contact-btn">Submit</button>
         </div>
     </form>
 </section>
