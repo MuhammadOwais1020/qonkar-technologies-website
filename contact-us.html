@@ -116,18 +116,25 @@ OUR SERVICES:
 
   <!-- contact form start -->
   <section class="contact-form-section">
+    <div class="heading-container">
+      <div class="ContactUs-heading">
+        <h1>Contact us</h1>
+        <h4>We appreciate your interest in <span class="text-secondary" >Qonkar Technologies.</span> Please fill the form<br /> so we can get to the right <span class="text-secondary">help and <span class="text-secondary">support.</span></h4>
+      </div>
+      </div>
+    <div class="form-container">
     <div class="success-message" id="successMessage">
       Form submitted successfully!
     </div>
     <form action="contact-us.php" class="contact-form" method="post" id="contactForm">
         <div class="input-help field">
-            <label for="form_help">How can we help you *</label>
-            <select name="form_help" id="form_help" class="help-form" required>
-                <option value="" disabled selected hidden>Please Select One</option>
-                <option value="support">Support</option>
-                <option value="sales">Sales</option>
-                <option value="feedback">Feedback</option>
-            </select>
+              <label for="form_help">How can we help you *</label>
+              <select name="form_help" id="form_help" class="help-form" required>
+                  <option value="" disabled selected hidden>Please Select One</option>
+                  <option value="support">Support</option>
+                  <option value="sales">Sales</option>
+                  <option value="feedback">Feedback</option>
+              </select>
         </div>
         <div class="fullname field">
             <label for="fullname">Full Name *</label>
@@ -151,20 +158,23 @@ OUR SERVICES:
         </div>
         <div class="message grid-span field">
             <label for="message">Message</label>
-            <textarea name="message" class="input-field-message" id="message" placeholder="Type Here" rows="1"></textarea>
+            <textarea name="message" class="input-field-message" id="message" placeholder="Type Here" rows="3"></textarea>
         </div>
-        <div class="agree-newsletter grid-span">
-            <input type="checkbox" class="checkbox-field-agree" id="agree_newsletter" name="agree_newsletter">
-            <label for="agree-newsletter">I agree to sign up for the newsletter</label>
-        </div>
-        <div class="agree-terms">
-            <input type="checkbox" class="checkbox-field-agree" id="agree_terms" name="agree_terms" required>
-            <label for="agree-terms">I agree to the <a href="#">Privacy policy</a> and Terms and Conditions</label>
-        </div>
+        <div class="checkbox grid-span">
+          <div class="agree-newsletter grid-span">
+              <input type="checkbox" class="checkbox-field-agree" id="agree_newsletter" name="agree_newsletter">
+              <label for="agree-newsletter">I agree to sign up for the newsletter</label>
+          </div>
+          <div class="agree-terms grid-span">
+              <input type="checkbox" class="checkbox-field-agree" id="agree_terms" name="agree_terms" required>
+              <label for="agree-terms">I agree to the<a href="#">Privacy policy</a>and Terms and Conditions</label>
+          </div>
+      </div>
         <div class="contact-button grid-span">
             <button type="submit" class="contact-btn">Submit</button>
         </div>
     </form>
+    </div>
 </section>
   <!-- contact form end -->
 
