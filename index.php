@@ -169,7 +169,7 @@ include('header.php');
         </p>
       </div>
       <div class="button">
-        <a href="contact-us.html" class="btn">Lets Get Started!</a>
+        <a href="contact-us.php" class="btn">Lets Get Started!</a>
       </div>
     </div>
   </section>

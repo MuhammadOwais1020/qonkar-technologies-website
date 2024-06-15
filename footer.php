@@ -60,7 +60,7 @@
             <div class="footer-menus">
               <ul>
                 <li><a href="#" rel="">Software Technology Park, QUEST Nawabshah, Pakistan</a></li>
-                <li><a href="contact-us.html" rel="">Contact Us Now</a></li>
+                <li><a href="contact-us.php" rel="">Contact Us Now</a></li>
                 <li><a href="#" rel="">(+44) 7476451747</a></li>
                 <li><a href="#" rel="">(+92) 305 8214945</a></li>
                 <li><a href="#" rel="">info@qonkar.com</a></li>

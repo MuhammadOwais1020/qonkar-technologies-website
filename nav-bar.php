@@ -10,10 +10,10 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="#services-section">Services</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="contact-us.php">Contact Us</a></li>
           </ul>
           <div class="button">
-            <a href="contact-us.html" class="btn">Get Free Consultation</a>
+            <a href="contact-us.php" class="btn">Get Free Consultation</a>
           </div>
         </div>
         <div class="right-content mobile">
@@ -39,10 +39,10 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="#services-section">Services</a></li>
                   <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
+                  <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
                 <div class="button">
-                  <a href="contact-us.html" class="btn">Get Free Consultation</a>
+                  <a href="contact-us.php" class="btn">Get Free Consultation</a>
                 </div>
               </div>
             </div>
