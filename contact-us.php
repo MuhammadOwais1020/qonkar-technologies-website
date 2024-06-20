@@ -19,10 +19,10 @@ include('header.php');
       </div>
     </div>
 
-    <div class="success-message" id="successMessage">
+    <!-- <div class="success-message" id="successMessage">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
       Form Submitted successfully!
-    </div>
+    </div> -->
     
     <div class="form-section">
       <div class="form-container">
@@ -70,6 +70,19 @@ include('header.php');
                   <label for="agree-terms">I agree to the <a href="#">Privacy policy </a> and Terms and Conditions</label>
               </div>
           </div>
+
+
+          <div class="success-message grid-span" id="successMessage">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span class="success">Success!</span> We have received your contact information, We will contact you shortly, Thank you for contacting us!
+          </div>
+
+          <div class="error-message grid-span" id="errorMessage">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span class="error">Error!</span> Sorry for inconvinence due to some server issues your contact information is not received by us please try again!
+          </div>
+
+
             <div class="button grid-span">
                 <button class="contact-button" type="submit" >Submit</button>
             </div>
@@ -118,7 +131,11 @@ include('header.php');
 				console.log(response);
         document.getElementById("successMessage").style.display = "block";
 				document.getElementById("contactForm").reset();
-			}
+			},
+      error: function(xhr, status, error){
+        console.log(xhr,response.Text);
+        document.getElementById("errorMessage").style.display= "block";
+      }
 		});
 	});
 </script>

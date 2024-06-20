@@ -138,8 +138,9 @@
         align-items: center;
         justify-content: center;
     }
-    .success-message {
+    .success-message,
+    .error-message {
         padding: 15px;
         font-size: 11px;
-    }
+      }
 }

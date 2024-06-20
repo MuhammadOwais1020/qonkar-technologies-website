@@ -33,7 +33,7 @@
     flex-direction: column;
 }
 .form-container{
-    width: 70%;
+    width: 75%;
 }
 
 .contact-form{
@@ -149,18 +149,34 @@
     max-width: max-content;
 }
 
-
-.success-message {
-    padding: 20px;
-    background-color: rgb(0, 246, 156); 
-    color: var(--dark-bg);
-    margin-bottom: 15px;
+.success-message,
+.error-message {
+    display: none;
+    padding-left: 12px;
+    padding: 15px;
+    border-radius: var(--border-radius-contact);
+    border: 1px solid #A3CFBB;
+    letter-spacing: .3px;
+    word-spacing: -2px;
+    font-size: 14px;
   }
- 
-  .closebtn {
+  .success-message{
+    background-color: #D1E7DD; 
+    color: #0A3622;
+  }
+  .error-message{
+    background-color: #F8D7DA; 
+    color: #58151C;
+  }
+  .success,
+  .error{
+    font-weight: 900;
+    margin-right: 7px;
+    letter-spacing: -0.5px;
+  }
+    .closebtn {
     margin-left: 15px;
     color: var(--dark-bg);
-    font-weight: bold;
     float: right;
     font-size: 22px;
     line-height: 20px;
@@ -168,9 +184,10 @@
     transition: 0.3s;
   }
   .closebtn:hover {
-    color: var(--text-color);
+    color: rgb(137, 137, 137);
   }
 
+ 
 
 /*------------------------------------------------media-query-------------------------------------------------*/
 @media (max-width: 900px)
@@ -206,7 +223,8 @@
         align-items: center;
         justify-content: center;
     }
-    .success-message {
+    .success-message,
+    .error-message {
         padding: 15px;
         font-size: 11px;
       }
