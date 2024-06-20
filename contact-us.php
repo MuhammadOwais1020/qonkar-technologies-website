@@ -7,68 +7,75 @@ include('header.php');
 
 <body>
   <?php
- include('nav-bar.php')
+ include('nav-bar.php');
  ?>
 
 <section class="contact-form-section">
+
     <div class="heading-container">
       <div class="ContactUs-heading">
         <h1>Contact us</h1>
         <h4>We appreciate your interest in <span class="text-secondary" >Qonkar Technologies.</span> Please fill the form<br /> so we can get to the right <span class="text-secondary">help and <span class="text-secondary">support.</span></h4>
       </div>
-      </div>
-    <div class="form-container">
-    <div class="success-message" id="successMessage">
-      Form submitted successfully!
     </div>
-    <form action="contact-us.php" class="contact-form" method="post" id="contactForm">
-        <div class="input-help field">
-              <label for="form_help">How can we help you *</label>
-              <select name="form_help" id="form_help" class="help-form" required>
-                  <option value="" disabled selected hidden>Please Select One</option>
-                  <option value="support">Support</option>
-                  <option value="sales">Sales</option>
-                  <option value="feedback">Feedback</option>
-              </select>
-        </div>
-        <div class="fullname field">
-            <label for="fullname">Full Name *</label>
-            <input type="text" class="input-field-name" placeholder="Full Name" required id="fullname" name="fullname">
-        </div>
-        <div class="email-field field">
-            <label for="email">Email *</label>
-            <input type="email" class="input-field-email" placeholder="Email" required id="email" name="email">
-        </div>
-        <div class="whatsapp-number field">
-            <label for="number">What's App Number *</label>
-            <input type="number" class="input-field-number" placeholder="What's App Number" required id="number" name="number">
-        </div>
-        <div class="country field">
-            <label for="country">Country *</label>
-            <input type="text" class="input-field-country" placeholder="Country" required id="country" name="country">
-        </div>
-        <div class="company field">
-            <label for="company">Company/Organization</label>
-            <input type="text" class="input-field-company" placeholder="Company/Organization" id="company" name="company">
-        </div>
-        <div class="message grid-span field">
-            <label for="message">Message</label>
-            <textarea name="message" class="input-field-message" id="message" placeholder="Type Here" rows="3"></textarea>
-        </div>
-        <div class="checkbox grid-span">
-          <div class="agree-newsletter grid-span">
-              <input type="checkbox" class="checkbox-field-agree" id="agree_newsletter" name="agree_newsletter">
-              <label for="agree-newsletter">I agree to sign up for the newsletter</label>
+
+    <div class="success-message" id="successMessage">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      Form Submitted successfully!
+    </div>
+    
+    <div class="form-section">
+      <div class="form-container">
+        <form action="contact-us.php" class="contact-form" method="post" id="contactForm">
+            <div class="input-help field">
+                  <label for="form_help">How can we help you *</label>
+                  <select name="form_help" id="form_help" class="help-form" required>
+                      <option value="" disabled selected hidden>Please Select One</option>
+                      <option value="support">Support</option>
+                      <option value="sales">Sales</option>
+                      <option value="feedback">Feedback</option>
+                  </select>
+            </div>
+            <div class="fullname field">
+                <label for="fullname">Full Name *</label>
+                <input type="text" name="fullname" id="fullname" class="name-field" placeholder="Full Name" required  >
+            </div>
+            <div class="email-field field">
+                <label for="email">Email *</label>
+                <input type="email" name="email"  id="email"  class="email-field" placeholder="Email" required>
+            </div>
+            <div class="whatsapp-number field">
+                <label for="number">What's App Number *</label>
+                <input type="number" id="number" name="number" class="number-field" placeholder="What's App Number" required >
+            </div>
+            <div class="country field">
+                <label for="country">Country *</label>
+                <input type="text"id="country" name="country"  class="country-field" placeholder="Country" required >
+            </div>
+            <div class="company field">
+                <label for="company">Company/Organization</label>
+                <input type="text" id="company" name="company" class="company-field" placeholder="Company/Organization" >
+            </div>
+            <div class="message grid-span field">
+                <label for="message">Message</label>
+                <textarea id="message"  name="message" class="message-field"  placeholder="Type Here" rows="3"></textarea>
+            </div>
+            <div class="checkbox grid-span">
+              <div class="agree-newsletter grid-span">
+                  <input type="checkbox" id="agree_newsletter" name="agree_newsletter" class="agree-newsletter-field" >
+                  <label for="agree-newsletter">I agree to sign up for the newsletter</label>
+              </div>
+              <div class="agree-terms grid-span">
+                  <input type="checkbox" id="agree_terms" name="agree_terms" class="agree-terms-field" required>
+                  <label for="agree-terms">I agree to the <a href="#">Privacy policy </a> and Terms and Conditions</label>
+              </div>
           </div>
-          <div class="agree-terms grid-span">
-              <input type="checkbox" class="checkbox-field-agree" id="agree_terms" name="agree_terms" required>
-              <label for="agree-terms">I agree to the<a href="#">Privacy policy</a>and Terms and Conditions</label>
-          </div>
+            <div class="button grid-span">
+                <button class="contact-button" type="submit" >Submit</button>
+            </div>
+        </form>
+
       </div>
-        <div class="contact-button grid-span">
-            <button type="submit" class="contact-btn">Submit</button>
-        </div>
-    </form>
     </div>
 </section>
 
@@ -77,8 +84,9 @@ include('header.php');
   include('footer.php')
   ?>
   <script src="assets/script.js"></script>
-
+  
 </body>
+
 <script>
   document.getElementById("contactForm").addEventListener("submit", function(event){
 		event.preventDefault();

@@ -68,7 +68,10 @@
     .footer-logo {
         gap: 10px;
     }
-
+/* ---------------------------------------contact-form-query-------------------------- */
+    .form-container{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -109,5 +112,34 @@
 
     .testimonial-section .review-box .review p {
         font-size: 14px;
+    }
+/* -------------------contact-from-media-query------------------------------------- */
+    .contact-form{
+        font-size: 11px;
+        margin: .8rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .agree-newsletter label,
+    .agree-terms label{
+        gap: 0px;
+    }
+    .ContactUs-heading h1{
+        font-size: 40px;
+    }
+    .ContactUs-heading h4{
+        font-size: 14px;
+    }
+    .contact-button{
+        padding: 10px 40%;
+    }
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .success-message {
+        padding: 15px;
+        font-size: 11px;
     }
 }
