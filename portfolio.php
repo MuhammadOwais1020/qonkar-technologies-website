@@ -9,11 +9,11 @@
 <section class="portolio-section">
     
     <div class="heading-container">
-        <div class="ContactUs-heading">
-          <h1>Portfolio</h1>
-          <h4>We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implimentaion of<span class="text-secondary" > Our Projects.</span></h4>
-          <div class="button grid-span">
-            <button class="contact-button" type="submit" >Contact Us</button>
+        <div class="heading">
+          <h1 class="heading-head">Portfolio</h1>
+          <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implimentaion of<span class="text-secondary" > Our Projects.</span></h4>
+          <div class="buttons grid-span">
+            <button class="button" type="submit" >Contact Us</button>
         </div>
         </div>
       </div>
@@ -117,7 +117,52 @@
                     <button class="bt">Case Study</button>
                 </div>
              </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="image3.png">
+                </div>
+                <div class="card-body">
+                    <h2>Website Design</h2>
+                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                </div>
+                <div class="card-footer">
+                    <button class="bt">Case Study</button>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="image6.png">
+                </div>
+                <div class="card-body">
+                    <h2>Website Design</h2>
+                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                </div>
+                <div class="card-footer">
+                    <button class="bt">Case Study</button>
+                </div>
+             </div>
       </div>
+      </div>
+
+      <div class="pagination-container">
+        <div class="pagination">
+            <button class="page-btn" onclick="backBtn()"> < </button>
+            <ul class="page-list">
+                <li class="link active visible" value="1" onclick="activeLink()">1</li>
+                <li class="link visible" value="2" onclick="activeLink()">2</li>
+                <li class="link visible" value="3" onclick="activeLink()">3</li>
+                <li class="link visible" value="4" onclick="activeLink()">4</li>
+                <li class="link visible"  value="5" onclick="activeLink()">5</li>
+                <li class="link" value="6" onclick="activeLink()">6</li>
+                <li class="link" value="7" onclick="activeLink()">7</li>
+                <li class="link" value="8" onclick="activeLink()">8</li>
+                <li class="link"  value="9" onclick="activeLink()">9</li>
+                <li class="link"  value="10" onclick="activeLink()">10</li>
+            </ul>
+            <button class="page-btn" onclick="nextBtn()"> > </button>
+        </div>
       </div>
 
 </section>
@@ -134,5 +179,39 @@
 
 <?php include('footer.php'); ?>
 <script src="assets/script.js"></script>
+<script>
+    let link = document.getElementsByClassName("link");
+    let currentValue = 1;
+
+    function activeLink(){
+        for(l of link){
+            l.classList.remove("active");
+        }
+        event.target.classList.add("active");
+        currentValue = event.target.value;
+    }
+
+    function backBtn(){
+        if(currentValue > 1){
+            for(l of link){
+                l.classList.remove("active");
+            }
+        }
+        currentValue--;
+        link[currentValue-1].classList.add("active");
+    }
+
+
+
+    function nextBtn(){
+        if(currentValue < 11){
+            for(l of link){
+                l.classList.remove("active");
+            }
+        }
+        currentValue++;
+        link[currentValue-1].classList.add("active");
+    }
+</script>
 </body>
 </html>

@@ -2,14 +2,14 @@
     <div class="container">
       <div class="navbar-inner flex-row">
         <div class="logo">
-          <img src="assets/images/logo/qonkar-technologies-pvt-ltd-best-it-services-company.png"
-            alt="qonkar technologies pvt limited world best IT services company" />
+          <a href ="index.php"><img src="assets/images/logo/qonkar-technologies-pvt-ltd-best-it-services-company.png"
+            alt="qonkar technologies pvt limited world best IT services company" /></a>
         </div>
         <div class="right-content flex-row desktop">
           <ul class="menus flex-row">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#services-section">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="portfolio.php">Portfolio</a></li>
             <li><a href="contact-us.php">Contact Us</a></li>
           </ul>
           <div class="button">

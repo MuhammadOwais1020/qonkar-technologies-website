@@ -12,15 +12,15 @@
     display: grid;
     grid-template-rows: auto auto;
 }
-.ContactUs-heading{
+.heading{
     padding: 5% 10%;
     background-color: var(--dark-bg);
 }
-.ContactUs-heading h1{
+.heading .heading-head{
     font-size: var(--font-size-heading);
     font-weight: var(--bold);
 }
-.ContactUs-heading h4{
+.heading .heading-body{
     font-size: 16px;
     font-weight: var(--lighter);
 }
@@ -139,14 +139,14 @@
     color: var(--dark-bg);
 }
 
-.contact-button{
+.button{
     background-color: var(--green-text);
-    padding: 10px 25px;
+    padding: 10px 30px;
+    display: block;
     font-weight: var(--bold);
     cursor: pointer;
     border-radius: var(--border-radius-contact);
-    display: block;
-    max-width: max-content;
+    border: none;
 }
 
 .success-message,
@@ -209,19 +209,15 @@
     .agree-terms label{
         gap: 0px;
     }
-    .ContactUs-heading h1{
+    .heading .heading-head{
         font-size: 40px;
     }
-    .ContactUs-heading h4{
+    .heading .heading-body{
         font-size: 14px;
     }
-    .contact-button{
-        padding: 10px 40%;
-    }
-    .button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .button{
+        padding: 10px ;
+        width: 100%;
     }
     .success-message,
     .error-message {

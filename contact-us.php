@@ -13,9 +13,9 @@ include('header.php');
 <section class="contact-form-section">
 
     <div class="heading-container">
-      <div class="ContactUs-heading">
-        <h1>Contact us</h1>
-        <h4>We appreciate your interest in <span class="text-secondary" >Qonkar Technologies.</span> Please fill the form<br /> so we can get to the right <span class="text-secondary">help and <span class="text-secondary">support.</span></h4>
+      <div class="heading">
+        <h1 class="heading-head">Contact us</h1>
+        <h4 class="heading-body">We appreciate your interest in <span class="text-secondary" >Qonkar Technologies.</span> Please fill the form<br /> so we can get to the right <span class="text-secondary">help and <span class="text-secondary">support.</span></h4>
       </div>
     </div>
 
@@ -83,8 +83,8 @@ include('header.php');
           </div>
 
 
-            <div class="button grid-span">
-                <button class="contact-button" type="submit" >Submit</button>
+            <div class="buttons grid-span">
+                <button class="button" type="submit" >Submit</button>
             </div>
         </form>
 

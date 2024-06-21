@@ -1,47 +1,24 @@
-/* .heading-container{
-    display: grid;
-    grid-template-rows: auto auto;
-}
-.ContactUs-heading{
-    padding: 5% 10%;
-    margin-top: 5%;
-    background-color: var(--dark-bg);
-}
-.ContactUs-heading h1{
-    font-size: var(--font-size-heading);
-    font-weight: var(--bold);
-}
-.ContactUs-heading h4{
-    font-size: 16px;
-    font-weight: var(--lighter);
-} */
-
 .grid-container{
     margin: 1% 10%;
 }
 .card-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 5rem;
-    row-gap: 3rem;
+    gap: 2rem;
+    row-gap: 4rem;
     align-items: flex-start;
-    /* background-color: red; */
  }
  
  .card{
-    /* --padding: 0px 10px; */
   background: transparent;
   color: white;
-  border: 1px solid #777;
   border-radius: .25rem;
   overflow: hidden;
-  /* background-color: rgb(126, 0, 0); */
  }
 
  .card-header.card-image{
     padding: 0;
     overflow: hidden;
-    /* height: 20%; */
  }
  
  .card-header.card-image > img{
@@ -61,30 +38,21 @@
  .card-header{
     font-size: 1.5rem;
     margin-bottom: .5rem;
-    padding: var(--padding);
-    /* padding-bottom: 10px; */
-    /* background-color: red; */
     height: 100%;
  }
  .card-body h2{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 8px;
  }
-
  .card-body{
-    padding-top: 10px;
     color: #A5A5A5;
-    font-size: 16px;
-    padding: 13px 0;
-    /* background-color: rgb(0, 255, 68); */
+    font-size: 14px;
  }
 
  .card-footer{
-    margin-top: 1rem;
+    margin-top: .5rem;
     padding: var(--padding);
-    padding-top: 0;
-    /* background-color: rgb(136, 0, 255); */
  }
 
  .card.card-shadow{
@@ -97,42 +65,27 @@
     background: var(--color);
     color: var(dark-bg);
     border: none;
-    font-size: 1rem;
+    font-size: 16px;
     padding: .5em .75em;
     cursor: pointer;
     border-radius: .25em;
  }
 
- /* .bt:hover, .bt:focus{
-    background: hsl(200, 50%, 60%);
- }
-
- .bt.bt-outline{
-    background: none;
-    border: 1px solid var(--color);
-    color: var(--color);
- }
-
- .bt.bt-outline:hover, .btn.btn-outline:focus{
-    background: hsl(200, 50%, 90%);
- }
-
- .bt + .bt{
-    margin-left: .25rem;
- } */
 
  .filter{
-    /* padding: 100px; */
     display: flex;
     margin: 0 10%;
-    margin-top: 8%;
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
+    margin-top: 6%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.select-container{
+   width: 100%;
 }
 .select-body{
     position: relative;
     height: 40px;
-    width: 400px;
+    width: 35%;
     margin: 10px 0 20px 0;
     display: flex;
     flex-direction: column;
@@ -143,7 +96,7 @@
 .select-body select{
     height: 100%;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     appearance: none;
     padding: 0 30px 0 10px;
@@ -165,20 +118,79 @@
     justify-content: center;
     pointer-events: none;
 }
-#select-category option{
-    background-color: black;
-    color: white;
-    line-height: 20px;
-    gap: 20px;
-    padding: 70px;
-    margin: 70px;
+
+
+.pagination{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.page-list{
+   margin: 15% 1%;
+   padding: 1px 0;
+   background-color: #1C1C1C;
+   border-radius: 100px;
+}
+.page-list .link{
+   display: inline-block;
+   margin: 0px .5px;
+   color: white;
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 45px;
+   cursor: pointer;
+   transition: background-color 0.5s;
+   transform: 0.5s;
+}
+.page-list .link.active{
+   background-color: var(--green-text);
+   color: black;
+   font-weight: var(--bold);
+   transform: scale(1.1);
+
+}
+.page-btn{
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   background-color: #1C1C1C;
+   font-size: 16px;
+   font-weight: bold;
+   color: white;
+   border: none;
 }
 
-#select-category option:hover{
-    background-color: rgb(255, 0, 0);
-    color: white;
-    line-height: 20px;
-    gap: 20px;
-    padding: 70px;
-    margin: 70px;
+@media (max-width: 900px){
+   .select-body{
+      width: 100%;
+      
+  }
+  .page-list .link{
+   font-size: 11px;
+   color: white;
+   margin: 0 .5px;
+   width: 35px;
+   height: 35px;
+   font-size: 14px;
+   line-height: 35px;
+}
+.page-btn{
+   width: 35px;
+   height: 35px;
+   font-size: 14px;
+}
+
+}
+
+@media (max-width: 425px){
+   .page-list .link.visible{
+      display: inline-block;
+   }
+   .page-list .link{
+      display: none;
+   }
 }

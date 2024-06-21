@@ -72,6 +72,24 @@
     .form-container{
         width: 90%;
     }
+    .select-body{
+        width: 100%;
+        
+    }
+    .page-list .link{
+     font-size: 11px;
+     color: white;
+     margin: 0 .5px;
+     width: 35px;
+     height: 35px;
+     font-size: 14px;
+     line-height: 35px;
+  }
+  .page-btn{
+     width: 35px;
+     height: 35px;
+     font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -124,23 +142,25 @@
     .agree-terms label{
         gap: 0px;
     }
-    .ContactUs-heading h1{
+    .heading .heading-head{
         font-size: 40px;
     }
-    .ContactUs-heading h4{
+    .heading .heading-body{
         font-size: 14px;
     }
-    .contact-button{
-        padding: 10px 40%;
-    }
-    .button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .button{
+        padding: 10px ;
+        width: 100%;
     }
     .success-message,
     .error-message {
         padding: 15px;
         font-size: 11px;
-      }
+    }
+    .page-list .link.visible{
+        display: inline-block;
+     }
+     .page-list .link{
+        display: none;
+     }
 }
