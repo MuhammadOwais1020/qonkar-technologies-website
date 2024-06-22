@@ -13,6 +13,11 @@
         display: block;
     }
 
+    .testimonial-section .container .details,
+    .testimonial-section .container .review-box {
+        width: 100%;
+    }
+
     .testimonial-section .container {
         flex-direction: column;
         gap: 30px;
@@ -68,28 +73,32 @@
     .footer-logo {
         gap: 10px;
     }
-/* ---------------------------------------contact-form-query-------------------------- */
-    .form-container{
+
+    /* ---------------------------------------contact-form-query-------------------------- */
+    .form-container {
         width: 90%;
     }
-    .select-body{
+
+    .select-body {
         width: 100%;
-        
+
     }
-    .page-list .link{
-     font-size: 11px;
-     color: white;
-     margin: 0 .5px;
-     width: 35px;
-     height: 35px;
-     font-size: 14px;
-     line-height: 35px;
-  }
-  .page-btn{
-     width: 35px;
-     height: 35px;
-     font-size: 14px;
-  }
+
+    .page-list .link {
+        font-size: 11px;
+        color: white;
+        margin: 0 .5px;
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .page-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -131,36 +140,44 @@
     .testimonial-section .review-box .review p {
         font-size: 14px;
     }
-/* -------------------contact-from-media-query------------------------------------- */
-    .contact-form{
+
+    /* -------------------contact-from-media-query------------------------------------- */
+    .contact-form {
         font-size: 11px;
         margin: .8rem;
         display: flex;
         flex-direction: column;
     }
+
     .agree-newsletter label,
-    .agree-terms label{
+    .agree-terms label {
         gap: 0px;
     }
-    .heading .heading-head{
+
+    .heading .heading-head {
         font-size: 40px;
     }
-    .heading .heading-body{
+
+    .heading .heading-body {
         font-size: 14px;
     }
-    .button{
-        padding: 10px ;
+
+    .button {
+        padding: 10px;
         width: 100%;
     }
+
     .success-message,
     .error-message {
         padding: 15px;
         font-size: 11px;
     }
-    .page-list .link.visible{
+
+    .page-list .link.visible {
         display: inline-block;
-     }
-     .page-list .link{
+    }
+
+    .page-list .link {
         display: none;
-     }
+    }
 }

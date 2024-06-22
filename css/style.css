@@ -332,9 +332,12 @@ body:has(.sidebar-menu.opened) {
 }
 
 
-.testimonial-section .container .details,
+.testimonial-section .container .details {
+    width: 50%;
+}
+
 .testimonial-section .container .review-box {
-    width: 100%;
+    width: 50%;
 }
 
 .testimonial-section .details p {
@@ -390,14 +393,16 @@ body:has(.sidebar-menu.opened) {
     fill: #D5E0D5;
 }
 
-.testimonial-section .frame{
+.testimonial-section .frame {
     overflow: hidden;
 }
-.testimonial-section .slider{
+
+.testimonial-section .review-slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
-.testimonial-section .slide{
+
+.testimonial-section .review-slide {
     min-width: 100%;
 }
 
@@ -481,16 +486,3 @@ body:has(.sidebar-menu.opened) {
     fill: var(--green-text);
     transition: fill 0.3s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
