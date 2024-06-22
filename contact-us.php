@@ -83,7 +83,7 @@ include('header.php');
           </div>
 
 
-            <div class="buttons grid-span">
+            <div class="button grid-span">
                 <button class="btn" type="submit" >Submit</button>
             </div>
         </form>

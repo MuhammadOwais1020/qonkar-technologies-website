@@ -68,6 +68,7 @@ section {
     border-radius: var(--radius-full);
     display: block;
     max-width: max-content;
+    border: none;
 }
 
 .btn:hover {
@@ -389,6 +390,17 @@ body:has(.sidebar-menu.opened) {
     fill: #D5E0D5;
 }
 
+.testimonial-section .frame{
+    overflow: hidden;
+}
+.testimonial-section .slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.testimonial-section .slide{
+    min-width: 100%;
+}
+
 .footer-section {
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -469,3 +481,16 @@ body:has(.sidebar-menu.opened) {
     fill: var(--green-text);
     transition: fill 0.3s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

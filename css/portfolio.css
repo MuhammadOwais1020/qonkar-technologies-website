@@ -10,10 +10,7 @@
  }
  
  .card{
-  background: transparent;
-  color: white;
-  border-radius: .25rem;
-  overflow: hidden;
+  border-radius: var(--border-radius-box);
  }
 
  .card-header.card-image{
@@ -36,18 +33,17 @@
  }
 
  .card-header{
-    font-size: 1.5rem;
     margin-bottom: .5rem;
     height: 100%;
  }
  .card-body h2{
-    color: white;
+    color: var(--text-color);
     font-size: 20px;
     margin-bottom: 8px;
  }
  .card-body{
-    color: #A5A5A5;
-    font-size: 14px;
+    color: var(--secondary-text);
+    font-size: var(--font-text-size);
  }
 
  .card-footer{
@@ -60,18 +56,17 @@
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
  }
 
- .bt{
+ .btn1{
     --color: var(--green-text);
     background: var(--color);
     color: var(dark-bg);
     border: none;
-    font-size: 16px;
+    font-size: var(--font-text-size);
     padding: .5em .75em;
     cursor: pointer;
-    border-radius: .25em;
+    font-weight: var(--bold);
+    border-radius: var(--border-radius-box);
  }
-
-
  .filter{
     display: flex;
     margin: 0 10%;
@@ -90,8 +85,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: transparent;
-    
+    background-color: var(--text-field-bg-color);
 }
 .select-body select{
     height: 100%;
@@ -100,13 +94,13 @@
     border: none;
     appearance: none;
     padding: 0 30px 0 10px;
-    color: #D9D9D9;
-    border-radius: var(--border-radius-contact);
-    border: 1px solid #D9D9D9;
-    background-color: transparent;
+    color: var(--input-text-color);
+    border-radius: var(--border-radius-box);
+    border: 1px solid var(--input-text-color);
+    background-color: var(--text-field-bg-color);
 }
 .select-container label{
-    color: white;
+    color: var(--text-color);
 }
 .select-icon{
     position: absolute;
@@ -128,19 +122,19 @@
 .page-list{
    margin: 15% 1%;
    padding: 1px 0;
-   background-color: #1C1C1C;
+   background-color: var(--dark-bg);
    border-radius: 100px;
 }
 .page-list .link{
    display: inline-block;
    margin: 0px .5px;
-   color: white;
+   color: var(--text-color);
    width: 45px;
    height: 45px;
    border-radius: 50%;
    text-align: center;
-   font-size: 14px;
-   font-weight: 500;
+   font-size: var(--font-text-size);
+   font-weight: var(--bold);
    line-height: 45px;
    cursor: pointer;
    transition: background-color 0.5s;
@@ -148,7 +142,7 @@
 }
 .page-list .link.active{
    background-color: var(--green-text);
-   color: black;
+   color: var(--dark-bg);
    font-weight: var(--bold);
    transform: scale(1.1);
 
@@ -157,10 +151,10 @@
    border-radius: 50%;
    width: 45px;
    height: 45px;
-   background-color: #1C1C1C;
+   background-color: var(--dark-bg);
    font-size: 16px;
-   font-weight: bold;
-   color: white;
+   font-weight: var(--bold);
+   color: var(--text-color);
    border: none;
 }
 
@@ -194,3 +188,6 @@
       display: none;
    }
 }
+
+
+
