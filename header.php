@@ -1,35 +1,14 @@
 <head>
   <title>Qonkar Technologies Private Limited | IT Services Company</title>
   <!-- description for SEO -->
-  <meta name="description" content="Welcome to Qonkar Technologies!
-Qonkar Technologies Private Limited is a premium full-service agency offering Web Development, Design, Digital Marketing, and Production services. Our mission is to  help businesses enhance their online presence through expert IT solution services. 
-
-Our team of domain experts is dedicated to delivering outstanding results. By leveraging innovative strategies and a collaborative approach, we ensure our clients achieve success in today’s competitive market.
-
-Trusted by businesses worldwide, we build strong partnerships by providing custom solutions that drive growth and create real impact.
-
-OUR SERVICES:
-
-• Website Design & Development
-• Custom Software Applications
-• Web Applications
-• Business Websites
-• WordPress Development
-• Shopify ECommerce Store Setup/Development
-• Shopify Theme Customizations
-• Landing Page Designs
-• Design & Branding
-• User Interface
-• Digital Marketing
-• Social Media Management 
-• Social Media Content 
-• Product Photography & Videography
+  <meta name="description" content="Grow Your Business Online with Qonkar Technologies - Full-Service Digital Agency
+  Grow your business online with Qonkar Technologies! We're a results-oriented digital agency specializing in web design, SEO, social media marketing, and branding. Get a user-friendly website, high-performing content, and dominate search engine results. We help you attract more leads, convert visitors into customers, and achieve your online marketing goals. 
 " />
 
   <meta name="robots" content="index, follow" />
 
   <link rel="canonical" href="" />
-  <meta name="author" content="Qonkar Technologies Private Limited" />
+  <meta name="author" content="Grow your business online with Qonkar Technologies! We're a full-service digital agency specializing in web design, SEO, social media, and branding. Get a user-friendly website, engaging content, and increased online visibility." />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -55,4 +34,7 @@ OUR SERVICES:
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/swiper.css" />
+
+  <!-- js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.js"></script>
 </head>

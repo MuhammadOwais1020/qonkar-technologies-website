@@ -12,7 +12,7 @@ include('header.php');
     <div class="container">
       <h1 class="tagline-heading">An <span class="text-secondary">IT</span> Services Copmany</h1>
       <h2 class="slogan">Where Dreams <span class="text-secondary">Go</span> Digital!</h2>
-      <h2 class="services-heading text-secondary">Website Design & Development</h2>
+      <span class="services-heading text-secondary typed"></span>
     </div>
   </section>
 
@@ -43,12 +43,15 @@ include('header.php');
             alt="website design & development service by qonkar technologies pvt ltd" />
           <h2 class="sub-heading">Website Design & Development</h2>
           <p class="service-description">
-            Custom Software Applications <br />
+            Websites Development <br />
+            Business Websites <br>
             Web Applications <br />
-            Business Websites Development <br />
             WordPress Development <br />
             Shopify Store Development <br />
-            Landing Page Designs
+            Custom Software Applications <br />
+            Mobile App Development <br>
+            Ecommerce Website Development <br>
+            Content Management System (CSM)
           </p>
         </div>
         <div class="service">
@@ -56,12 +59,14 @@ include('header.php');
             alt="Digtial Marketing service by qonkar technologies pvt ltd" />
           <h2 class="sub-heading">Digtial Marketing</h2>
           <p class="service-description">
-            Custom Software Applications <br />
-            Web Applications <br />
-            Business Websites Development <br />
-            WordPress Development <br />
-            Shopify Store Development <br />
-            Landing Page Designs
+            SEO <br>
+            Social Media Marketing <br>
+            Content Marketing <br>
+            Pay-Per-Click (PPC) Advertising <br>
+            Marketing Automation <br>
+            Email Marketing <br>
+            Affiliate Marketing <br>
+            Analytics & Reporting <br>
           </p>
         </div>
         <div class="service">
@@ -69,12 +74,14 @@ include('header.php');
             alt="User Interface service by qonkar technologies pvt ltd" />
           <h2 class="sub-heading">User Interface</h2>
           <p class="service-description">
-            Custom Software Applications <br />
-            Web Applications <br />
-            Business Websites Development <br />
-            WordPress Development <br />
-            Shopify Store Development <br />
-            Landing Page Designs
+            User Research & Analysis <br>
+            Information Architecture <br>
+            User Interface Design <br>
+            Style Guide Development <br>
+            Wireframing & Prototyping <br>
+            Microinteraction Design <br>
+            Product Design <br>
+            UI Animation Design <br>
           </p>
         </div>
         <div class="service">
@@ -82,12 +89,13 @@ include('header.php');
             alt="design & branding service by qonkar technologies pvt ltd" />
           <h2 class="sub-heading">Design & Branding</h2>
           <p class="service-description">
-            Custom Software Applications <br />
-            Web Applications <br />
-            Business Websites Development <br />
-            WordPress Development <br />
-            Shopify Store Development <br />
-            Landing Page Designs
+            Logo Design <br>
+            Brand Style Guide <br>
+            Marketing Material Design <br>
+            Packaging Design <br>
+            Brand Voice & Messaging <br>
+            Graphic Design <br>
+            Social Media Graphics <br>
           </p>
         </div>
         <div class="service">
@@ -95,12 +103,10 @@ include('header.php');
             alt="Social Media Management service by qonkar technologies pvt ltd" />
           <h2 class="sub-heading">Social Media Management</h2>
           <p class="service-description">
-            Custom Software Applications <br />
-            Web Applications <br />
-            Business Websites Development <br />
-            WordPress Development <br />
-            Shopify Store Development <br />
-            Landing Page Designs
+           Social Media Strategy & Planning <br>
+           Social Media Content & Curation <br>
+           Social Media Posting & Engagement <br>
+           Social Media Analytics & Reporting <br>
           </p>
         </div>
         <div class="service">
@@ -108,12 +114,10 @@ include('header.php');
             alt="Photography & Videography service by qonkar technologies pvt ltd" />
           <h2 class="sub-heading">Photography & Videography</h2>
           <p class="service-description">
-            Custom Software Applications <br />
-            Web Applications <br />
-            Business Websites Development <br />
-            WordPress Development <br />
-            Shopify Store Development <br />
-            Landing Page Designs
+            Product Photography <br>
+            Product Video Creation <br>
+            Stop-Motion Animation <br>
+            Post-Production Editing & Enhancement <br>
           </p>
         </div>
       </div>
@@ -243,6 +247,17 @@ include('header.php');
   include('footer.php')
   ?>
   <script src="assets/script.js"></script>
+  <script>
+    var typed2 = new Typed(".typed", {
+  strings: ["Website Design & Development", "Digital Marketing", "SEO", "User Interface", "Design & Branding", "Social Media Management", "Photography & Videography"],
+  typeSpeed: 50,
+  backSpeed: 20,
+  cursorChar: "",
+  shuffle: true,
+  fadeOut: true,
+  loop: true,
+});
+  </script>
 </body>
 
 </html>

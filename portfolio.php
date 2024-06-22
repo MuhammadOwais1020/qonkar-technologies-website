@@ -13,7 +13,7 @@
           <h1 class="heading-head">Portfolio</h1>
           <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implimentaion of<span class="text-secondary" > Our Projects.</span></h4>
           <div class="buttons grid-span">
-            <button class="button" type="submit" >Contact Us</button>
+            <button class="btn" type="submit" >Contact Us</button>
         </div>
         </div>
       </div>
