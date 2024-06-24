@@ -89,51 +89,74 @@
   display: grid;
   grid-template-columns: 70% 30%;
   gap: 2rem;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
   margin-top: 10%;
 }
+/* .blog-section .grid-container{
+  margin: 1% 1%;
+} */
 
 .blog-container{
-  margin: 1% 1%;
+  margin: 4% 0;
 }
 
-.featured-blog .card{
+.featured-blog .card, .blog-card .card{
   background-color: var(--secondary-color);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-box);
 }
-.featured-blog .card-body{
+.featured-blog .card-body, .blog-card .card-body{
   padding: 2%;
 }
-.featured-blog .card-body p{
+.featured-blog .card-body p, .blog-card .card .card-body p{
   text-transform: uppercase;
 }
-.featured-blog .card-body h2, .featured-blog .card-body p{
+.featured-blog .card-body h2,
+.featured-blog .card-body p,
+.blog-card .card-body h2,
+.blog-card .card-body p{
   margin: 2%;
+}
+.blog-card .card-body h2,
+.blog-card .card-body p{
+  font-size: var(--font-text-size);
 }
 .blog-list-heading{
   margin: 20px 10px;
 }
 .blog-card{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   gap: 2rem;
   align-items: flex-start;
+  margin:1% 10%;
+}
+.card-header.blog-image{
+  padding: 0;
+  overflow: hidden;
 }
 .card-header.blog-image > img{
   display: block;
   width: 100%;
   height: 100%;
   transition: 200ms transform ease-in-out;
-  border-top-right-radius: var(--border-radius);
-  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius-box);
+  border-top-left-radius: var(--border-radius-box);
+  transition: 200ms transform ease-in-out;
 }
+.card:hover > .card-header.blog-image > img{
+  transform: scale(1.025);
+}
+
 .blog-item{
   padding: 10px;
   border-radius: var(--border-radius-box);
 }
 .blog-list .blog-item{
-  background-color: #333;
   margin: 5% 0;
+}
+.blog-list .blog-item:hover{
+  cursor: pointer;
+  background-color: var(--secondary-color);
 }
 .blog-item .blog-category a{
   text-decoration: none;
@@ -169,6 +192,9 @@
     gap: 2rem;
     margin-bottom: 6%;
     margin-top: 10%;
+  }
+  .blog-card{
+    grid-template-columns: repeat(1,1fr);
   }
 }
 @media(max-width: 479px){
