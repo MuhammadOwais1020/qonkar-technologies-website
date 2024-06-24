@@ -144,7 +144,7 @@
       </div>
       </div>
 
-      <div class="pagination-container">
+      <div class="pagination-container display-none">
         <div class="pagination">
             <button class="page-btn" onclick="backBtn()"> < </button>
             <ul class="page-list">

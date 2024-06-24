@@ -17,7 +17,9 @@
 
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
+
 
 body {
     margin: 0;
@@ -256,7 +258,10 @@ body:has(.sidebar-menu.opened) {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
-
+.services .service a{
+    text-decoration: none;
+    color: var(--text-color);
+}
 .services-section .services .service {
     background-color: #1c1c1c;
     border-radius: var(--border-radius);
@@ -387,6 +392,9 @@ body:has(.sidebar-menu.opened) {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.navigation-button .next, .previous{
+    cursor: pointer;
 }
 
 .testimonial-section .navigation-button svg {

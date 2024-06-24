@@ -46,6 +46,7 @@ Partner with Qonkar Technologies (Pvt) Limited and take your business to the nex
   <!-- css -->
   <link rel="stylesheet" href="css/contact-us.css" />
   <link rel="stylesheet" href="css/portfolio.css" />
+  <link rel="stylesheet" href="css/website-and-web-development.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/swiper.css" />

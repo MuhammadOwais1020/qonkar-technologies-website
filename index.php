@@ -39,20 +39,22 @@ include('header.php');
       <h1 class="section-heading">Our Services</h1>
       <div class="services">
         <div class="service">
-          <img src="assets/images/logo/services/website-design-development.png"
-            alt="website design & development service by qonkar technologies pvt ltd" />
-          <h2 class="sub-heading">Website Design & Development</h2>
-          <p class="service-description">
-            Websites Development <br />
-            Business Websites <br>
-            Web Applications <br />
-            WordPress Development <br />
-            Shopify Store Development <br />
-            Custom Software Applications <br />
-            Mobile App Development <br>
-            Ecommerce Website Development <br>
-            Content Management System (CSM)
-          </p>
+            <a href="website-design-and-development.php">
+                <img src="assets/images/logo/services/website-design-development.png"
+                    alt="website design & development service by qonkar technologies pvt ltd" />
+                <h2 class="sub-heading">Website Design & Development</h2>
+                <p class="service-description">
+                    Websites Development <br />
+                    Business Websites <br>
+                    Web Applications <br />
+                    WordPress Development <br />
+                    Shopify Store Development <br />
+                    Custom Software Applications <br />
+                    Mobile App Development <br>
+                    Ecommerce Website Development <br>
+                    Content Management System (CSM)
+                </p>
+            </a>
         </div>
         <div class="service">
           <img src="assets/images/logo/services/digital-marketing.png"
@@ -609,6 +611,110 @@ include('header.php');
     </div>
 </section>
 
+
+<section class="blogs-section">
+    <div class="grid-container">
+        <div class="grid-section">
+            <div class="blog">
+                <div class="featured-blog card-grid">
+                    <div class="card card-shadow">
+                        <div class="card-header blog-image">
+                            <img src="assets/images/portfolio/image1.png">
+                        </div>
+                        <div class="card-body">
+                            <p>company</p>
+                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-list">
+                <div class="blog-list-heading">
+                    <h2>Staff Pick</h2>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-category">
+                        <a href="#"><p>How to</p></a>
+                    </div>
+                    <div class="blog-title">
+                        <p>How to write email---Tips and Tricks</p>
+                    </div>
+                    
+                </div>
+                <div class="blog-item">
+                    <div class="blog-category">
+                        <a href="#"><p>How to</p></a>
+                    </div>
+                    <div class="blog-title">
+                        <p>How to write email---Tips and Tricks</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-category">
+                        <a href="#"><p>How to</p></a>
+                    </div>
+                    <div class="blog-title">
+                        <p>How to write email---Tips and Tricks</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-category">
+                        <a href="#"><p>How to</p></a>
+                    </div>
+                    <div class="blog-title">
+                        <p>How to write email---Tips and Tricks</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-category">
+                        <a href="#"><p>How to</p></a>
+                    </div>
+                    <div class="blog-title">
+                        <p>How to write email---Tips and Tricks</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-category">
+                        <a href="#"><p>How to</p></a>
+                    </div>
+                    <div class="blog-title">
+                        <p>How to write email---Tips and Tricks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+    <!-- <div class="blog-container">
+        <div class="blog-card">
+                    <div class="card card-shadow">
+                        <div class="card-header blog-image">
+                            <img src="assets/images/portfolio/image3.png">
+                        </div>
+                        <div class="card-body">
+                            <h2>Meet grammerly user who will inspire you</h2>
+                            The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                        </div>
+                     </div>
+                     <div class="card card-shadow">
+                        <div class="card-header blog-image">
+                            <img src="assets/images/portfolio/image3.png">
+                        </div>
+                        <div class="card-body">
+                            <h2>4 Samrt techniques for sending email to Recuriters</h2>
+                        </div>
+                     </div>
+                     <div class="card card-shadow">
+                        <div class="card-header blog-image">
+                            <img src="assets/images/portfolio/image3.png">
+                        </div>
+                        <div class="card-body">
+                            <h2>The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively. </h2>
+                        </div>
+                     </div>
+        </div>
+    </div>     -->
+</section>
 
 
   <?php

@@ -1,0 +1,180 @@
+.service-grid, .benefits-grid{
+  display: grid;
+  grid-template-rows: repeat(5, auto-fit);
+  gap: 20px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 2rem;
+  margin-bottom: 6%;
+  margin-top: 10%;
+}
+
+.service-grid h2{
+  font-size: 26px;
+}
+.service-grid p{
+  font-size: 14px;
+}
+
+.benefits-list .benefit-list-row{
+  display: flex;
+  font-size: 14px;
+}
+.benefits-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits-list-icon{
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.benefit-list-content{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container{
+  background-color: var(--secondary-color);
+  min-width: 200px;
+  min-height: 200px;
+  padding: 5%;
+  border-radius: var(--border-radius-box);
+}
+.service{
+  margin: 8% 0;
+}
+.service .card-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.service h2, .service-header h2, .service-grid.questions{
+  text-align: left;
+  margin: 4% 0;
+  font-size: 35px;
+}
+.card-body h2{
+  margin: 5% 0;
+}
+.service .card-grid{
+  row-gap: 2rem;
+}
+.service .card-body h2{
+  font-size: 16px;
+  font-weight: var(--lighter);
+}
+.service .card-body-h2{
+  font-size: 14px;
+}
+.question-heading{
+  margin-top: 3%;
+  font-size: 35px;
+}
+
+
+
+/*------------------------------------blogs-------------------------------------------------*/
+.grid-section{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 2rem;
+  margin-bottom: 6%;
+  margin-top: 10%;
+}
+
+.blog-container{
+  margin: 1% 1%;
+}
+
+.featured-blog .card{
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+}
+.featured-blog .card-body{
+  padding: 2%;
+}
+.featured-blog .card-body p{
+  text-transform: uppercase;
+}
+.featured-blog .card-body h2, .featured-blog .card-body p{
+  margin: 2%;
+}
+.blog-list-heading{
+  margin: 20px 10px;
+}
+.blog-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 2rem;
+  align-items: flex-start;
+}
+.card-header.blog-image > img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: 200ms transform ease-in-out;
+  border-top-right-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+}
+.blog-item{
+  padding: 10px;
+  border-radius: var(--border-radius-box);
+}
+.blog-list .blog-item{
+  background-color: #333;
+  margin: 5% 0;
+}
+.blog-item .blog-category a{
+  text-decoration: none;
+  color: var(--green-text);
+  font-weight: var(--bold);
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.blog-item .blog-title{
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.blog-title , .blog-category{
+  margin: 4px 0;
+}
+
+
+/*--------------------------------------------media query-------------------------------------*/
+@media(max-width: 900px)
+{
+  .grid{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2rem;
+  }
+  .service .card-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+    margin-bottom: 6%;
+    margin-top: 10%;
+  }
+}
+@media(max-width: 479px){
+  .service .card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+

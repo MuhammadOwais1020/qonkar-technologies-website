@@ -8,7 +8,7 @@
         <div class="right-content flex-row desktop">
           <ul class="menus flex-row">
             <li><a href="index.php">Home</a></li>
-            <li><a href="#services-section">Services</a></li>
+            <li><a href="services.php">Services</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
             <li><a href="contact-us.php">Contact Us</a></li>
           </ul>
