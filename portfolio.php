@@ -9,7 +9,7 @@
 <section class="portolio-section">
     <div class="heading-container">
         <div class="heading">
-          <h1 class="heading-head">Portfolio</h1>
+          <h2 class="heading-head">Portfolio</h2>
           <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implimentaion of<span class="text-secondary" > Our Projects.</span></h4>
           <div class="button grid-span">
           <a href="contact-us.php" class="btn">Contact Us</a>
@@ -39,7 +39,7 @@
             <!--------------------------------------------------------Card:01----------------------------------------------------------->
                     <div class="card card-shadow">
                         <div class="card-header card-image">
-                            <img src="assets/images/portfolio/image3.png">
+                            <img src="assets/images/portfolio/image1.webp">
                         </div>
                         <div class="card-body">
                             <h2>Website Design</h2>
@@ -52,7 +52,7 @@
             <!------------------------------------------------------Card:02------------------------------------------------------------->
             <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image6.png">
+                    <img src="assets/images/portfolio/image2.webp">
                 </div>
                 <div class="card-body">
                     <h2>Website Design</h2>
@@ -65,7 +65,7 @@
             
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image5.png">
+                    <img src="assets/images/portfolio/image3.webp">
                 </div>
                 <div class="card-body">
                     <h2>Website Design</h2>
@@ -78,7 +78,7 @@
            
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image3.png">
+                    <img src="assets/images/portfolio/image1.webp">
                 </div>
                 <div class="card-body">
                     <h2>Website Design</h2>
@@ -91,7 +91,7 @@
            
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image6.png">
+                    <img src="assets/images/portfolio/image2.webp">
                 </div>
                 <div class="card-body">
                     <h2>Website Design</h2>
@@ -104,7 +104,7 @@
         
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image5.png">
+                    <img src="assets/images/portfolio/image3.webp">
                 </div>
                 <div class="card-body">
                     <h2>Website Design</h2>
@@ -117,7 +117,7 @@
 
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image3.png">
+                    <img src="assets/images/portfolio/image1.webp">
                 </div>
                 <div class="card-body">
                     <h2>Website Design</h2>
@@ -130,7 +130,7 @@
 
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image6.png">
+                    <img src="assets/images/portfolio/image2.webp">
                 </div>
                 <div class="card-body">
                     <h2>Website Design</h2>
@@ -167,7 +167,7 @@
 <section class="head-section">
     <div class="heading-container">
         <div class="heading">
-          <h1 class="heading-head">Our Blogs</h1>
+          <h2 class="heading-head">Our Blogs</h2>
           <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implimentaion of<span class="text-secondary" > Our Projects.</span></h4>
           <div class="button grid-span">
             <a href="contact-us.php" class="btn">Schedule a Demo</a>
@@ -176,42 +176,48 @@
     </div>
 </section>
 <section class="blogs-section">
-
     <div class="grid-container">
         <div class="grid-section">
             <div class="blog">
                 <div class="featured-blog card-grid">
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image1.png">
+                    <a href="blog.php">
+                        <div class="card card-shadow">
+                            <div class="card-header blog-image">
+                                <img src="assets/images/portfolio/image0.webp">
+                            </div>
+                            <div class="card-body">
+                                <p>company</p>
+                                <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p>company</p>
+                    </a>
+                </div>
+            </div>
+            <div class="blog-container">
+                <div class="blog-card inner-blog">
+                     <div class="card card-shadow">
+                        <div class="card-header blog-image">
+                            <img src="assets/images/portfolio/image0.webp">
+                        </div>
+                        <div class="card-body inner-blog">
+                            <p>How to</p>
                             <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
                         </div>
-                    </div>
+                     </div>
+                     <div class="card card-shadow">
+                         <div class="card-header blog-image">
+                            <img src="assets/images/portfolio/image0.webp">
+                        </div>
+                        <div class="card-body inner-blog">
+                            <p>Product</p>
+                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
+                        </div>
+                     </div>
                 </div>
             </div>
             <div class="blog-list">
                 <div class="blog-list-heading">
                     <h2>Staff Pick</h2>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-category">
-                        <a href="#"><p>How to</p></a>
-                    </div>
-                    <div class="blog-title">
-                        <p>How to write email---Tips and Tricks</p>
-                    </div>
-                    
-                </div>
-                <div class="blog-item">
-                    <div class="blog-category">
-                        <a href="#"><p>product</p></a>
-                    </div>
-                    <div class="blog-title">
-                        <p>Grammerly is Here to improve your writing in google docs.</p>
-                    </div>
                 </div>
                 <div class="blog-item">
                     <div class="blog-category">
@@ -248,12 +254,12 @@
             </div>
         </div>
     </div>
-
+    <!-- </div> -->
     <div class="blog-container">
         <div class="blog-card">
             <div class="card card-shadow">
                 <div class="card-header blog-image">
-                    <img src="assets/images/portfolio/image1.png">
+                    <img src="assets/images/portfolio/image0.webp">
                 </div>
                 <div class="card-body">
                     <p>company</p>
@@ -262,7 +268,7 @@
              </div>
              <div class="card card-shadow">
                 <div class="card-header blog-image">
-                    <img src="assets/images/portfolio/image1.png">
+                    <img src="assets/images/portfolio/image0.webp">
                 </div>
                 <div class="card-body">
                     <p>How to</p>
@@ -271,13 +277,22 @@
              </div>
              <div class="card card-shadow">
                  <div class="card-header blog-image">
-                    <img src="assets/images/portfolio/image1.png">
+                    <img src="assets/images/portfolio/image0.webp">
                 </div>
                 <div class="card-body">
                     <p>Product</p>
                     <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
                 </div>
              </div>
+             <div class="card card-shadow">
+                <div class="card-header blog-image">
+                   <img src="assets/images/portfolio/image0.webp">
+               </div>
+               <div class="card-body">
+                   <p>Product</p>
+                   <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
+               </div>
+            </div>
         </div>
     </div> 
     <div class="grid-container">
@@ -285,6 +300,8 @@
             <a href="blogs.php" class="btn">Explore More</a>
         </div>
     </div>   
+    
+
 </section>
 
 

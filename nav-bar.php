@@ -2,7 +2,7 @@
     <div class="container">
       <div class="navbar-inner flex-row">
         <div class="logo">
-          <a href ="index.php"><img src="assets/images/logo/qonkar-technologies-pvt-ltd-best-it-services-company.png"
+          <a href ="index.php"><img src="assets/images/logo/qonkar-technologies-pvt-ltd-best-it-services-company.webp"
             alt="qonkar technologies pvt limited world best IT services company" /></a>
         </div>
         <div class="right-content flex-row desktop">
