@@ -1,0 +1,125 @@
+
+/*-------------------------------------------------blog-section----------------------------------*/
+.blogs-section{
+  margin: 0;
+  margin-bottom: 3%;
+}
+.grid-section{
+  display: grid;
+  grid-template-columns: 50% 20% 30%;
+}
+.side-blog-container{
+  margin: 2% 0;
+}
+.blog-container{
+  margin: 3% 0;
+}
+.featured-blog .card,
+.blog-card .card{
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius-box);
+}
+.featured-blog .card-body,
+.blog-card .card-body{
+  padding: 2%;
+}
+.featured-blog .card-body p,
+.blog-card .card .card-body p{
+  text-transform: uppercase;
+}
+.featured-blog .card-body h2,
+.featured-blog .card-body p,
+.blog-card .card-body h2,
+.blog-card .card-body p{
+  margin: 2%;
+}
+.blog-card .card-body.side-blog h2,
+.blog-card .card-body.side-blog p{
+font-size: 10px;
+padding: 2%;
+}
+.blog-card.side-blog{
+margin: 0 9%;
+gap: 2.8rem;
+}
+.blog-list-heading{
+margin: 3% 3%;
+}
+.blog-item{
+padding: 10px;
+border-radius: var(--border-radius-box);
+}
+.blog-list .blog-item:hover{
+cursor: pointer;
+background-color: var(--secondary-color);
+}
+.blog-item .blog-category a{
+text-decoration: none;
+color: var(--green-text);
+font-weight: var(--bold);
+text-transform: uppercase;
+font-size: 10px;
+}
+.blog-item .blog-title{
+text-transform: capitalize;
+font-size: 14px;
+}
+.blog-title , .blog-category{
+margin: 4px 0;
+}
+.blog-card{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+gap: 2rem;
+align-items: flex-start;
+margin:1% 10%;
+}
+.card-header.blog-image{
+padding: 0;
+overflow: hidden;
+}
+.card-header.blog-image > img{
+display: block;
+width: 100%;
+height: 100%;
+transition: 200ms transform ease-in-out;
+border-top-right-radius: var(--border-radius-box);
+border-top-left-radius: var(--border-radius-box);
+transition: 200ms transform ease-in-out;
+}
+.card:hover > .card-header.blog-image > img{
+transform: scale(1.025);
+}
+.blog-card .card-body h2,
+.blog-card .card-body p{
+font-size: var(--font-text-size);
+}
+/*--------------------------------------------------blogs-page------------------------------------*/
+.details-container, .image-container {
+  margin: 1% 20%;
+}
+
+.image-container > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.blog-detail {
+  margin: 5% 0;
+  display: grid;
+  gap: 2rem;
+}
+
+/* ---------------------------------------media-query for blog page------------------------------- */
+@media (max-width: 900px) {
+  .details-container, .image-container {
+    margin: 1% 10%;
+  }
+
+  .blog-detail {
+    grid-template-columns: 1fr;
+    font-size: 12px;
+  }
+}
+
