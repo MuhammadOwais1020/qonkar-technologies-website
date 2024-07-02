@@ -76,7 +76,7 @@
     margin-bottom: .5rem;
     height: 100%;
  }
- .card-body h2{
+ .card-body h3{
     color: var(--text-color);
     font-size: 20px;
     margin-bottom: 8px;

@@ -1,32 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<?php include('header.php'); ?>
-
 <body>
-<?php include('nav-bar.php'); ?>
-
-<article>
-  <div class="heading-container">
-    <div class="heading">
-      <h2 class="heading-head">How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2>
-    </div>
-  </div>
-  
-  <div class="blog-detail">
-    <div class="image-container">
-      <img src="assets/images/portfolio/image0.webp" alt="Welmis Gutierrez">
-    </div>
-    
-    <div class="details-container">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut mollitia magnam incidunt dolorem. Vitae, commodi. Cum, voluptatum incidunt provident doloribus optio laudantium deleniti esse minus assumenda. Commodi voluptatum facilis explicabo aut quia ipsum repudiandae debitis enim optio. Doloremque totam reprehenderit facere sapiente placeat sunt nihil odio quidem provident error culpa autem eius hic veritatis debitis aut minima molestias mollitia quibusdam corrupti consequuntur perferendis.</p>
-      <br />
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut mollitia magnam incidunt dolorem. Vitae, commodi. Cum, voluptatum incidunt provident doloribus optio laudantium deleniti esse minus assumenda. Commodi voluptatum facilis explicabo aut quia ipsum repudiandae debitis enim optio. Doloremque totam reprehenderit facere sapiente placeat sunt nihil odio quidem provident error culpa autem eius hic veritatis debitis aut minima molestias mollitia quibusdam corrupti consequuntur perferendis.</p>
-      <br />
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut mollitia magnam incidunt dolorem. Vitae, commodi. Cum, voluptatum incidunt provident doloribus optio laudantium deleniti esse minus assumenda. Commodi voluptatum facilis explicabo aut quia ipsum repudiandae debitis enim optio. Doloremque totam reprehenderit facere sapiente placeat sunt nihil odio quidem provident error culpa autem eius hic veritatis debitis aut minima molestias mollitia quibusdam corrupti consequuntur perferendis.</p>
-    </div>
-  </div>
-</article>    
 <section class="head-section">
     <div class="outer-container">
         <div class="heading-container">
@@ -41,146 +15,143 @@
     </div>
 </section>
 <section class="blogs-section">
-        <div class="container">
-            <div class="grid-container">
-                <div class="grid-section">
-                    <div class="featured-blog-container">
-                        <div class="featured-blog card-grid">
-                            <a href="blog.php">
-                                <div class="card card-shadow">
-                                    <div class="card-header blog-image">
-                                        <img src="assets/images/portfolio/image0.webp">
-                                    </div>
-                                    <div class="card-body">
-                                        <p>company</p>
-                                        <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="side-blog-container">
-                        <div class="blog-card side-blog">
+    <div class="container">
+        <div class="grid-container">
+            <div class="grid-section">
+                <div class="featured-blog-container">
+                    <div class="featured-blog card-grid">
+                        <a href="2024's Top Website Design Trends to Increase Conversions.php">
                             <div class="card card-shadow">
                                 <div class="card-header blog-image">
-                                    <img src="assets/images/portfolio/image0.webp">
+                                    <img src="assets/images/blog-post/web-design-trends.webp" alt="2024's Top Website Design Trends to Increase Conversions">
                                 </div>
-                                <div class="card-body side-blog">
-                                    <p>How to</p>
-                                    <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                                </div>
-                            </div>
-                            <div class="card card-shadow">
-                                <div class="card-header blog-image">
-                                    <img src="assets/images/portfolio/image0.webp">
-                                </div>
-                                <div class="card-body side-blog">
-                                    <p>Product</p>
-                                    <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
+                                <div class="card-body">
+                                    <p>company</p>
+                                    <h3>2024's Top Website Design Trends to Increase Conversions</h3> 
                                 </div>
                             </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="side-blog-container">
+                    <div class="blog-card side-blog">
+                      <a href="2024's Top Website Design Trends to Increase Conversions.php">
+                          <div class="card card-shadow">
+                              <div class="card-header blog-image">
+                                  <img src="assets/images/blog-post/web-design-trends.webp" alt="2024's Top Website Design Trends to Increase Conversions"> 
+                              </div>
+                              <div class="card-body side-blog">
+                                  <p>product</p>
+                                  <h3>2024's Top Website Design Trends to Increase Conversions</h3> 
+                              </div>
+                          </div>
+                        </a>
+                        <a href="The Ultimate Guide to Choosing the Right Website Development Platform.php">
+                          <div class="card card-shadow">
+                              <div class="card-header blog-image">
+                                  <img src="assets/images/blog-post/TRIARE-insights-the-best-development-platform.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
+                              </div>
+                              <div class="card-body side-blog">
+                                  <p>how to</p>
+                                  <h3>The Ultimate Guide to Choosing the Right Website Development Platform</h3> 
+                              </div>
+                          </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-list">
+                    <div class="blog-list-heading">
+                        <h3>Staff Pick</h3>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-category">
+                            <a href="#"><p>product</p></a>
+                        </div>
+                        <div class="blog-title">
+                            <p>grammerly spotlight! how to add new words to your personal dictionary</p>
                         </div>
                     </div>
-                    <div class="blog-list">
-                        <div class="blog-list-heading">
-                            <h2>Staff Pick</h2>
+                    <div class="blog-item">
+                        <div class="blog-category">
+                            <a href="#"><p>product</p></a>
                         </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>product</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>grammerly spotlight! how to add new words to your personal dictionary</p>
-                            </div>
+                        <div class="blog-title">
+                            <p>grammerly spotlight! how to add new words to your personal dictionary</p>
                         </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>product</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>grammerly spotlight! how to add new words to your personal dictionary</p>
-                            </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-category">
+                            <a href="#"><p>How to</p></a>
                         </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>How to</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>How to write email---Tips and Tricks</p>
-                            </div>
+                        <div class="blog-title">
+                            <p>How to write email---Tips and Tricks</p>
                         </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>How to</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>Grammerly + medium = happy writters</p>
-                            </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-category">
+                            <a href="#"><p>How to</p></a>
                         </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>How to</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>How to write email---Tips and Tricks</p>
-                            </div>
+                        <div class="blog-title">
+                            <p>Grammerly + medium = happy writters</p>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-category">
+                            <a href="#"><p>How to</p></a>
+                        </div>
+                        <div class="blog-title">
+                            <p>How to write email---Tips and Tricks</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="blog-container">
-                <div class="blog-card">
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image0.webp">
-                        </div>
-                        <div class="card-body">
-                            <p>company</p>
-                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                        </div>
+        </div>
+        <div class="blog-container">
+            <div class="blog-card">
+                <div class="card card-shadow">
+                    <div class="card-header blog-image">
+                        <img src="assets/images/portfolio/image0.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
                     </div>
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image0.webp">
-                        </div>
-                        <div class="card-body">
-                            <p>How to</p>
-                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                        </div>
+                    <div class="card-body">
+                        <p>company</p>
+                        <h3>The Ultimate Guide to Choosing the Right Website Development Platform</h3> 
                     </div>
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image0.webp">
-                        </div>
-                        <div class="card-body">
-                            <p>Product</p>
-                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                        </div>
+                </div>
+                <div class="card card-shadow">
+                    <div class="card-header blog-image">
+                        <img src="assets/images/portfolio/image0.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
                     </div>
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                        <img src="assets/images/portfolio/image0.webp">
+                    <div class="card-body">
+                        <p>How to</p>
+                        <h3>The Ultimate Guide to Choosing the Right Website Development Platform</h3> 
+                    </div>
+                </div>
+                <div class="card card-shadow">
+                    <div class="card-header blog-image">
+                        <img src="assets/images/portfolio/image0.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
                     </div>
                     <div class="card-body">
                         <p>Product</p>
-                        <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                    </div>
+                        <h3>The Ultimate Guide to Choosing the Right Website Development Platform</h3> 
                     </div>
                 </div>
-            </div> 
-            <div class="grid-container">
-                <div class="button grid-span">
-                    <a href="blogs.php" class="btn">Explore More</a>
+                <div class="card card-shadow">
+                    <div class="card-header blog-image">
+                    <img src="assets/images/portfolio/image0.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
                 </div>
-            </div>  
+                <div class="card-body">
+                    <p>Product</p>
+                    <h3>The Ultimate Guide to Choosing the Right Website Development Platform</h3> 
+                </div>
+                </div>
+            </div>
         </div> 
+        <div class="grid-container">
+            <div class="button grid-span">
+                <a href="blogs.php" class="btn">Explore More</a>
+            </div>
+        </div>  
+    </div> 
 </section>
-  
-<?php include('footer.php'); ?>
-<script src="assets/script.js"></script>
 </body>
 </html>
-
-
-
-

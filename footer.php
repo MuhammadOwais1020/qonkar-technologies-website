@@ -8,7 +8,7 @@
             </div>
             <div class="footer-menus">
               <ul>
-                <li><a href="#" rel="">Website Design & Development</a></li>
+                <li><a href="website-design-and-development.php" rel="">Website Design & Development</a></li>
                 <li><a href="#" rel="">Ecommerce Solutions</a></li>
                 <li><a href="#" rel="">Design & Branding</a></li>
                 <li><a href="#" rel="">UI/UX Design</a></li>
@@ -71,7 +71,7 @@
         <div class="footer-bottom">
           <div class="footer-bottom-inner">
             <div class="footer-logo">
-              <img src="assets/images/logo/qonkar-technologies-pvt-ltd-best-it-services-company.png"
+              <img src="assets/images/logo/qonkar-technologies-pvt-ltd-best-it-services-company.webp"
                 alt="qonkar technologies pvt ltd best IT services company" />
               <p>© Qonkar Technologies (PVT) Limited. 2024</p>
             </div>

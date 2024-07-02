@@ -22,7 +22,7 @@ Partner with Qonkar Technologies (Pvt) Limited and take your business to the nex
 
   <meta name="robots" content="index, follow" />
 
-  <link rel="canonical" href="" />
+  <link rel="canonical" href="https://qonkar.com/" />
   <meta name="author" content="Grow your business online with Qonkar Technologies! We're a full-service digital agency specializing in web design, SEO, social media, and branding. Get a user-friendly website, engaging content, and increased online visibility." />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />

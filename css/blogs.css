@@ -27,20 +27,20 @@
 .blog-card .card .card-body p{
   text-transform: uppercase;
 }
-.featured-blog .card-body h2,
+.featured-blog .card-body h3,
 .featured-blog .card-body p,
-.blog-card .card-body h2,
+.blog-card .card-body h3,
 .blog-card .card-body p{
   margin: 2%;
 }
-.blog-card .card-body.side-blog h2,
+.blog-card .card-body.side-blog h3,
 .blog-card .card-body.side-blog p{
 font-size: 10px;
 padding: 2%;
 }
 .blog-card.side-blog{
 margin: 0 9%;
-gap: 2.8rem;
+/* gap: 1.8rem; */
 }
 .blog-list-heading{
 margin: 3% 3%;
@@ -90,7 +90,7 @@ transition: 200ms transform ease-in-out;
 .card:hover > .card-header.blog-image > img{
 transform: scale(1.025);
 }
-.blog-card .card-body h2,
+.blog-card .card-body h3,
 .blog-card .card-body p{
 font-size: var(--font-text-size);
 }
@@ -106,11 +106,22 @@ font-size: var(--font-text-size);
 }
 
 .blog-detail {
+  font-size: var(--font-text-size);
+  font-weight: 200;
   margin: 5% 0;
   display: grid;
   gap: 2rem;
 }
-
+.blog-detail h3{
+  font-size: 25px;
+}
+.blog-detail h4{
+  font-size: 16px;
+}
+.blog-content-list ul{
+  list-style-type: disc;
+  list-style-position: inside;
+}
 /* ---------------------------------------media-query for blog page------------------------------- */
 @media (max-width: 900px) {
   .details-container, .image-container {

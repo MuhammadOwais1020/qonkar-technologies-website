@@ -124,7 +124,7 @@
             <a href="website-design-and-development.php">
                 <img src="assets/images/logo/services/website-design-development.webp"
                     alt="website design & development service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">Website Design & Development</h2>
+                <h3 class="sub-heading">Website Design & Development</h3>
                 <p class="service-description">
                     Websites Development <br />
                     Business Websites <br>
@@ -142,7 +142,7 @@
             <a href="#">
                 <img src="assets/images/logo/services/digital-marketing.webp"
                     alt="Digtial Marketing service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">Digtial Marketing</h2>
+                <h3 class="sub-heading">Digtial Marketing</h3>
                 <p class="service-description">
                     SEO <br>
                     Social Media Marketing <br>
@@ -159,7 +159,7 @@
             <a href="#">
                 <img src="assets/images/logo/services/user-interface.webp"
                     alt="User Interface service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">User Interface</h2>
+                <h3 class="sub-heading">User Interface</h3>
                 <p class="service-description">
                     User Research & Analysis <br>
                     Information Architecture <br>
@@ -176,7 +176,7 @@
             <a href="#">
                 <img src="assets/images/logo/services/design-branding.webp"
                     alt="design & branding service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">Design & Branding</h2>
+                <h3 class="sub-heading">Design & Branding</h3>
                 <p class="service-description">
                     Logo Design <br>
                     Brand Style Guide <br>
@@ -192,7 +192,7 @@
             <a href="#">
                 <img src="assets/images/logo/services/social-media-management.webp"
                     alt="Social Media Management service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">Social Media Management</h2>
+                <h3 class="sub-heading">Social Media Management</h3>
                 <p class="service-description">
                 Social Media Strategy & Planning <br>
                 Social Media Content & Curation <br>
@@ -205,7 +205,7 @@
             <a href="#">
                 <img src="assets/images/logo/services/photography-videography.webp"
                     alt="Photography & Videography service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">Photography & Videography</h2>
+                <h3 class="sub-heading">Photography & Videography</h3>
                 <p class="service-description">
                     Product Photography <br>
                     Product Video Creation <br>
@@ -246,53 +246,53 @@
         <div class="card-grid">
             <div class="card card-shadow">
             <div class="card-header">
-              <img src="assets/images/icons/service/SERVICES-ICONS_0005_responsive1.svg">
+              <img src="assets/images/icons/service/SERVICES-ICONS_0005_responsive1.svg" alt="Services-Qonkar-Technologies-Pvt-Ltd">
           </div>
             <div class="card-body">
               <p>step 1</p>
-              <h2>Consultation & Planning</h2>
+              <h3>Consultation & Planning</h3>
               <p>We conduct a thorough needs analysis and requirements gathering process to understand your business goals, target users, functionality needs, and technical requirements.</p> 
             </div>
             </div>
           
             <div class="card card-shadow">
               <div class="card-header">
-                <img src="assets/images/icons/service/SERVICES-ICONS_0005_responsive1.svg">
+                <img src="assets/images/icons/service/SERVICES-ICONS_0005_responsive1.svg" alt="Services-Qonkar-Technologies-Pvt-Ltd">
             </div>
             <div class="card-body">
               <p>step 2</p>
-              <h2>Design & Prototyping</h2>
+              <h3>Design & Prototyping</h3>
               <p>Our UX and UI experts will create user-friendly, responsive website prototypes based on the agreed-upon specifications to ensure they meet your needs before development begins.</p>  
             </div>
             </div>
           
             <div class="card card-shadow">
             <div class="card-header">
-              <img src="assets/images/icons/service/SERVICES-ICONS_0005_responsive1.svg">
+              <img src="assets/images/icons/service/SERVICES-ICONS_0005_responsive1.svg" alt="Services-Qonkar-Technologies-Pvt-Ltd">
           </div>
             <div class="card-body">
               <p>step 3</p>
-              <h2>Development & Testing</h2>
+              <h3>Development & Testing</h3>
               <p>Our skilled developers will then code, test, and debug the custom application according to the agreed specifications, timelines, and quality standards to deliver a polished, bug-free product.</p>
             </div>
             </div>
 
             <div class="card card-shadow">
             <div class="card-header">
-              <img src="assets/images/icons/service/SERVICES-ICONS_0005_responsive1.svg">
+              <img src="assets/images/icons/service/SERVICES-ICONS_0005_responsive1.svg" alt="Services-Qonkar-Technologies-Pvt-Ltd">
           </div>
             <div class="card-body">
               <p>step 4</p>
-              <h2>Launch & Maintenance</h2>
+              <h3>Launch & Maintenance</h3>
               <p>Once launched, we provide ongoing support, maintenance, updates, and enhancements as needed to ensure your website or application continues performing optimally as your business evolves.</p>  
             </div>
             </div>
         </div>
         <div class="approach-grid questions">
-              <h2 class="question-heading">Why Choose Qonkar Technologies </h2>
+              <h3 class="question-heading">Why Choose Qonkar Technologies </h3>
               <p>We understand that your website is more than just a digital storefront—it's a critical part of your brand’s identity. Our goal is to help you reach your digital goals and drive your business forward. By integrating advanced technology with user-focused design, we create websites that not only look amazing but also deliver exceptional performance.</p>
               <p>From building ecommerce websites to providing comprehensive website development services in Pakistan and all over the world, Qonkar is your go-to web design firm. Whether you need web design for your company or a website creator for your business, we have you covered.</p>
-              <h2 class="question-heading">Ready to Transform Your Digital Presence?</h2>
+              <h3 class="question-heading">Ready to Transform Your Digital Presence?</h3>
               <p>Let Qonkar guide you through your digital transformation journey. Together, we can turn your digital dreams into reality and set your business on the path to success.
               Experience the Qonkar difference today. Let's embark on this journey and create something remarkable together.</p>
         </div>
@@ -302,155 +302,7 @@
   </div>
 </section>
 
-<section class="head-section">
-  <div class="outer-container">
-      <div class="heading-container">
-          <div class="heading">
-          <h2 class="heading-head">Our Blogs</h2>
-          <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implimentaion of<span class="text-secondary" > Our Projects.</span></h4>
-          <div class="button grid-span">
-              <a href="contact-us.php" class="btn">Schedule a Demo</a>
-          </div>
-          </div>
-      </div>
-  </div>
-</section>
-
-<section class="blogs-section">
-  <div class="container">
-      <div class="grid-container">
-          <div class="grid-section">
-              <div class="featured-blog-container">
-                  <div class="featured-blog card-grid">
-                      <a href="blog.php">
-                          <div class="card card-shadow">
-                              <div class="card-header blog-image">
-                                  <img src="assets/images/portfolio/image0.webp">
-                              </div>
-                              <div class="card-body">
-                                  <p>company</p>
-                                  <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-              </div>
-              <div class="side-blog-container">
-                  <div class="blog-card side-blog">
-                      <div class="card card-shadow">
-                          <div class="card-header blog-image">
-                              <img src="assets/images/portfolio/image0.webp">
-                          </div>
-                          <div class="card-body side-blog">
-                              <p>How to</p>
-                              <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                          </div>
-                      </div>
-                      <div class="card card-shadow">
-                          <div class="card-header blog-image">
-                              <img src="assets/images/portfolio/image0.webp">
-                          </div>
-                          <div class="card-body side-blog">
-                              <p>Product</p>
-                              <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="blog-list">
-                  <div class="blog-list-heading">
-                      <h2>Staff Pick</h2>
-                  </div>
-                  <div class="blog-item">
-                      <div class="blog-category">
-                          <a href="#"><p>product</p></a>
-                      </div>
-                      <div class="blog-title">
-                          <p>grammerly spotlight! how to add new words to your personal dictionary</p>
-                      </div>
-                  </div>
-                  <div class="blog-item">
-                      <div class="blog-category">
-                          <a href="#"><p>product</p></a>
-                      </div>
-                      <div class="blog-title">
-                          <p>grammerly spotlight! how to add new words to your personal dictionary</p>
-                      </div>
-                  </div>
-                  <div class="blog-item">
-                      <div class="blog-category">
-                          <a href="#"><p>How to</p></a>
-                      </div>
-                      <div class="blog-title">
-                          <p>How to write email---Tips and Tricks</p>
-                      </div>
-                  </div>
-                  <div class="blog-item">
-                      <div class="blog-category">
-                          <a href="#"><p>How to</p></a>
-                      </div>
-                      <div class="blog-title">
-                          <p>Grammerly + medium = happy writters</p>
-                      </div>
-                  </div>
-                  <div class="blog-item">
-                      <div class="blog-category">
-                          <a href="#"><p>How to</p></a>
-                      </div>
-                      <div class="blog-title">
-                          <p>How to write email---Tips and Tricks</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="blog-container">
-          <div class="blog-card">
-              <div class="card card-shadow">
-                  <div class="card-header blog-image">
-                      <img src="assets/images/portfolio/image0.webp">
-                  </div>
-                  <div class="card-body">
-                      <p>company</p>
-                      <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                  </div>
-              </div>
-              <div class="card card-shadow">
-                  <div class="card-header blog-image">
-                      <img src="assets/images/portfolio/image0.webp">
-                  </div>
-                  <div class="card-body">
-                      <p>How to</p>
-                      <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                  </div>
-              </div>
-              <div class="card card-shadow">
-                  <div class="card-header blog-image">
-                      <img src="assets/images/portfolio/image0.webp">
-                  </div>
-                  <div class="card-body">
-                      <p>Product</p>
-                      <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                  </div>
-              </div>
-              <div class="card card-shadow">
-                  <div class="card-header blog-image">
-                  <img src="assets/images/portfolio/image0.webp">
-              </div>
-              <div class="card-body">
-                  <p>Product</p>
-                  <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-              </div>
-              </div>
-          </div>
-      </div> 
-      <div class="grid-container">
-          <div class="button grid-span">
-              <a href="blogs.php" class="btn">Explore More</a>
-          </div>
-      </div>  
-  </div> 
-</section>
+<?php include('blog.php'); ?>
   
 <?php include('footer.php'); ?>
 <script src="assets/script.js"></script>

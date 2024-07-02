@@ -10,7 +10,7 @@ include('header.php');
  ?>
   <section class="hero-section">
     <div class="container">
-      <h1 class="tagline-heading">An <span class="text-secondary">IT</span> Services Copmany</h1>
+      <h1 class="tagline-heading">An <span class="text-secondary">IT</span> Services Company</h1>
       <h2 class="slogan">Where Dreams <span class="text-secondary">Go</span> Digital!</h2>
       <span class="services-heading text-secondary typed"></span>
     </div>
@@ -42,7 +42,7 @@ include('header.php');
             <a href="website-design-and-development.php">
                 <img src="assets/images/logo/services/website-design-development.webp"
                     alt="website design & development service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">Website Design & Development</h2>
+                <h3 class="sub-heading">Website Design & Development</h3>
                 <p class="service-description">
                     Websites Development <br />
                     Business Websites <br>
@@ -60,7 +60,7 @@ include('header.php');
             <a href="#">
                 <img src="assets/images/logo/services/digital-marketing.webp"
                     alt="Digtial Marketing service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">Digtial Marketing</h2>
+                <h3 class="sub-heading">Digtial Marketing</h3>
                 <p class="service-description">
                     SEO <br>
                     Social Media Marketing <br>
@@ -77,7 +77,7 @@ include('header.php');
             <a href="#">
                 <img src="assets/images/logo/services/user-interface.webp"
                     alt="User Interface service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">User Interface</h2>
+                <h3 class="sub-heading">User Interface</h3>
                 <p class="service-description">
                     User Research & Analysis <br>
                     Information Architecture <br>
@@ -94,7 +94,7 @@ include('header.php');
             <a href="#">
                 <img src="assets/images/logo/services/design-branding.webp"
                     alt="design & branding service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">Design & Branding</h2>
+                <h3 class="sub-heading">Design & Branding</h3>
                 <p class="service-description">
                     Logo Design <br>
                     Brand Style Guide <br>
@@ -110,7 +110,7 @@ include('header.php');
             <a href="#">
                 <img src="assets/images/logo/services/social-media-management.webp"
                     alt="Social Media Management service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">Social Media Management</h2>
+                <h3 class="sub-heading">Social Media Management</h3>
                 <p class="service-description">
                 Social Media Strategy & Planning <br>
                 Social Media Content & Curation <br>
@@ -123,7 +123,7 @@ include('header.php');
             <a href="#">
                 <img src="assets/images/logo/services/photography-videography.webp"
                     alt="Photography & Videography service by qonkar technologies pvt ltd" />
-                <h2 class="sub-heading">Photography & Videography</h2>
+                <h3 class="sub-heading">Photography & Videography</h3>
                 <p class="service-description">
                     Product Photography <br>
                     Product Video Creation <br>
@@ -141,14 +141,14 @@ include('header.php');
     <!-- Swiper -->
     <div class="our-work-wrapper">
       <div class="swiper-wrapper">
-        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="" />
-        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="" />
-        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="" />
-        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="" />
-        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="" />
-        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="" />
-        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="" />
-        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="" />
+        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="Services-Qonkar-Technologies-Pvt-Ltd" />
+        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="Services-Qonkar-Technologies-Pvt-Ltd" />
+        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="Services-Qonkar-Technologies-Pvt-Ltd" />
+        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="Services-Qonkar-Technologies-Pvt-Ltd" />
+        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="Services-Qonkar-Technologies-Pvt-Ltd" />
+        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="Services-Qonkar-Technologies-Pvt-Ltd" />
+        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="Services-Qonkar-Technologies-Pvt-Ltd" />
+        <img src="assets/images/services/Services-Qonkar-Technologies-Pvt-Ltd.webp" alt="Services-Qonkar-Technologies-Pvt-Ltd" />
       </div>
     </div>
   </section>
@@ -622,158 +622,7 @@ include('header.php');
             </div>
     </section>
 
-    <section class="head-section">
-        <div class="outer-container">
-            <div class="heading-container">
-                <div class="heading">
-                <h2 class="heading-head">Our Blogs</h2>
-                <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implimentaion of<span class="text-secondary" > Our Projects.</span></h4>
-                <div class="button grid-span">
-                    <a href="contact-us.php" class="btn">Schedule a Demo</a>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="blogs-section">
-        <div class="container">
-            <div class="grid-container">
-                <div class="grid-section">
-                    <div class="featured-blog-container">
-                        <div class="featured-blog card-grid">
-                            <a href="blog.php">
-                                <div class="card card-shadow">
-                                    <div class="card-header blog-image">
-                                        <img src="assets/images/portfolio/image0.webp">
-                                    </div>
-                                    <div class="card-body">
-                                        <p>company</p>
-                                        <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="side-blog-container">
-                        <div class="blog-card side-blog">
-                            <div class="card card-shadow">
-                                <div class="card-header blog-image">
-                                    <img src="assets/images/portfolio/image0.webp">
-                                </div>
-                                <div class="card-body side-blog">
-                                    <p>How to</p>
-                                    <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                                </div>
-                            </div>
-                            <div class="card card-shadow">
-                                <div class="card-header blog-image">
-                                    <img src="assets/images/portfolio/image0.webp">
-                                </div>
-                                <div class="card-body side-blog">
-                                    <p>Product</p>
-                                    <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-list">
-                        <div class="blog-list-heading">
-                            <h2>Staff Pick</h2>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>product</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>grammerly spotlight! how to add new words to your personal dictionary</p>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>product</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>grammerly spotlight! how to add new words to your personal dictionary</p>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>How to</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>How to write email---Tips and Tricks</p>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>How to</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>Grammerly + medium = happy writters</p>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>How to</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>How to write email---Tips and Tricks</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-container">
-                <div class="blog-card">
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image0.webp">
-                        </div>
-                        <div class="card-body">
-                            <p>company</p>
-                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                        </div>
-                    </div>
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image0.webp">
-                        </div>
-                        <div class="card-body">
-                            <p>How to</p>
-                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                        </div>
-                    </div>
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image0.webp">
-                        </div>
-                        <div class="card-body">
-                            <p>Product</p>
-                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                        </div>
-                    </div>
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                        <img src="assets/images/portfolio/image0.webp">
-                    </div>
-                    <div class="card-body">
-                        <p>Product</p>
-                        <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                    </div>
-                    </div>
-                </div>
-            </div> 
-            <div class="grid-container">
-                <div class="button grid-span">
-                    <a href="blogs.php" class="btn">Explore More</a>
-                </div>
-            </div>  
-        </div> 
-        
-
-    </section>
-
+    <?php include('blog.php'); ?>
 
   <?php
   include('footer.php')

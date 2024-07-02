@@ -34,7 +34,7 @@
                             <option value="" class="three">three</option>
                         </select>
                     <div class="select-icon">
-                        <img src="assets/images/icons/arrow-down.svg" alt="">
+                        <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
                     </div>
                     </div>
                 </div>
@@ -43,10 +43,10 @@
         <div class="card-grid">
             <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image1.webp">
+                    <img src="assets/images/portfolio/image1.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h2>Website Design</h2>
+                    <h3>Website Design</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patieant detaileffectively.  
                 </div>
                 <div class="card-footer">
@@ -55,10 +55,10 @@
             </div>
             <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image2.webp">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h2>Website Design</h2>
+                    <h3>Website Design</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
                 </div>
                 <div class="card-footer">
@@ -68,10 +68,10 @@
 
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image3.webp">
+                    <img src="assets/images/portfolio/image3.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h2>Website Design</h2>
+                    <h3>Website Design</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
                 </div>
                 <div class="card-footer">
@@ -81,10 +81,10 @@
 
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image1.webp">
+                    <img src="assets/images/portfolio/image1.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h2>Website Design</h2>
+                    <h3>Website Design</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
                 </div>
                 <div class="card-footer">
@@ -94,10 +94,10 @@
              
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image2.webp">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h2>Website Design</h2>
+                    <h3>Website Design</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
                 </div>
                 <div class="card-footer">
@@ -107,10 +107,10 @@
 
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image3.webp">
+                    <img src="assets/images/portfolio/image3.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h2>Website Design</h2>
+                    <h3>Website Design</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
                 </div>
                 <div class="card-footer">
@@ -120,10 +120,10 @@
 
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image1.webp">
+                    <img src="assets/images/portfolio/image1.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h2>Website Design</h2>
+                    <h3>Website Design</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
                 </div>
                 <div class="card-footer">
@@ -133,10 +133,10 @@
 
              <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image2.webp">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h2>Website Design</h2>
+                    <h3>Website Design</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
                 </div>
                 <div class="card-footer">
@@ -168,158 +168,7 @@
     </div>
 </section>
 
-<section class="head-section">
-    <div class="outer-container">
-        <div class="heading-container">
-            <div class="heading">
-                <h2 class="heading-head">Our Blogs</h2>
-                <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness   theimpact from the <span class="text-secondary" >successful</span><br /> Implimentaion    of<spanclass="text-secondary" > Our Projects.</span></h4>
-                <div class="button grid-span">
-                    <a href="contact-us.php" class="btn">Schedule a Demo</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="blogs-section">
-        <div class="container">
-            <div class="grid-container">
-                <div class="grid-section">
-                    <div class="featured-blog-container">
-                        <div class="featured-blog card-grid">
-                            <a href="blog.php">
-                                <div class="card card-shadow">
-                                    <div class="card-header blog-image">
-                                        <img src="assets/images/portfolio/image0.webp">
-                                    </div>
-                                    <div class="card-body">
-                                        <p>company</p>
-                                        <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="side-blog-container">
-                        <div class="blog-card side-blog">
-                            <div class="card card-shadow">
-                                <div class="card-header blog-image">
-                                    <img src="assets/images/portfolio/image0.webp">
-                                </div>
-                                <div class="card-body side-blog">
-                                    <p>How to</p>
-                                    <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                                </div>
-                            </div>
-                            <div class="card card-shadow">
-                                <div class="card-header blog-image">
-                                    <img src="assets/images/portfolio/image0.webp">
-                                </div>
-                                <div class="card-body side-blog">
-                                    <p>Product</p>
-                                    <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-list">
-                        <div class="blog-list-heading">
-                            <h2>Staff Pick</h2>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>product</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>grammerly spotlight! how to add new words to your personal dictionary</p>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>product</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>grammerly spotlight! how to add new words to your personal dictionary</p>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>How to</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>How to write email---Tips and Tricks</p>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>How to</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>Grammerly + medium = happy writters</p>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-category">
-                                <a href="#"><p>How to</p></a>
-                            </div>
-                            <div class="blog-title">
-                                <p>How to write email---Tips and Tricks</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-container">
-                <div class="blog-card">
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image0.webp">
-                        </div>
-                        <div class="card-body">
-                            <p>company</p>
-                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                        </div>
-                    </div>
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image0.webp">
-                        </div>
-                        <div class="card-body">
-                            <p>How to</p>
-                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                        </div>
-                    </div>
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image0.webp">
-                        </div>
-                        <div class="card-body">
-                            <p>Product</p>
-                            <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                        </div>
-                    </div>
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                        <img src="assets/images/portfolio/image0.webp">
-                    </div>
-                    <div class="card-body">
-                        <p>Product</p>
-                        <h2>How Travel Writer and Vlogger Welmis Gutierrez Overcomes Self-Doubt</h2> 
-                    </div>
-                    </div>
-                </div>
-            </div> 
-            <div class="grid-container">
-                <div class="button grid-span">
-                    <a href="blogs.php" class="btn">Explore More</a>
-                </div>
-            </div>  
-        </div> 
-</section>
-
-
-
+<?php include('blog.php'); ?>
 
 <?php include('footer.php'); ?>
 <script src="assets/script.js"></script>

@@ -14,7 +14,7 @@ include('header.php');
     <div class="outer-container">
       <div class="heading-container">
         <div class="heading">
-          <h1 class="heading-head">Contact us</h1>
+          <h2 class="heading-head">Contact us</h2>
           <h4 class="heading-body">We appreciate your interest in <span class="text-secondary" >Qonkar Technologies.</span> Please fill the form<br /> so we can get to the right <span class="text-secondary">help and <span class="text-secondary">support.</span></h4>
         </div>
       </div>
@@ -71,12 +71,12 @@ include('header.php');
 
           <div class="success-message grid-span" id="successMessage">
             <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-            <span class="success">Success!</span> We have received your contact information, We will contact you shortly, Thank you for contacting us!
+            <p><span class="success">Success!</span>We have received your contact information, We will contact you shortly, Thank you for contacting us!</p>
           </div>
 
           <div class="error-message grid-span" id="errorMessage">
             <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-            <span class="error">Error!</span> Sorry for inconvinence due to some server issues your contact information is not received by us please try again!
+            <p><span class="error">Error!</span> Sorry for inconvinence due to some server issues your contact information is not received by us please try again!<p>
           </div>
 
 

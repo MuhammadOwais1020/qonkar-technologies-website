@@ -40,7 +40,7 @@
   margin: 4% 0;
   font-size: 35px;
 }
-.approach-grid h2{
+.approach-grid h3{
   font-size: 26px;
 }
 .approach-grid p{
@@ -51,36 +51,6 @@
   margin-top: 3%;
   font-size: 35px;
 }
-
-/* .card-container{
-  background-color: var(--secondary-color);
-  min-width: 200px;
-  min-height: 200px;
-  padding: 5%;
-  border-radius: var(--border-radius-box);
-}
-.service{
-  margin: 8% 0;
-}
-.service .card-grid{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-} */
-
-/* .card-body h2{
-  margin: 5% 0;
-} */
-/* .service .card-grid{
-  row-gap: 2rem;
-}
-.service .card-body h2{
-  font-size: 16px;
-  font-weight: var(--lighter);
-}
-.service .card-body-h2{
-  font-size: 14px;
-} */
-
 
 /*--------------------------------------------media query blogs-------------------------------------*/
 @media(max-width: 900px)
