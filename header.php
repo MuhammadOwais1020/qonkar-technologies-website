@@ -1,4 +1,12 @@
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-M436PKCG');</script>
+  <!-- End Google Tag Manager -->
+   
   <title>Qonkar Technologies Private Limited | IT Services Company</title>
   <!-- description for SEO -->
   <meta name="description" content="Qonkar Technologies (Pvt) Limited is a premium web design agency and digital agency based in Pakistan. We specialize in transforming your digital presence with cutting-edge technology and innovative strategies. Our team of dedicated professionals is passionate about delivering top-notch website design & development services to help your business thrive in the digital age.
@@ -17,6 +25,8 @@ Photography & Videography: Capturing stunning visuals to elevate your brand’s 
 We serve a variety of industries with customized digital solutions. For real estate owners, restaurant owners, healthcare providers, educational institutions, travel agencies, event management companies, gym owners, retail businesses, and e-commerce businesses, we enhance visibility, attract customers, and ensure online success through tailored strategies and professional branding.
 As a leading web design firm and website development services provider in Pakistan, Qonkar Technologies is dedicated to offering innovative solutions tailored to your business needs. We are experts in crafting effective social media strategies, creating high-converting Shopify websites, and delivering comprehensive digital marketing services to help you achieve your business goals.
 Partner with Qonkar Technologies (Pvt) Limited and take your business to the next level. Let’s build your digital future together!
+
+Transform your digital presence with Qonkar Technologies, World's top web design, development, and digital agency. We provide top-notch IT services.
 
 " />
 
