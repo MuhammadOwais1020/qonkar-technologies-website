@@ -65,3 +65,7 @@ Transform your digital presence with Qonkar Technologies, World's top web design
   <!-- js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.js"></script>
 </head>
+
+
+
+<!-- changes -->
