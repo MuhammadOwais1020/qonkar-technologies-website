@@ -6,7 +6,8 @@
 }
 .grid-section{
   display: grid;
-  grid-template-columns: 50% 20% 30%;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
 }
 .side-blog-container{
   margin: 2% 0;
@@ -122,6 +123,7 @@ font-size: var(--font-text-size);
   list-style-type: disc;
   list-style-position: inside;
 }
+
 /* ---------------------------------------media-query for blog page------------------------------- */
 @media (max-width: 900px) {
   .details-container, .image-container {
@@ -131,6 +133,9 @@ font-size: var(--font-text-size);
   .blog-detail {
     grid-template-columns: 1fr;
     font-size: 12px;
+  }
+  .blog-container{
+    margin: 10% 0%;
   }
 }
 
