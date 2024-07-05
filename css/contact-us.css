@@ -78,16 +78,37 @@
 }
 
 /*--------------------------------------------Edit this field-----------------------------------*/
-.help-form option {
-    background-color: var(--input-text-color);
-    color: var(--dark-bg);
+select option {
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .help-form option:hover {
     background-color: var(--green-text);
     color: var(--text-color);
 }
-
+.select-help-body{
+    position: relative;
+    height: 40px;
+    /* width: 35%; */
+    /* margin: 10px 0 20px 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--text-field-bg-color);
+ }
+ .select-help-body select{
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    appearance: none;
+    padding: 0 30px 0 10px;
+    color: var(--input-text-color);
+    border-radius: var(--border-radius-box);
+    border: 1px solid var(--input-text-color);
+    background-color: var(--text-field-bg-color);
+ }
 /*------------------------------------------------------------------------------------------------*/
 .agree-terms a {
     text-decoration: none;

@@ -43,9 +43,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <option value="" class="two">two</option>
                             <option value="" class="three">three</option>
                         </select>
-                    <div class="select-icon">
-                        <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
-                    </div>
+                        <div class="select-icon">
+                            <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
+                        </div>
                     </div>
                 </div>
         </div>

@@ -32,23 +32,50 @@ include('header.php');
     <div class="form-section">
       <div class="form-container">
         <form action="contact-us.php" class="contact-form" method="post" id="contactForm">
-            <div class="input-help field">
+              <div class="select-container field">
+                    <label class="form_help">How can we help you *</label>
+                    <div id="form_help" class="select-help-body">
+                        <select name="categpry" id="form_help">
+                          <option value="" disabled selected hidden>Please Select One</option>
+                          <option value="SEO">SEO</option>
+                          <option value="Digital Marketing">Digital Marketing</option>
+                          <option value="Website Development">Website Development</option>
+                          <option value="E-commerce Development ">E-commerce Development </option>
+                          <option value="Shopify">Shopify</option>
+                          <option value="WordPress">WordPress</option>
+                          <option value="Mobile App">Mobile App</option>
+                          <option value="Social Media Marketing">Social Media Marketing</option>
+                          <option value="PPC">PPC</option>
+                          <option value="Design & Branding">Design & Branding</option>
+                          <option value="UI/UX">UI/UX</option>
+                          <option value="Photography & Videography">Photography & Videography</option>
+                        </select>
+                        <div class="select-icon">
+                            <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
+                        </div>
+                    </div>
+            <!-- <div class="input-help field">
                   <label for="form_help">How can we help you *</label>
-                  <select name="form_help" id="form_help" class="help-form" required>
-                      <option value="" disabled selected hidden>Please Select One</option>
-                      <option value="SEO">SEO</option>
-                      <option value="Digital Marketing">Digital Marketing</option>
-                      <option value="Website Development">Website Development</option>
-                      <option value="E-commerce Development ">E-commerce Development </option>
-                      <option value="Shopify">Shopify</option>
-                      <option value="WordPress">WordPress</option>
-                      <option value="Mobile App">Mobile App</option>
-                      <option value="Social Media Marketing">Social Media Marketing</option>
-                      <option value="PPC">PPC</option>
-                      <option value="Design & Branding">Design & Branding</option>
-                      <option value="UI/UX">UI/UX</option>
-                      <option value="Photography & Videography">Photography & Videography</option>
-                  </select>
+                  <div id="form_help" class="select-help-body">
+                    <select name="form_help" id="form_help" class="help-form" required>
+                        <option value="" disabled selected hidden>Please Select One</option>
+                        <option value="SEO">SEO</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="Website Development">Website Development</option>
+                        <option value="E-commerce Development ">E-commerce Development </option>
+                        <option value="Shopify">Shopify</option>
+                        <option value="WordPress">WordPress</option>
+                        <option value="Mobile App">Mobile App</option>
+                        <option value="Social Media Marketing">Social Media Marketing</option>
+                        <option value="PPC">PPC</option>
+                        <option value="Design & Branding">Design & Branding</option>
+                        <option value="UI/UX">UI/UX</option>
+                        <option value="Photography & Videography">Photography & Videography</option>
+                    </select>
+                    <div class="select-icon">
+                      <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
+                    </div>
+                  </div> -->
             </div>
             <div class="fullname field">
                 <label for="fullname">Full Name *</label>
@@ -97,8 +124,8 @@ include('header.php');
           </div>
 
 
-            <div class="button grid-span">
-                <button class="btn" type="submit" >Submit</button>
+            <div class="button">
+                <button class="btn full-width" type="submit" >Submit</button>
             </div>
         </form>
 
