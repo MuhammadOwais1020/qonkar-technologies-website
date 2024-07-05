@@ -7,7 +7,6 @@
   })(window,document,'script','dataLayer','GTM-M436PKCG');</script>
   <!-- End Google Tag Manager -->
    
-  <title>Qonkar Technologies Private Limited | IT Services Company</title>
   <!-- description for SEO -->
   <meta name="description" content="Transform your digital presence with Qonkar Technologies, World's top web design, development, and digital agency. We provide top-notch IT services.
 " />
