@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
 <?php
 include('header.php');
 ?>
+  <title>Contact Us | Qonkar IT Services Company</title>
+</head>
 
 <body>
   <!-- Google Tag Manager (noscript) -->

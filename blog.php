@@ -24,7 +24,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <h2 class="section-heading">Our Blogs</h2>
     <div class="container">
         <div class="grid-container">
-            <div class="grid-section">
+            <!-- <div class="grid-section">
                 <div class="featured-blog-container">
                     <div class="featured-blog card-grid">
                     <a href="The Ultimate Guide to Choosing the Right Website Development Platform.php">
@@ -38,7 +38,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               </div>
                           </div>
                         </a>
-                        <!-- <a href="2024's Top Website Design Trends to Increase Conversions.php">
+                        <a href="2024's Top Website Design Trends to Increase Conversions.php">
                             <div class="card card-shadow">
                                 <div class="card-header blog-image">
                                     <img src="assets/images/blog-post/web-design-trends.webp" alt="2024's Top Website Design Trends to Increase Conversions">
@@ -48,7 +48,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <h3>2024's Top Website Design Trends to Increase Conversions</h3> 
                                 </div>
                             </div>
-                        </a> -->
+                        </a>
                     </div>
                 </div>
                 <div class="featured-blog-container">
@@ -66,7 +66,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </a>
                     </div>
                 </div>
-                <!-- <div class="side-blog-container">
+                <div class="featured-blog-container">
+                    <div class="featured-blog card-grid">
+                        <a href="5 Ways a Mobile-Friendly Website Can Boost Your Business.php">
+                            <div class="card card-shadow">
+                                <div class="card-header blog-image">
+                                    <img src="assets/images/blog-post/Mobile-Friendly-Web-Design-Why-The-Future-is-Mobile.webp" alt="2024's Top Website Design Trends to Increase Conversions">
+                                </div>
+                                <div class="card-body">
+                                    <p>product</p>
+                                    <h3>5 Ways a Mobile-Friendly Website Can Boost Your Business</h3> 
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="side-blog-container">
                     <div class="blog-card side-blog">
                       <a href="2024's Top Website Design Trends to Increase Conversions.php">
                           <div class="card card-shadow">
@@ -91,8 +106,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           </div>
                         </a>
                     </div>
-                </div> -->
-                <!-- <div class="blog-list">
+                </div>
+                <div class="blog-list">
                     <div class="blog-list-heading">
                         <h3>Staff Pick</h3>
                     </div>
@@ -136,23 +151,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <p>How to write email---Tips and Tricks</p>
                         </div>
                     </div>
-                </div>-->
-            </div>
+                </div>
+            </div> -->
         </div>
-        <div class="blog-container">
+        <div class="inner-container">
             <div class="blog-card">
-                <a href="5 Ways a Mobile-Friendly Website Can Boost Your Business.php">
-                    <div class="card card-shadow">
-                        <div class="card-header blog-image">
-                            <img src="assets/images/portfolio/image0.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
-                        </div>
-                        <div class="card-body">
-                            <p>product</p>
-                            <h3>5 Ways a Mobile-Friendly Website Can Boost Your Business</h3> 
-                        </div>
-                    </div>
-                </a>
-                <a href="2024's Top Website Design Trends to Increase Conversions.php">
+                        <a href="5 Ways a Mobile-Friendly Website Can Boost Your Business.php">
+                            <div class="card card-shadow">
+                                <div class="card-header blog-image">
+                                    <img src="assets/images/blog-post/Mobile-Friendly-Web-Design-Why-The-Future-is-Mobile.webp" alt="2024's Top Website Design Trends to Increase Conversions">
+                                </div>
+                                <div class="card-body">
+                                    <p>product</p>
+                                    <h3>5 Ways a Mobile-Friendly Website Can Boost Your Business</h3> 
+                                </div>
+                            </div>
+                        </a>
+                        <a href="2024's Top Website Design Trends to Increase Conversions.php">
                             <div class="card card-shadow">
                                 <div class="card-header blog-image">
                                     <img src="assets/images/blog-post/web-design-trends.webp" alt="2024's Top Website Design Trends to Increase Conversions">
@@ -163,7 +178,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                             </div>
                         </a>
-                <div class="card card-shadow">
+                        <a href="The Ultimate Guide to Choosing the Right Website Development Platform.php">
+                          <div class="card card-shadow">
+                              <div class="card-header blog-image">
+                                  <img src="assets/images/blog-post/TRIARE-insights-the-best-development-platform.jpg" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
+                              </div>
+                              <div class="card-body">
+                                  <p>how to</p>
+                                  <h3>The Ultimate Guide to Choosing the Right Website Development Platform</h3> 
+                              </div>
+                          </div>
+                        </a>
+                <!-- <a href="5 Ways a Mobile-Friendly Website Can Boost Your Business.php">
+                    <div class="card card-shadow">
+                        <div class="card-header blog-image">
+                            <img src="assets/images/portfolio/image0.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
+                        </div>
+                        <div class="card-body">
+                            <p>product</p>
+                            <h3>5 Ways a Mobile-Friendly Website Can Boost Your Business</h3> 
+                        </div>
+                    </div>
+                </a> -->
+                <!-- <a href="2024's Top Website Design Trends to Increase Conversions.php">
+                            <div class="card card-shadow">
+                                <div class="card-header blog-image">
+                                    <img src="assets/images/blog-post/web-design-trends.webp" alt="2024's Top Website Design Trends to Increase Conversions">
+                                </div>
+                                <div class="card-body">
+                                    <p>company</p>
+                                    <h3>2024's Top Website Design Trends to Increase Conversions</h3> 
+                                </div>
+                            </div>
+                        </a> -->
+                <!-- <div class="card card-shadow">
                     <div class="card-header blog-image">
                         <img src="assets/images/portfolio/image0.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
                     </div>
@@ -179,16 +227,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="card-body">
                     <p>Product</p>
                     <h3>The Ultimate Guide to Choosing the Right Website Development Platform</h3> 
-                </div>
+                </div> -->
                 </div>
             </div>
         </div> 
-        <div class="grid-container">
-            <div class="button grid-span">
-                <a href="blogs.php" class="btn">Explore More</a>
-            </div>
-        </div>  
+          
     </div> 
+    <div class="container">
+    <!-- <div class="grid-container"> -->
+            <div class="button full-width">
+                <a href="blogs.php" class="btn full-width">Explore More</a>
+            </div>
+        <!-- </div> -->
+    </div>
 </section>
 </body>
 </html>

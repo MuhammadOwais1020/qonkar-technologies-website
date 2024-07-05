@@ -45,6 +45,9 @@
     .hero-section .container {
         min-height: 65vh;
     }
+    .btn{
+        max-width: 100%;
+      }
 
 }
 

@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<?php include('header.php'); ?>
-
+<head>
+<?php
+include('header.php');
+?>
+  <title>Website Design and Development Agency | Qonkar IT Services Company</title>
+</head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M436PKCG"

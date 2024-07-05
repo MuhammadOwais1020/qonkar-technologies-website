@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include('header.php'); ?>
+<head>
+<?php
+include('header.php');
+?>
+  <title>5 Ways a Mobile-Friendly Website Can Boost Your Business | Qonkar IT Services Company</title>
+</head>
 
 <body>
 <!-- Google Tag Manager (noscript) -->

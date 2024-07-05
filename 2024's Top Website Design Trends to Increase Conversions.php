@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include('header.php'); ?>
+<head>
+<?php
+include('header.php');
+?>
+  <title>2024's Top Website Design Trends to Increase Conversions | Qonkar IT Services Company</title>
+</head>
 
 <body>
 <!-- Google Tag Manager (noscript) -->
