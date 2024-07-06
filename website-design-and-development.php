@@ -18,7 +18,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="outer-container">
         <div class="heading">
           <h2 class="heading-head">Website Design and Development Agency</h2>
-          <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implimentaion of<span class="text-secondary" > Our Projects.</span></h4>
+          <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implementation of<span class="text-secondary" > Our Projects.</span></h4>
           <div class="button grid-span">
             <a href="contact-us.php" class="btn">Schedule a Demo</a>
           </div>
@@ -142,15 +142,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Custom Software Applications <br />
                     Mobile App Development <br>
                     Ecommerce Website Development <br>
-                    Content Management System (CSM)
+                    Content Management System (CMS)
                 </p>
             </a>
         </div>
         <div class="service">
             <a href="#">
                 <img src="assets/images/logo/services/digital-marketing.webp"
-                    alt="Digtial Marketing service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">Digtial Marketing</h3>
+                    alt="Digital Marketing service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">Digital Marketing</h3>
                 <p class="service-description">
                     SEO <br>
                     Social Media Marketing <br>

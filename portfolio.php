@@ -22,7 +22,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="heading-container">
                 <div class="heading">
                     <h2 class="heading-head">Portfolio</h2>
-                    <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implimentaion of<span class="text-secondary" > Our Projects.</span></h4>
+                    <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implementation of<span class="text-secondary" > Our Projects.</span></h4>
                     <div class="button grid-span">
                         <a href="contact-us.php" class="btn">Contact Us</a>
                     </div>
@@ -57,7 +57,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="card-body">
                     <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patieant detaileffectively.  
+                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
                 </div>
                 <div class="card-footer">
                     <button class="btn">Case Study</button>
@@ -69,7 +69,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="card-body">
                     <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
                     <button class="btn">Case Study</button>
@@ -82,7 +82,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="card-body">
                     <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
                     <button class="btn">Case Study</button>
@@ -95,7 +95,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="card-body">
                     <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
                     <button class="btn">Case Study</button>
@@ -108,7 +108,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="card-body">
                     <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
                     <button class="btn">Case Study</button>
@@ -121,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="card-body">
                     <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
                     <button class="btn">Case Study</button>
@@ -134,7 +134,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="card-body">
                     <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
                     <button class="btn">Case Study</button>
@@ -147,7 +147,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="card-body">
                     <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
                     <button class="btn">Case Study</button>

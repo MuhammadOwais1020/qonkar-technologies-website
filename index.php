@@ -59,15 +59,15 @@ include('header.php');
                     Custom Software Applications <br />
                     Mobile App Development <br>
                     Ecommerce Website Development <br>
-                    Content Management System (CSM)
+                    Content Management System (CMS)
                 </p>
             </a>
         </div>
         <div class="service">
             <a href="#">
                 <img src="assets/images/logo/services/digital-marketing.webp"
-                    alt="Digtial Marketing service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">Digtial Marketing</h3>
+                    alt="Digital Marketing service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">Digital Marketing</h3>
                 <p class="service-description">
                     SEO <br>
                     Social Media Marketing <br>

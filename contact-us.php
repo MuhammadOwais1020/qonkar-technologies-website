@@ -54,28 +54,6 @@ include('header.php');
                             <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
                         </div>
                     </div>
-            <!-- <div class="input-help field">
-                  <label for="form_help">How can we help you *</label>
-                  <div id="form_help" class="select-help-body">
-                    <select name="form_help" id="form_help" class="help-form" required>
-                        <option value="" disabled selected hidden>Please Select One</option>
-                        <option value="SEO">SEO</option>
-                        <option value="Digital Marketing">Digital Marketing</option>
-                        <option value="Website Development">Website Development</option>
-                        <option value="E-commerce Development ">E-commerce Development </option>
-                        <option value="Shopify">Shopify</option>
-                        <option value="WordPress">WordPress</option>
-                        <option value="Mobile App">Mobile App</option>
-                        <option value="Social Media Marketing">Social Media Marketing</option>
-                        <option value="PPC">PPC</option>
-                        <option value="Design & Branding">Design & Branding</option>
-                        <option value="UI/UX">UI/UX</option>
-                        <option value="Photography & Videography">Photography & Videography</option>
-                    </select>
-                    <div class="select-icon">
-                      <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
-                    </div>
-                  </div> -->
             </div>
             <div class="fullname field">
                 <label for="fullname">Full Name *</label>
@@ -86,8 +64,8 @@ include('header.php');
                 <input type="email" name="email"  id="email"  class="email-field" placeholder="Email" required>
             </div>
             <div class="whatsapp-number field">
-                <label for="number">What's App Number *</label>
-                <input type="number" id="number" name="number" class="number-field" placeholder="What's App Number" required >
+                <label for="number">Whats App Number *</label>
+                <input type="number" id="number" name="number" class="number-field" placeholder="Whats App Number" required >
             </div>
             <div class="country field">
                 <label for="country">Country *</label>
