@@ -1,8 +1,9 @@
 <?php
+session_start();
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "qonkar"; 
+$dbname = "qonkar";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -10,29 +11,18 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = $_POST['email'];
-    $password = $_POST['password'];
-
-    $email = $conn->real_escape_string($email);
-    $password = $conn->real_escape_string($password);
-
-    $stmt = $conn->prepare("SELECT email, password FROM adminlogin WHERE email = ? AND password = ?");
-    $stmt->bind_param("ss", $email, $password);
-    $stmt->execute();
-    $stmt->bind_result($retrieved_email, $retrieved_password);
-    $stmt->fetch();
-
-    if ($retrieved_email && $retrieved_password) {
-        // session_start();
-        $_SESSION['email'] = $email;
-        echo 'success';
-    } else {
-        echo 'Invalid username or password';
+if(isset($_POST['email']) && isset($_POST['password'])){
+    $query = "SELECT * FROM adminlogin WHERE email='".$_POST['email']."' AND password = '".$_POST['password']."'";
+    $result = mysqli_query($conn, $query);
+    if(mysqli_num_rows($result) > 0){
+        $_SESSION['email'] = $_POST['email'];
+        echo 'Yes';
     }
-    $stmt->close();
+    else{
+        echo 'No';
+    }
+    exit;
 }
-
 $sql = "SELECT * FROM contactus_form";
 $result = $conn->query($sql);
 
@@ -46,7 +36,7 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 
+// Return JSON response for AJAX
+header('Content-Type: application/json');
 echo json_encode($info);
-?> 
-
-
+?>

@@ -5,6 +5,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }  
 .box
 {
@@ -243,3 +244,29 @@ tr:nth-child(odd) td {
 .account-name{
   font-size: 12px;
 }
+
+
+
+/* $(document).ready(function() {
+  $('#loginContainer').show();
+  $('#dashboardContainer').hide();
+
+  $('#loginForm').submit(function(e) {
+      e.preventDefault();
+      
+      $.ajax({
+          type: 'POST',
+          url: 'qonkar-secure.php',
+          data: $(this).serialize(),
+          success: function(response) {
+              console.log(response);
+              if (response.trim() === 'success') {
+                  $('#loginContainer').hide();
+                  $('#dashboardContainer').show();
+              } else {
+                  $('#msg').html(response);
+              }
+          }
+      });
+  });
+}); */

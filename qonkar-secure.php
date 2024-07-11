@@ -1,35 +1,19 @@
-
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>abc</title>
+    <script src="script.js"></script>
     <?php include('header.php'); ?>
-  <title>Admin Dashboard | Qonkar IT Services Company</title>
+    <title>Admin Dashboard | Qonkar IT Services Company</title>
+   
+</head>
 <body>
-<section>
-    <div class="login-container" id="loginContainer">
-        <div class="box">
-            <h1 id="title">Login</h1>
-            <form id="loginForm" method="post">
-                <div class="inputs">
-                    <div class="input-field">
-                        <input type="email" placeholder="Email" name="email" id="email" required>
-                    </div>
-                    <div class="input-field">
-                        <input type="password" placeholder="Password" name="password" id="password" required>
-                    </div>
-                    <div class="login-btn">
-                        <button type="submit" id="subtn" name="submit">Login</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div id="msg"></div>
-</section>
-<section>
-    <div class="inner-container" id="dashboardContainer">
+<?php 
+if(isset($_SESSION['email'])){
+?>
+
+    <div class="inner-container" id="dashboard">
         <div class="dashboard-grid-container">
             <div class="side-bar">
                 <div class="content-container">
@@ -74,7 +58,7 @@
                             <img src="assets/images/team/owais-front-end-developer.webp" alt="Profile Picture">
                         </div>
                         <div class="account-name">
-                            <p>name</p>
+                            <p><?php echo $_SESSION['email'];?></p>
                             <p>Front-end Developer</p>
                         </div>
                     </div>
@@ -119,91 +103,34 @@
                         <?php endforeach; ?> -->
                     </tbody>
                 </table>
+                <a href="#" id="logout">logout</a>
             </div>
         </div>
     </div>
-</section>
+
+<?php } else { ?>
     
+    <div class="login-container" id="loginContainer">
+        <div class="box">
+            <h1 id="title">Login</h1>
+            <form id="loginForm" method="post">
+                <div class="inputs">
+                    <div class="input-field">
+                        <input type="email" placeholder="Email" name="email" id="email" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Password" name="password" id="password" required>
+                    </div>
+                    <div class="login-btn">
+                        <button type="submit" id="login_btn" name="submit">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+<?php } ?>
 
-    <script>
-        $(document).ready(function() {
-            $('#loginContainer').show();
-            $('#dashboardContainer').hide();
 
-            $('#loginForm').submit(function(e) {
-                e.preventDefault();
-                
-                $.ajax({
-                    type: 'POST',
-                    url: 'qonkar-secure.php',
-                    data: $(this).serialize(),
-                    success: function(response) {
-                        console.log(response);
-                        if (response.trim() === 'success') {
-                            $('#loginContainer').hide();
-                            $('#dashboardContainer').show();
-                        } else {
-                            $('#msg').html(response);
-                        }
-                    }
-                });
-            });
-        });
-        $(document).ready(function() {
-            $.ajax({
-                url: 'fetch-data.php',
-                method: 'GET',
-                dataType: 'json',
-                success: function(data) {
-                    var tbody = $('#infoTableBody');
-                    data.forEach(function(item) {
-                        var row = $('<tr></tr>');
-                        row.append('<td>' + item.id + '</td>');
-                        row.append('<td>' + item.fullname + '</td>');
-                        row.append('<td>' + item.form_help + '</td>');
-                        row.append('<td>' + item.number + '</td>');
-                        var viewEmailBtn = $('<button class="btn-read">View Email</button>');
-                        var emailTd = $('<td></td>');
-                        emailTd.append(viewEmailBtn);
-                        row.append(emailTd);
-                        tbody.append(row);
-                        viewEmailBtn.click(function() {
-                            // for now
-                            alert('Email: ' + item.email);
-                        });
-                    });
-                },
-                error: function(jqXHR, textStatus, errorThrown) {
-                    console.error('Error fetching data:', textStatus, errorThrown);
-                }
-            });
-        });
-    </script>
 </body>
 </html>
-
-
-
-$(document).ready(function() {
-    $('#loginContainer').show();
-    $('#dashboardContainer').hide();
-
-    $('#loginForm').submit(function(e) {
-        e.preventDefault();
-        
-        $.ajax({
-            type: 'POST',
-            url: 'qonkar-secure.php',
-            data: $(this).serialize(),
-            success: function(response) {
-                console.log(response);
-                if (response.trim() === 'success') {
-                    $('#loginContainer').hide();
-                    $('#dashboardContainer').show();
-                } else {
-                    $('#msg').html(response);
-                }
-            }
-        });
-    });
-});
