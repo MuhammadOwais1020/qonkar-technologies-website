@@ -51,28 +51,82 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     <div class="grid-container">
         <div class="card-grid">
+
+        <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/social-media-post-design-portfolio.webp" alt="social-media-post-design-portfolio">
+                </div>
+                <div class="card-body">
+                    <h3>Social Media Design</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <button class="btn" onclick="togglePopup()" >Case Study</button>
+                </div>
+             </div>
+
             <div class="card card-shadow">
                 <div class="card-header card-image">
                     <img src="assets/images/portfolio/image1.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h3>Website Design</h3>
+                    <h3>Website Design and Development Qonkar Technologies</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
                 </div>
                 <div class="card-footer">
-                    <button class="btn">Case Study</button>
+                    <a href="https://drive.google.com/drive/folders/1e5-0x3Gy04rRdjI3M8jBa_fM3gZZEPP-?usp=drive_link"><button class="btn">Case Study</button></a>
                 </div>
             </div>
+
             <div class="card card-shadow">
                 <div class="card-header card-image">
                     <img src="assets/images/portfolio/image2.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h3>Website Design</h3>
+                    <h3>Figma to Shopify Development</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <button class="btn">Case Study</button>
+                    <a href="https://drive.google.com/drive/folders/1HdpZwL2HAnJDyGKLwMV_n-18VhCShGmJ?usp=drive_link"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Shopify Development</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1gU6ReacGnypQLzZiJUSzZxrmK8Vca6Ru?usp=drive_link"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image1.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Shopify Speed Optimization</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1VJCvQXOPKo6IXtxvLA38WKBssL0uISCd?usp=drive_link"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image3.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>UI/UX Design</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1sYYfBbEth1V5jnGit73ZlslIwdJq-gDa?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -85,7 +139,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <button class="btn">Case Study</button>
+                    <a href="https://drive.google.com/drive/folders/1MAc_GJY3ObUxAbFXmlLQDvqiAO50JNdn?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -94,50 +148,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <img src="assets/images/portfolio/image1.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h3>Website Design</h3>
+                    <h3>WordPress Development</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <button class="btn">Case Study</button>
-                </div>
-             </div>
-             
-             <div class="card card-shadow">
-                <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
-                </div>
-                <div class="card-body">
-                    <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
-                </div>
-                <div class="card-footer">
-                    <button class="btn">Case Study</button>
-                </div>
-             </div>
-
-             <div class="card card-shadow">
-                <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image3.webp" alt="blog-post">
-                </div>
-                <div class="card-body">
-                    <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
-                </div>
-                <div class="card-footer">
-                    <button class="btn">Case Study</button>
-                </div>
-             </div>
-
-             <div class="card card-shadow">
-                <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image1.webp" alt="blog-post">
-                </div>
-                <div class="card-body">
-                    <h3>Website Design</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
-                </div>
-                <div class="card-footer">
-                    <button class="btn">Case Study</button>
+                    <a href="https://drive.google.com/drive/folders/1UQkd8dhatCSXq8YwV_jQzOdCS2R6Dm-P?usp=drive_link"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -146,13 +161,171 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <img src="assets/images/portfolio/image2.webp" alt="blog-post">
                 </div>
                 <div class="card-body">
-                    <h3>Website Design</h3>
+                    <h3>Branding & Design Qonkar Technologies</h3>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <button class="btn">Case Study</button>
+                    <a href="https://drive.google.com/drive/folders/1TYgzQpcW4ORvWP4_b-RKQxzBzCuNTMjK?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Branding</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1R_03cXaIjTO8f0IdqN_-SjbnMxTwFItA?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Graphic Design</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1oD1xq-NM_iJi1ZByb9QVTJ0ouoyHlWBJ?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Digital Marketing Qonkar Technologies</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1Zsyr0XbGLQxAQU8pCa8ZFpT7oAB1EmJ0?usp=drive_link"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Content Creation</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1DPXUKef1f_SvwJ-M9J9o3Yo9m7ATEHCa?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Facebook Ads</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1cgwB8NmRx13QDNIjwUOjVWE0e6XgL1-b?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Google Ads/PPC</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1R_srg_-6i_sauFcJSYCmNwaFCKGWsxYK?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>SEO</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1qyJAEpfvuDWPjSMWIZILg5dnZQ3DfVcb?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Social Media Management</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1qTeIP_RN-ZWUaorC79ZZlujvQTrROFpX?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Tik Tok Ads</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1AsXQoZRSwjN_t9YE7VjhB70EiBmtAaUq?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Product Photography & Videography Qonkar Technologies</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1CqIwy3OdFZSmsrWa1c7GMR3oCQIPCZ6j?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Video Editing Qonkar Technologies</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1md9i2BHe1gkfFmUgP2T83LuDTXcbRHi1?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
+             <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="assets/images/portfolio/image2.webp" alt="blog-post">
+                </div>
+                <div class="card-body">
+                    <h3>Video Ads</h3>
+                    The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
+                </div>
+                <div class="card-footer">
+                    <a href="https://drive.google.com/drive/folders/1XtlialYSSTYs7dQ9RuDt30Zcc17SHMCy?usp=sharing"><button class="btn">Case Study</button></a>
+                </div>
+             </div>
+
         </div>
     </div>
 </section>
@@ -177,6 +350,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 </section>
+
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <div class="display-popup">
+            <embed class="display-popup" src="assets/pdf/portfolio/Social Media Design Portfolio Qonkar Technologies.pdf#toolbar=0">
+        </div>
+    </div>
+</div>
 
 <?php include('blog.php'); ?>
 
@@ -215,6 +397,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         currentValue++;
         link[currentValue-1].classList.add("active");
     }
+
+function togglePopup() {
+    var popup = document.getElementById("popup");
+    popup.classList.toggle("active");
+}
+
 </script>
 </body>
 </html>

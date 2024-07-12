@@ -41,7 +41,8 @@ include('header.php');
     </div>
   </section>
 
-  <section class="services-section" id="services-section">
+  <?php include('service.php'); ?>
+  <!-- <section class="services-section" id="services-section">
     <div class="container">
       <h2 class="section-heading">Our Services</h2>
       <div class="services">
@@ -141,7 +142,7 @@ include('header.php');
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="our-work-section display-none">
     <h2 class="section-heading">Our Work</h2>

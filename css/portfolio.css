@@ -135,7 +135,50 @@
    color: var(--text-color);
    border: none;
 }
+.popup {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+}
 
+.popup.active {
+   display: flex;
+}
+
+.popup-content {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.close-btn {
+   position: absolute;
+   top: 20px;
+   right: 30px;
+   cursor: pointer;
+   font-size: 20px;
+   color: black;
+   display: flex;
+   background-color: rgba(255, 255, 255, 0.8);
+   justify-content: center;
+   align-items: center;
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+}
+
+.display-popup {
+   width: 100%;
+   height: 100%;
+}
 
 /*-------------------------------------------portfolio-query----------------------------*/
 @media (max-width: 900px){
@@ -144,6 +187,12 @@
   }
   .card-grid{
       row-gap: 3rem;
+   }
+   .close-btn {
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 35px;
+      height: 35px;
+      color: white;
    }
     /*-------pagination media query
      .page-list .link{
@@ -165,6 +214,14 @@
 @media (max-width: 425px){
    .card-grid{
       row-gap: 3rem;
+   }
+   .close-btn {
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 25px;
+      height: 25px;
+      color: white;
+      top: 10px;
+      right: 10px;
    }
    /* .page-list .link.visible{
       display: inline-block;

@@ -3,7 +3,7 @@
 <html>
 <head>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
+    <script src="dashboard-script.js"></script>
     <?php include('header.php'); ?>
     <title>Admin Dashboard | Qonkar IT Services Company</title>
    
