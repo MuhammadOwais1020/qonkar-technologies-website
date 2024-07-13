@@ -212,6 +212,12 @@
       height: 35px;
       color: white;
    }
+   .grid-container{
+      margin: 0 0;
+  }
+  .filter{
+   margin: 0;
+}
     /*-------pagination media query
      .page-list .link{
       font-size: 11px;
