@@ -52,7 +52,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="grid-container">
         <div class="card-grid">
 
-        <div class="card card-shadow">
+            <div class="card card-shadow">
                 <div class="card-header card-image">
                     <img src="assets/images/portfolio/social-media-post-design-portfolio.webp" alt="social-media-post-design-portfolio">
                 </div>
@@ -61,20 +61,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <button class="btn" onclick="togglePopup()" >Case Study</button>
+                    <button class="btn" onclick="togglePopup('assets/pdf/portfolio/Social Media Design Portfolio Qonkar Technologies.pdf#toolbar=0')">Case Study</button>
                 </div>
-             </div>
+            </div>
 
             <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image1.webp" alt="blog-post">
+                    <img src="assets/images/portfolio/image3.webp" alt="website-development-portfolio">
                 </div>
                 <div class="card-body">
-                    <h3>Website Design and Development Qonkar Technologies</h3>
-                    The owner of BUCH hospital needed a solution to manage administrative and patieant details effectively.  
+                    <h3>Website Development</h3>
+                    Details about website development projects and case studies.
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1e5-0x3Gy04rRdjI3M8jBa_fM3gZZEPP-?usp=drive_link"><button class="btn">Case Study</button></a>
+                    <button class="btn" onclick="togglePopup('assets/pdf/portfolio/PP.pdf#toolbar=0')">Case Study</button>
                 </div>
             </div>
 
@@ -355,10 +355,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="popup-content">
         <div class="close-btn" onclick="togglePopup()">&times;</div>
         <div class="display-popup">
-            <embed class="display-popup" src="assets/pdf/portfolio/Social Media Design Portfolio Qonkar Technologies.pdf#toolbar=0">
+            <embed class="display-popup" id="pdfEmbed" src="">
         </div>
     </div>
 </div>
+
+<!-- <div class="popup" id="popup">
+    <div class="popup-content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <div class="display-popup">
+            <embed class="display-popup" src="assets/pdf/portfolio/Social Media Design Portfolio Qonkar Technologies.pdf#toolbar=0">
+        </div>
+    </div>
+</div> -->
 
 <?php include('blog.php'); ?>
 
@@ -398,11 +407,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         link[currentValue-1].classList.add("active");
     }
 
-function togglePopup() {
+// function togglePopup() {
+//     var popup = document.getElementById("popup");
+//     popup.classList.toggle("active");
+// }
+
+function togglePopup(pdfUrl) {
     var popup = document.getElementById("popup");
+    var pdfEmbed = document.getElementById("pdfEmbed");
+    
+    pdfEmbed.src = pdfUrl;
+    
     popup.classList.toggle("active");
 }
 
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
