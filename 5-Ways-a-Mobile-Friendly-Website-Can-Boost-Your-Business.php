@@ -35,9 +35,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li><strong>Mobile friendly website</strong> designs adapt to various screen sizes and orientations, making it easier for users to navigate.</li>
-            <li><strong>Best mobile optimized websites</strong> load quickly, reducing bounce rates and keeping users on your site longer.</li>
-            <li>A <strong>design mobile friendly</strong> approach ensures that all elements, including images, text, and buttons, are easily accessible on mobile devices.</li>
+            <li class="indent"><strong>Mobile friendly website</strong> designs adapt to various screen sizes and orientations, making it easier for users to navigate.</li>
+            <li class="indent"><strong>Best mobile optimized websites</strong> load quickly, reducing bounce rates and keeping users on your site longer.</li>
+            <li class="indent">A <strong>design mobile friendly</strong> approach ensures that all elements, including images, text, and buttons, are easily accessible on mobile devices.</li>
           </ul>
       </div>
       
@@ -46,9 +46,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Google uses mobile-first indexing, meaning it primarily uses the mobile version of your site for ranking and indexing.</li>
-            <li>A <strong>creative mobile friendly website design</strong> can improve your site's SEO, helping it rank higher in search engine results pages (SERPs).</li>
-            <li>Ensuring your website is <strong>mobile-friendly</strong> can lead to more organic traffic and better overall online visibility.</li>
+            <li class="indent">Google uses mobile-first indexing, meaning it primarily uses the mobile version of your site for ranking and indexing.</li>
+            <li class="indent">A <strong>creative mobile friendly website design</strong> can improve your site's SEO, helping it rank higher in search engine results pages (SERPs).</li>
+            <li class="indent">Ensuring your website is <strong>mobile-friendly</strong> can lead to more organic traffic and better overall online visibility.</li>
           </ul>
       </div>
       
@@ -57,9 +57,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li><strong>Best mobile optimized websites</strong> have streamlined navigation and clear calls-to-action (CTAs) that encourage users to convert.</li>
-            <li>A <strong>design mobile friendly</strong> approach ensures that forms and checkout processes are easy to complete on mobile devices.</li>
-            <li><strong>Creative mobile friendly website</strong> design focuses on creating an intuitive user journey that leads to higher conversion rates.</li>
+            <li class="indent"><strong>Best mobile optimized websites</strong> have streamlined navigation and clear calls-to-action (CTAs) that encourage users to convert.</li>
+            <li class="indent">A <strong>design mobile friendly</strong> approach ensures that forms and checkout processes are easy to complete on mobile devices.</li>
+            <li class="indent"><strong>Creative mobile friendly website</strong> design focuses on creating an intuitive user journey that leads to higher conversion rates.</li>
           </ul>
       </div>
 
@@ -68,9 +68,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>A <strong>mobile friendly website</strong> shows that you care about your users' experience and are up-to-date with current technology trends.</li>
-            <li><strong>Best mobile optimized websites</strong> create a positive first impression, leading to increased trust and loyalty from customers.</li>
-            <li>Investing in a <strong>creative mobile friendly website design</strong> can differentiate your brand from competitors and enhance your overall reputation.</li>
+            <li class="indent">A <strong>mobile friendly website</strong> shows that you care about your users' experience and are up-to-date with current technology trends.</li>
+            <li class="indent"><strong>Best mobile optimized websites</strong> create a positive first impression, leading to increased trust and loyalty from customers.</li>
+            <li class="indent">Investing in a <strong>creative mobile friendly website design</strong> can differentiate your brand from competitors and enhance your overall reputation.</li>
           </ul>
       </div>
 
@@ -79,9 +79,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li><strong>Best mobile optimized websites</strong> attract and retain more customers, giving you an edge in the marketplace.</li>
-            <li>A <strong>design mobile friendly</strong> strategy helps you stay ahead of competitors who haven't yet optimized their sites for mobile.</li>
-            <li><strong>Creative mobile friendly website design</strong> can set your business apart, making it easier to capture and convert leads.</li>
+            <li class="indent"><strong>Best mobile optimized websites</strong> attract and retain more customers, giving you an edge in the marketplace.</li>
+            <li class="indent">A <strong>design mobile friendly</strong> strategy helps you stay ahead of competitors who haven't yet optimized their sites for mobile.</li>
+            <li class="indent"><strong>Creative mobile friendly website design</strong> can set your business apart, making it easier to capture and convert leads.</li>
           </ul>
       </div>
 
@@ -92,9 +92,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li><strong>Get a Free Consultation:</strong> Discover how a <strong>mobile-friendly website</strong> can transform your business. Schedule a Free Consultation</li>
+            <li class="indent"><strong>Get a Free Consultation:</strong> Discover how a <strong>mobile-friendly website</strong> can transform your business. Schedule a Free Consultation</li>
             <br />
-            <li><strong>Follow Us on Social Media: </strong>Join our community for tips, insights, and updates on creating the <strong>best mobile optimized websites</strong>. Follow Us</li>
+            <li class="indent"><strong>Follow Us on Social Media: </strong>Join our community for tips, insights, and updates on creating the <strong>best mobile optimized websites</strong>. Follow Us</li>
           </ul>
       </div>
       <br />

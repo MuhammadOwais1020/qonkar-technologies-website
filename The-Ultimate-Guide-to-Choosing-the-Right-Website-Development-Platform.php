@@ -55,8 +55,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li><strong>Pros:</strong> Highly customizable, SEO-friendly, large community support.</li>
-            <li><strong>Cons:</strong> Can require technical knowledge for advanced customization.</li>
+            <li class="indent"><strong>Pros:</strong> Highly customizable, SEO-friendly, large community support.</li>
+            <li class="indent"><strong>Cons:</strong> Can require technical knowledge for advanced customization.</li>
           </ul>
       </div>
 
@@ -65,8 +65,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li><strong>Pros:</strong> User-friendly, excellent customer support, built-in e-commerce features.</li>
-            <li><strong>Cons:</strong> Monthly fees can add up, limited customizability compared to open-source platforms.</li>
+            <li class="indent"><strong>Pros:</strong> User-friendly, excellent customer support, built-in e-commerce features.</li>
+            <li class="indent"><strong>Cons:</strong> Monthly fees can add up, limited customizability compared to open-source platforms.</li>
           </ul>
       </div>
 
@@ -75,8 +75,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li><strong>Pros:</strong> Highly scalable, extensive feature set, strong community support.</li>
-            <li><strong>Cons:</strong> Requires technical expertise, can be costly to maintain.</li>
+            <li class="indent"><strong>Pros:</strong> Highly scalable, extensive feature set, strong community support.</li>
+            <li class="indent"><strong>Cons:</strong> Requires technical expertise, can be costly to maintain.</li>
           </ul>
       </div>
 

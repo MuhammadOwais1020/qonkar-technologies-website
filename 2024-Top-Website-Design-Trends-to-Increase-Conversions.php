@@ -36,9 +36,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Use plenty of white space to give your content room to breathe.</li>
-            <li>Limit your color palette to two or three complementary colors.</li>
-            <li>Keep your typography simple and readable.</li>
+            <li class="indent">Use plenty of white space to give your content room to breathe.</li>
+            <li class="indent">Limit your color palette to two or three complementary colors.</li>
+            <li class="indent">Keep your typography simple and readable.</li>
           </ul>
       </div>
       
@@ -48,9 +48,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Ensure that text and icons are clearly visible against the dark background.</li>
-            <li>Test your design in both light and dark modes to ensure consistency.</li>
-            <li>Use dark mode as a toggle option to give users control over their viewing experience.</li>
+            <li class="indent">Ensure that text and icons are clearly visible against the dark background.</li>
+            <li class="indent">Test your design in both light and dark modes to ensure consistency.</li>
+            <li class="indent">Use dark mode as a toggle option to give users control over their viewing experience.</li>
           </ul>
       </div>
       
@@ -60,9 +60,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Use mouse over effects on buttons and links to provide instant feedback.</li>
-            <li>Add smooth animations to form submissions and loading screens.</li>
-            <li>Ensure micro-interactions are quick and do not slow down page performance.</li>
+            <li class="indent">Use mouse over effects on buttons and links to provide instant feedback.</li>
+            <li class="indent">Add smooth animations to form submissions and loading screens.</li>
+            <li class="indent">Ensure micro-interactions are quick and do not slow down page performance.</li>
           </ul>
       </div>
 
@@ -72,9 +72,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Use cookies to remember user preferences and past interactions.</li>
-            <li>Display personalized product recommendations based on browsing history.</li>
-            <li>Implement dynamic content that changes based on user behavior.</li>
+            <li class="indent">Use cookies to remember user preferences and past interactions.</li>
+            <li class="indent">Display personalized product recommendations based on browsing history.</li>
+            <li class="indent">Implement dynamic content that changes based on user behavior.</li>
           </ul>
       </div>
 
@@ -84,9 +84,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Incorporate long-tail keywords that mimic natural speech patterns.</li>
-            <li>Answer common questions in a concise and straightforward manner</li>
-            <li>Ensure your website is mobile-friendly and loads quickly.</li>
+            <li class="indent">Incorporate long-tail keywords that mimic natural speech patterns.</li>
+            <li class="indent">Answer common questions in a concise and straightforward manner</li>
+            <li class="indent">Ensure your website is mobile-friendly and loads quickly.</li>
           </ul>
       </div>
 
@@ -96,9 +96,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Experiment with different font sizes and weights to create a hierarchy.</li>
-            <li>Combine traditional and contemporary fonts for a modern look.</li>
-            <li>Ensure readability across all devices and screen sizes.</li>
+            <li class="indent">Experiment with different font sizes and weights to create a hierarchy.</li>
+            <li class="indent">Combine traditional and contemporary fonts for a modern look.</li>
+            <li class="indent">Ensure readability across all devices and screen sizes.</li>
           </ul>
       </div>
 
@@ -108,9 +108,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Use 3D product images that users can rotate and view from different angles.</li>
-            <li>Incorporate 3D graphics into your hero sections and backgrounds.</li>
-            <li>Ensure 3D elements do not slow down your website’s loading time.</li>
+            <li class="indent">Use 3D product images that users can rotate and view from different angles.</li>
+            <li class="indent">Incorporate 3D graphics into your hero sections and backgrounds.</li>
+            <li class="indent">Ensure 3D elements do not slow down your website’s loading time.</li>
           </ul>
       </div>
 
@@ -120,9 +120,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Use alt text for images and ensure your website is navigable by keyboard.</li>
-            <li>Incorporate contrast and scalable fonts for better readability.</li>
-            <li>Test your website’s accessibility using tools like WAVE or Lighthouse.</li>
+            <li class="indent">Use alt text for images and ensure your website is navigable by keyboard.</li>
+            <li class="indent">Incorporate contrast and scalable fonts for better readability.</li>
+            <li class="indent">Test your website’s accessibility using tools like WAVE or Lighthouse.</li>
           </ul>
       </div>
 
@@ -132,9 +132,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Use overlapping elements and varied spacing to create visual interest.</li>
-            <li>Balance asymmetry with consistency to ensure a cohesive look.</li>
-            <li>Test your layout on different devices to ensure responsiveness.</li>
+            <li class="indent">Use overlapping elements and varied spacing to create visual interest.</li>
+            <li class="indent">Balance asymmetry with consistency to ensure a cohesive look.</li>
+            <li class="indent">Test your layout on different devices to ensure responsiveness.</li>
           </ul>
       </div>
 
@@ -144,9 +144,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br />
       <div class="blog-content-list">
         <ul>
-            <li>Optimize images and videos to reduce load times and bandwidth usage.</li>
-            <li>Choose hosting providers that use renewable energy.</li>
-            <li>Implement lazy loading to improve performance..</li>
+            <li class="indent">Optimize images and videos to reduce load times and bandwidth usage.</li>
+            <li class="indent">Choose hosting providers that use renewable energy.</li>
+            <li class="indent">Implement lazy loading to improve performance..</li>
           </ul>
       </div>
 

@@ -36,15 +36,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                             </a>
                             <a href="The-Ultimate-Guide-to-Choosing-the-Right-Website-Development-Platform.php">
-                            <div class="card card-shadow">
-                                <div class="card-header blog-image">
-                                    <img src="assets/images/blog-post/TRIARE-insights-the-best-development-platform.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
+                                <div class="card card-shadow">
+                                    <div class="card-header blog-image">
+                                        <img src="assets/images/blog-post/TRIARE-insights-the-best-development-platform.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
+                                    </div>
+                                    <div class="card-body">
+                                        <p>how to</p>
+                                        <h3>The Ultimate Guide to Choosing the Right Website Development Platform</h3> 
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <p>how to</p>
-                                    <h3>The Ultimate Guide to Choosing the Right Website Development Platform</h3> 
+                            </a>
+                            <a href="Ecommerce-Website-Design-Mistakes-to-Avoid.php">
+                                <div class="card card-shadow">
+                                    <div class="card-header blog-image">
+                                        <img src="assets/images/blog-post/e-com-web-design.webp" alt="Ecommerce Website Design Mistakes to Avoid">
+                                    </div>
+                                    <div class="card-body">
+                                        <p>how to</p>
+                                        <h3>Ecommerce Website Design Mistakes to Avoid</h3> 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
                     </div>
                 </div>
