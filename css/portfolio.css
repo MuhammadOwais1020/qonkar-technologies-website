@@ -55,6 +55,10 @@
  }
  .card{
   border-radius: var(--border-radius-box);
+  display: grid;
+  height: 400px;
+  min-height: 400px;
+  grid-template-rows: repeat( 250px 160px 50px);
  }
  .card-header.card-image{
     padding: 0;

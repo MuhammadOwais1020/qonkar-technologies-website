@@ -24,7 +24,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   <div class="blog-detail">
     <div class="image-container">
-      <img src="assets/images/blog-post/web-design-trends.webp" alt="2024's Top Website Design Trends to Increase Conversions">
+      <img src="assets/images/blog-post/Website-Design-trends-2024-qonkar-technologies.webp" alt="2024's Top Website Design Trends to Increase Conversions">
     </div>
     
     <div class="details-container">

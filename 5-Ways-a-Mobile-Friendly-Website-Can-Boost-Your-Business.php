@@ -24,7 +24,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   <div class="blog-detail">
     <div class="image-container">
-      <img src="assets/images/blog-post/Mobile-Friendly-Web-Design-Why-The-Future-is-Mobile.webp" alt="5 Ways a Mobile-Friendly Website Can Boost Your Business">
+      <img src="assets/images/blog-post/mobile-friendly-website-design-qonkar-technologies.webp" alt="5 Ways a Mobile-Friendly Website Can Boost Your Business">
     </div>
     
     <div class="details-container">

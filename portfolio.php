@@ -61,7 +61,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <button class="btn full-width" onclick="togglePopup('https://drive.google.com/file/d/1oRQ44qnetd1J2T5zCTaVabo9spldsQ_m/preview?usp=sharing#toolbar=0')">Case Study</button>
+                    <button class="btn" onclick="togglePopup('https://drive.google.com/file/d/1oRQ44qnetd1J2T5zCTaVabo9spldsQ_m/preview?usp=sharing#toolbar=0')">Case Study</button>
                 </div>
             </div>
 
@@ -74,7 +74,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1HdpZwL2HAnJDyGKLwMV_n-18VhCShGmJ?usp=drive_link"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1HdpZwL2HAnJDyGKLwMV_n-18VhCShGmJ?usp=drive_link"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -87,7 +87,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1gU6ReacGnypQLzZiJUSzZxrmK8Vca6Ru?usp=drive_link"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1gU6ReacGnypQLzZiJUSzZxrmK8Vca6Ru?usp=drive_link"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -100,7 +100,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1VJCvQXOPKo6IXtxvLA38WKBssL0uISCd?usp=drive_link"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1VJCvQXOPKo6IXtxvLA38WKBssL0uISCd?usp=drive_link"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -113,7 +113,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1sYYfBbEth1V5jnGit73ZlslIwdJq-gDa?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1sYYfBbEth1V5jnGit73ZlslIwdJq-gDa?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -126,7 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1MAc_GJY3ObUxAbFXmlLQDvqiAO50JNdn?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1MAc_GJY3ObUxAbFXmlLQDvqiAO50JNdn?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -139,7 +139,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1UQkd8dhatCSXq8YwV_jQzOdCS2R6Dm-P?usp=drive_link"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1UQkd8dhatCSXq8YwV_jQzOdCS2R6Dm-P?usp=drive_link"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -152,7 +152,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1TYgzQpcW4ORvWP4_b-RKQxzBzCuNTMjK?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1TYgzQpcW4ORvWP4_b-RKQxzBzCuNTMjK?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -165,7 +165,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1R_03cXaIjTO8f0IdqN_-SjbnMxTwFItA?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1R_03cXaIjTO8f0IdqN_-SjbnMxTwFItA?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -178,7 +178,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1oD1xq-NM_iJi1ZByb9QVTJ0ouoyHlWBJ?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1oD1xq-NM_iJi1ZByb9QVTJ0ouoyHlWBJ?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -191,7 +191,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1Zsyr0XbGLQxAQU8pCa8ZFpT7oAB1EmJ0?usp=drive_link"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1Zsyr0XbGLQxAQU8pCa8ZFpT7oAB1EmJ0?usp=drive_link"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -204,7 +204,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1DPXUKef1f_SvwJ-M9J9o3Yo9m7ATEHCa?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1DPXUKef1f_SvwJ-M9J9o3Yo9m7ATEHCa?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -217,7 +217,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1cgwB8NmRx13QDNIjwUOjVWE0e6XgL1-b?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1cgwB8NmRx13QDNIjwUOjVWE0e6XgL1-b?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -231,7 +231,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1R_srg_-6i_sauFcJSYCmNwaFCKGWsxYK?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1R_srg_-6i_sauFcJSYCmNwaFCKGWsxYK?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -244,7 +244,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1qyJAEpfvuDWPjSMWIZILg5dnZQ3DfVcb?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1qyJAEpfvuDWPjSMWIZILg5dnZQ3DfVcb?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -257,7 +257,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1qTeIP_RN-ZWUaorC79ZZlujvQTrROFpX?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1qTeIP_RN-ZWUaorC79ZZlujvQTrROFpX?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -270,7 +270,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1AsXQoZRSwjN_t9YE7VjhB70EiBmtAaUq?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1AsXQoZRSwjN_t9YE7VjhB70EiBmtAaUq?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -283,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1CqIwy3OdFZSmsrWa1c7GMR3oCQIPCZ6j?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1CqIwy3OdFZSmsrWa1c7GMR3oCQIPCZ6j?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -296,7 +296,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1md9i2BHe1gkfFmUgP2T83LuDTXcbRHi1?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1md9i2BHe1gkfFmUgP2T83LuDTXcbRHi1?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 
@@ -309,7 +309,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     The owner of BUCH hospital needed a solution to manage administrative and patient details effectively.  
                 </div>
                 <div class="card-footer">
-                    <a href="https://drive.google.com/drive/folders/1XtlialYSSTYs7dQ9RuDt30Zcc17SHMCy?usp=sharing"><button class="btn full-width">Case Study</button></a>
+                    <a href="https://drive.google.com/drive/folders/1XtlialYSSTYs7dQ9RuDt30Zcc17SHMCy?usp=sharing"><button class="btn">Case Study</button></a>
                 </div>
              </div>
 

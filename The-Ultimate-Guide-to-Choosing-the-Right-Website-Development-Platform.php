@@ -25,7 +25,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   <div class="blog-detail">
     <div class="image-container">
-      <img src="assets/images/blog-post/TRIARE-insights-the-best-development-platform.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
+      <img src="assets/images/blog-post/best-development-platforms-qonkar-technologies.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
     </div>
     
     <div class="details-container">

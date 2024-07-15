@@ -16,7 +16,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <a href="5-Ways-a-Mobile-Friendly-Website-Can-Boost-Your-Business.php">
                                 <div class="card card-shadow">
                                     <div class="card-header blog-image">
-                                        <img src="assets/images/blog-post/Mobile-Friendly-Web-Design-Why-The-Future-is-Mobile.webp" alt="2024's Top Website Design Trends to Increase Conversions">
+                                        <img src="assets/images/blog-post/mobile-friendly-website-design-qonkar-technologies.webp" alt="2024's Top Website Design Trends to Increase Conversions">
                                     </div>
                                     <div class="card-body">
                                         <p>How to</p>
@@ -27,7 +27,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <a href="2024-Top-Website-Design-Trends-to-Increase-Conversions.php">
                                 <div class="card card-shadow">
                                     <div class="card-header blog-image">
-                                        <img src="assets/images/blog-post/web-design-trends.webp" alt="2024's Top Website Design Trends to Increase Conversions">
+                                        <img src="assets/images/blog-post/Website-Design-trends-2024-qonkar-technologies.webp" alt="2024's Top Website Design Trends to Increase Conversions">
                                     </div>
                                     <div class="card-body">
                                         <p>product</p>
@@ -38,7 +38,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <a href="The-Ultimate-Guide-to-Choosing-the-Right-Website-Development-Platform.php">
                                 <div class="card card-shadow">
                                     <div class="card-header blog-image">
-                                        <img src="assets/images/blog-post/TRIARE-insights-the-best-development-platform.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
+                                        <img src="assets/images/blog-post/best-development-platforms-qonkar-technologies.webp" alt="The Ultimate Guide to Choosing the Right Website Development Platform">
                                     </div>
                                     <div class="card-body">
                                         <p>how to</p>
