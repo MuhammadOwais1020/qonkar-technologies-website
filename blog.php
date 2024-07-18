@@ -62,7 +62,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>    
         </div> 
         <div class="container">
-            <div class="button full-width">
+            <div class="buttons full-width">
                 <a href="blogs.php" class="btn full-width">Explore More</a>
             </div>
         </div>
