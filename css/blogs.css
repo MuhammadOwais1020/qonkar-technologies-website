@@ -119,7 +119,7 @@ transform: scale(1.025);
 font-size: var(--font-text-size);
 }
 .full-width{
-  margin-top: 2%;
+  margin-top: 1.5%;
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
@@ -128,7 +128,7 @@ font-size: var(--font-text-size);
 }
 /*--------------------------------------------------blogs-page------------------------------------*/
 .details-container, .image-container {
-  margin: 1% 20%;
+  margin: 1% 0;
 }
 
 .image-container > img {
@@ -157,15 +157,15 @@ font-size: var(--font-text-size);
 /* ---------------------------------------media-query for blog page------------------------------- */
 @media (max-width: 900px) {
   .details-container, .image-container {
-    margin: 1% 10%;
+    margin: 1% 0;
   }
 
   .blog-detail {
     grid-template-columns: 1fr;
-    font-size: 12px;
+    font-size: 16px;
   }
   .blog-container{
-    margin: 10% 0%;
+    margin: 0% 0%;
   }
   .blog-content-list .indent {
     text-indent: -19px;
@@ -185,5 +185,74 @@ font-size: var(--font-text-size);
     text-indent: -19px;
     padding-left: 18px;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------media query blogs-------------------------------------*/
+@media(max-width: 900px)
+{
+  .grid{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2rem;
+  }
+  .service .card-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  .blog-card.side-blog{
+    gap: 2rem;
+    margin: 0 0; 
+  }
+
+  .blog-list-heading{
+    margin: 2px 0;
+  }
+  .blog-card{
+    grid-template-columns: repeat(2,1fr);
+   
+  }
+
+}
+@media(max-width: 479px){
+  .service .card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog-card{
+    grid-template-columns: repeat(1,1fr);
+    gap: 2.5rem;
+   
+  }
+  .benefits-list-icon{
+    width: 37px;
+    height: 37px;
+  }
+  .benefits-list-icon > img{
+    height: 17px;
+    width: 45px;
+  }
+  .buttons{
+    margin-top: 30px;
+  }
+
 }
 

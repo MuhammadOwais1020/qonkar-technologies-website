@@ -16,7 +16,7 @@
 }
 
 .heading{
-    padding: 5% 10%;
+    padding: 5% 0;
     background-color: var(--dark-bg);
 }
 
@@ -38,11 +38,11 @@
 }
 
 .form-container {
-    width: 75%;
+    width: 100%;
 }
 
 .contact-form {
-    margin: 1rem 2rem;
+    margin: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.4rem;
@@ -221,7 +221,7 @@ select option {
 /*------------------------------------------------media-query-------------------------------------------------*/
 @media (max-width: 900px) {
     .form-container {
-        width: 90%;
+        width: 100%;
     }
 
 }

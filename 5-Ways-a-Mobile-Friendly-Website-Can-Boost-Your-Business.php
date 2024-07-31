@@ -14,14 +14,17 @@ include('header.php');
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <?php include('nav-bar.php'); ?>
-
-<article>
-  <div class="heading-container">
-    <div class="heading">
-      <h2 class="heading-head">5 Ways a Mobile-Friendly Website Can Boost Your Business</h2>
+<section class="head-section">
+    <div class="outer-container">
+        <div class="heading">
+          <div class="container">
+            <h2 class="heading-head">5 Ways a Mobile-Friendly Website Can Boost Your Business</h2>
+          </div>
+        </div>
     </div>
-  </div>
-  
+</section>
+
+<article class="container">
   <div class="blog-detail">
     <div class="image-container">
       <img src="assets/images/blog-post/mobile-friendly-website-design-qonkar-technologies.webp" alt="5 Ways a Mobile-Friendly Website Can Boost Your Business">

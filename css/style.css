@@ -63,7 +63,8 @@ section {
 .btn {
     background-color: var(--green-text);
     text-decoration: none;
-    padding: 10px 30px;
+    /* padding: 10px 30px; */
+    padding: 12px 30px;
     color: var(--primary-color);
     font-weight: 600;
     cursor: pointer;

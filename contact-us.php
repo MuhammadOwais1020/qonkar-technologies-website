@@ -18,17 +18,21 @@ include('header.php');
  include('nav-bar.php');
  ?>
 
+
 <section class="head-section">
     <div class="outer-container">
-      <div class="heading-container">
         <div class="heading">
+          <div class="container">
           <h2 class="heading-head">Contact us</h2>
           <h4 class="heading-body">We appreciate your interest in <span class="text-secondary" >Qonkar Technologies.</span> Please fill the form<br /> so we can get to the right <span class="text-secondary">help and <span class="text-secondary">support.</span></h4>
+            </div>
+          </div>
         </div>
-      </div>
     </div>
 </section>
-<section class="contact-form-section">    
+
+<section class="contact-form-section">
+  <div class="container">    
     <div class="form-section">
       <div class="form-container">
         <form action="contact-us.php" class="contact-form" method="post" id="contactForm">
@@ -109,6 +113,7 @@ include('header.php');
 
       </div>
     </div>
+  </div>
 </section>
 
  

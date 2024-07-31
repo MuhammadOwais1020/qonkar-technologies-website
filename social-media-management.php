@@ -17,22 +17,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="head-section">
     <div class="outer-container">
         <div class="heading">
-          <h2 class="heading-head">Website Design and Development Agency</h2>
-          <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implementation of<span class="text-secondary" > Our Projects.</span></h4>
-          <div class="button grid-span">
-            <a href="contact-us.php" class="btn">Schedule a Demo</a>
+          <div class="container">
+            <h2 class="heading-head">Website Design and Development Agency</h2>
+            <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implementation of<span class="text-secondary" > Our Projects.</span></h4>
+            <div class="button grid-span">
+              <a href="contact-us.php" class="btn">Schedule a Demo</a>
+            </div>
           </div>
         </div>
     </div>
 </section>
 
-<section class="individual-service-section"><!----service-details-->
-  <div class="container">
-      <div class="grid-container">
+<section class="individual-service-section">
+  <!-- <div class="c"> -->
+      <div class="container">
         <div class="grid">
           <div class="service-grid">
-              <h2>Website Design and Development</h2>
-             <p>Imagine this: you have a storefront on the busiest street in the world. But instead of dazzling displays and friendly salespeople, you have a flickering bulb and a dusty sign. Would you expect many customers?</p>
+            <h2>Website Design and Development</h2>
+            <p>Imagine this: you have a storefront on the busiest street in the world. But instead of dazzling displays and friendly salespeople, you have a flickering bulb and a dusty sign. Would you expect many customers?</p>
 
             <p>In today's digital age, your website is your prime storefront. It's where you connect with potential customers, showcase your brand, and ultimately drive sales. But with so much competition online, how do you make sure your website shines?</p>
 
@@ -121,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
         </div>
       </div>
-  </div>
+  <!-- </div> -->
 </section>       
 
 <?php include('service.php'); ?>
@@ -146,8 +148,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <section class="approach-section">
-  <div class="container">
-    <div class="grid-container">
+    <div class="container">
         <div class="approach-heading">
           <h2>Our Approach</h2>
         </div>
@@ -204,8 +205,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <p>Let Qonkar guide you through your digital transformation journey. Together, we can turn your digital dreams into reality and set your business on the path to success.
               Experience the Qonkar difference today. Let's embark on this journey and create something remarkable together.</p>
         </div>
-        <div class="button grid-span">
-            <a href="contact-us.php" class="btn">Schedule a Demo</a>
+        <div class="buttons grid-span">
+            <a href="contact-us.php" class="btn full-width">Schedule a Demo</a>
         </div>
   </div>
 </section>

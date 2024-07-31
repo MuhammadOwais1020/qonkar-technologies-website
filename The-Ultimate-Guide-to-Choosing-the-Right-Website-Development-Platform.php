@@ -16,12 +16,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  
 <?php include('nav-bar.php'); ?>
 
-<article>
-  <div class="heading-container">
-    <div class="heading">
-      <h2 class="heading-head">The Ultimate Guide to Choosing the Right Website Development Platform</h2>
+
+<section class="head-section">
+    <div class="outer-container">
+        <div class="heading">
+          <div class="container">
+            <h2 class="heading-head">The Ultimate Guide to Choosing the Right Website Development Platform</h2>
+          </div>
+        </div>
     </div>
-  </div>
+</section>
+
+
+<article class="container">
   
   <div class="blog-detail">
     <div class="image-container">
