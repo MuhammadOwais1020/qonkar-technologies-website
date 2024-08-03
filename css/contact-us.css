@@ -76,8 +76,27 @@
     border-radius: var(--border-radius-box);
     border: var(--border-size) solid var(--input-text-color);
 }
+.field select:focus,
+.field input:focus,
+.field textarea:focus{
+    background-color: transparent;
+    outline: none;
+}
 
-/*--------------------------------------------Edit this field-----------------------------------*/
+
+/* Hide arrows for number inputs in WebKit browsers (Chrome, Safari) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hide arrows for number inputs in Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/*----------------Edit this field-----------------------------------*/
 select option {
     background-color: var(--primary-color);
     color: var(--text-color);

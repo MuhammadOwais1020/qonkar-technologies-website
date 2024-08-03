@@ -65,9 +65,9 @@ margin-left: 15px;
 color: var(--dark-green-text);
 }
 form p{
-margin-top: 25px;
-text-align: left;
-font-size: 13px;
+/* margin-top: 25px; */
+/* text-align: left; */
+/* font-size: 13px; */
 }
 .login-btn :hover{
 background-color: var(--dark-green-text);

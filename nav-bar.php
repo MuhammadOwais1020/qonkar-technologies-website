@@ -13,7 +13,7 @@
             <li><a href="contact-us.php">Contact Us</a></li>
           </ul>
           <div class="button">
-            <a href="contact-us.php" class="btn">Get Free Consultation</a>
+            <a href="contact-us.php" class="btn">Schedule Strategy call</a>
           </div>
         </div>
         <div class="right-content mobile">

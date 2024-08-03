@@ -39,7 +39,7 @@ include('header.php');
               <div class="select-container field">
                     <label class="form_help">How can we help you *</label>
                     <div id="form_help" class="select-help-body">
-                        <select name="categpry" id="form_help">
+                        <select name="category" id="form_help">
                           <option value="" disabled selected hidden>Please Select One</option>
                           <option value="SEO">SEO</option>
                           <option value="Digital Marketing">Digital Marketing</option>
@@ -125,43 +125,43 @@ include('header.php');
 </body>
 
 <script>
-  document.getElementById("contactForm").addEventListener("submit", function(event){
-		event.preventDefault();
-    var form_help = document.querySelector("select[name='form_help']").value;
-		var fullname = document.querySelector("input[name='fullname']").value;
-		var email = document.querySelector("input[name='email']").value;
+ document.getElementById("contactForm").addEventListener("submit", function(event){
+    event.preventDefault();
+    var form_help = document.querySelector("select[name='category']").value;
+    var fullname = document.querySelector("input[name='fullname']").value;
+    var email = document.querySelector("input[name='email']").value;
     var number = document.querySelector("input[name='number']").value;
     var country = document.querySelector("input[name='country']").value;
     var company = document.querySelector("input[name='company']").value;
-		var message = document.querySelector("textarea[name='message']").value;
-		var agree_newsletter = document.querySelector("input[name='agree_newsletter']").value;
-    var agree_terms = document.querySelector("input[name='agree_terms']").value;
-	
-		$.ajax({
-			type: "POST",
-			url: "save-contact-information.php",
-			data: {
-        form_help: form_help,
-				fullname: fullname,
-				email: email,
-        number: number,
-        country: country,
-        company: company,
-        message: message,
-        agree_newsletter: agree_newsletter,
-        agree_terms: agree_terms
-			},
-			success: function(response){
-				console.log(response);
-        document.getElementById("successMessage").style.display = "block";
-				document.getElementById("contactForm").reset();
-			},
-      error: function(xhr, status, error){
-        console.log(xhr,response.Text);
-        document.getElementById("errorMessage").style.display= "block";
-      }
-		});
-	});
+    var message = document.querySelector("textarea[name='message']").value;
+    var agree_newsletter = document.querySelector("input[name='agree_newsletter']").checked;
+    var agree_terms = document.querySelector("input[name='agree_terms']").checked;
+    
+    $.ajax({
+        type: "POST",
+        url: "save-contact-information.php",
+        data: {
+            form_help: form_help,
+            fullname: fullname,
+            email: email,
+            number: number,
+            country: country,
+            company: company,
+            message: message,
+            agree_newsletter: agree_newsletter,
+            agree_terms: agree_terms
+        },
+        success: function(response){
+            console.log(response);
+            document.getElementById("successMessage").style.display = "block";
+            document.getElementById("contactForm").reset();
+        },
+        error: function(xhr, status, error){
+            console.log(xhr.responseText);
+            document.getElementById("errorMessage").style.display = "block";
+        }
+    });
+});
 </script>
 
 </html>

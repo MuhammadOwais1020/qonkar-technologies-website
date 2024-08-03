@@ -28,121 +28,32 @@ include('header.php');
     <div class="outer-container">
       <div class="container">
         <div class="logos">
-          <img src="assets/images/logo/trusted-by/carsound.webp"
-            alt="qonkar technologies pvt ltd trusted by carsound denmark" />
-          <img src="assets/images/logo/trusted-by/fuel.webp" alt="qonkar technologies pvt ltd trusted by fuel" />
-          <img src="assets/images/logo/trusted-by/microsoft.webp"
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/microsoft.webp"
             alt="qonkar technologies pvt ltd trusted by microsoft" />
-          <img src="assets/images/logo/trusted-by/saala.webp" alt="qonkar technologies pvt ltd trusted by saala" />
-          <img src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
-          <img src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+             <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
+             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" />
+        </div>
+        <div class="logos">
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/microsoft.webp"
+            alt="qonkar technologies pvt ltd trusted by microsoft" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+             <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
+             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" />
         </div>
       </div>
     </div>
   </section>
 
   <?php include('service.php'); ?>
-  <!-- <section class="services-section" id="services-section">
-    <div class="container">
-      <h2 class="section-heading">Our Services</h2>
-      <div class="services">
-        <div class="service">
-            <a href="website-design-and-development.php">
-                <img src="assets/images/logo/services/website-design-development.webp"
-                    alt="website design & development service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">Website Design & Development</h3>
-                <p class="service-description">
-                    Websites Development <br />
-                    Business Websites <br>
-                    Web Applications <br />
-                    WordPress Development <br />
-                    Shopify Store Development <br />
-                    Custom Software Applications <br />
-                    Mobile App Development <br>
-                    Ecommerce Website Development <br>
-                    Content Management System (CMS)
-                </p>
-            </a>
-        </div>
-        <div class="service">
-            <a href="#">
-                <img src="assets/images/logo/services/digital-marketing.webp"
-                    alt="Digital Marketing service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">Digital Marketing</h3>
-                <p class="service-description">
-                    SEO <br>
-                    Social Media Marketing <br>
-                    Content Marketing <br>
-                    Pay-Per-Click (PPC) Advertising <br>
-                    Marketing Automation <br>
-                    Email Marketing <br>
-                    Affiliate Marketing <br>
-                    Analytics & Reporting <br>
-                </p>
-            </a>
-        </div>
-        <div class="service">
-            <a href="#">
-                <img src="assets/images/logo/services/user-interface.webp"
-                    alt="User Interface service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">User Interface</h3>
-                <p class="service-description">
-                    User Research & Analysis <br>
-                    Information Architecture <br>
-                    User Interface Design <br>
-                    Style Guide Development <br>
-                    Wireframing & Prototyping <br>
-                    Microinteraction Design <br>
-                    Product Design <br>
-                    UI Animation Design <br>
-                </p>
-            </a>
-        </div>
-        <div class="service">
-            <a href="#">
-                <img src="assets/images/logo/services/design-branding.webp"
-                    alt="design & branding service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">Design & Branding</h3>
-                <p class="service-description">
-                    Logo Design <br>
-                    Brand Style Guide <br>
-                    Marketing Material Design <br>
-                    Packaging Design <br>
-                    Brand Voice & Messaging <br>
-                    Graphic Design <br>
-                    Social Media Graphics <br>
-                </p>
-            </a>
-        </div>
-        <div class="service">
-            <a href="#">
-                <img src="assets/images/logo/services/social-media-management.webp"
-                    alt="Social Media Management service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">Social Media Management</h3>
-                <p class="service-description">
-                Social Media Strategy & Planning <br>
-                Social Media Content & Curation <br>
-                Social Media Posting & Engagement <br>
-                Social Media Analytics & Reporting <br>
-                </p>
-            </a>
-        </div>
-        <div class="service">
-            <a href="#">
-                <img src="assets/images/logo/services/photography-videography.webp"
-                    alt="Photography & Videography service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">Photography & Videography</h3>
-                <p class="service-description">
-                    Product Photography <br>
-                    Product Video Creation <br>
-                    Stop-Motion Animation <br>
-                    Post-Production Editing & Enhancement <br>
-                </p>
-            </a>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <section class="our-work-section display-none">
     <h2 class="section-heading">Our Work</h2>
@@ -161,22 +72,32 @@ include('header.php');
     </div>
   </section>
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <section class="trusted-companies">
     <h2 class="section-heading">Client We Serve</h2>
     <div class="outer-container">
       <div class="container">
         <div class="logos">
-          <img src="assets/images/logo/trusted-by/carsound.webp"
-            alt="qonkar technologies pvt ltd trusted by carsound denmark" />
-          <img src="assets/images/logo/trusted-by/fuel.webp" alt="qonkar technologies pvt ltd trusted by fuel" />
-          <img src="assets/images/logo/trusted-by/microsoft.webp"
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/microsoft.webp"
             alt="qonkar technologies pvt ltd trusted by microsoft" />
-          <img src="assets/images/logo/trusted-by/saala.webp" alt="qonkar technologies pvt ltd trusted by saala" />
-          <img src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
-          <img src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+             <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
+             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" />
+        </div>
+        <div class="logos">
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/microsoft.webp"
+            alt="qonkar technologies pvt ltd trusted by microsoft" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" />
+            <img class="rect-logo" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+             <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
+             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" />
         </div>
       </div>
     </div>
@@ -628,9 +549,224 @@ include('header.php');
                     </div>
                 </div>
             </div>
+            <!-- <section class="client-says"> -->
+                <div class="container">
+                    <div class="client-grid">
+                        <div class="content-client">
+                            <div class="client-content">
+                                <h2>Industry Experts <br />
+                                <span class="text-secondary">Commend our Work</span></h2>
+                                <h4>Several platforms and <span class="text-secondary">industry</span> experts have acknowledged<br />
+                                our seasoned engineers’ technical <span class="text-secondary" >proficiency</span> in various domains.</h4>
+                            </div>
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" />
+                                    <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" />
+                                    <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" />
+                                    <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp" />
+                                </div>
+                                <div class="slider">
+                                    <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" />
+                                    <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" />
+                                    <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" />
+                                    <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp" />
+                                    
+                                </div>
+                                <div class="dots">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                            
+                             <!-- Swiper -->
+                            <!-- <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="width: 10px !important;"><img src="assets/images/logo/trusted-by/manifest-award.webp" /></div>
+                                <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" /></div>
+                                <div class="swiper-slide" style="width: 20px;"> <img src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" /></div>
+                                <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" /></div>
+                                <div class="swiper-slide" style="width: 20px;"> <img src="assets/images/logo/trusted-by/manifest-award.webp" /></div>
+                                <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" /></div>
+                                <div class="swiper-slide" style="width: 20px  !important;"> <img src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" /></div>
+                                <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" /></div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div> -->
+                        </div>
+                        <div class="client-image">
+                            <img src="assets/images/services/x-min1updated 1.png"/>
+                        </div>
+                    </div>
+                </div>
+            <!-- </section> -->
     </section>
 
-    <?php include('blog.php'); ?>
+<!-- <section class="client-says">
+    <div class="container">
+        <div class="client-grid">
+            <div class="client-coontent">
+                <h2 class="heading-head">Industry Experts <br />
+                   <span class="text-secondary">Commend our Work</span></h2>
+                <h4 class="heading-body">Several platforms and <span class="text-secondary">industry</span> experts have acknowledged
+                    our seasoned engineers’ technical <span class="text-secondary" >proficiency</span> in various domains.</h4>
+            </div>
+            <div class="client-image">
+                <img src="assets/images/services/x-min1updated 1.png"/>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section class="clients-section services-section" id="services-section">
+        <div class="container">
+          <h2 class="section-heading">Industry Expertise</h2>
+          <div class="services">
+            <div class="service">
+                <a href="website-design-and-development.php">
+                    <img src="assets/images/logo/services/website-design-development.webp"
+                        alt="website design & development service by qonkar technologies pvt ltd" />
+                    <h3 class="sub-heading">Health Tech</h3>
+                    <p class="service-description">
+                        Custom Software Applications<br />
+                        Web Applications<br />
+                        Business Websites Development<br />
+                        WordPress Development<br />
+                        Shopify Store Development<br />
+                        Landing Page Designs<br />
+                    </p>
+                </a>
+            </div>
+            <div class="service">
+                <a href="#">
+                    <img src="assets/images/logo/services/digital-marketing.webp"
+                        alt="Digital Marketing service by qonkar technologies pvt ltd" />
+                    <h3 class="sub-heading">Education Tech</h3>
+                    <p class="service-description">
+                        Custom Software Applications<br />
+                        Web Applications<br />
+                        Business Websites Development<br />
+                        WordPress Development<br />
+                        Shopify Store Development<br />
+                        Landing Page Designs<br />
+                    </p>
+                </a>
+            </div>
+            <div class="service">
+                <a href="#">
+                    <img src="assets/images/logo/services/user-interface.webp"
+                        alt="User Interface service by qonkar technologies pvt ltd" />
+                    <h3 class="sub-heading">Green Tech</h3>
+                    <p class="service-description">
+                        Custom Software Applications<br />
+                        Web Applications<br />
+                        Business Websites Development<br />
+                        WordPress Development<br />
+                        Shopify Store Development <br />
+                        Landing Page Designs<br />
+                    </p>
+                </a>
+            </div>
+            <div class="service">
+                <a href="#">
+                    <img src="assets/images/logo/services/design-branding.webp"
+                        alt="design & branding service by qonkar technologies pvt ltd" />
+                    <h3 class="sub-heading">Retail</h3>
+                    <p class="service-description">
+                        Custom Software Applications<br />
+                        Web Applications<br />
+                        Business Websites Development<br />
+                        WordPress Development<br />
+                        Shopify Store Development <br />
+                        Landing Page Designs<br />
+                    </p>
+                </a>
+            </div>
+            <div class="service">
+                <a href="#">
+                    <img src="assets/images/logo/services/social-media-management.webp"
+                        alt="Social Media Management service by qonkar technologies pvt ltd" />
+                    <h3 class="sub-heading">Event Management</h3>
+                    <p class="service-description">
+                        Custom Software Applications<br />
+                        Web Applications<br />
+                        Business Websites Development<br />
+                        WordPress Development<br />
+                        Shopify Store Development <br />
+                        Landing Page Designs<br />
+                    </p>
+                </a>
+            </div>
+            <div class="service">
+                <a href="#">
+                    <img src="assets/images/logo/services/photography-videography.webp"
+                        alt="Photography & Videography service by qonkar technologies pvt ltd" />
+                    <h3 class="sub-heading">E-Commerce</h3>
+                    <p class="service-description">
+                        Custom Software Applications<br />
+                        Web Applications<br />
+                        Business Websites Development<br />
+                        WordPress Development<br />
+                        Shopify Store Development <br />
+                        Landing Page Designs<br />
+                    </p>
+                </a>
+            </div>
+            <div class="service">
+                <a href="#">
+                    <img src="assets/images/logo/services/design-branding.webp"
+                        alt="design & branding service by qonkar technologies pvt ltd" />
+                    <h3 class="sub-heading">Real State</h3>
+                    <p class="service-description">
+                        Custom Software Applications<br />
+                        Web Applications<br />
+                        Business Websites Development<br />
+                        WordPress Development<br />
+                        Shopify Store Development <br />
+                        Landing Page Designs<br />
+                    </p>
+                </a>
+            </div>
+            <div class="service">
+                <a href="#">
+                    <img src="assets/images/logo/services/social-media-management.webp"
+                        alt="Social Media Management service by qonkar technologies pvt ltd" />
+                    <h3 class="sub-heading">Fitness</h3>
+                    <p class="service-description">
+                        Custom Software Applications<br />
+                        Web Applications<br />
+                        Business Websites Development<br />
+                        WordPress Development<br />
+                        Shopify Store Development <br />
+                        Landing Page Designs<br />
+                    </p>
+                </a>
+            </div>
+            <div class="service">
+                <a href="#">
+                    <img src="assets/images/logo/services/photography-videography.webp"
+                        alt="Photography & Videography service by qonkar technologies pvt ltd" />
+                    <h3 class="sub-heading">Restaurants </h3>
+                    <p class="service-description">
+                        Custom Software Applications<br />
+                        Web Applications<br />
+                        Business Websites Development<br />
+                        WordPress Development<br />
+                        Shopify Store Development <br />
+                        Landing Page Designs<br />
+                    </p>
+                </a>
+            </div>
+          </div>
+        </div>
+</section>
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 
   <?php
   include('footer.php')
@@ -677,6 +813,49 @@ include('header.php');
     // Initialize the slider
     showSlide(currentIndex);
 
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const dots = document.querySelectorAll('.dot');
+    const slides = document.querySelectorAll('.slide');
+    const numSlides = slides.length;
+
+    let currentIndex = 0;
+    
+    function updateDots() {
+        dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === currentIndex);
+        });
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % numSlides;
+        updateDots();
+    }
+
+    // Update dots initially
+    updateDots();
+
+    // Automatically move to the next slide every 3 seconds
+    setInterval(nextSlide, 3000);
+});
+
+
+
+///slider swiper
+var swiper = new Swiper(".mySwiper", {
+      SlidesPerView: "3",
+      spaceBetween: 20,
+      slidesPerView:"3",
+     // autoplay: {
+      //  delay: 2500,
+      //  disableOnInteraction: false,
+    //  },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
   </script>
 </body>
 
