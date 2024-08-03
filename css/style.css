@@ -569,11 +569,10 @@ body:has(.sidebar-menu.opened) {
 }
 
 .slider {
-    display: inline-block;
+    display: inline-flex;
     width: auto;
     min-width: 100%;
     align-items: center;
-
     gap: 20px;
     animation: scroll-left 25s infinite linear;
 }
@@ -634,7 +633,7 @@ body:has(.sidebar-menu.opened) {
     gap: 0px;
 }
 .slide {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 
@@ -668,3 +667,8 @@ body:has(.sidebar-menu.opened) {
   .swiper-slide{
     width: 10px;
   }
+
+
+
+
+  

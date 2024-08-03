@@ -549,60 +549,60 @@ include('header.php');
                     </div>
                 </div>
             </div>
-            <!-- <section class="client-says"> -->
-                <div class="container">
-                    <div class="client-grid">
-                        <div class="content-client">
-                            <div class="client-content">
-                                <h2>Industry Experts <br />
-                                <span class="text-secondary">Commend our Work</span></h2>
-                                <h4>Several platforms and <span class="text-secondary">industry</span> experts have acknowledged<br />
-                                our seasoned engineers’ technical <span class="text-secondary" >proficiency</span> in various domains.</h4>
-                            </div>
-                            <div class="slider-container">
-                                <div class="slider">
-                                    <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" />
-                                    <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" />
-                                    <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" />
-                                    <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp" />
-                                </div>
-                                <div class="slider">
-                                    <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" />
-                                    <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" />
-                                    <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" />
-                                    <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp" />
-                                    
-                                </div>
-                                <div class="dots">
-                                    <span class="dot"></span>
-                                    <span class="dot"></span>
-                                    <span class="dot"></span>
-                                    <span class="dot"></span>
-                                    <span class="dot"></span>
-                                </div>
-                            </div>
-                            
-                             <!-- Swiper -->
-                            <!-- <div class="swiper mySwiper">
-                                <div class="swiper-wrapper">
-                                <div class="swiper-slide" style="width: 10px !important;"><img src="assets/images/logo/trusted-by/manifest-award.webp" /></div>
-                                <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" /></div>
-                                <div class="swiper-slide" style="width: 20px;"> <img src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" /></div>
-                                <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" /></div>
-                                <div class="swiper-slide" style="width: 20px;"> <img src="assets/images/logo/trusted-by/manifest-award.webp" /></div>
-                                <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" /></div>
-                                <div class="swiper-slide" style="width: 20px  !important;"> <img src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" /></div>
-                                <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" /></div>
-                                </div>
-                                <div class="swiper-pagination"></div>
-                            </div> -->
+    </section>
+    <section class="client-says testimonial-section">
+        <div class="container">
+            <div class="client-grid">
+                <div class="content-client">
+                    <div class="client-content">
+                        <h2>Industry Experts <br />
+                        <span class="text-secondary">Commend our Work</span></h2>
+                        <h4>Several platforms and <span class="text-secondary">industry</span> experts have acknowledged<br />
+                        our seasoned engineers’ technical <span class="text-secondary" >proficiency</span> in various domains.</h4>
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider">
+                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" />
+                            <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" />
+                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" />
+                            <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp" />
                         </div>
-                        <div class="client-image">
-                            <img src="assets/images/services/x-min1updated 1.png"/>
+                        <div class="slider">
+                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" />
+                            <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" />
+                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" />
+                            <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp" />
+                            
+                        </div>
+                        <div class="dots">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
                         </div>
                     </div>
+                    
+                     <!-- Swiper -->
+                    <!-- <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="width: 10px !important;"><img src="assets/images/logo/trusted-by/manifest-award.webp" /></div>
+                        <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" /></div>
+                        <div class="swiper-slide" style="width: 20px;"> <img src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" /></div>
+                        <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" /></div>
+                        <div class="swiper-slide" style="width: 20px;"> <img src="assets/images/logo/trusted-by/manifest-award.webp" /></div>
+                        <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" /></div>
+                        <div class="swiper-slide" style="width: 20px  !important;"> <img src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" /></div>
+                        <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" /></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div> -->
                 </div>
-            <!-- </section> -->
+                <div class="client-image">
+                    <img src="assets/images/services/x-min1updated 1.png"/>
+                </div>
+            </div>
+        </div>
     </section>
 
 <!-- <section class="client-says">
