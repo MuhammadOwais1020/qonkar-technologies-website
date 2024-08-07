@@ -9,13 +9,13 @@
             <div class="footer-menus">
               <ul>
                 <li><a href="website-design-and-development.php" rel="">Website Design & Development</a></li>
-                <li><a href="empty-pages/Ecommerce-Solutions.php" rel="">Ecommerce Solutions</a></li>
+                <li><a href="services/Ecommerce-Solutions.php" rel="">Ecommerce Solutions</a></li>
                 <li><a href="design-and-branding.php" rel="">Design & Branding</a></li>
-                <li><a href="empty-pages/UI/UX-Design.php" rel="">UI/UX Design</a></li>
+                <li><a href="services/UI/UX-Design.php" rel="">UI/UX Design</a></li>
                 <li><a href="digital-Marketing.php" rel="">Digital Marketing</a></li>
                 <li><a href="social-media-management.php" rel="">Social Media Management (SMM)</a></li>
-                <li><a href="empty-pages/Social-Media-Content-Creation.php" rel="">Social Media Content Creation</a></li>
-                <li><a href="empty-pages/SEO-Services.php" rel="">SEO Services</a></li>
+                <li><a href="services/Social-Media-Content-Creation.php" rel="">Social Media Content Creation</a></li>
+                <li><a href="services/SEO-Services.php" rel="">SEO Services</a></li>
                 <li><a href="photography-and-videography.php" rel="">Photography & Videography</a></li>
               </ul>
             </div>
@@ -27,14 +27,14 @@
             <div class="footer-menus">
               <ul>
                 <li><a href="#" rel="">Qonkar Technologies (PVT) Ltd.</a></li>
-                <li><a href="empty-pages/careers.php" rel="">Careers</a></li>
-                <li><a href="empty-pages/Blogs & News.php" rel="">Blogs & News </a></li>
-                <li><a href="empty-pages/Partnerships.php" rel="">Partnerships</a></li>
-                <li><a href="empty-pages/Products.php" rel="">Products</a></li>
-                <li><a href="empty-pages/Privacy Policy.php" rel="">Privacy Policy</a></li>
-                <li><a href="empty-pages/Terms of Service.php" rel="">Terms of Service</a></li>
-                <li><a href="empty-pages/Help & Support.php" rel="">Help & Support</a></li>
-                <li><a href="empty-pages/Trust & Safety.php" rel="">Trust & Safety</a></li>
+                <li><a href="about/careers.php" rel="">Careers</a></li>
+                <li><a href="about/Blogs & News.php" rel="">Blogs & News </a></li>
+                <li><a href="about/Partnerships.php" rel="">Partnerships</a></li>
+                <li><a href="about/Products.php" rel="">Products</a></li>
+                <li><a href="about/Privacy Policy.php" rel="">Privacy Policy</a></li>
+                <li><a href="about/Terms of Service.php" rel="">Terms of Service</a></li>
+                <li><a href="about/Help & Support.php" rel="">Help & Support</a></li>
+                <li><a href="about/Trust & Safety.php" rel="">Trust & Safety</a></li>
               </ul>
             </div>
           </div>
@@ -44,12 +44,12 @@
             </div>
             <div class="footer-menus">
               <ul>
-                <li><a href="empty-pages/Microsoft.php" rel="">Microsoft</a></li>
-                <li><a href="empty-pages/Shopify.php" rel="">Shopify</a></li>
-                <li><a href="empty-pages/Upwork.php" rel="">Upwork</a></li>
-                <li><a href="empty-pages/clutch.php" rel="">Clutch</a></li>
-                <li><a href="empty-pages/goodfirms.php" rel="">GoodFirms</a></li>
-                <li><a href="empty-pages/manifest.php" rel="">Manifest</a></li>
+                <li><a href="trusted-by/Microsoft.php" rel="">Microsoft</a></li>
+                <li><a href="trusted-by/Shopify.php" rel="">Shopify</a></li>
+                <li><a href="trusted-by/Upwork.php" rel="">Upwork</a></li>
+                <li><a href="trusted-by/clutch.php" rel="">Clutch</a></li>
+                <li><a href="trusted-by/goodfirms.php" rel="">GoodFirms</a></li>
+                <li><a href="trusted-by/manifest.php" rel="">Manifest</a></li>
                 <!-- <li><a href="empty-pages/careers.php" rel="">Carsound</a></li>
                 <li><a href="empty-pages/careers.php" rel="">Fuel</a></li>
                 <li><a href="empty-pages/careers.php" rel="">Saala</a></li> -->
@@ -62,7 +62,7 @@
             </div>
             <div class="footer-menus">
               <ul>
-                <li><a href="#" rel="">Software Technology Park, QUEST Nawabshah, Pakistan</a></li>
+                <li><a href="contact-us.php" rel="">Software Technology Park, QUEST Nawabshah, Pakistan</a></li>
                 <li><a href="contact-us.php" rel="">Contact Us Now</a></li>
                 <li><a href="#" rel="">(+44) 7476451747</a></li>
                 <li><a href="#" rel="">(+92) 305 8214945</a></li>

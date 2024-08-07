@@ -584,7 +584,6 @@ include('header.php');
                             <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" />
                             <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" />
                             <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp" />
-                            
                         </div>
                         <div class="dots">
                             <span class="dot"></span>
@@ -596,7 +595,7 @@ include('header.php');
                     </div>
                 </div>
                 <div class="client-image">
-                    <img src="assets/images/services/x-min1updated 1.png"/>
+                    <img src="assets/images/services/x-min1updated 1.webp"/>
                 </div>
             </div>
         </div>
@@ -607,7 +606,7 @@ include('header.php');
           <h2 class="section-heading">Industry Expertise</h2>
           <div class="services">
             <div class="service">
-                <a href="website-design-and-development.php">
+                <a href="industry-experts/Health-tech.php">
                     <img src="assets/images/logo/services/website-design-development.webp"
                         alt="website design & development service by qonkar technologies pvt ltd" />
                     <h3 class="sub-heading">Health Tech</h3>
@@ -622,7 +621,7 @@ include('header.php');
                 </a>
             </div>
             <div class="service">
-                <a href="#">
+                <a href="industry-experts/Education-tech.php">
                     <img src="assets/images/logo/services/digital-marketing.webp"
                         alt="Digital Marketing service by qonkar technologies pvt ltd" />
                     <h3 class="sub-heading">Education Tech</h3>
@@ -637,7 +636,7 @@ include('header.php');
                 </a>
             </div>
             <div class="service">
-                <a href="#">
+                <a href="industry-experts/Green-tech.php">
                     <img src="assets/images/logo/services/user-interface.webp"
                         alt="User Interface service by qonkar technologies pvt ltd" />
                     <h3 class="sub-heading">Green Tech</h3>
@@ -652,7 +651,7 @@ include('header.php');
                 </a>
             </div>
             <div class="service">
-                <a href="#">
+                <a href="industry-experts/Retail.php">
                     <img src="assets/images/logo/services/design-branding.webp"
                         alt="design & branding service by qonkar technologies pvt ltd" />
                     <h3 class="sub-heading">Retail</h3>
@@ -667,7 +666,7 @@ include('header.php');
                 </a>
             </div>
             <div class="service">
-                <a href="#">
+                <a href="industry-experts/Event-Managment.php">
                     <img src="assets/images/logo/services/social-media-management.webp"
                         alt="Social Media Management service by qonkar technologies pvt ltd" />
                     <h3 class="sub-heading">Event Management</h3>
@@ -682,7 +681,7 @@ include('header.php');
                 </a>
             </div>
             <div class="service">
-                <a href="#">
+                <a href="industry-experts/E-commerce.php">
                     <img src="assets/images/logo/services/photography-videography.webp"
                         alt="Photography & Videography service by qonkar technologies pvt ltd" />
                     <h3 class="sub-heading">E-Commerce</h3>
@@ -697,7 +696,7 @@ include('header.php');
                 </a>
             </div>
             <div class="service">
-                <a href="#">
+                <a href="industry-experts/Real-State.php">
                     <img src="assets/images/logo/services/design-branding.webp"
                         alt="design & branding service by qonkar technologies pvt ltd" />
                     <h3 class="sub-heading">Real State</h3>
@@ -712,7 +711,7 @@ include('header.php');
                 </a>
             </div>
             <div class="service">
-                <a href="#">
+                <a href="industry-experts/Fitness.php">
                     <img src="assets/images/logo/services/social-media-management.webp"
                         alt="Social Media Management service by qonkar technologies pvt ltd" />
                     <h3 class="sub-heading">Fitness</h3>
@@ -727,7 +726,7 @@ include('header.php');
                 </a>
             </div>
             <div class="service">
-                <a href="#">
+                <a href="industry-experts/Restaurants.php">
                     <img src="assets/images/logo/services/photography-videography.webp"
                         alt="Photography & Videography service by qonkar technologies pvt ltd" />
                     <h3 class="sub-heading">Restaurants </h3>
