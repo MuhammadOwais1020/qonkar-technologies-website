@@ -162,7 +162,7 @@ font-size: var(--font-text-size);
 
   .blog-detail {
     grid-template-columns: 1fr;
-    font-size: 16px;
+    font-size: 18px;
   }
   .blog-container{
     margin: 0% 0%;

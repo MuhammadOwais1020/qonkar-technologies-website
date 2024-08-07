@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<?php
+include('header.php');
+?>
+  <title>Blogs | IT Services Company</title>
+</head>
 <body>
+<?php
+ include('nav-bar.php')
+ ?>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M436PKCG"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -67,5 +76,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
 </section>
+c
+<?php
+  include('footer.php')
+  ?>
 </body>
 </html>

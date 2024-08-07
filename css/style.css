@@ -259,9 +259,12 @@ body:has(.sidebar-menu.opened) {
 .trusted-companies .container .logos .sq-logo{
     height: 100px;
 }
-.trusted-companies .container .logos .rect-logo{
+.trusted-companies .container .logos .rect-logos{
     height: 30px;
     margin-bottom: 20px;
+}
+.trusted-companies .container .logos .rect-logo{
+    height: 30px;
 }
 .trusted-companies .container:hover .logos{
     animation-play-state: paused;
@@ -537,9 +540,12 @@ body:has(.sidebar-menu.opened) {
     }
     
 }
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
 
-
-
+/*--------------------------scroller-client-section---------------------*/
 .client-grid{
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -609,10 +615,7 @@ body:has(.sidebar-menu.opened) {
     background-color: var(--dark-green-text);
 }
 
-@keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
-}
+
 
 @media(max-width:900px) {
 .client-grid{
@@ -641,32 +644,6 @@ body:has(.sidebar-menu.opened) {
 }
 
 
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
-    background-color: transparent;
-
-  }
-  .swiper-slide .imaage-slide > img {
-    display: block;
-    width: 50%;
-    height: 50%;
-    background-color: transparent;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  .swiper-slide{
-    width: 10px;
-  }
 
 
 

@@ -28,26 +28,38 @@ include('header.php');
     <div class="outer-container">
       <div class="container">
         <div class="logos">
-            <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" />
+            <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" /> -->
             <img class="rect-logo" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
-            <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" />
+            <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" /> -->
             <img class="rect-logo" src="assets/images/logo/trusted-by/microsoft.webp"
             alt="qonkar technologies pvt ltd trusted by microsoft" />
-            <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" />
+            <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" /> -->
             <img class="rect-logo" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
-             <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
-             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" />
+             <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
+             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" /> -->
+        </div>
+
+        <div class="logos">
+            <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" /> -->
+            <img class="rect-logo" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
+            <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" /> -->
+            <img class="rect-logo" src="assets/images/logo/trusted-by/microsoft.webp"
+            alt="qonkar technologies pvt ltd trusted by microsoft" />
+            <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" /> -->
+            <img class="rect-logo" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+             <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
+             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" /> -->
         </div>
         <div class="logos">
-            <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" />
+            <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" /> -->
             <img class="rect-logo" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
-            <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" />
+            <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" /> -->
             <img class="rect-logo" src="assets/images/logo/trusted-by/microsoft.webp"
             alt="qonkar technologies pvt ltd trusted by microsoft" />
-            <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" />
+            <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" /> -->
             <img class="rect-logo" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
-             <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
-             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" />
+             <!-- <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
+             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" /> -->
         </div>
       </div>
     </div>
@@ -79,23 +91,23 @@ include('header.php');
       <div class="container">
         <div class="logos">
             <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" />
-            <img class="rect-logo" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
+            <img class="rect-logos" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
             <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" />
-            <img class="rect-logo" src="assets/images/logo/trusted-by/microsoft.webp"
+            <img class="rect-logos" src="assets/images/logo/trusted-by/microsoft.webp"
             alt="qonkar technologies pvt ltd trusted by microsoft" />
             <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" />
-            <img class="rect-logo" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+            <img class="rect-logos" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
              <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
              alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" />
         </div>
         <div class="logos">
             <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" />
-            <img class="rect-logo" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
+            <img class="rect-logos" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
             <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" />
-            <img class="rect-logo" src="assets/images/logo/trusted-by/microsoft.webp"
+            <img class="rect-logos" src="assets/images/logo/trusted-by/microsoft.webp"
             alt="qonkar technologies pvt ltd trusted by microsoft" />
             <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" />
-            <img class="rect-logo" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+            <img class="rect-logos" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
              <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
              alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" />
         </div>
@@ -582,21 +594,6 @@ include('header.php');
                             <span class="dot"></span>
                         </div>
                     </div>
-                    
-                     <!-- Swiper -->
-                    <!-- <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                        <div class="swiper-slide" style="width: 10px !important;"><img src="assets/images/logo/trusted-by/manifest-award.webp" /></div>
-                        <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" /></div>
-                        <div class="swiper-slide" style="width: 20px;"> <img src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" /></div>
-                        <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" /></div>
-                        <div class="swiper-slide" style="width: 20px;"> <img src="assets/images/logo/trusted-by/manifest-award.webp" /></div>
-                        <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" /></div>
-                        <div class="swiper-slide" style="width: 20px  !important;"> <img src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" /></div>
-                        <div class="swiper-slide" style="width: 20px  !important;"><img src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" /></div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div> -->
                 </div>
                 <div class="client-image">
                     <img src="assets/images/services/x-min1updated 1.png"/>
@@ -604,22 +601,6 @@ include('header.php');
             </div>
         </div>
     </section>
-
-<!-- <section class="client-says">
-    <div class="container">
-        <div class="client-grid">
-            <div class="client-coontent">
-                <h2 class="heading-head">Industry Experts <br />
-                   <span class="text-secondary">Commend our Work</span></h2>
-                <h4 class="heading-body">Several platforms and <span class="text-secondary">industry</span> experts have acknowledged
-                    our seasoned engineers’ technical <span class="text-secondary" >proficiency</span> in various domains.</h4>
-            </div>
-            <div class="client-image">
-                <img src="assets/images/services/x-min1updated 1.png"/>
-            </div>
-        </div>
-    </div>
-</section> -->
 
 <section class="clients-section services-section" id="services-section">
         <div class="container">
