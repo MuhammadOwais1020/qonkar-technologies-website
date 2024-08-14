@@ -17,6 +17,7 @@ include('header.php');
  ?>
   <section class="hero-section">
     <div class="container">
+        <h1>An IT Services Company</h1>
       <h1 class="tagline-heading">An <span class="text-secondary">IT</span> Services Company</h1>
       <h2 class="slogan">Where Dreams <span class="text-secondary">Go</span> Digital!</h2>
       <span class="services-heading text-secondary typed"></span>
