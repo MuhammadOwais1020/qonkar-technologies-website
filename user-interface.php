@@ -133,14 +133,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="outer-container">
       <div class="container">
         <div class="logos">
-          <img src="assets/images/logo/trusted-by/carsound.webp"
-            alt="qonkar technologies pvt ltd trusted by carsound denmark" />
-          <img src="assets/images/logo/trusted-by/fuel.webp" alt="qonkar technologies pvt ltd trusted by fuel" />
-          <img src="assets/images/logo/trusted-by/microsoft.webp"
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" />
+            <img class="rect-logos" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" />
+            <img class="rect-logos" src="assets/images/logo/trusted-by/microsoft.webp"
             alt="qonkar technologies pvt ltd trusted by microsoft" />
-          <img src="assets/images/logo/trusted-by/saala.webp" alt="qonkar technologies pvt ltd trusted by saala" />
-          <img src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
-          <img src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" />
+            <img class="rect-logos" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+             <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
+             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" />
+        </div>
+        <div class="logos">
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="qonkar technologies pvt ltd trusted by Best-Design-Awards-DR-2024" />
+            <img class="rect-logos" src="assets/images/logo/trusted-by/shopify.webp" alt="qonkar technologies pvt ltd trusted by shopify" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/manifest-award.webp" alt="qonkar technologies pvt ltd trusted by manifest-award" />
+            <img class="rect-logos" src="assets/images/logo/trusted-by/microsoft.webp"
+            alt="qonkar technologies pvt ltd trusted by microsoft" />
+            <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-goodfirm" />
+            <img class="rect-logos" src="assets/images/logo/trusted-by/upwork.webp" alt="qonkar technologies pvt ltd trusted by upwork" />
+             <img class="sq-logo" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp"
+             alt="qonkar technologies pvt ltd trusted by Top-Web-Design-Company-UK-Clutch" />
         </div>
       </div>
     </div>
@@ -210,8 +222,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
   </div>
 </section>
-
-<?php include('blog.php'); ?>
   
 <?php include('footer.php'); ?>
 <script src="assets/script.js"></script>

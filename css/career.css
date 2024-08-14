@@ -1,0 +1,169 @@
+.career-section{
+  text-align: center;
+  font-size: 25px;
+}
+.career-blocks{
+  background-color: var(--secondary-color);
+  text-align: left;
+  padding: 30px;
+  margin: 40px 0;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.career-button{
+  display: inline-flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.career-blocks p{
+  font-size: 16px;
+  color: var(--secondary-text);
+}
+
+/*--------------------career-details-file---------------------*/
+.career-details{
+  /* padding: 0 40px; */
+}
+.career-detail-block{
+  text-align: left;
+  margin: 40px 0;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.detail-blocks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail-blocks p{
+  color: var(--secondary-text);
+}
+.career-details-button{
+  margin: 50px 0;
+}
+/*--------------------career-apply-file----------------*/
+.file-upload-field label{
+  color: var(--secondary-text);
+}
+.file-upload-field input[type="file"] {
+  position: absolute; /* Take it out of the normal flow */
+  width: 1px; /* Minimize its size */
+  height: 1px;
+  margin: -1px; /* Remove margin */
+  padding: 0; /* Remove padding */
+  border: 0; /* Remove border */
+  overflow: hidden; /* Hide overflow */
+  clip: rect(0, 0, 0, 0); /* Clip out of view */
+  clip-path: inset(50%); /* Hide it visually */
+  white-space: nowrap; /* Prevent text wrapping */
+  background: transparent; /* Transparent background */
+}
+
+.file-upload-field {
+  background-color: var(--text-field-bg-color);
+  color: var(--input-text-color);
+  font-size: var(--font-text-size);
+  padding: 10px;
+  border-radius: var(--border-radius-box);
+  border: var(--border-size) solid var(--input-text-color);
+  cursor: pointer;
+}
+
+.file-upload-field:hover {
+  background-color: #ffffff36;
+  color: black;
+  cursor: pointer;
+}
+.camera-icon{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+
+}
+.camera-icon img{
+  height: 30px;
+}
+.radio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.radio-group {
+  display: flex;
+  flex-wrap: wrap; /* Allows the items to wrap to the next line if necessary */
+  gap: 200px; /* Space between the radio buttons */
+}
+
+.custom-radio {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+.custom-radio .radio-btn {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.custom-radio input[type="radio"]:checked + .radio-btn {
+  background-color: var(--green-text); 
+  border-color: var(--dark-green-text);
+}
+
+.custom-radio .radio-btn::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.custom-radio input[type="radio"]:checked + .radio-btn::after {
+  opacity: 1;
+}
+
+/* @media(max-width: 900px) {
+  .radio-group{
+    gap: 20px;
+  }
+  
+}
+
+@media(max-width: 479px) {
+  .radio-group{
+    gap: 20px;
+  }
+  .camera-icon img{
+    height: 20px;
+  }
+  .file-upload-field {
+    font-size: 11px;
+  }
+  
+} */

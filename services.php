@@ -133,8 +133,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 </section>
 
-<?php include('blog.php'); ?>
-
 <?php include('footer.php'); ?>
 <script src="assets/script.js"></script>
 </body>

@@ -39,6 +39,7 @@
   <link rel="stylesheet" href="css/blogs.css" />
   <link rel="stylesheet" href="css/website-and-web-development.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/career.css" />
   <link rel="stylesheet" href="css/dashboard.css" />
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/swiper.css" />

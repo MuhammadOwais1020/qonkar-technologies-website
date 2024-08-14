@@ -43,7 +43,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <option value="" class="three">three</option>
                         </select>
                         <div class="select-icon">
-                            <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
+                            <img src="assets/images/icons/form-icon/arrow-down.svg" alt="arrow-down">
                         </div>
                     </div>
                 </div>
@@ -348,7 +348,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<?php include('blog.php'); ?>
 
 <?php include('footer.php'); ?>
 <script src="assets/script.js"></script>

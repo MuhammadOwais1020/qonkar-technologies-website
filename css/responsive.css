@@ -75,9 +75,6 @@
     }
 
     /* ---------------------------------------contact-form-query-------------------------- */
-    .form-container {
-        width: 90%;
-    }
 
     .select-body {
         width: 100%;
@@ -99,6 +96,12 @@
         height: 35px;
         font-size: 14px;
     }
+ /*-------------------------------------career-apply-form--------------------------*/
+    .radio-group{
+        gap: 20px;
+    }
+        
+
 }
 
 @media screen and (max-width: 425px) {
@@ -144,7 +147,7 @@
     /* -------------------contact-from-media-query------------------------------------- */
     .contact-form {
         font-size: 11px;
-        margin: .8rem;
+        /* margin: .8rem; */
         display: flex;
         flex-direction: column;
     }
@@ -178,5 +181,15 @@
 
     .page-list .link {
         display: none;
+    }
+    /*-------------------------------------career-apply-form--------------------------*/
+    .radio-group{
+        gap: 20px;
+    }
+    .camera-icon img{
+        height: 20px;
+    }
+    .file-upload-field {
+        font-size: 11px;
     }
 }

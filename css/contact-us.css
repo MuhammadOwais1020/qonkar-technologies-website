@@ -42,7 +42,7 @@
 }
 
 .contact-form {
-    margin: 1rem;
+    /* margin: 1rem; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.4rem;
@@ -90,8 +90,6 @@ input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-
-/* Hide arrows for number inputs in Firefox */
 input[type="number"] {
     -moz-appearance: textfield;
 }
@@ -248,7 +246,7 @@ select option {
 @media (max-width: 479px) {
     .contact-form {
         font-size: 11px;
-        margin: .8rem;
+        /* margin: .8rem; */
         display: flex;
         flex-direction: column;
     }

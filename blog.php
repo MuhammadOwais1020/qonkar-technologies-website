@@ -66,6 +66,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                 </div>
                             </a>
+
+                            <a href="The-Benefits-of-Investing-in-a-User.php">
+                                <div class="card card-shadow">
+                                    <div class="card-header blog-image">
+                                        <img src="assets/images/blog-post/user-benefit.jpeg" alt="The Benefits of Investing in a User">
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Benefits</p>
+                                        <h3>The Benefits of Investing in a User</h3> 
+                                    </div>
+                                </div>
+                            </a>
                     </div>
                 </div>
         </div>    
@@ -76,7 +88,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
 </section>
-c
+
 <?php
   include('footer.php')
   ?>

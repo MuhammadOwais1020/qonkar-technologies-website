@@ -55,7 +55,7 @@ include('header.php');
                           <option value="Photography & Videography">Photography & Videography</option>
                         </select>
                         <div class="select-icon">
-                            <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
+                            <img src="assets/images/icons/form-icon/arrow-down.svg" alt="arrow-down">
                         </div>
                     </div>
             </div>
