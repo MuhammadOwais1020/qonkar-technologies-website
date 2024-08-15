@@ -116,6 +116,32 @@ include('header.php');
   </div>
 </section>
 
+<section class="countries-section">
+  <div class="container">
+    <div class="country-grid">
+      <div class="country-block" id="Pakistan">
+        <div class="country-img">
+          <img src="assets/images/icons/footer/pakistan-icon.png" />
+          <p>Pakistan</p>
+        </div>
+        <div class="country-address">
+          <p>Building # 15, Civic Centre Block D 2 Phase 1, Johar Town, Lahore</p>
+          <a href="#"><p>+002 93989383</p></a>
+        </div>
+      </div>
+      <div class="country-block" id="UK">
+        <div class="country-img">
+          <img src="assets/images/icons/footer/UK-icon.png" />
+          <p>United Kingdom</p>
+        </div>
+        <div class="country-address">
+          <p>Building # 15, Civic Centre Block D 2 Phase 1, Johar Town, Lahore</p>
+          <a href="#"><p>+002 93989383</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
  
   <?php
   include('footer.php')
@@ -161,7 +187,7 @@ include('header.php');
             document.getElementById("errorMessage").style.display = "block";
         }
     });
-});
+  });
 </script>
 
 </html>

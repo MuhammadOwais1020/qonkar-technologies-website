@@ -452,7 +452,37 @@ body:has(.sidebar-menu.opened) {
     padding-top: 60px;
     padding-bottom: 30px;
 }
-
+.countries-section .country-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.countries-section .country-grid .country-block{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: var(--border-radius-box);
+}
+.countries-section .country-grid .country-block:hover{
+    border: 1px solid var(--secondary-text);
+}
+.countries-section .country-grid .country-block .country-address{
+     margin-top: 20px;
+}
+.countries-section .country-grid .country-block .country-address a{
+    color: var(--green-text);
+}
+.countries-section .country-grid .country-block .country-address p{
+    margin-top: 10px;
+}
+.countries-section .country-grid .country-block .country-img{
+    display: flex;
+    align-items: center;
+}
+.countries-section .country-grid .country-block .country-img img{
+    margin-right: 20px;
+}
 .footer-inner {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -513,9 +543,6 @@ body:has(.sidebar-menu.opened) {
 .footer-logo img {
     height: 30px;
 }
-
-
-
 .footer-section .footer-icon svg {
     fill: var(--secondary-text);
     width: 25px;
@@ -527,7 +554,30 @@ body:has(.sidebar-menu.opened) {
     transition: fill 0.3s;
 }
 
-
+.footer-menus svg{
+    fill: var(--secondary-text);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.footer-menus svg:hover{
+    fill: var(--green-text);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.footer-menus .locations{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 2px solid var(--secondary-text);
+}
+.footer-menus .location a{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
 
 
 /*----------------------------------------animation-----------------------------*/
@@ -638,7 +688,9 @@ body:has(.sidebar-menu.opened) {
 .slide {
     margin: 0 15px;
 }
-
+.countries-section .country-grid{
+    grid-template-columns: repeat(1 ,1fr);
+}
 
 }
 }
