@@ -125,8 +125,8 @@ include('header.php');
           <p>Pakistan</p>
         </div>
         <div class="country-address">
-          <p>Building # 15, Civic Centre Block D 2 Phase 1, Johar Town, Lahore</p>
-          <a href="#"><p>+002 93989383</p></a>
+          <p>Software Technology Park, QUEST Nawabshah, Pakistan</p>
+          <a href="#"><p>(+92) 305 8214945</p></a>
         </div>
       </div>
       <div class="country-block" id="UK">
@@ -136,7 +136,7 @@ include('header.php');
         </div>
         <div class="country-address">
           <p>Building # 15, Civic Centre Block D 2 Phase 1, Johar Town, Lahore</p>
-          <a href="#"><p>+002 93989383</p></a>
+          <a href="#"><p>(+92) 305 8214945</p></a>
         </div>
       </div>
     </div>
