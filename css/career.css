@@ -393,3 +393,55 @@
 .multi-select .multi-select-options .multi-select-all.multi-select-selected .multi-select-option-radio::after {
   border-color: var(--text-color); 
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+  .radio-group{
+    gap: 20px;
+}
+.career-button{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width:425px) {
+  .radio-group{
+    gap: 20px;
+  }
+  .camera-icon img{
+      height: 20px;
+  }
+  .file-upload-field {
+      font-size: 11px;
+  }
+  .career-blocks{
+    display: flex;
+    flex-direction: column;
+  } 
+  .career-button{
+    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .detail-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .detail-block{
+    margin: 20px 0;
+  }
+  .file-upload-field label{
+    font-size: 10px;
+  }
+}
