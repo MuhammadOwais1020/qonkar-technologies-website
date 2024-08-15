@@ -10,6 +10,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="services.php">Services</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
+            <li><a href="Career-Opportunity.php">Careers</a></li>
             <!-- <li><a href="blog.php">Blogs</a></li> -->
             <li><a href="contact-us.php">Contact Us</a></li>
           </ul>
@@ -40,6 +41,7 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="#services-section">Services</a></li>
                   <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="Career-Opportunity.php">Careers</a></li>
                   <!-- <li><a href="blog.php">Blogs</a></li> -->
                   <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
