@@ -18,7 +18,7 @@ include('header.php');
     
   <section class="career-section">
     <div class="container">
-      <h1>Career Opportunities</h1>
+      <h1>Open Positions</h1>
       <div class="career-blocks">
           <div class="career-head">
             <h4>Name: Graphic Designer</h4>

@@ -34,7 +34,7 @@ include('header.php');
                 </div>
               </div>
               <div class="career-details-button">
-                <a href="Career-Opportunity-applyNow.php"><button class="btn">Apply Now</button></a>
+                <a href="Career-Opportunity-applyNow.php"><button class="btn full-width">Apply Now</button></a>
               </div>
           </div>
     </div>

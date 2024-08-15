@@ -100,7 +100,11 @@
     .radio-group{
         gap: 20px;
     }
-        
+    .career-button{
+        display: flex;
+        flex-direction: column;
+      }
+   
 
 }
 
@@ -193,4 +197,25 @@
     .file-upload-field {
         font-size: 11px;
     }
+    .career-blocks{
+        display: flex;
+        flex-direction: column;
+      } 
+      .career-button{
+        margin-top: 20px;
+        display: inline-flex;
+        flex-direction: row;
+      }
+      .detail-blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .detail-block{
+        margin: 20px 0;
+      }
+      .file-upload-field label{
+        font-size: 10px;
+      }
 }

@@ -50,9 +50,6 @@
                 <li><a href="trusted-by/clutch.php" rel="">Clutch</a></li>
                 <li><a href="trusted-by/goodfirms.php" rel="">GoodFirms</a></li>
                 <li><a href="trusted-by/manifest.php" rel="">Manifest</a></li>
-                <!-- <li><a href="empty-pages/careers.php" rel="">Carsound</a></li>
-                <li><a href="empty-pages/careers.php" rel="">Fuel</a></li>
-                <li><a href="empty-pages/careers.php" rel="">Saala</a></li> -->
               </ul>
             </div>
           </div>
@@ -82,11 +79,11 @@
                 </svg>(+92) 305 8214945</a></li>
 
                 <li><a href="mailto:info@qonkar.com" rel=""><svg fill="#000000" width="800px" height="800px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
-    <path d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z" fill-rule="evenodd"/>
-</svg>info@qonkar.com</a></li>
+                <path d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z" fill-rule="evenodd"/>
+                </svg>info@qonkar.com</a></li>
                 <div class="locations">
                   <div class="location">
-                    <a href="contact-us.php #Pakistan"><svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    <a href="contact-us.php#Pakistan"><svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
                     width="800px" height="800px" viewBox="0 0 395.71 395.71"
                     xml:space="preserve">
                     <g>
@@ -99,7 +96,7 @@
                     <p>Pakistan</p></a>
                   </div>
                   <div class="location">
-                    <a href="contact-us.php #UK"><svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    <a href="contact-us.php#UK"><svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
                     width="800px" height="800px" viewBox="0 0 395.71 395.71"
                     xml:space="preserve">
                     <g>
