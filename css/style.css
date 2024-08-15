@@ -571,7 +571,7 @@ body:has(.sidebar-menu.opened) {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-top: 2px solid var(--secondary-text);
+    border-top: 2px solid var(--border-color);
 }
 .footer-menus .location a{
     margin-top: 10px;

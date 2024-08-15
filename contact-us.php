@@ -125,7 +125,7 @@ include('header.php');
           <p>Pakistan</p>
         </div>
         <div class="country-address">
-          <p>Software Technology Park, QUEST Nawabshah, Pakistan</p>
+          <p>Nazim-ud-din Rd, F-7/1 F 7/1 Blue Area, Islamabad, Pakistan</p>
           <a href="#"><p>(+92) 305 8214945</p></a>
         </div>
       </div>
@@ -135,8 +135,11 @@ include('header.php');
           <p>United Kingdom</p>
         </div>
         <div class="country-address">
-          <p>Building # 15, Civic Centre Block D 2 Phase 1, Johar Town, Lahore</p>
-          <a href="#"><p>(+92) 305 8214945</p></a>
+          <p>63-66, Hatton Gardens 
+            Fifth Floor, Suite 23
+            London
+            EC1N 8LE</p>
+          <a href="#"><p>(+44) 7476451747</p></a>
         </div>
       </div>
     </div>
