@@ -204,11 +204,11 @@ font-size: var(--font-text-size);
 /*--------------------------------------------media query blogs-------------------------------------*/
 @media(max-width: 900px)
 {
-  .grid{
+  /* .grid{
     display: grid;
     grid-template-columns: 100%;
     gap: 2rem;
-  }
+  } */
   .service .card-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

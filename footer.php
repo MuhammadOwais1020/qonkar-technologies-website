@@ -27,7 +27,7 @@
             <div class="footer-menus">
               <ul>
                 <li><a href="#" rel="">Qonkar Technologies (PVT) Ltd.</a></li>
-                <li><a href="Career-Opportunity.php" rel="">Careers</a></li>
+                <li><a href="career-opportunity.php" rel="">Careers</a></li>
                 <li><a href="about/Blogs & News.php" rel="">Blogs & News </a></li>
                 <li><a href="about/Partnerships.php" rel="">Partnerships</a></li>
                 <li><a href="about/Products.php" rel="">Products</a></li>
