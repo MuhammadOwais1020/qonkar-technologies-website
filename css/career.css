@@ -10,6 +10,7 @@
   font-size: 18px;
   display: flex;
   justify-content: space-between;
+  border-radius: var(--border-radius);
 }
 .career-button{
   display: inline-flex;
@@ -393,17 +394,6 @@
 .multi-select .multi-select-options .multi-select-all.multi-select-selected .multi-select-option-radio::after {
   border-color: var(--text-color); 
 }
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 900px) {
   .radio-group{
     gap: 20px;
