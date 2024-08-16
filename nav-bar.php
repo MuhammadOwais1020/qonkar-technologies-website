@@ -11,6 +11,7 @@
             <li><a href="services.php">Services</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
             <li><a href="career-opportunity.php">Careers</a></li>
+            <!------------------career-------------------->
             <!-- <li><a href="blog.php">Blogs</a></li> -->
             <li><a href="contact-us.php">Contact Us</a></li>
           </ul>
