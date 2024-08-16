@@ -17,7 +17,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" href="assets/images/icons/favicon/qonkar-technologies-private-limited.ico" type="image/x-icon" />
+  <link rel="icon" href="assets/images/icons/qonkar-technologies-private-limited.webp" type="image/x-icon" />
 
   <meta property="og:title" content="Qonkar Technologies Private Limited | IT services company" />
   <!-- description for social media sharing -->
