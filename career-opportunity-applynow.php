@@ -32,7 +32,7 @@ include('header.php');
   <div class="container">    
     <div class="form-section">
       <div class="form-container">
-        <form class="contact-form" method="post" id="career-Opportunity-applyNow">
+        <form class="contact-form" method="post" id="career-opportunity-applynow">
             <div class="first-name field">
                 <label for="first-name">Full Name *</label>
                 <input type="text" name="first-name" id="first-name" class="name-field" placeholder="Your Answer" required  >
@@ -75,7 +75,7 @@ include('header.php');
             <div class="select-container field">
                     <label class="skills" for="skills">Skills *</label>
                     <div id="skills" class="select-help-body">
-                    <select name="skills[]" id="skills/" required
+                    <select name="skills" id="skills" required
                           data-placeholder="Select Skills"
                           multiple
                           data-multi-select
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     $(document).ready(function() {
-      $('#career-Opportunity-applyNow').on('submit', function(event) {
+      $('#career-opportunity-applynow').on('submit', function(event) {
         event.preventDefault();
 
         var formData = new FormData(this); 
@@ -240,10 +240,19 @@ document.addEventListener('DOMContentLoaded', () => {
           contentType: false, // Important for file uploads
           processData: false, // Important for file uploads
           success: function(response) {
-            console.log('AJAX Success:', response); 
-            if (response.trim() === 'success') {
-              $('#successMessage').show(); 
-              $('#career-Opportunity-applyNow')[0].reset(); 
+          console.log('AJAX Success:', response); 
+          if (response.trim() === 'success') {
+            $('#successMessage').show(); 
+            $('#career-opportunity-applynow')[0].reset();
+            // Reset the MultiSelect field
+            document.querySelectorAll("[data-multi-select]").forEach((select) => {
+            let multiSelectInstance = select._multiSelectInstance; // Assuming you store a reference to the instance
+              if (multiSelectInstance) {
+                multiSelectInstance.data.forEach(item => item.selected = false); // Deselect all options
+                multiSelectInstance._updateSelected(); // Update the UI to reflect the deselected options
+              }
+          });
+          //----------
             } else {
               $('#errorMessage').show(); 
             }

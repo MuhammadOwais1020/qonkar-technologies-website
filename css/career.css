@@ -15,7 +15,7 @@
 .career-button{
   display: inline-flex;
   gap: 20px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .career-blocks p{
@@ -404,10 +404,10 @@
   .radio-group{
     gap: 20px;
 }
-.career-button{
+/* .career-button{
     display: flex;
     flex-direction: column;
-  }
+  } */
 }
 @media (max-width:425px) {
   .radio-group{
@@ -422,12 +422,13 @@
   .career-blocks{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
   } 
-  .career-button{
+  /* .career-button{
     margin-top: 20px;
     display: inline-flex;
     flex-direction: row;
-  }
+  } */
   .detail-blocks{
     display: flex;
     flex-direction: column;

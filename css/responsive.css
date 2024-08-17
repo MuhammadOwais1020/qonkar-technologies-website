@@ -100,10 +100,10 @@
     .radio-group{
         gap: 20px;
     }
-    .career-button{
+    /* .career-button{
         display: flex;
         flex-direction: column;
-      }
+      } */
    
 
 }
@@ -202,9 +202,8 @@
         flex-direction: column;
       } 
       .career-button{
+        display: inline-block;
         margin-top: 20px;
-        display: inline-flex;
-        flex-direction: row;
       }
       .detail-blocks{
         display: flex;
