@@ -28,18 +28,24 @@ if(isset($_SESSION['email'])){
 
                     <div class="dashboard-btns">
                         <div class="btn-dashboard">
-                            <button class="secondary-btn"><img src="assets/images/icons/dashboard-icons/icon-dashboard.png">Dashboard</button>
+                            <a href="#"><button class="secondary-btn"><img src="assets/images/icons/dashboard-icons/icon-dashboard.png">Dashboard</button></a>
                         </div>
-                        <div class="select">
+                        <div class="btn-finance">
+                            <button class="secondary-btn"><img src="assets/images/icons/dashboard-icons/icon-dashboard.png">Emails</button>
+                        </div>
+                        <!-- <div class="select">
                             <select name="categpry" id="select-category" class="select-mail">
                                 <option value="" disabled selected hidden>View Emails</option>
                                 <option value="" class="one">one</option>
                                 <option value="" class="two">two</option>
                                 <option value="" class="three">three</option>
                             </select>
+                        </div> -->
+                        <div class="btn-finance">
+                            <a href="#"><button class="secondary-btn"><img src="assets/images/icons/dashboard-icons/icon-finance.png">Finance</button></a>
                         </div>
                         <div class="btn-finance">
-                            <button class="secondary-btn"><img src="assets/images/icons/dashboard-icons/icon-finance.png">Finance</button>
+                            <a href="#"><button class="secondary-btn" id="carrierApplicantBtn"><img src="assets/images/icons/dashboard-icons/icon-dashboard.png">Applications</button></a>
                         </div>
                     </div>
                 </div>
@@ -73,14 +79,14 @@ if(isset($_SESSION['email'])){
                                 <option value="" class="three">three</option>
                             </select>
                             <div class="select-icon">
-                                <img src="assets/images/icons/arrow-down.svg" alt="arrow-down">
+                                <img src="assets/images/icons/form-icon/arrow-down.svg" alt="arrow-down">
                             </div>
                         </div>
                         <div class="search-div">
                             <img src="assets/images/icons/dashboard-icons/search.svg" class="notify-icon" alt="search-icon"><input type="search" name="search" id="search" class="search" value="Search">
                         </div>
                     </div>
-                    
+            <div id="contact-info-section">   
                 <table>
                     <thead>
                         <tr>
@@ -103,6 +109,33 @@ if(isset($_SESSION['email'])){
                         <?php endforeach; ?> -->
                     </tbody>
                 </table>
+            </div>
+            <div id="career-info-section" style="display: none;">   
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Fullname</th>
+                            <th>City</th>
+                            <th>Qualification</th>
+                            <th>Skills</th>
+                            <th>Applying for</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="career-info">
+                        <!-- <?php foreach ($info as $contactus_form) : ?>
+                            <tr>
+                                <td><?php echo $contactus_form['id']; ?></td>
+                                <td><?php echo $contactus_form['fullname']; ?></td>
+                                <td><?php echo $contactus_form['form_help']; ?></td>
+                                <td><?php echo $contactus_form['number']; ?></td>
+                                <td><button class="btn-read">View Email</button></td>
+                            </tr>
+                        <?php endforeach; ?> -->
+                    </tbody>
+                </table>
+            </div>
                 <a href="#" id="logout">logout</a>
             </div>
         </div>
@@ -131,6 +164,18 @@ if(isset($_SESSION['email'])){
     
 <?php } ?>
 
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+  const carrierApplicantBtn = document.getElementById('carrierApplicantBtn');
+  const form1 = document.getElementById('contact-info-section');
+  const form2 = document.getElementById('career-info-section');
 
+  carrierApplicantBtn.addEventListener('click', () => {
+      // Hide Form 1 and show Form 2
+      form1.style.display = 'none';
+      form2.style.display = 'block';
+  });
+});
+  </script>
 </body>
 </html>

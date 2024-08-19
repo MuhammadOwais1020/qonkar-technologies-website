@@ -78,10 +78,10 @@
     transform: scale(1.025);
  }
  .card-header{
-    /* margin-bottom: .5rem; */
-    /* height: 100%; */
+    /* margin-bottom: .5rem;
+    height: 100%; */
  }
- .card-body h3{
+ /* .card-body h3{
     color: var(--text-color);
     font-size: 20px;
     margin-bottom: 8px;
@@ -93,7 +93,36 @@
  .card-footer{
     margin-top: .7rem;
     padding: var(--padding);
- }
+ } */
+ .card {
+   display: flex;
+   flex-direction: column;
+   height: 100%; 
+   border: 1px solid #ddd;
+   padding: 16px;
+}
+
+.card-header {
+   margin-bottom: .7rem; 
+}
+
+.card-body {
+   flex-grow: 1;
+   color: var(--secondary-text);
+   font-size: var(--font-text-size);
+   margin-bottom: 10px;
+}
+
+.card-body h3 {
+   color: var(--text-color);
+   font-size: 20px;
+   margin-bottom: 8px;
+}
+
+.card-footer {
+   margin-top: auto; 
+   padding: var(--padding);
+}
  .card.card-shadow{
     border: none;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
@@ -141,20 +170,6 @@
    color: var(--text-color);
    border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .popup {
    display: none;
    position: fixed;
@@ -194,11 +209,6 @@
    height: 45px;
    border-radius: 50%;
 }
-
-
-
-
-
 .display-popup {
    width: 100%;
    height: 100%;

@@ -23,20 +23,59 @@ if(isset($_POST['email']) && isset($_POST['password'])){
     }
     exit;
 }
+// $sql = "SELECT * FROM contactus_form";
+// $result = $conn->query($sql);
+
+// $info = [];
+
+// if ($result->num_rows > 0) {
+//     while ($row = $result->fetch_assoc()) {
+//         $info[] = $row;
+//     }
+// }
+
+// $sql = "SELECT * FROM career_opportunity_applynow";
+// $result = $conn->query($sql);
+
+// $info = [];
+
+// if ($result->num_rows > 0) {
+//     while ($row = $result->fetch_assoc()) {
+//         $info[] = $row;
+//     }
+// }
+$info_contact = [];
+$info_career = [];
+
 $sql = "SELECT * FROM contactus_form";
 $result = $conn->query($sql);
 
-$info = [];
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        $info_contact[] = $row;
+    }
+}
+
+$sql = "SELECT * FROM career_opportunity_applynow";
+$result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        $info[] = $row;
+        $info_career[] = $row;
     }
 }
 
 $conn->close();
 
+$response = ['contact' => $info_contact, 'career' => $info_career];
+
 // Return JSON response for AJAX
 header('Content-Type: application/json');
-echo json_encode($info);
+echo json_encode($response);
+
+// $conn->close();
+// Return JSON response for AJAX
+// header('Content-Type: application/json');
+// echo json_encode($info);
 ?>
+

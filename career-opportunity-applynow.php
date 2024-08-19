@@ -46,7 +46,7 @@ include('header.php');
                 <input type="email" name="email"  id="email"  class="email-field" placeholder="Your Answer" required>
             </div>
             <div class="city field">
-                <label for="country">Country *</label>
+                <label for="country">Current living City *</label>
                 <input type="text"id="country" name="country"  class="country-field" placeholder="Country" required >
             </div>
             <div class="select-container field">
