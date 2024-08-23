@@ -23,27 +23,6 @@ if(isset($_POST['email']) && isset($_POST['password'])){
     }
     exit;
 }
-// $sql = "SELECT * FROM contactus_form";
-// $result = $conn->query($sql);
-
-// $info = [];
-
-// if ($result->num_rows > 0) {
-//     while ($row = $result->fetch_assoc()) {
-//         $info[] = $row;
-//     }
-// }
-
-// $sql = "SELECT * FROM career_opportunity_applynow";
-// $result = $conn->query($sql);
-
-// $info = [];
-
-// if ($result->num_rows > 0) {
-//     while ($row = $result->fetch_assoc()) {
-//         $info[] = $row;
-//     }
-// }
 $info_contact = [];
 $info_career = [];
 

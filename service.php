@@ -17,32 +17,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     alt="website design & development service by qonkar technologies pvt ltd" />
                 <h3 class="sub-heading">Website Design & Development</h3>
                 <p class="service-description">
-                    Websites Development <br />
-                    Business Websites <br>
-                    Web Applications <br />
+                    Shopify Store Setup <br />
+                    Shopify Development <br>
                     WordPress Development <br />
-                    Shopify Store Development <br />
+                    Website Development <br />
                     Custom Software Applications <br />
-                    Mobile App Development <br>
-                    Ecommerce Website Development <br>
-                    Content Management System (CMS)
-                </p>
-            </a>
-        </div>
-        <div class="service">
-            <a href="digital-Marketing.php">
-                <img src="assets/images/logo/services/digital-marketing.webp"
-                    alt="Digital Marketing service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">Digital Marketing</h3>
-                <p class="service-description">
-                    SEO <br>
-                    Social Media Marketing <br>
-                    Content Marketing <br>
-                    Pay-Per-Click (PPC) Advertising <br>
-                    Marketing Automation <br>
-                    Email Marketing <br>
-                    Affiliate Marketing <br>
-                    Analytics & Reporting <br>
+                    Web Applications <br>
+                    Landing Page Design <br>
                 </p>
             </a>
         </div>
@@ -60,6 +41,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Microinteraction Design <br>
                     Product Design <br>
                     UI Animation Design <br>
+                </p>
+            </a>
+        </div>
+        <div class="service">
+            <a href="digital-Marketing.php">
+                <img src="assets/images/logo/services/digital-marketing.webp"
+                    alt="Digital Marketing service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">Digital Marketing</h3>
+                <p class="service-description">
+                    SEO <br>
+                    Social Media Marketing <br>
+                    Content Marketing <br>
+                    Pay-Per-Click (PPC) Advertising <br>
+                    Marketing Automation <br>
+                    Email Marketing <br>
+                    Affiliate Marketing <br>
+                    Analytics & Reporting <br>
                 </p>
             </a>
         </div>
@@ -85,8 +83,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     alt="Social Media Management service by qonkar technologies pvt ltd" />
                 <h3 class="sub-heading">Social Media Management</h3>
                 <p class="service-description">
+                Social Media Content Creation<br >
                 Social Media Strategy & Planning <br>
-                Social Media Content & Curation <br>
                 Social Media Posting & Engagement <br>
                 Social Media Analytics & Reporting <br>
                 </p>
