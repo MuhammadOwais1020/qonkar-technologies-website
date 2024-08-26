@@ -61,7 +61,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </p>
             </a>
         </div>
-        <div class="service">
+        <!-- <div class="service">
             <a href="website-design-and-development.php">
                 <img src="assets/images/logo/services/design-branding.webp"
                     alt="design & branding service by qonkar technologies pvt ltd" />
@@ -76,7 +76,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Social Media Graphics <br>
                 </p>
             </a>
-        </div>
+        </div> -->
         <div class="service">
             <a href="website-design-and-development.php">
                 <img src="assets/images/logo/services/social-media-management.webp"
@@ -90,7 +90,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </p>
             </a>
         </div>
-        <div class="service">
+        <!-- <div class="service">
             <a href="website-design-and-development.php">
                 <img src="assets/images/logo/services/photography-videography.webp"
                     alt="Photography & Videography service by qonkar technologies pvt ltd" />
@@ -102,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Post-Production Editing & Enhancement <br>
                 </p>
             </a>
-        </div>
+        </div> -->
       </div>
     </div>
 </section>

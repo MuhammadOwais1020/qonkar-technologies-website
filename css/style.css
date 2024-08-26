@@ -282,7 +282,12 @@ body:has(.sidebar-menu.opened) {
 
 .services-section .services {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.services-section .sub-services {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
     gap: 30px;
 }
 .services .service a{
