@@ -4,7 +4,7 @@
 <?php
 include('header.php');
 ?>
-  <title>E-Commerce Website Development | Qonkar IT Services Company</title>
+  <title>E-Commerce Website Development Agency | Qonkar IT Services Company</title>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -18,7 +18,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="outer-container">
         <div class="heading">
           <div class="container">
-            <h2 class="heading-head">E-Commerce Website Development</h2>
+            <h2 class="heading-head">E-Commerce Website Development Agency</h2>
             <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implementation of<span class="text-secondary" > Our Projects.</span></h4>
             <div class="button grid-span">
               <a href="contact-us.php" class="btn">Schedule a Demo</a>
@@ -43,8 +43,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li class="indent">Unsecure.</li>
                   </ul>
               </div>
-            <br />
-            <br />
             Qonkar Technologies’ specialized team focuses on boosting sales and customers maintenances. We prioritize your e-commerce website secure and easy to use that meet your business needs.
             <br />
             <br />

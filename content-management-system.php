@@ -18,7 +18,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="outer-container">
         <div class="heading">
           <div class="container">
-            <h2 class="heading-head">Content Management System:</h2>
+            <h2 class="heading-head">Content Management System</h2>
             <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implementation of<span class="text-secondary" > Our Projects.</span></h4>
             <div class="button grid-span">
               <a href="contact-us.php" class="btn">Schedule a Demo</a>
