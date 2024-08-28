@@ -101,25 +101,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="card-grid display-none">
             <div class="card card-shadow">
               <div class="card-header card-image">
-                  <img src="assets/images/portfolio/image1.webp">
+                  <img src="assets/images/portfolio/image1.webp" alt="image1">
               </div>
             </div>
             
             <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image2.webp">
+                    <img src="assets/images/portfolio/image2.webp" alt="image2">
                 </div>
             </div>
             
             <div class="card card-shadow">
                 <div class="card-header card-image">
-                    <img src="assets/images/portfolio/image3.webp">
+                    <img src="assets/images/portfolio/image3.webp" alt="image3">
                 </div>
             </div>
 
             <div class="card card-shadow">
                   <div class="card-header card-image">
-                      <img src="assets/images/portfolio/image1.webp">
+                      <img src="assets/images/portfolio/image1.webp" alt="image1">
                   </div>
               </div>
         </div>

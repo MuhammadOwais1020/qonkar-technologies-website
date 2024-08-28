@@ -121,7 +121,7 @@ include('header.php');
     <div class="country-grid">
       <div class="country-block" id="Pakistan">
         <div class="country-img">
-          <img src="assets/images/icons/footer/pakistan-icon.png" />
+          <img src="assets/images/icons/footer/pakistan-icon.png" alt="pakistan-icon" />
           <p>Pakistan</p>
         </div>
         <div class="country-address">
@@ -131,7 +131,7 @@ include('header.php');
       </div>
       <div class="country-block" id="UK">
         <div class="country-img">
-          <img src="assets/images/icons/footer/UK-icon.png" />
+          <img src="assets/images/icons/footer/UK-icon.png" alt="pakistan-icon"  />
           <p>United Kingdom</p>
         </div>
         <div class="country-address">

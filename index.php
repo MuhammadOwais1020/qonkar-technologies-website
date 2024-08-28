@@ -562,6 +562,7 @@ include('header.php');
                 </div>
             </div>
     </section>
+    
     <section class="client-says testimonial-section">
         <div class="container">
             <div class="client-grid">
@@ -574,16 +575,16 @@ include('header.php');
                     </div>
                     <div class="slider-container">
                         <div class="slider">
-                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" />
-                            <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" />
-                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" />
-                            <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp" />
+                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="Top-Web-Design-Company-goodfirm"/>
+                            <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="Best-Design-Awards-DR-2024"/>
+                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" alt="Top-Web-Design-Company-UK-Clutch" />
+                            <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp" alt="manifest-award" />
                         </div>
                         <div class="slider">
-                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" />
-                            <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" />
-                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" />
-                            <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp" />
+                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-goodfirm.webp" alt="Top-Web-Design-Company-goodfirm" />
+                            <img class="slide" src="assets/images/logo/trusted-by/Best-Design-Awards-DR-2024.webp" alt="Best-Design-Awards-DR-2024" />
+                            <img class="slide" src="assets/images/logo/trusted-by/Top-Web-Design-Company-UK-Clutch.webp" alt="Top-Web-Design-Company-UK-Clutch" />
+                            <img class="slide" src="assets/images/logo/trusted-by/manifest-award.webp"  alt="manifest-award"/>
                         </div>
                         <div class="dots">
                             <span class="dot"></span>
@@ -595,7 +596,7 @@ include('header.php');
                     </div>
                 </div>
                 <div class="client-image">
-                    <img src="assets/images/services/x-min1updated 1.webp"/>
+                    <img src="assets/images/services/x-min1updated 1.webp" alt="x-min1updated 1"/>
                 </div>
             </div>
         </div>
