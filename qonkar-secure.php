@@ -170,7 +170,7 @@ if(isset($_SESSION['email'])){
     </div>
     
 <?php } ?>
-<script src="path/to/dashboard-script.js"></script>
+<!-- <script src="path/to/dashboard-script.js"></script> -->
 <script>
 // document.addEventListener('DOMContentLoaded', (event) => {
 //   const carrierApplicantBtn = document.getElementById('carrierApplicantBtn');

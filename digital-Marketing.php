@@ -18,7 +18,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="outer-container">
         <div class="heading">
           <div class="container">
-            <h2 class="heading-head">Website Design and Development Agency</h2>
+            <h2 class="heading-head">Digital Marketing Agency</h2>
             <h4 class="heading-body">We <span class="text-secondary" >identified</span> by our work. Here are witness the impact from the <span class="text-secondary" >successful</span><br /> Implementation of<span class="text-secondary" > Our Projects.</span></h4>
             <div class="button grid-span">
               <a href="contact-us.php" class="btn">Schedule a Demo</a>
@@ -34,14 +34,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="grid">
           <div class="service-grid">
             <h2>Website Design and Development</h2>
+            <br />
+            <br />
             <p>Imagine this: you have a storefront on the busiest street in the world. But instead of dazzling displays and friendly salespeople, you have a flickering bulb and a dusty sign. Would you expect many customers?</p>
-
+            <br />
             <p>In today's digital age, your website is your prime storefront. It's where you connect with potential customers, showcase your brand, and ultimately drive sales. But with so much competition online, how do you make sure your website shines?</p>
-
+            <br />
             <p>Are you ready to transform your digital presence and stand out in the competitive online landscape?</p>
-
+            <br />
             <p>In today’s digital world, a strong online presence is crucial for business success. Welcome to Qonkar! We specialize in creating top-notch web designs and development solutions that set you apart.</p>
-
+            <br />
             <p>What makes Qonkar different?
             At Qonkar, we go beyond the basics of web design and development to offer innovative solutions tailored just for you. Imagine a website that not only looks great but also provides an immersive and engaging experience for your users. Our smart, flexible designs ensure your website stays up-to-date as technology evolves.</p>
           </div>
@@ -126,7 +128,133 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- </div> -->
 </section>       
 
-<?php include('service.php'); ?>
+<section class="services-section" id="services-section">
+    <div class="container">
+      <h2 class="section-heading">Sub Services</h2>
+      <div class="services sub-servicess">
+        <div class="service">
+            <a href="seo.php">
+                <img src="assets/images/logo/services/website-design-development.webp"
+                    alt="website design & development service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">SEO</h3>
+                <p class="service-description">
+                    Shopify Store Setup<br />
+                    Shopify Development <br>
+                    WordPress Development <br />
+                    Website Development <br />
+                    Custom Software Applications <br />
+                    Web Applications <br>
+                    Landing Page Design <br>
+                </p>
+            </a>
+        </div>
+        <div class="service">
+            <a href="social-media-marketing.php">
+                <img src="assets/images/logo/services/user-interface.webp"
+                    alt="User Interface service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">Social Media Marketing</h3>
+                <p class="service-description">
+                    User Research & Analysis <br>
+                    Information Architecture <br>
+                    User Interface Design <br>
+                    Style Guide Development <br>
+                    Wireframing & Prototyping <br>
+                    Microinteraction Design <br>
+                    Product Design <br>
+                    UI Animation Design <br>
+                </p>
+            </a>
+        </div>
+        <div class="service">
+            <a href="content-marketing.php">
+                <img src="assets/images/logo/services/digital-marketing.webp"
+                    alt="Digital Marketing service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">Content Marketing</h3>
+                <p class="service-description">
+                    SEO <br>
+                    Social Media Marketing <br>
+                    Content Marketing <br>
+                    Pay-Per-Click (PPC) Advertising <br>
+                    Marketing Automation <br>
+                    Email Marketing <br>
+                    Affiliate Marketing <br>
+                    Analytics & Reporting <br>
+                </p>
+            </a>
+        </div>
+        <div class="service">
+            <a href="pay-per-click-advertising.php">
+                <img src="assets/images/logo/services/design-branding.webp"
+                    alt="design & branding service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">Pay-Per-Click (PPC) Advertising</h3>
+                <p class="service-description">
+                    Logo Design <br>
+                    Brand Style Guide <br>
+                    Marketing Material Design <br>
+                    Packaging Design <br>
+                    Brand Voice & Messaging <br>
+                    Graphic Design <br>
+                    Social Media Graphics <br>
+                </p>
+            </a>
+        </div>
+        <div class="service">
+            <a href="marketing-automation.php">
+                <img src="assets/images/logo/services/social-media-management.webp"
+                    alt="Social Media Management service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">Marketing Automation</h3>
+                <p class="service-description">
+                Social Media Content Creation<br >
+                Social Media Strategy & Planning <br>
+                Social Media Posting & Engagement <br>
+                Social Media Analytics & Reporting <br>
+                </p>
+            </a>
+        </div>
+        <div class="service">
+            <a href="email-marketing.php">
+                <img src="assets/images/logo/services/photography-videography.webp"
+                    alt="Photography & Videography service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">Email Marketing</h3>
+                <p class="service-description">
+                    Product Photography <br>
+                    Product Video Creation <br>
+                    Stop-Motion Animation <br>
+                    Post-Production Editing & Enhancement <br>
+                </p>
+            </a>
+        </div>
+        <div class="service">
+            <a href="analytics-and-reporting.php">
+                <img src="assets/images/logo/services/website-design-development.webp"
+                  alt="website design & development service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">Affiliate Marketing</h3>
+                <p class="service-description">
+                    Product Photography <br>
+                    Product Video Creation <br>
+                    Stop-Motion Animation <br>
+                    Post-Production Editing & Enhancement <br>
+                </p>
+            </a>
+        </div>
+        <div class="service">
+            <a href="ui-animation-design.php">
+                <img src="assets/images/logo/services/user-interface.webp"
+                  alt="User Interface service by qonkar technologies pvt ltd" />
+                <h3 class="sub-heading">Analytics & Reporting</h3>
+                <p class="service-description">
+                    Product Photography <br>
+                    Product Video Creation <br>
+                    Stop-Motion Animation <br>
+                    Post-Production Editing & Enhancement <br>
+                </p>
+            </a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
 
 <section class="trusted-companies">
     <h2 class="section-heading">Top Web Development Platforms We Use</h2>

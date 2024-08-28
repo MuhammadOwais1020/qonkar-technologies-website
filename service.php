@@ -28,7 +28,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </a>
         </div>
         <div class="service">
-            <a href="website-design-and-development.php">
+            <a href="user-interface.php">
                 <img src="assets/images/logo/services/user-interface.webp"
                     alt="User Interface service by qonkar technologies pvt ltd" />
                 <h3 class="sub-heading">User Interface</h3>
@@ -45,7 +45,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </a>
         </div>
         <div class="service">
-            <a href="website-design-and-development.php">
+            <a href="digital-marketing.php">
                 <img src="assets/images/logo/services/digital-marketing.webp"
                     alt="Digital Marketing service by qonkar technologies pvt ltd" />
                 <h3 class="sub-heading">Digital Marketing</h3>
@@ -78,7 +78,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </a>
         </div> -->
         <div class="service">
-            <a href="website-design-and-development.php">
+            <a href="social-media-management.php">
                 <img src="assets/images/logo/services/social-media-management.webp"
                     alt="Social Media Management service by qonkar technologies pvt ltd" />
                 <h3 class="sub-heading">Social Media Management</h3>
