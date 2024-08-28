@@ -33,19 +33,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="grid">
           <div class="service-grid">
             <h2>Website Design and Development</h2>
+            <br />
+            <br />
             <p>Imagine this: you have a storefront on the busiest street in the world. But instead of dazzling displays and friendly salespeople, you have a flickering bulb and a dusty sign. Would you expect many customers?</p>
-
+            <br />
             <p>In today's digital age, your website is your prime storefront. It's where you connect with potential customers, showcase your brand, and ultimately drive sales. But with so much competition online, how do you make sure your website shines?</p>
-
+            <br />
             <p>Are you ready to transform your digital presence and stand out in the competitive online landscape?</p>
-
+            <br />
             <p>In today’s digital world, a strong online presence is crucial for business success. Welcome to Qonkar! We specialize in creating top-notch web designs and development solutions that set you apart.</p>
-
+            <br />
             <p>What makes Qonkar different?
             At Qonkar, we go beyond the basics of web design and development to offer innovative solutions tailored just for you. Imagine a website that not only looks great but also provides an immersive and engaging experience for your users. Our smart, flexible designs ensure your website stays up-to-date as technology evolves.</p>
           </div>
           <div class="benefits-grid">
               <h2>Benefits</h2>
+              <br />
+              <br />
               <div class="benefits-list">
                 <div class="benefit-list-row">
                   <div class="benefits-list-icon">
@@ -220,7 +224,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </a>
         </div>
         <div class="service">
-            <a href="web-applications.php">
+            <a href="landing-page.php">
                 <img src="assets/images/logo/services/photography-videography.webp"
                     alt="Photography & Videography service by qonkar technologies pvt ltd" />
                 <h3 class="sub-heading">Landing Page Design</h3>

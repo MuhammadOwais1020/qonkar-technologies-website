@@ -103,54 +103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </p>
             </a>
         </div> -->
-        <div class="service">
-            <a href="business-website.php">
-                <img src="assets/images/logo/services/website-design-development.webp"
-                    alt="website design & development service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">Business Website</h3>
-                <p class="service-description">
-                    Shopify Store Setup <br />
-                    Shopify Development <br>
-                    WordPress Development <br />
-                    Website Development <br />
-                    Custom Software Applications <br />
-                    Web Applications <br>
-                    Landing Page Design <br>
-                </p>
-            </a>
-        </div>
-        <div class="service">
-            <a href="content-management-system.php">
-                <img src="assets/images/logo/services/website-design-development.webp"
-                    alt="website design & development service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">Content Management System</h3>
-                <p class="service-description">
-                    Shopify Store Setup <br />
-                    Shopify Development <br>
-                    WordPress Development <br />
-                    Website Development <br />
-                    Custom Software Applications <br />
-                    Web Applications <br>
-                    Landing Page Design <br>
-                </p>
-            </a>
-        </div>
-        <div class="service">
-            <a href="e-commerce-website-development.php">
-                <img src="assets/images/logo/services/website-design-development.webp"
-                    alt="website design & development service by qonkar technologies pvt ltd" />
-                <h3 class="sub-heading">E-Commerce Website Development</h3>
-                <p class="service-description">
-                    Shopify Store Setup <br />
-                    Shopify Development <br>
-                    WordPress Development <br />
-                    Website Development <br />
-                    Custom Software Applications <br />
-                    Web Applications <br>
-                    Landing Page Design <br>
-                </p>
-            </a>
-        </div>
+      
       </div>
     </div>
 </section>

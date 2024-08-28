@@ -33,6 +33,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="grid">
           <div class="service-grid">
               <h2>Shopify Store Setup:</h2>
+              <br />
+              <br />
               <p>With both functional and attractive, it’s a challenge for businesses to set up an online store. You also might struggle with design choices, integration uses, technical difficulties or ongoing maintenance. But with Qonkar Technologies by your side, the process becomes stress-free. 
               <br />
               <br />
@@ -56,8 +58,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </p>
           </div>
           <div class="benefits-grid">
-              <h2>Benefits</h2>
               <div class="benefits-list">
+                <h2>Benefits</h2>
+                <br />
+                <br />
                 <div class="benefit-list-row">
                   <div class="benefits-list-icon">
                     <img src="assets/images/icons/service/SERVICES-ICONS_0005_responsive.svg" alt="icon">

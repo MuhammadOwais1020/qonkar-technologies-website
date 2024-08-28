@@ -33,6 +33,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="grid">
           <div class="service-grid">
             <h2 class="heading-head">Custom Software Applications:</h2>
+            <br />
+              <br />
             <p>Just imagine a software that work smoothly, solving technical problems which occur during process and boost productivity exactly how you need it. Just tools that make your work easy without any irritating limitations or unnecessary feature.
               <br />
               <br />
@@ -44,6 +46,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="benefits-grid">
               <h2>Benefits</h2>
+              <br />
+              <br />
               <div class="benefits-list">
                 <div class="benefit-list-row">
                   <div class="benefits-list-icon">

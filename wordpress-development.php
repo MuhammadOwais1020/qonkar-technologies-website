@@ -33,6 +33,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="grid">
           <div class="service-grid">
               <h2 class="heading-head">WordPress Development:</h2>
+              <br />
+              <br />
               <p>Your website is your business’s digital front door. Its quality reflect the quality of you offering. Managing the business with an outdated, unsecured or user-friendly website is a major challenge. But don’t worry! Qonkar Technologies expert team can transform your online presence with a stunning, high-performance WordPress website that meet all your needs.
               <br />
               <br />
@@ -44,6 +46,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="benefits-grid">
               <h2>Benefits</h2>
+              <br />
+              <br />
               <div class="benefits-list">
                 <div class="benefit-list-row">
                   <div class="benefits-list-icon">

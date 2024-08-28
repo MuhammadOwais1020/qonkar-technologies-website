@@ -6,9 +6,9 @@
   margin-top: 10%;
 }
 .service-grid, .benefits-grid{
-  display: grid;
-  grid-template-rows: repeat(5, auto-fit);
-  gap: 20px;
+  /* display: grid; */
+  /* grid-template-rows: repeat(5, auto-fit); */
+  /* gap: 20px; */
 }
 .benefits-list{
   display: flex;

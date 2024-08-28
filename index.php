@@ -604,7 +604,7 @@ include('header.php');
 <section class="clients-section services-section" id="services-section">
         <div class="container">
           <h2 class="section-heading">Industry Expertise</h2>
-          <div class="services">
+          <div class="services sub-services">
             <div class="service">
                 <a href="industry-experts/Health-tech.php">
                     <img src="assets/images/logo/services/website-design-development.webp"

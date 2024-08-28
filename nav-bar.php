@@ -2,12 +2,12 @@
     <div class="container">
       <div class="navbar-inner flex-row">
         <div class="logo">
-          <a href ="index.php"><img src="assets/images/logo/qonkar-technologies-pvt-ltd-best-it-services-company.webp"
+          <a href ="https://qonkar.com/"><img src="assets/images/logo/qonkar-technologies-pvt-ltd-best-it-services-company.webp"
             alt="qonkar technologies pvt limited world best IT services company" /></a>
         </div>
         <div class="right-content flex-row desktop">
           <ul class="menus flex-row">
-            <li><a href="index.php">Home</a></li>
+            <li><a href="https://qonkar.com/">Home</a></li>
             <li><a href="services.php">Services</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
             <li><a href="career-opportunity.php">Careers</a></li>
@@ -38,7 +38,7 @@
               </div>
               <div class="menu-contents">
                 <ul class="menus">
-                  <li><a href="index.php">Home</a></li>
+                  <li><a href="https://qonkar.com/">Home</a></li>
                   <li><a href="services.php">Services</a></li>
                   <li><a href="portfolio.php">Portfolio</a></li>
                   <li><a href="career-opportunity.php">Careers</a></li>

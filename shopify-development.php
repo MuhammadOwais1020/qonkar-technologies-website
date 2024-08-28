@@ -33,6 +33,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="grid">
           <div class="service-grid">
               <h2 class="heading-head">Shopify Development:</h2>
+              <br />
+              <br />
               <p>Launching an online store business can be overwhelming. Your website needs to look great, be user-friendly and function perfectly. Shopify developers take the stress out from the CEO’s shoulder for their online store.
               <br />
               <br />
@@ -44,6 +46,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="benefits-grid">
               <h2>Benefits</h2>
+              <br />
+              <br />
               <div class="benefits-list">
                 <div class="benefit-list-row">
                   <div class="benefits-list-icon">
