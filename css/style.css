@@ -260,12 +260,13 @@ body:has(.sidebar-menu.opened) {
     height: 100px;
 }
 .trusted-companies .container .logos .rect-logos{
-    height: 30px;
+    height: 50px;
     margin-bottom: 20px;
 }
 .trusted-companies .container .logos .rect-logo{
-    height: 30px;
+    height: 50px;
 }
+
 .trusted-companies .container:hover .logos{
     animation-play-state: paused;
 
