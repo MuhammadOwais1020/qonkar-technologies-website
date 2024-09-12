@@ -275,6 +275,7 @@ body {
   flex-direction: column;
   gap: 10px;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .services .service a {
@@ -297,4 +298,37 @@ body {
 .services .service-link {
   display: flex;
   justify-content: flex-end;
+}
+
+.services .service-svg {
+  fill: var(--primary-color);
+  width: 50px;
+  height: 50px;
+}
+
+.services .service-link svg {
+  fill: var(--text-color);
+}
+
+.service:hover .service-link svg {
+  fill: var(--primary-color);
+  transform: rotate(45deg);
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.service .service-link svg {
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.section-heading .heading {
+  font-size: 30px;
+  color: var(--text-color);
+}
+
+.section-heading .heading-svg svg {
+  width: 180px;
+}
+
+.section-heading {
+  margin-block: 10px;
 }
