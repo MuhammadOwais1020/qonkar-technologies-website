@@ -35,7 +35,7 @@ section {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -384,6 +384,102 @@ section {
   color: var(--white);
 }
 
+
+/* contact us */
+.contact-us-section .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-section .section-heading {
+  margin-top: 0px;
+}
+
+.contact-us-section .contact-form {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 30px;
+  border-radius: var(--border-radius);
+}
+
+.contact-us-section .details img {
+  height: 500px;
+}
+
+.contact-us-section .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-us-section input,
+.contact-us-section textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  border-bottom: solid 2px var(--secondary-text);
+  outline: none;
+  color: var(--text-color);
+}
+
+active .contact-us-section input::placeholder,
+.contact-us-section textarea::placeholder {
+  color: var(--secondary-text);
+}
+
+.contact-us-section input:focus,
+.contact-us-section textarea:focus {
+  border-bottom-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.contact-us-section textarea {
+  resize: vertical;
+}
+
+.contact-us-section .privacy-policy-text {
+  font-size: 14px;
+  color: var(--secondary-text);
+}
+
+.contact-us-section .privacy-policy-text a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.contact-us-section .privacy-policy-text a:hover {
+  text-decoration: underline;
+}
+
+.contact-us-section .btn {
+  background-color: var(--primary-color);
+  border: solid 2px var(--primary-color);
+  padding: 12px 25px;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.contact-us-section .btn:hover {
+  background: none;
+  border: solid 2px var(--primary-color);
+  color: var(--primary-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-us-section {
+    padding: 10px;
+  }
+
+  .contact-us-section button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
 /* Footer */
 footer {
   background-color: var(--bg-secondary);
@@ -420,6 +516,10 @@ footer {
   font-weight: 400;
   display: flex;
   align-items: center;
+}
+
+.footer-section a:hover {
+  color: var(--secondary-text);
 }
 
 .footer-bottom {
