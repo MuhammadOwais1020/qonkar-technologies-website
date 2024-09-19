@@ -14,6 +14,7 @@
   --text-color: #0f0f0f;
   --secondary-text: #5b6876;
   --border-radius: 6px;
+  --input-border: #cbcbcb;
 }
 
 html {
@@ -35,8 +36,9 @@ section {
 }
 
 .container {
-  width: 90%;
+  max-width: 1600px;
   margin: 0 auto;
+  padding-inline: 30px;
 }
 
 .cursor-wrapper {
@@ -391,13 +393,15 @@ section {
   justify-content: space-between;
 }
 
+.contact-us-section .container>div {
+  width: 50%;
+}
+
 .contact-us-section .section-heading {
   margin-top: 0px;
 }
 
 .contact-us-section .contact-form {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-  padding: 30px;
   border-radius: var(--border-radius);
 }
 
@@ -416,9 +420,10 @@ section {
   font-size: 16px;
   font-family: inherit;
   border: none;
-  border-bottom: solid 2px var(--secondary-text);
+  border: solid 1px var(--input-border);
   outline: none;
   color: var(--text-color);
+  border-radius: var(--border-radius);
 }
 
 active .contact-us-section input::placeholder,
@@ -428,7 +433,7 @@ active .contact-us-section input::placeholder,
 
 .contact-us-section input:focus,
 .contact-us-section textarea:focus {
-  border-bottom-color: var(--secondary-color);
+  border-color: var(--secondary-color);
   color: var(--primary-color);
 }
 
