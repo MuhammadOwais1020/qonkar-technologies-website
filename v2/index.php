@@ -7,6 +7,10 @@
   <?php
   include('./sections/head.php');
   ?>
+
+  <!-- CSS -->
+<link rel="stylesheet" href="./assets/css/style.css" />
+
 </head>
 
 <body>
@@ -113,7 +117,7 @@ include('./sections/progress-bar.php')
       </div>
       <div class="services">
         <div class="service">
-          <a href="services/shopify-development.php">
+          <a href="./services/shopify-development.php">
             <svg class="service-svg" xmlns="http://www.w3.org/2000/svg" width="" height="" fill="none"
               viewBox="0 0 27 23">
               <path fill=""
@@ -235,11 +239,13 @@ include('./sections/progress-bar.php')
  <?php
  include('./sections/footer.php')
  ?>
+
 <!-- scripts -->
  <?php
  include('./sections/scripts.php');
  ?>
 
+ <script src="./assets/script/App.js" defer></script>
 </body>
 
 </html>

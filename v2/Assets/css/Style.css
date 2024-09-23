@@ -145,6 +145,10 @@ section {
   display: flex;
 }
 
+.section-logos .clients-grid img {
+  max-height: 85px;
+}
+
 .client-logo-2 {
   opacity: 0.8;
   object-fit: contain;
@@ -598,4 +602,121 @@ footer {
   margin-top: 10px;
   display: flex;
   align-items: center;
+}
+
+
+/* service details */
+.section-service-details {
+  display: flex;
+  gap: 75px;
+}
+
+.section-service-details>div {
+  width: 50%;
+}
+
+.section-service-details .detail {
+  padding-right: 30px;
+}
+
+.section-service-details .detail .heading {
+  font-size: 45px;
+}
+
+.section-service-details .detail p {
+  font-size: 16px;
+}
+
+.section-service-details .sub-service .heading {
+  font-size: 22px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.section-service-details .sub-service p {
+  font-size: 15px;
+  color: var(--secondary-text);
+}
+
+.section-service-details a.btn-call-to-action {
+  background-color: var(--primary-color);
+  border: solid 2px var(--primary-color);
+  padding: 12px 25px;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 600;
+  border-radius: var(--border-radius);
+  position: absolute;
+  margin-top: 20px;
+}
+
+.section-service-details a.btn-call-to-action:hover {
+  background: none;
+  border: solid 2px var(--primary-color);
+  color: var(--primary-color);
+}
+
+
+/* benefits section */
+.section-benefits .benefits svg {
+  fill: var(--bg-secondary);
+  width: 20px;
+}
+
+.section-benefits .benefits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.section-benefits .benefit .outer-circle {
+  background-color: #4c94d3ab;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-benefits .outer-circle .inner-circle {
+  background-color: var(--primary-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media (max-width: 1024px) {
+  .section-benefits .benefits {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section-benefits .benefits {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section-benefits .benefit {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section-benefits .benefit h2 {
+  font-size: 22px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.section-benefits .benefit p {
+  font-size: 16px;
+  color: var(--secondary-text);
 }

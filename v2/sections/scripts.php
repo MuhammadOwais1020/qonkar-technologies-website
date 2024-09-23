@@ -1,1 +1,1 @@
- <script src="./assets/script/App.js" defer></script>
+ <script src="../assets/script/App.js" defer></script>
