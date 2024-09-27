@@ -240,7 +240,11 @@ section {
   padding-block: 40px;
   height: 100dvh;
 }
-
+@media screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+}
 .hero-section-image {
   flex-basis: 30%;
   position: relative;
@@ -277,7 +281,7 @@ section {
 /* services */
 .services-section .services {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 30px;
 }
 
@@ -509,7 +513,7 @@ footer {
 
 .footer-inner {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 30px;
   justify-content: space-between;
   padding-bottom: 30px;
@@ -532,6 +536,8 @@ footer {
   font-weight: 400;
   display: flex;
   align-items: center;
+  font-size: 16px;
+  line-height: 23px;
 }
 
 .footer-section a:hover {
@@ -547,6 +553,11 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .footer-bottom-inner {
+    flex-direction: column;
+  }
 }
 
 .footer-socials {
