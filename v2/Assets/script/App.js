@@ -30,7 +30,21 @@ document.addEventListener("mousemove", updateCursorPosition);
 // Add the will-change and transform-style properties
 cursor.style.willChange = "transform";
 cursor.style.transformStyle = "preserve-3d";
+//**************sticky header*********************//
+let lastScrollTop = 0;
+const header = document.querySelector(".site-header");
 
+window.addEventListener("scroll", function () {
+  let currentScroll = window.scrollY || document.documentElement.scrollTop;
+
+  if (currentScroll > lastScrollTop) {
+    header.classList.remove("sticky");
+  } else {
+    header.classList.add("sticky");
+  }
+
+  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+});
 // *****************Navbar***************
 function zk_humburger_menu() {
   document.querySelector(".header-navbar").classList.add("open");

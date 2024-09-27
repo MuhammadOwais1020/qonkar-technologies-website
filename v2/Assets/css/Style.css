@@ -108,7 +108,9 @@ section {
   animation: slidealt 35s infinite linear;
   animation-direction: reverse;
 }
-
+.logo-animate-alt:hover {
+  animation-play-state: paused;
+}
 .home-logo-wrapper {
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
@@ -186,14 +188,14 @@ section {
   font-family: Poppins;
   font-weight: 700;
   line-height: 1.25;
-  font-size: clamp(24px, 4vw + 1rem, 64px);
+  font-size: clamp(24px, 3vw + 1rem, 64px);
 }
 
 .hero-section-title .subheading {
   font-family: Poppins;
   font-weight: 700;
   line-height: 1.25;
-  font-size: clamp(24px, 4vw + 1rem, 64px);
+  font-size: clamp(24px, 3vw + 1rem, 64px);
   color: var(--primary-color);
   color: var(--primary-color);
 }
@@ -926,15 +928,6 @@ a {
   padding: 0 10px;
 }
 
-.text-white h2,
-.text-white h3,
-.text-white h4,
-.text-white h5,
-.text-white h6,
-.text-white p {
-  color: #fff;
-}
-
 .mb-0 {
   margin-bottom: 0;
 }
@@ -1279,11 +1272,16 @@ nav.navbar {
 
   .site-header {
     position: sticky;
-    top: 0px;
     left: 0;
     width: 100%;
+    padding: 10px 0;
+    transition: top 0.4s ease-out;
+    top: -100px;
   }
-
+  .site-header.sticky {
+    top: 0; /* Move header to top of the screen when sticky */
+    transition: top 0.4s ease-out;
+  }
   .header-top-left {
     width: auto;
   }
@@ -1372,7 +1370,7 @@ nav.navbar {
   .header-navbar ul > li > ul.sub-menu {
     position: fixed;
     z-index: 999;
-    top: 70px;
+    top: 40px;
     background: #fbf6f0;
     left: 0;
     width: 100%;
