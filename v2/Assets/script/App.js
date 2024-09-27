@@ -69,3 +69,24 @@ document.querySelectorAll(".zk-back-cta").forEach((backButton) => {
     });
   });
 });
+
+// ****************faq/js************
+
+const FAQt_a = document.getElementsByClassName("WI_pD_a_acc_heading");
+for (let i = 0; i < FAQt_a.length; i++) {
+  if (window.innerWidth > 1024) {
+    FAQt_a[0].nextElementSibling.style.maxHeight = "1000px";
+    FAQt_a[0].querySelector(".plus_a").classList.add("plus_a_rotate");
+  }
+  FAQt_a[i].addEventListener("click", function () {
+    let accordionContent = this.nextElementSibling;
+    let plisICON = this.querySelector(".plus_a");
+    if (accordionContent.style.maxHeight) {
+      accordionContent.style.maxHeight = null;
+      plisICON.classList.remove("plus_a_rotate");
+    } else {
+      accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+      plisICON.classList.add("plus_a_rotate");
+    }
+  });
+}
