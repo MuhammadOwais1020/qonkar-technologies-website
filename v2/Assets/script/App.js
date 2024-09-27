@@ -30,3 +30,42 @@ document.addEventListener("mousemove", updateCursorPosition);
 // Add the will-change and transform-style properties
 cursor.style.willChange = "transform";
 cursor.style.transformStyle = "preserve-3d";
+
+// *****************Navbar***************
+function zk_humburger_menu() {
+  document.querySelector(".header-navbar").classList.add("open");
+}
+const burgerCheckbox = document.querySelector("#burger");
+document
+  .querySelector(".zk-close-menu-bar")
+  .addEventListener("click", function () {
+    document.querySelector(".header-navbar").classList.remove("open");
+    burgerCheckbox.checked = false;
+  });
+
+document.querySelectorAll(".zk-menu-one:has(ul) > a").forEach((menuLink) => {
+  menuLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    const menuItem = this.parentElement;
+    menuItem.classList.toggle("active");
+
+    const megaMenu = document.querySelector(".zk-mega-menu");
+    megaMenu.classList.toggle("active");
+    document.querySelectorAll(".zk-menu-one").forEach((item) => {
+      if (item !== menuItem) {
+        item.classList.remove("active");
+      }
+    });
+  });
+});
+
+document.querySelectorAll(".zk-back-cta").forEach((backButton) => {
+  backButton.addEventListener("click", function () {
+    const megaMenu = document.querySelector(".zk-mega-menu");
+    megaMenu.classList.remove("active");
+
+    document.querySelectorAll(".zk-menu-one").forEach((item) => {
+      item.classList.remove("active");
+    });
+  });
+});
