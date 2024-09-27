@@ -284,7 +284,7 @@ section {
 /* services */
 .services-section .services {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 30px;
 }
 
@@ -1077,7 +1077,7 @@ nav.navbar {
 }
 
 .header-navbar ul>li>a {
-  color: #000;
+  color: var(--text-color);
   padding: 11px 15px;
   font-size: 18px;
   font-style: normal;
@@ -1086,7 +1086,31 @@ nav.navbar {
   display: block;
   position: relative;
   transition: opacity 0.2s ease;
+  transition: color 0.3s ease;
   border-bottom: 1px solid #eee;
+}
+
+.header-navbar ul>li>a:hover {
+  color: var(--primary-color);
+}
+
+.header-navbar .sub-menu h4 {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.header-navbar .sub-menu p {
+  font-size: 16px;
+  color: var(--secondary-text);
+}
+
+.header-navbar .sub-menu h4 a {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.header-navbar .menu_content img {
+  width: 250px;
 }
 
 .header-navbar ul>li>ul.sub-menu>li:first-child>a {
@@ -1188,7 +1212,7 @@ nav.navbar {
 }
 
 .header-tlf-text a {
-  color: #000;
+  color: var(--text-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -1387,7 +1411,7 @@ nav.navbar {
     position: fixed;
     z-index: 999;
     top: 40px;
-    background: #fbf6f0;
+    background: #fff;
     left: 0;
     width: 100%;
     opacity: 0;
@@ -1401,9 +1425,11 @@ nav.navbar {
     opacity: 1;
     visibility: visible;
     transition: all 300ms ease-in-out;
-    margin-top: 20px;
+    margin-top: 43px;
     pointer-events: all;
     display: flex;
+    box-shadow: 0px 12px 9px 3px rgba(0, 0, 0, 0.05);
+    border-top: solid 1px var(--input-border);
   }
 
   .header-navbar ul>li>ul.sub-menu li {
@@ -1462,9 +1488,23 @@ nav.navbar {
   }
 
   .header-navbar ul>li>ul.sub-menu ul li a {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
     font-weight: 400;
+    color: var(--secondary-text);
+
+  }
+
+  .header-navbar ul>li>ul.sub-menu ul li a svg {
+    fill: var(--secondary-text);
+  }
+
+  .header-navbar .sub-menu ul li a:hover {
+    color: var(--primary-color);
+  }
+
+  .header-navbar .sub-menu ul li a:hover .header-navbar .sub-menu ul li a svg {
+    fill: var(--primary-color);
   }
 
   .header-navbar ul>li>ul.sub-menu li a {
@@ -1816,18 +1856,25 @@ nav.navbar {
 .button {
   display: inline-block;
   padding: 8px 24px;
-  border: 1px solid #f47a1f;
-  border-radius: 4px;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
   transition: all 0.2s ease-in;
   position: relative;
   overflow: hidden;
   font-size: 19px;
   cursor: pointer;
-  color: black;
+  color: var(--text-color);
+  font-weight: 600;
   z-index: 0;
+  text-transform: uppercase;
   background-color: transparent;
-  border-radius: 32px;
 }
+
+.button a {
+  color: var(--text-color);
+  transition: all 0.3s ease-in;
+}
+
 
 @media screen and (max-width: 990px) {
   .button {
@@ -1858,7 +1905,7 @@ nav.navbar {
   top: 180%;
   width: 160%;
   height: 190%;
-  background-color: #f47a1f;
+  background-color: var(--secondary-color);
   border-radius: 50%;
   display: block;
   transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
@@ -1866,19 +1913,82 @@ nav.navbar {
 }
 
 .button:hover {
-  color: #ffffff;
-  border: 1px solid #f47a1f;
+  border: 2px solid var(--primary-color);
+}
+
+.button:hover a {
+  color: #fff;
 }
 
 .button:hover:before {
   top: -35%;
-  background-color: #f47a1f;
+  background-color: var(--primary-color);
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
 .button:hover:after {
   top: -45%;
-  background-color: #f47a1f;
+  background-color: var(--primary-color);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+
+.hero-section .button {
+  background-color: var(--primary-color);
+}
+
+.hero-section .button a {
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+
+.hero-section .button:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.hero-section .button:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: var(--bg-color);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.hero-section .button:hover {
+  border: 2px solid var(--primary-color);
+}
+
+.hero-section .button:hover a {
+  color: var(--text-color);
+}
+
+.hero-section .button:hover:before {
+  top: -35%;
+  background-color: #fff;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.hero-section .button:hover:after {
+  top: -45%;
+  background-color: #fff;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
@@ -1901,7 +2011,7 @@ nav.navbar {
     width: 0;
     top: -11px;
     height: 4px;
-    background-color: black;
+    background-color: var(--primary-color);
     transition: width 0.4s ease, left 0.4s ease;
   }
 

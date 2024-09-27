@@ -9,18 +9,18 @@
   ?>
 
   <!-- CSS -->
-<link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
 </head>
 
 <body>
-<?php
+  <?php
 include('./sections/progress-bar.php')
 ?>
   <?php
   include('./sections/nav-bar.php');
   ?>
-  
+
   <div class="main container">
     <section class="hero-section">
       <div class="hero-section-title">
@@ -44,7 +44,9 @@ include('./sections/progress-bar.php')
           optimize advertisements, launch creative campaigns, and transform
           reporting.
         </p>
-        <div class="button hero-button">Book A Strategy Call</div>
+        <button class="button">
+          <a href="contact-us.php">Book A Strategy Call</a>
+        </button>
       </div>
       <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
@@ -59,40 +61,43 @@ include('./sections/progress-bar.php')
       </div>
     </section>
 
+    <!-- logos section -->
     <section class="section-logos">
       <div class="logos-container margin-top">
         <div class="home-logo-wrapper bottom">
           <div class="clients-grid logo-animate-alt mobilegridlogo">
-            <img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" />
-            <img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" /><img alt=""
-              src="https://sachellecollective.myshopify.com/cdn/shop/files/SachelleCollective_Logo_Wordmark-Black_54db1d61-f86f-4683-bc7b-ea83a6df4db4.jpg?v=1725828034&width=140"
-              loading="eager" class="client-logo-2" />
+            <img src="./assets/image/logo/shopify-logos/dawn-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/local-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/impact-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/warehouse-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/emerald-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/lola-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/motion-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/pipeline-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/studio-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/woodstock-theme.webp" alt="">
+
+            <img src="./assets/image/logo/shopify-logos/dawn-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/local-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/impact-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/warehouse-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/emerald-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/lola-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/motion-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/pipeline-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/studio-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/woodstock-theme.webp" alt="">
+
+            <img src="./assets/image/logo/shopify-logos/dawn-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/local-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/impact-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/warehouse-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/emerald-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/lola-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/motion-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/pipeline-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/studio-theme.webp" alt="">
+            <img src="./assets/image/logo/shopify-logos/woodstock-theme.webp" alt="">
           </div>
           <div class="home-logo-left-gradient"></div>
           <div class="home-logo-left-gradient right"></div>
@@ -105,7 +110,7 @@ include('./sections/progress-bar.php')
       <div class="section-heading">
         <h2 class="heading">Services We Provide</h2>
         <div class="heading-svg">
-          <svg  class="svg-path" viewBox="0 0 297 35" fill="" xmlns="http://www.w3.org/2000/svg">
+          <svg class="svg-path" viewBox="0 0 297 35" fill="" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M1.22961 19.3056C3.69595 15.4548 12.9448 12.4865 17.2609 11.4837C36.9917 6.67039 68.7458 4.26347 82.0024 5.46693C95.2591 6.67039 80.7693 9.07692 68.1292 11.4836C55.4892 13.8904 64.738 15.0937 76.1449 13.8904C87.5517 12.687 111.29 11.4836 131.638 10.882C151.985 10.2803 131.329 9.07692 111.29 9.07692C91.2513 9.07692 91.5595 6.67029 98.6503 5.46693C105.741 4.26357 121.772 -0.549874 140.578 0.0518062C159.384 0.653487 203.778 1.85685 222.893 6.06861C242.007 10.2804 281.468 21.7123 291.025 25.3224C300.583 28.9325 299.349 39.161 282.393 33.1442C265.437 27.1274 230.292 16.2972 153.218 14.4921C76.1449 12.6871 17.5691 22.9157 11.4032 27.1274C5.23738 31.3392 0.921268 31.3392 3.38762 27.7291C5.85396 24.119 6.47059 23.5174 4.00425 24.7207C1.5379 25.9241 -1.85333 24.119 1.22961 19.3056Z"
               fill="#8AD2DC"></path>
@@ -115,8 +120,7 @@ include('./sections/progress-bar.php')
       <div class="services">
         <div class="service">
           <a href="./services/shopify-development.php">
-            <svg class="service-svg" xmlns="http://www.w3.org/2000/svg" fill="none"
-              viewBox="0 0 27 23">
+            <svg class="service-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 27 23">
               <path fill=""
                 d="M24.823 10.173v10.294c0 .652-.227 1.205-.679 1.657a2.254 2.254 0 01-1.656.678H4.553a2.253 2.253 0 01-1.656-.678 2.254 2.254 0 01-.678-1.657V10.148c-.52-.427-.91-.981-1.172-1.663-.26-.68-.266-1.417-.016-2.206L2.338 2.01c.172-.543.464-.981.877-1.314.412-.333.905-.5 1.478-.5h17.63c.574 0 1.063.16 1.469.478.406.318.701.755.886 1.311L26.01 6.28c.25.79.245 1.523-.016 2.199a4.223 4.223 0 01-1.171 1.695zm-8.46-.934c.705 0 1.235-.215 1.59-.647.356-.431.501-.894.436-1.39l-.785-5.067H14.49v5.102a2 2 0 00.552 1.409c.367.396.808.593 1.321.593zm-5.813 0c.594 0 1.076-.197 1.447-.593.37-.396.555-.866.555-1.409V2.135H9.437l-.785 5.117c-.07.459.074.905.432 1.338.358.433.847.65 1.466.65zm-5.748 0c.479 0 .89-.166 1.235-.5.344-.334.557-.753.638-1.258l.76-5.346H4.693a.546.546 0 00-.336.093.557.557 0 00-.186.28L2.929 6.71c-.17.554-.09 1.115.241 1.68.331.566.875.848 1.632.848zm17.438 0c.698 0 1.233-.274 1.604-.823.371-.549.46-1.117.268-1.705l-1.306-4.228a.487.487 0 00-.186-.267.61.61 0 00-.336-.08h-2.677l.76 5.345c.08.505.293.924.638 1.258.344.334.756.5 1.235.5zM4.552 20.864h17.935a.386.386 0 00.285-.111.387.387 0 00.112-.286v-9.404c-.14.051-.258.083-.353.095a2.228 2.228 0 01-.293.019c-.58 0-1.092-.105-1.533-.316-.442-.21-.87-.547-1.284-1.01a4.137 4.137 0 01-1.286.966c-.495.24-1.06.36-1.694.36a3.604 3.604 0 01-1.55-.342 4.865 4.865 0 01-1.371-.985 4.2 4.2 0 01-1.357.985 3.704 3.704 0 01-1.535.342c-.583 0-1.13-.106-1.64-.317a3.492 3.492 0 01-1.345-1.01c-.544.543-1.044.9-1.502 1.071-.458.17-.904.256-1.34.256-.101 0-.206-.006-.313-.019a1.121 1.121 0 01-.333-.095v9.404c0 .116.037.211.112.286.074.074.17.111.285.111z">
               </path>
@@ -146,8 +150,8 @@ include('./sections/progress-bar.php')
           <a href="services/website-design-and-development.html">
             <svg class="service-svg" xmlns="http://www.w3.org/2000/svg" width="84" height="84" fill="none"
               viewBox="0 0 84 84">
-              <mask id="mask0_1020_1442"  x="0" y="0" maskUnits="userSpaceOnUse">
-             
+              <mask id="mask0_1020_1442" x="0" y="0" maskUnits="userSpaceOnUse">
+
                 <path fill="" d="M0 0H84V84H0z"></path>
               </mask>
               <g fill="" mask="url(#mask0_1020_1442)">
@@ -219,136 +223,82 @@ include('./sections/progress-bar.php')
         </div>
       </div>
     </section>
-    <section class="faq-sections container">
-    <div class="WI_pD_a_acc">
-      <h6 class="WI_pD_a_acc_heading">
-        Beskrivelse<svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 6L12 18"
-            stroke="#000"
-            stroke-linecap="round"
-            class="plus_a"
-          ></path>
-          <path
-            d="M18 12L6 12"
-            stroke="#000"
-            stroke-linecap="round"
-            class="plus_b"
-          ></path>
-        </svg>
-      </h6>
-      <div class="WI_pD_a_des">
-        <ul>
-          <li>Lorem, ipsum.</li>
-          <li>Sunt, temporibus.</li>
-          <li>Assumenda, doloremque?</li>
-          <li>Soluta, corrupti.</li>
-          <li>Ab, quia.</li>
-        </ul>
-      </div>
-      <h6 class="WI_pD_a_acc_heading">
-        Materiale &amp; Vaskeguide<svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 6L12 18"
-            stroke="#000"
-            stroke-linecap="round"
-            class="plus_a"
-          ></path>
-          <path
-            d="M18 12L6 12"
-            stroke="#000"
-            stroke-linecap="round"
-            class="plus_b"
-          ></path>
-        </svg>
-      </h6>
-      <div class="WI_pD_a_des">
-        <ul>
-          <li>Lorem, ipsum.</li>
-          <li>Sunt, temporibus.</li>
-          <li>Assumenda, doloremque?</li>
-          <li>Soluta, corrupti.</li>
-          <li>Ab, quia.</li>
-        </ul>
-      </div>
-      <h6 class="WI_pD_a_acc_heading">
-        Levering &amp; retur<svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 6L12 18"
-            stroke="#000"
-            stroke-linecap="round"
-            class="plus_a"
-          ></path>
-          <path
-            d="M18 12L6 12"
-            stroke="#000"
-            stroke-linecap="round"
-            class="plus_b"
-          ></path>
-        </svg>
-      </h6>
-      <div class="WI_pD_a_des">
-        <ul>
-          <li>Lorem, ipsum.</li>
-          <li>Sunt, temporibus.</li>
-          <li>Assumenda, doloremque?</li>
-          <li>Soluta, corrupti.</li>
-          <li>Ab, quia.</li>
-        </ul>
-      </div>
-      <h6 class="WI_pD_a_acc_heading">
-        100 dages tilfredshedsgaranti<svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 6L12 18"
-            stroke="#000"
-            stroke-linecap="round"
-            class="plus_a"
-          ></path>
-          <path
-            d="M18 12L6 12"
-            stroke="#000"
-            stroke-linecap="round"
-            class="plus_b"
-          ></path>
-        </svg>
-      </h6>
-      <div class="WI_pD_a_des">
-        <ul>
-          <li>Lorem, ipsum.</li>
-          <li>Sunt, temporibus.</li>
-          <li>Assumenda, doloremque?</li>
-          <li>Soluta, corrupti.</li>
-          <li>Ab, quia.</li>
-        </ul>
-      </div>
-      <div class="WI_pD_a_acc_heading ratingHeading">
-        <h6>
-          Anmeldelser (61)
-          <style>
+
+    <!-- call to action -->
+    <?php
+    include('./sections/call-to-action.php');
+    ?>
+
+    <!-- faq section -->
+    <section class="faq-sections">
+      <div class="WI_pD_a_acc">
+        <h6 class="WI_pD_a_acc_heading">
+          Beskrivelse<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 6L12 18" stroke="#000" stroke-linecap="round" class="plus_a"></path>
+            <path d="M18 12L6 12" stroke="#000" stroke-linecap="round" class="plus_b"></path>
+          </svg>
+        </h6>
+        <div class="WI_pD_a_des">
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Sunt, temporibus.</li>
+            <li>Assumenda, doloremque?</li>
+            <li>Soluta, corrupti.</li>
+            <li>Ab, quia.</li>
+          </ul>
+        </div>
+        <h6 class="WI_pD_a_acc_heading">
+          Materiale &amp; Vaskeguide<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 6L12 18" stroke="#000" stroke-linecap="round" class="plus_a"></path>
+            <path d="M18 12L6 12" stroke="#000" stroke-linecap="round" class="plus_b"></path>
+          </svg>
+        </h6>
+        <div class="WI_pD_a_des">
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Sunt, temporibus.</li>
+            <li>Assumenda, doloremque?</li>
+            <li>Soluta, corrupti.</li>
+            <li>Ab, quia.</li>
+          </ul>
+        </div>
+        <h6 class="WI_pD_a_acc_heading">
+          Levering &amp; retur<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 6L12 18" stroke="#000" stroke-linecap="round" class="plus_a"></path>
+            <path d="M18 12L6 12" stroke="#000" stroke-linecap="round" class="plus_b"></path>
+          </svg>
+        </h6>
+        <div class="WI_pD_a_des">
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Sunt, temporibus.</li>
+            <li>Assumenda, doloremque?</li>
+            <li>Soluta, corrupti.</li>
+            <li>Ab, quia.</li>
+          </ul>
+        </div>
+        <h6 class="WI_pD_a_acc_heading">
+          100 dages tilfredshedsgaranti<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 6L12 18" stroke="#000" stroke-linecap="round" class="plus_a"></path>
+            <path d="M18 12L6 12" stroke="#000" stroke-linecap="round" class="plus_b"></path>
+          </svg>
+        </h6>
+        <div class="WI_pD_a_des">
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Sunt, temporibus.</li>
+            <li>Assumenda, doloremque?</li>
+            <li>Soluta, corrupti.</li>
+            <li>Ab, quia.</li>
+          </ul>
+        </div>
+        <div class="WI_pD_a_acc_heading ratingHeading">
+          <h6>
+            Anmeldelser (61)
+            <style>
             .WI_rivewsStars_main {
               width: 90px;
               height: auto;
@@ -356,457 +306,218 @@ include('./sections/progress-bar.php')
               justify-content: flex-start;
               align-items: center;
             }
-          </style>
-          <div class="WI_rivewsStars_main">
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath
-                  id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6"
-                >
-                  <path
-                    d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
-                    fill="black"
-                  ></path>
-                </clipPath>
-              </defs>
-              <rect
-                x="0"
-                y="0"
-                fill="black"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-              <rect
-                x="100%"
-                y="0"
-                fill="#DDDDDD"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-            </svg>
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath
-                  id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6"
-                >
-                  <path
-                    d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
-                    fill="black"
-                  ></path>
-                </clipPath>
-              </defs>
-              <rect
-                x="0"
-                y="0"
-                fill="black"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-              <rect
-                x="100%"
-                y="0"
-                fill="#DDDDDD"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-            </svg>
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath
-                  id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6"
-                >
-                  <path
-                    d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
-                    fill="black"
-                  ></path>
-                </clipPath>
-              </defs>
-              <rect
-                x="0"
-                y="0"
-                fill="black"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-              <rect
-                x="100%"
-                y="0"
-                fill="#DDDDDD"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-            </svg>
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath
-                  id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6"
-                >
-                  <path
-                    d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
-                    fill="black"
-                  ></path>
-                </clipPath>
-              </defs>
-              <rect
-                x="0"
-                y="0"
-                fill="black"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-              <rect
-                x="100%"
-                y="0"
-                fill="#DDDDDD"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-            </svg>
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath
-                  id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6"
-                >
-                  <path
-                    d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
-                    fill="black"
-                  ></path>
-                </clipPath>
-              </defs>
-              <rect
-                x="0"
-                y="0"
-                fill="black"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-              <rect
-                x="100%"
-                y="0"
-                fill="#DDDDDD"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-            </svg>
-          </div>
-        </h6>
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 6L12 18"
-            stroke="#000"
-            stroke-linecap="round"
-            class="plus_a"
-          ></path>
-          <path
-            d="M18 12L6 12"
-            stroke="#000"
-            stroke-linecap="round"
-            class="plus_b"
-          ></path>
-        </svg>
-      </div>
-      <div class="WI_pD_a_des">
-        <ul>
-          <li>Lorem, ipsum.</li>
-          <li>Sunt, temporibus.</li>
-          <li>Assumenda, doloremque?</li>
-          <li>Soluta, corrupti.</li>
-          <li>Ab, quia.</li>
-        </ul>
-        <div class="WI_pD_a_des_star">
-          <div class="WI_rivewsStars_main">
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath
-                  id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6"
-                >
-                  <path
-                    d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
-                    fill="black"
-                  ></path>
-                </clipPath>
-              </defs>
-              <rect
-                x="0"
-                y="0"
-                fill="black"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-              <rect
-                x="100%"
-                y="0"
-                fill="#DDDDDD"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-            </svg>
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath
-                  id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6"
-                >
-                  <path
-                    d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
-                    fill="black"
-                  ></path>
-                </clipPath>
-              </defs>
-              <rect
-                x="0"
-                y="0"
-                fill="black"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-              <rect
-                x="100%"
-                y="0"
-                fill="#DDDDDD"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-            </svg>
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath
-                  id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6"
-                >
-                  <path
-                    d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
-                    fill="black"
-                  ></path>
-                </clipPath>
-              </defs>
-              <rect
-                x="0"
-                y="0"
-                fill="black"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-              <rect
-                x="100%"
-                y="0"
-                fill="#DDDDDD"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-            </svg>
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath
-                  id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6"
-                >
-                  <path
-                    d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
-                    fill="black"
-                  ></path>
-                </clipPath>
-              </defs>
-              <rect
-                x="0"
-                y="0"
-                fill="black"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-              <rect
-                x="100%"
-                y="0"
-                fill="#DDDDDD"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-            </svg>
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath
-                  id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6"
-                >
-                  <path
-                    d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
-                    fill="black"
-                  ></path>
-                </clipPath>
-              </defs>
-              <rect
-                x="0"
-                y="0"
-                fill="black"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-              <rect
-                x="100%"
-                y="0"
-                fill="#DDDDDD"
-                width="100%"
-                height="100%"
-                clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"
-              ></rect>
-            </svg>
-          </div>
-          <h5>5</h5>
-        </div>
-        <div class="WI_pD_a_des_progress">
-          <div class="WI_pD_a_des_progress_a">
-            <h5>Kvalitet</h5>
-            <div class="WI_pD_progressbar">
-              <div class="WI_pD_bar"></div>
-              <div class="WI_pD_thumb" style="left: 99%"></div>
-            </div>
-            <div class="WI_pD_pointers">
-              <span> Dårlig </span><span> Under middel </span
-              ><span> Middel </span><span> God </span><span> Fantastisk </span>
-            </div>
-          </div>
-          <div class="WI_pD_a_des_progress_b">
-            <h5>Pasform</h5>
-            <div class="WI_pD_progressbar">
-              <div class="WI_pD_bar"></div>
-              <div class="WI_pD_thumb" style="left: 50%"></div>
-            </div>
-            <div class="WI_pD_pointers">
-              <span> Meget lille </span><span> Lille </span><span> Normal </span
-              ><span> Stor </span><span> Meget stor </span>
-            </div>
-          </div>
-
-          <div class="WI_pD_reviewBtn" id="WI_pD_reviewBtn">
-            <button type="button" id="writeReview">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5.92971 19.283L5.92972 19.283L5.95149 19.2775L5.95151 19.2775L8.58384 18.6194C8.59896 18.6156 8.61396 18.6119 8.62885 18.6082C8.85159 18.5528 9.04877 18.5037 9.2278 18.4023C9.40683 18.301 9.55035 18.1571 9.71248 17.9947C9.72332 17.9838 9.73425 17.9729 9.74527 17.9618L16.9393 10.7678L16.9393 10.7678L16.9626 10.7445C17.2761 10.4311 17.5461 10.1611 17.7333 9.91573C17.9339 9.65281 18.0858 9.36038 18.0858 9C18.0858 8.63961 17.9339 8.34719 17.7333 8.08427C17.5461 7.83894 17.276 7.5689 16.9626 7.2555L16.9393 7.23223L16.5858 7.58579L16.9393 7.23223L16.7678 7.06066L16.7445 7.03738C16.4311 6.72395 16.1611 6.45388 15.9157 6.2667C15.6528 6.0661 15.3604 5.91421 15 5.91421C14.6396 5.91421 14.3472 6.0661 14.0843 6.2667C13.8389 6.45388 13.5689 6.72395 13.2555 7.03739L13.2322 7.06066L6.03816 14.2547C6.02714 14.2658 6.01619 14.2767 6.00533 14.2875C5.84286 14.4496 5.69903 14.5932 5.59766 14.7722C5.4963 14.9512 5.44723 15.1484 5.39179 15.3711C5.38809 15.386 5.38435 15.401 5.38057 15.4162L4.71704 18.0703C4.71483 18.0791 4.7126 18.088 4.71036 18.097C4.67112 18.2537 4.62921 18.421 4.61546 18.5615C4.60032 18.7163 4.60385 18.9773 4.81326 19.1867C5.02267 19.3961 5.28373 19.3997 5.43846 19.3845C5.57899 19.3708 5.74633 19.3289 5.90301 19.2896C5.91195 19.2874 5.92085 19.2852 5.92971 19.283Z"
-                  stroke="#fff"
-                ></path>
-                <path
-                  d="M12.5 7.5L15.5 5.5L18.5 8.5L16.5 11.5L12.5 7.5Z"
-                  fill="#fff"
-                ></path>
+            </style>
+            <div class="WI_rivewsStars_main">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6">
+                    <path
+                      d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
+                      fill="black"></path>
+                  </clipPath>
+                </defs>
+                <rect x="0" y="0" fill="black" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+                <rect x="100%" y="0" fill="#DDDDDD" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
               </svg>
-              Anmeld produkt
-            </button>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6">
+                    <path
+                      d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
+                      fill="black"></path>
+                  </clipPath>
+                </defs>
+                <rect x="0" y="0" fill="black" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+                <rect x="100%" y="0" fill="#DDDDDD" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+              </svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6">
+                    <path
+                      d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
+                      fill="black"></path>
+                  </clipPath>
+                </defs>
+                <rect x="0" y="0" fill="black" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+                <rect x="100%" y="0" fill="#DDDDDD" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+              </svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6">
+                    <path
+                      d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
+                      fill="black"></path>
+                  </clipPath>
+                </defs>
+                <rect x="0" y="0" fill="black" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+                <rect x="100%" y="0" fill="#DDDDDD" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+              </svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6">
+                    <path
+                      d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
+                      fill="black"></path>
+                  </clipPath>
+                </defs>
+                <rect x="0" y="0" fill="black" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+                <rect x="100%" y="0" fill="#DDDDDD" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+              </svg>
+            </div>
+          </h6>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 6L12 18" stroke="#000" stroke-linecap="round" class="plus_a"></path>
+            <path d="M18 12L6 12" stroke="#000" stroke-linecap="round" class="plus_b"></path>
+          </svg>
+        </div>
+        <div class="WI_pD_a_des">
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Sunt, temporibus.</li>
+            <li>Assumenda, doloremque?</li>
+            <li>Soluta, corrupti.</li>
+            <li>Ab, quia.</li>
+          </ul>
+          <div class="WI_pD_a_des_star">
+            <div class="WI_rivewsStars_main">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6">
+                    <path
+                      d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
+                      fill="black"></path>
+                  </clipPath>
+                </defs>
+                <rect x="0" y="0" fill="black" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+                <rect x="100%" y="0" fill="#DDDDDD" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+              </svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6">
+                    <path
+                      d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
+                      fill="black"></path>
+                  </clipPath>
+                </defs>
+                <rect x="0" y="0" fill="black" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+                <rect x="100%" y="0" fill="#DDDDDD" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+              </svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6">
+                    <path
+                      d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
+                      fill="black"></path>
+                  </clipPath>
+                </defs>
+                <rect x="0" y="0" fill="black" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+                <rect x="100%" y="0" fill="#DDDDDD" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+              </svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6">
+                    <path
+                      d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
+                      fill="black"></path>
+                  </clipPath>
+                </defs>
+                <rect x="0" y="0" fill="black" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+                <rect x="100%" y="0" fill="#DDDDDD" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+              </svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6">
+                    <path
+                      d="M12 16.743L17.562 20.1L16.086 13.773L21 9.516L14.529 8.967L12 3L9.471 8.967L3 9.516L7.914 13.773L6.438 20.1L12 16.743Z"
+                      fill="black"></path>
+                  </clipPath>
+                </defs>
+                <rect x="0" y="0" fill="black" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+                <rect x="100%" y="0" fill="#DDDDDD" width="100%" height="100%"
+                  clip-path="url(#star-template--20502703014236__29a7f6da-d74e-494d-ad16-b18134bbecd6)"></rect>
+              </svg>
+            </div>
+            <h5>5</h5>
+          </div>
+          <div class="WI_pD_a_des_progress">
+            <div class="WI_pD_a_des_progress_a">
+              <h5>Kvalitet</h5>
+              <div class="WI_pD_progressbar">
+                <div class="WI_pD_bar"></div>
+                <div class="WI_pD_thumb" style="left: 99%"></div>
+              </div>
+              <div class="WI_pD_pointers">
+                <span> Dårlig </span><span> Under middel </span><span> Middel </span><span> God </span><span> Fantastisk
+                </span>
+              </div>
+            </div>
+            <div class="WI_pD_a_des_progress_b">
+              <h5>Pasform</h5>
+              <div class="WI_pD_progressbar">
+                <div class="WI_pD_bar"></div>
+                <div class="WI_pD_thumb" style="left: 50%"></div>
+              </div>
+              <div class="WI_pD_pointers">
+                <span> Meget lille </span><span> Lille </span><span> Normal </span><span> Stor </span><span> Meget stor
+                </span>
+              </div>
+            </div>
+
+            <div class="WI_pD_reviewBtn" id="WI_pD_reviewBtn">
+              <button type="button" id="writeReview">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.92971 19.283L5.92972 19.283L5.95149 19.2775L5.95151 19.2775L8.58384 18.6194C8.59896 18.6156 8.61396 18.6119 8.62885 18.6082C8.85159 18.5528 9.04877 18.5037 9.2278 18.4023C9.40683 18.301 9.55035 18.1571 9.71248 17.9947C9.72332 17.9838 9.73425 17.9729 9.74527 17.9618L16.9393 10.7678L16.9393 10.7678L16.9626 10.7445C17.2761 10.4311 17.5461 10.1611 17.7333 9.91573C17.9339 9.65281 18.0858 9.36038 18.0858 9C18.0858 8.63961 17.9339 8.34719 17.7333 8.08427C17.5461 7.83894 17.276 7.5689 16.9626 7.2555L16.9393 7.23223L16.5858 7.58579L16.9393 7.23223L16.7678 7.06066L16.7445 7.03738C16.4311 6.72395 16.1611 6.45388 15.9157 6.2667C15.6528 6.0661 15.3604 5.91421 15 5.91421C14.6396 5.91421 14.3472 6.0661 14.0843 6.2667C13.8389 6.45388 13.5689 6.72395 13.2555 7.03739L13.2322 7.06066L6.03816 14.2547C6.02714 14.2658 6.01619 14.2767 6.00533 14.2875C5.84286 14.4496 5.69903 14.5932 5.59766 14.7722C5.4963 14.9512 5.44723 15.1484 5.39179 15.3711C5.38809 15.386 5.38435 15.401 5.38057 15.4162L4.71704 18.0703C4.71483 18.0791 4.7126 18.088 4.71036 18.097C4.67112 18.2537 4.62921 18.421 4.61546 18.5615C4.60032 18.7163 4.60385 18.9773 4.81326 19.1867C5.02267 19.3961 5.28373 19.3997 5.43846 19.3845C5.57899 19.3708 5.74633 19.3289 5.90301 19.2896C5.91195 19.2874 5.92085 19.2852 5.92971 19.283Z"
+                    stroke="#fff"></path>
+                  <path d="M12.5 7.5L15.5 5.5L18.5 8.5L16.5 11.5L12.5 7.5Z" fill="#fff"></path>
+                </svg>
+                Anmeld produkt
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
 
-    <!-- call to action -->
-    <?php
-    include('./sections/call-to-action.php');
-    ?>
 
- <!-- contact us section -->
-  <?php
+
+    <!-- contact us section -->
+    <?php
   include('./sections/contact-us.php');
   ?>
 
   </div>
 
   <!-- footer -->
- <?php
+  <?php
  include('./sections/footer.php')
  ?>
 
-<!-- scripts -->
- <?php
+  <!-- scripts -->
+  <?php
  include('./sections/scripts.php');
  ?>
 
- <script src="./assets/script/App.js" defer></script>
+  <script src="./assets/script/App.js" defer></script>
 </body>
 
 </html>
