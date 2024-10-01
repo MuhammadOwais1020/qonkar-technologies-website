@@ -1,9 +1,9 @@
 <header class="site-header position-relative z-1">
   <div class="main container header-logosearch position-relative">
     <div class="header-logo">
-      <a href="index.php" class="d-inline-block">
-        <img src="./assets/image/logo/qonkar-technologies-logo.svg" alt="Qonkar Technologies Best IT Service Company"
-          height="37" width="165" />
+      <a href="https://qonkar.com/" class="d-inline-block">
+        <img src="https://qonkar.com/assets/image/logo/qonkar-technologies-logo.svg"
+          alt="Qonkar Technologies Best IT Service Company" height="37" width="165" />
       </a>
       <div class="hamburger-nav-li">
         <button class="hamburger-nav zk-btn-a" type="button" aria-label="Qonkarmobile menu bar" rel="nofollow"

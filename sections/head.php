@@ -10,8 +10,8 @@
     rel="stylesheet" />
 
 
-<!-- CSS -->
-<link rel="stylesheet" href="../assets/css/style.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://qonkar.com/assets/css/style.css" />
 
-<!-- JS -->
-<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <!-- JS -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>

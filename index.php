@@ -9,7 +9,7 @@
   ?>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://qonkar.com/assets/css/style.css" />
 
   <!-- Structured Data for FAQ -->
   <script type="application/ld+json">
