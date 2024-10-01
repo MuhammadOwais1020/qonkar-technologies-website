@@ -50,7 +50,7 @@ section {
 }
 
 .cursor {
-  background-color: #0000;
+  background-color: rgb(0, 0, 0);
   background-image: linear-gradient(to bottom,
       var(--secondary-color),
       var(--primary-color));
@@ -425,6 +425,7 @@ footer {
   font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .footer-section ul {
@@ -438,7 +439,7 @@ footer {
   font-weight: 400;
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 23px;
 }
 
