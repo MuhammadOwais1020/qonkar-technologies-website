@@ -56,7 +56,7 @@
                         </h4>
                         <ul class="menu_items">
                           <li>
-                            <a href="./services/website-design-and-development.php">
+                            <a href="https://www.qonkar.com/services/website-design-and-development.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -68,7 +68,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="./services/website-design-and-development.php">
+                            <a href="https://www.qonkar.com/services/website-design-and-development.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -80,7 +80,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="./services/website-design-and-development.php">
+                            <a href="https://www.qonkar.com/services/website-design-and-development.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -100,7 +100,7 @@
                         </h4>
                         <ul class="menu_items">
                           <li>
-                            <a href="./services/digital-marketing.php">
+                            <a href="https://www.qonkar.com/services/digital-marketing.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -112,7 +112,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="./services/digital-marketing.php">
+                            <a href="https://www.qonkar.com/services/digital-marketing.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -124,7 +124,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="./services/digital-marketing.php">
+                            <a href="https://www.qonkar.com/services/digital-marketing.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -136,7 +136,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="./services/digital-marketing.php">
+                            <a href="https://www.qonkar.com/services/digital-marketing.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -151,12 +151,13 @@
                       </div>
                       <div class="cateorgy_namee">
                         <h4>
-                          <a aria-current="page" class="" href="./services/shopify-development">Shopify Development
+                          <a aria-current="page" class=""
+                            href="https://www.qonkar.com/services/shopify-development">Shopify Development
                           </a>
                         </h4>
                         <ul class="menu_items">
                           <li>
-                            <a href="./services/shopify-development">
+                            <a href="https://www.qonkar.com/services/shopify-development">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -168,7 +169,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="./services/shopify-development">
+                            <a href="https://www.qonkar.com/services/shopify-development">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -180,7 +181,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="./services/shopify-development">
+                            <a href="https://www.qonkar.com/services/shopify-development">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -192,7 +193,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="./services/shopify-development">
+                            <a href="https://www.qonkar.com/services/shopify-development">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">

@@ -152,7 +152,7 @@ include('./sections/progress-bar.php')
       </div>
       <div class="services">
         <div class="service">
-          <a href="./services/shopify-development.php">
+          <a href="https://www.qonkar.com/services/shopify-development.php">
             <svg class="service-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 27 23">
               <path fill=""
                 d="M24.823 10.173v10.294c0 .652-.227 1.205-.679 1.657a2.254 2.254 0 01-1.656.678H4.553a2.253 2.253 0 01-1.656-.678 2.254 2.254 0 01-.678-1.657V10.148c-.52-.427-.91-.981-1.172-1.663-.26-.68-.266-1.417-.016-2.206L2.338 2.01c.172-.543.464-.981.877-1.314.412-.333.905-.5 1.478-.5h17.63c.574 0 1.063.16 1.469.478.406.318.701.755.886 1.311L26.01 6.28c.25.79.245 1.523-.016 2.199a4.223 4.223 0 01-1.171 1.695zm-8.46-.934c.705 0 1.235-.215 1.59-.647.356-.431.501-.894.436-1.39l-.785-5.067H14.49v5.102a2 2 0 00.552 1.409c.367.396.808.593 1.321.593zm-5.813 0c.594 0 1.076-.197 1.447-.593.37-.396.555-.866.555-1.409V2.135H9.437l-.785 5.117c-.07.459.074.905.432 1.338.358.433.847.65 1.466.65zm-5.748 0c.479 0 .89-.166 1.235-.5.344-.334.557-.753.638-1.258l.76-5.346H4.693a.546.546 0 00-.336.093.557.557 0 00-.186.28L2.929 6.71c-.17.554-.09 1.115.241 1.68.331.566.875.848 1.632.848zm17.438 0c.698 0 1.233-.274 1.604-.823.371-.549.46-1.117.268-1.705l-1.306-4.228a.487.487 0 00-.186-.267.61.61 0 00-.336-.08h-2.677l.76 5.345c.08.505.293.924.638 1.258.344.334.756.5 1.235.5zM4.552 20.864h17.935a.386.386 0 00.285-.111.387.387 0 00.112-.286v-9.404c-.14.051-.258.083-.353.095a2.228 2.228 0 01-.293.019c-.58 0-1.092-.105-1.533-.316-.442-.21-.87-.547-1.284-1.01a4.137 4.137 0 01-1.286.966c-.495.24-1.06.36-1.694.36a3.604 3.604 0 01-1.55-.342 4.865 4.865 0 01-1.371-.985 4.2 4.2 0 01-1.357.985 3.704 3.704 0 01-1.535.342c-.583 0-1.13-.106-1.64-.317a3.492 3.492 0 01-1.345-1.01c-.544.543-1.044.9-1.502 1.071-.458.17-.904.256-1.34.256-.101 0-.206-.006-.313-.019a1.121 1.121 0 01-.333-.095v9.404c0 .116.037.211.112.286.074.074.17.111.285.111z">
@@ -166,7 +166,7 @@ include('./sections/progress-bar.php')
               <li>Shopify Management & Store Maintenance</li>
             </ul>
             <div class="service-link">
-              <a href="./services/shopify-development.php">
+              <a href="https://www.qonkar.com/services/shopify-development.php">
                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M20.3408 27.4683C20.5911 27.7186 20.9094 27.8359 21.2266 27.8359C21.5437 27.8359 21.862 27.7186 22.1123 27.4683L31.0415 18.5391C31.5267 18.0539 31.5267 17.2528 31.0415 16.7676L22.1123 7.8384C21.6271 7.35322 20.826 7.35322 20.3408 7.8384C19.8557 8.32358 19.8557 9.12466 20.3408 9.60984L28.3844 17.6534L20.3408 25.6969C19.8557 26.1821 19.8557 26.9831 20.3408 27.4683Z"
@@ -180,7 +180,7 @@ include('./sections/progress-bar.php')
           </a>
         </div>
         <div class="service">
-          <a href="services/website-design-and-development.php">
+          <a href="https://www.qonkar.com/services/website-design-and-development.php">
             <svg class="service-svg" xmlns="http://www.w3.org/2000/svg" width="84" height="84" fill="none"
               viewBox="0 0 84 84">
               <mask id="mask0_1020_1442" x="0" y="0" maskUnits="userSpaceOnUse">
@@ -203,7 +203,7 @@ include('./sections/progress-bar.php')
               <li>Custom Website Design & Maintenance</li>
             </ul>
             <div class="service-link">
-              <a href="services/website-design-and-development.html">
+              <a href="https://www.qonkar.com/services/website-design-and-development.php">
                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M20.3408 27.4683C20.5911 27.7186 20.9094 27.8359 21.2266 27.8359C21.5437 27.8359 21.862 27.7186 22.1123 27.4683L31.0415 18.5391C31.5267 18.0539 31.5267 17.2528 31.0415 16.7676L22.1123 7.8384C21.6271 7.35322 20.826 7.35322 20.3408 7.8384C19.8557 8.32358 19.8557 9.12466 20.3408 9.60984L28.3844 17.6534L20.3408 25.6969C19.8557 26.1821 19.8557 26.9831 20.3408 27.4683Z"
@@ -217,7 +217,7 @@ include('./sections/progress-bar.php')
           </a>
         </div>
         <div class="service">
-          <a href="services/digital-marketing.php">
+          <a href="https://www.qonkar.com/services/digital-marketing.php">
             <svg class="service-svg" xmlns="http://www.w3.org/2000/svg" width="84" height="84" fill="none"
               viewBox="0 0 84 84">
               <mask id="mask0_1020_1442" width="" height="" x="0" y="0" maskUnits="userSpaceOnUse"
@@ -241,7 +241,7 @@ include('./sections/progress-bar.php')
               <li>Social Media Management</li>
             </ul>
             <div class="service-link">
-              <a href="services/digital-marketing.html">
+              <a href="https://www.qonkar.com/services/digital-marketing.php">
                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M20.3408 27.4683C20.5911 27.7186 20.9094 27.8359 21.2266 27.8359C21.5437 27.8359 21.862 27.7186 22.1123 27.4683L31.0415 18.5391C31.5267 18.0539 31.5267 17.2528 31.0415 16.7676L22.1123 7.8384C21.6271 7.35322 20.826 7.35322 20.3408 7.8384C19.8557 8.32358 19.8557 9.12466 20.3408 9.60984L28.3844 17.6534L20.3408 25.6969C19.8557 26.1821 19.8557 26.9831 20.3408 27.4683Z"
