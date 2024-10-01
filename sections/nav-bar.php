@@ -33,7 +33,7 @@
               <ul id="mega-menu" class="zk-mega-menu">
                 <li id="menu-item-147693"
                   class="zk-menu-one menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-147693">
-                  <a href="#">Home</a>
+                  <a href="https://qonkar.com/">Home</a>
                 </li>
                 <li id="menu-item-147693"
                   class="zk-menu-one menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-147693">
