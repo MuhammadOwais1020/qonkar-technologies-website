@@ -46,62 +46,7 @@
                     </button>
                     <li id="menu-item-171695"
                       class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-171695">
-                      <div class="cateorgy_namee">
-                        <h4>
-                          <a aria-current="page" class="" href="./services/shopify-development">Shopify Development
-                          </a>
-                        </h4>
-                        <ul class="menu_items">
-                          <li>
-                            <a href="./services/shopify-development">
-                              <span class="icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
-                                  viewBox="0 0 6 10">
-                                  <path d="M6 5L1.758 9.243.344 7.828 3.172 5 .344 2.172 1.758.757 6 5z">
-                                  </path>
-                                </svg>
-                              </span>
-                              Shopify Store Setup & Customization
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./services/shopify-development">
-                              <span class="icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
-                                  viewBox="0 0 6 10">
-                                  <path d="M6 5L1.758 9.243.344 7.828 3.172 5 .344 2.172 1.758.757 6 5z">
-                                  </path>
-                                </svg>
-                              </span>
-                              Shopify Theme Development
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./services/shopify-development">
-                              <span class="icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
-                                  viewBox="0 0 6 10">
-                                  <path d="M6 5L1.758 9.243.344 7.828 3.172 5 .344 2.172 1.758.757 6 5z">
-                                  </path>
-                                </svg>
-                              </span>
-                              Shopify Store Redesign
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./services/shopify-development">
-                              <span class="icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
-                                  viewBox="0 0 6 10">
-                                  <path d="M6 5L1.758 9.243.344 7.828 3.172 5 .344 2.172 1.758.757 6 5z">
-                                  </path>
-                                </svg>
-                              </span>
-                              Shopify Management & Store Maintenance
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
+
                       <div class="cateorgy_namee">
                         <h4>
                           <a aria-current="page" class="" href="./services/website-design-and-development.php">Website
@@ -179,7 +124,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="/cross-platform-app-development">
+                            <a href="./services/digital-marketing.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -204,6 +149,63 @@
                           </li>
                         </ul>
                       </div>
+                      <div class="cateorgy_namee">
+                        <h4>
+                          <a aria-current="page" class="" href="./services/shopify-development">Shopify Development
+                          </a>
+                        </h4>
+                        <ul class="menu_items">
+                          <li>
+                            <a href="./services/shopify-development">
+                              <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
+                                  viewBox="0 0 6 10">
+                                  <path d="M6 5L1.758 9.243.344 7.828 3.172 5 .344 2.172 1.758.757 6 5z">
+                                  </path>
+                                </svg>
+                              </span>
+                              Shopify Store Setup & Customization
+                            </a>
+                          </li>
+                          <li>
+                            <a href="./services/shopify-development">
+                              <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
+                                  viewBox="0 0 6 10">
+                                  <path d="M6 5L1.758 9.243.344 7.828 3.172 5 .344 2.172 1.758.757 6 5z">
+                                  </path>
+                                </svg>
+                              </span>
+                              Shopify Theme Development
+                            </a>
+                          </li>
+                          <li>
+                            <a href="./services/shopify-development">
+                              <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
+                                  viewBox="0 0 6 10">
+                                  <path d="M6 5L1.758 9.243.344 7.828 3.172 5 .344 2.172 1.758.757 6 5z">
+                                  </path>
+                                </svg>
+                              </span>
+                              Shopify Store Redesign
+                            </a>
+                          </li>
+                          <li>
+                            <a href="./services/shopify-development">
+                              <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
+                                  viewBox="0 0 6 10">
+                                  <path d="M6 5L1.758 9.243.344 7.828 3.172 5 .344 2.172 1.758.757 6 5z">
+                                  </path>
+                                </svg>
+                              </span>
+                              Shopify Management & Store Maintenance
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
                       <div class="cateorgy_namee main-title">
                         <h4 class="ps-0">Built to Win</h4>
                         <p class="bulit">

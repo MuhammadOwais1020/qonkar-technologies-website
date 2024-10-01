@@ -8,15 +8,16 @@
            </div>
            <div class="footer-menus">
              <ul>
-               <li><a href="website-design-and-development.php" rel="">Website Design & Development</a></li>
-               <li><a href="services/Ecommerce-Solutions.php" rel="">Ecommerce Solutions</a></li>
-               <li><a href="design-and-branding.php" rel="">Design & Branding</a></li>
-               <li><a href="services/UI/UX-Design.php" rel="">UI/UX Design</a></li>
-               <li><a href="digital-Marketing.php" rel="">Digital Marketing</a></li>
-               <li><a href="social-media-management.php" rel="">Social Media Management (SMM)</a></li>
-               <li><a href="services/Social-Media-Content-Creation.php" rel="">Social Media Content Creation</a></li>
-               <li><a href="services/SEO-Services.php" rel="">SEO Services</a></li>
-               <li><a href="photography-and-videography.php" rel="">Photography & Videography</a></li>
+               <li><a href="services/website-design-and-development.html" rel="">Website Design & Development</a></li>
+               <li><a href="./services/shopify-development.php" rel="">Shopify Development</a></li>
+               <li><a href="services/digital-marketing.html" rel="">Digital Marketing</a></li>
+               <li><a href="services/digital-marketing.html" rel="">SEO Services</a></li>
+               <li><a href="services/digital-marketing.html" rel="">Paid Advertising</a></li>
+               <li><a href="services/digital-marketing.html" rel="">Social Media Management</a></li>
+               <li><a href="services/website-design-and-development.html" rel="">Landing Page Design</a></li>
+               <li><a href="services/website-design-and-development.html" rel="">Custom Website Design</a></li>
+               <li><a href="./services/shopify-development.php" rel="">Shopify Theme Development</a></li>
+               <li><a href="./services/shopify-development.php" rel="">Shopify Store Setup</a></li>
              </ul>
            </div>
          </div>
@@ -44,16 +45,17 @@
            </div>
            <div class="footer-menus">
              <ul>
-               <li><a href="trusted-by/Microsoft.php" rel="">Microsoft</a></li>
-               <li><a href="trusted-by/Shopify.php" rel="">Shopify</a></li>
-               <li><a href="trusted-by/Upwork.php" rel="">Upwork</a></li>
-               <li><a href="trusted-by/clutch.php" rel="">Clutch</a></li>
-               <li><a href="trusted-by/goodfirms.php" rel="">GoodFirms</a></li>
-               <li><a href="trusted-by/manifest.php" rel="">Manifest</a></li>
+               <li><a href="https://www.shopify.com/" rel="" target="blank">Shopify</a></li>
+               <li><a href="https://www.microsoft.com/" rel="" target="blank">Microsoft</a></li>
+               <li><a href="https://www.upwork.com/" rel="" target="blank">Upwork</a></li>
+               <li><a href="https://www.fiverr.com/" rel="" target="blank">Fiverr</a></li>
+               <li><a href="https://mailchimp.com/" rel="" target="blank">Mailchimp</a></li>
+               <li><a href="https://www.hubspot.com/" rel="" target="blank">HubSpot</a></li>
+               <li><a href="https://ads.google.com/" rel="" target="blank">Google Ads</a></li>
              </ul>
            </div>
          </div>
-         <div class="footer-item">
+         <div class=" footer-item">
            <div class="footer-heading">
              <h3>Contact Info</h3>
            </div>
