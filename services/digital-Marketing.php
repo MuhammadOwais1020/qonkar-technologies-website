@@ -157,7 +157,6 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </p>
         </div>
 
-
         <div class="sub-service">
           <div class="section-heading">
             <h2 class="heading">Shopify Management & Store Maintenance</h2>

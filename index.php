@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta name="google-site-verification" content="_mzSE_sVwL_UYSj9K9LvMOQiJ_ZkgisEuhYtiHV_XKs" />
   <title>Qonkar Technologies | IT Services Company</title>
 
   <?php
