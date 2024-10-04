@@ -1764,7 +1764,7 @@ nav.navbar {
   overflow: hidden;
   font-size: 19px;
   cursor: pointer;
-  color: var(--text-color);
+  color: var(--bg-color);
   font-weight: 600;
   z-index: 0;
   text-transform: uppercase;
