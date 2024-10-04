@@ -96,10 +96,18 @@ $(document).ready(function() {
       data: formData,
       success: function(response) {
         $('#formMessage').text(response).addClass('success').removeClass('error').show();
+        $("#formMessage").fadeIn("slow");
+        setTimeout(function() {
+          $("#formMessage").fadeOut("slow");
+        }, 3000);
       },
       error: function() {
         $('#formMessage').text('There was an error sending the email.').addClass('error').removeClass(
           'success').show();
+        $("#formMessage").fadeIn("slow");
+        setTimeout(function() {
+          $("#formMessage").fadeOut("slow");
+        }, 3000);
       }
     });
   });

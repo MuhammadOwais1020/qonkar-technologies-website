@@ -1,28 +1,36 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-require '/PHPMailer/src/Exception.php';
-require '/PHPMailer/src/PHPMailer.php';
-require '/PHPMailer/src/SMTP.php';
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+
+$fullName = htmlspecialchars($_POST['fullName']);
+$email = htmlspecialchars($_POST['email']);
+$number = htmlspecialchars($_POST['number']);
+$aboutProject = htmlspecialchars($_POST['aboutProject']);
+    
 $mail = new PHPMailer(true);
 
 try {
-    // Server settings
-    $mail->isSMTP();                                    // Send using SMTP
-    $mail->Host       = 'mail.qonkar.com';          // Set the SMTP server to send through (replace with your actual SMTP host)
-    $mail->SMTPAuth   = true;                           // Enable SMTP authentication
-    $mail->Username   = 'hr@qonkar.com';                // SMTP username
-    $mail->Password   = 'Hp.dell.39.72';          // SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption; use `PHPMailer::ENCRYPTION_SMTPS` for SSL
-    $mail->Port       = 587;                            // TCP port to connect to
+    $mail->isSMTP();
+    $mail->Host       = 'smtp.gmail.com';
+    $mail->SMTPAuth   = true;
+    $mail->Username   = 'qonkartechnologiespvtltd@gmail.com';
+    $mail->Password   = 'pvbabjjlrxrqklkw';
+    $mail->SMTPSecure = 'ssl';
+    $mail->Port = 465;
 
-    // Recipients
-    $mail->setFrom('hr@qonkar.com', 'Qonkar HR');       // Sender address and name
-    $mail->addAddress('mowaisrehmani@gmail.com');         // Add a recipient (replace with actual recipient)
+    $mail->setFrom($_POST["email"]);
+    
+    $mail->addAddress('qonkartechnologiespvtltd@gmail.com');
+    
 
-    // Content
-    $mail->isHTML(true);                                // Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+    $mail->isHTML(true);
+    
+    $mail->Subject = 'New Email from Website';
+    $mail->Body    = "Full Name: $fullName<br>Email: $email<br>Phone Number: $number<br>Project Details: $aboutProject";
     $mail->AltBody = 'This is the plain text message body for non-HTML email clients';
 
     // Send the email
