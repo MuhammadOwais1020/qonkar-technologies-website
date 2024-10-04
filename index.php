@@ -78,9 +78,11 @@ include('./sections/progress-bar.php')
           optimize advertisements, launch creative campaigns, and transform
           reporting.
         </p>
-        <button class="button">
-          <a href="contact-us.php">Book A Strategy Call</a>
-        </button>
+        <a href="contact-us.php">
+          <button class="button">
+            Book A Strategy Call
+          </button>
+        </a>
       </div>
       <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />

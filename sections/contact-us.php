@@ -55,7 +55,7 @@
       </div>
       <div class="form-section">
         <h2>Contact Us</h2>
-        <form>
+        <form id="contactForm">
           <label for="fullName">Full Name</label>
           <input type="text" id="fullName" name="fullName" required>
 
@@ -70,7 +70,38 @@
 
           <button type="submit">Submit</button>
         </form>
+        <div id="formMessage" style="display:none;"></div>
       </div>
+
     </div>
   </div>
 </section>
+<!-- ajax request for sending email to info@qonakr.com -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('#contactForm').on('submit', function(e) {
+    e.preventDefault();
+
+    var formData = {
+      fullName: $('#fullName').val(),
+      email: $('#email').val(),
+      number: $('#number').val(),
+      aboutProject: $('#aboutProject').val()
+    };
+
+    $.ajax({
+      url: 'send-email.php',
+      type: 'POST',
+      data: formData,
+      success: function(response) {
+        $('#formMessage').text(response).addClass('success').removeClass('error').show();
+      },
+      error: function() {
+        $('#formMessage').text('There was an error sending the email.').addClass('error').removeClass(
+          'success').show();
+      }
+    });
+  });
+});
+</script>

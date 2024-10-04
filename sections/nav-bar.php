@@ -457,9 +457,11 @@
                   class="zk-menu-one menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-147693">
                   <a href="portfolio">Portfolio</a>
                 </li>
-                <button class="button">
-                  <a href="contact-us.php">Get A Quote</a>
-                </button>
+                <a href="contact-us.php">
+                  <button class="button">
+                    Get A Quote
+                  </button>
+                </a>
               </ul>
             </div>
           </nav>
