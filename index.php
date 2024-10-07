@@ -11,6 +11,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://qonkar.com/assets/css/style.css" />
+  <link rel="stylesheet" href="https://qonkar.com/assets/css/responsive.css">
 
   <!-- Structured Data for FAQ -->
   <script type="application/ld+json">
