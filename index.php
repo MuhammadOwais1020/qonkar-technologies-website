@@ -299,7 +299,10 @@ include('./sections/progress-bar.php')
             <span class="faq-symbol">+</span>
           </label>
           <div class="faq-content">
-            You can contact us via our website or send an email with your project details, and we’ll provide you with a
+            You can <a href="contact-us.php">contact us</a> via our website or send an email with your project details,
+            and
+            we’ll
+            provide you with a
             tailored quote.
           </div>
         </div>

@@ -1,0 +1,20 @@
+@media screen and (min-width:1024) {
+  .wrapper-inner-image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .wrapper-image img {
+    width: 50%;
+  }
+
+  .hero-section-image {
+    display: flex;
+    justify-content: center;
+  }
+}

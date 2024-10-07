@@ -13,6 +13,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://qonkar.com/assets/css/style.css" />
+  <link rel="stylesheet" href="https://qonkar.com/assets/css/responsive.css">
 
   <!-- JS -->
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>

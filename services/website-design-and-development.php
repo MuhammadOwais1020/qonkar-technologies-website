@@ -40,10 +40,15 @@ include(__DIR__ . '/../sections/progress-bar.php')
           <h1 class="heading subheading">Expert Website Development Solutions for Every Business</h1>
         </div>
         <p class="paragraph hero-paragraph">
-          Transform your online store with customized Shopify solutions designed to elevate your brand, enhance user
-          experience, and drive growth across all platforms.
+          Your website serves as a gateway to your brand, shaping that from the first click how customer experience your
+          business. With our expertise, let’s grow your business and thrive in the digital world that will beat your
+          expectations.
         </p>
-        <div class="button hero-button">Book A Strategy Call</div>
+        <a href="contact-us.php">
+          <button class="button">
+            Book A Strategy Call
+          </button>
+        </a>
       </div>
       <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
@@ -106,7 +111,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
     <section class="section-service-details">
       <div class="detail">
         <div class="section-heading">
-          <h2 class="heading">Shopify Development Services We Provide</h2>
+          <h2 class="heading">Website Design & Development Services We Provide</h2>
           <div class="heading-svg">
             <svg width="" height="" class="svg-path" viewBox="0 0 297 35" fill="" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -116,44 +121,70 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
         </div>
         <p>
-          Our tailored Shopify development services ensure your store stands out from the crowd. Whether you need a new
-          setup, theme customization, or advanced functionality, we provide solutions that enhance user experience and
-          drive conversions. From seamless integrations to mobile-optimized designs, we build stores that grow with your
-          business. Let’s create a Shopify store that reflects your brand and delivers results.
+          Are you tired of having a low-quality website that doesn’t help your brand shine? We know very well how
+          frustrating it is when your website doesn’t bring the outcomes you want. There are challenges that don’t give
+          your business a ladder to reach the top, whether it’s slow loading times, poor user experience, or difficulty
+          in managing content.
         </p>
-        <a href="#" class="btn btn-call-to-action">Start My Shopify Project</a>
+        <p>
+          At Qonkar Technologies, we don’t just develop websites; but we create custom-made solutions that highlight
+          your particular challenges. Just imagine a website that is visually stunning, easy to navigate and optimized
+          to engage your regular customers into loyal customers. Whether enhancing user experience, boosting your online
+          visibility, or improving customer engagement, we focus on what actually matters to you.
+        </p>
+        <a href="contact-us.php">
+          <button class="button">
+            Start My Project
+          </button>
+        </a>
       </div>
       <div class="sub-services">
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Store Setup & Customization</h2>
+            <h2 class="heading">Web Applications</h2>
           </div>
           <p>
-            Launch your Shopify store with a fully customized design that aligns with your brand’s identity. From
-            setting up your store to adding tailored features, we ensure a smooth user experience that drives sales and
-            customer satisfaction.
+            In today’s strong and fast-paced world, to keep up with your audience & customers’ needs, you should have an
+            influential web application. Due to lack of modern technology, are you concerned about security risks and
+            the lack of potential clients? Or maybe facing problems due to outdated design? We understand running a
+            business is not a small act but staying ahead requires a strong grasp of today’s technology to reach on top.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Theme Development</h2>
+            <h2 class="heading">Custom Software Applications</h2>
           </div>
           <p>
-            We specialize in developing unique, responsive Shopify themes that not only look great but are built to
-            enhance performance. Our themes are designed to engage customers, work flawlessly across all devices, and
-            boost your store’s functionality.
+            Just imagine a software that work smoothly, solving technical problems which occur during process and boost
+            productivity exactly how you need it. Just tools that make your work easy without any irritating limitations
+            or unnecessary feature.
+          </p>
+          <p>
+            At Qonkar Technologies, we understand your struggles and challenges. Relax, because we offer Custom Software
+            Applications designs tailored to your specific need. With our custom solutions, you gain a partner - more
+            than just a software. We give priority to your needs, pain points to create applications that reduce cost
+            and enhance customer experience.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Store Redesign</h2>
+            <h2 class="heading">Shopify Development</h2>
           </div>
           <p>
-            Revitalize your existing Shopify store with a professional redesign. We focus on improving user experience,
-            enhancing site speed, and implementing modern design trends to increase engagement and conversions for your
-            business.
+            Launching an online store business can be overwhelming. Your website needs to look great, be user-friendly
+            and function perfectly. Shopify developers take the stress out from the CEO’s shoulder for their online
+            store.
+          </p>
+          <p>
+            At Qonkar Technologies, we build websites that are mobile friendly, easy to navigate and optimized for
+            conversions for your customers’ seamless experience. We ensure that your online store works efficiently,
+            provide smooth and enjoyable experience from random customers to loyal customers.
+          </p>
+          <p>
+            With our expertise, you are getting energetic partner with dedicated team for your online business startup.
+            Let’s transform your online presence into a powerful and strong tool for success with us.
           </p>
         </div>
 

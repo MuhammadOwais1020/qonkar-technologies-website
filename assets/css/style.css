@@ -238,7 +238,6 @@ section {
   justify-content: space-between;
   position: relative;
   padding-block: 40px;
-  height: 100dvh;
 }
 
 @media screen and (max-width: 768px) {
@@ -261,7 +260,6 @@ section {
 }
 
 .wrapper-inner-image {
-  width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -415,7 +413,7 @@ footer {
 
 .footer-inner {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 30px;
   justify-content: space-between;
   padding-bottom: 30px;
@@ -2160,4 +2158,10 @@ button:hover {
   background-color: #f8d7da;
   color: #721c24;
   border: 1px solid #f5c6cb;
+}
+
+.details-section p {
+  font-size: 14px;
+  line-height: 20px;
+
 }
