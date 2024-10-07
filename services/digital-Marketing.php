@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Shopify Development Agency | Qonkar Technologies</title>
+  <title>Digital Marketing Agency | Qonkar Technologies</title>
 
   <?php
   include(__DIR__ . '/../sections/head.php');

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Shopify Development Agency | Qonkar Technologies</title>
+  <title>Website Design & Development Agency | Qonkar Technologies</title>
 
   <?php
   include(__DIR__ . '/../sections/head.php');
@@ -188,17 +188,6 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </p>
         </div>
 
-
-        <div class="sub-service">
-          <div class="section-heading">
-            <h2 class="heading">Shopify Management & Store Maintenance</h2>
-          </div>
-          <p>
-            Keep your Shopify store running at its best with our management and maintenance services. We handle
-            everything from regular updates to troubleshooting, security enhancements, and performance optimization, so
-            you can focus on growing your business.
-          </p>
-        </div>
       </div>
     </section>
 
@@ -228,8 +217,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
           <h2>Enhanced Brand Image and User Experience</h2>
           <p>
-            We create visually stunning and user-friendly stores that reflect your brand’s identity, ensuring a seamless
-            shopping experience.
+            We create visually stunning and user-friendly websites that reflect your brand’s identity, ensuring a
+            seamless
+            user experience.
           </p>
         </div>
 
@@ -244,7 +234,8 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
           <h2>Advanced Technology and Performance</h2>
           <p>
-            Utilizing the latest Shopify features and technologies, we deliver fast, secure, and high-performing stores.
+            Utilizing the latest website development features and technologies, we deliver fast, secure, and
+            high-performing websites.
           </p>
         </div>
 
@@ -259,8 +250,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
           <h2>Increased Conversions and Business Growth</h2>
           <p>
-            Our optimized designs and strategies focus on improving conversion rates, helping your business grow and
-            thrive.
+            Our optimized designs and strategies focus on improving bounce rates, helping your business growth.
           </p>
         </div>
 
@@ -275,7 +265,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
           <h2>Sustainable Practices</h2>
           <p>
-            We develop stores with sustainability in mind, using practices that ensure long-term success and minimal
+            We develop websites with sustainability in mind, using practices that ensure long-term success and minimal
             environmental impact.
           </p>
         </div>

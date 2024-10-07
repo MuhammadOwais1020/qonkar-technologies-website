@@ -152,12 +152,12 @@
                       <div class="cateorgy_namee">
                         <h4>
                           <a aria-current="page" class=""
-                            href="https://www.qonkar.com/services/shopify-development">Shopify Development
+                            href="https://www.qonkar.com/services/shopify-development.php">Shopify Development
                           </a>
                         </h4>
                         <ul class="menu_items">
                           <li>
-                            <a href="https://www.qonkar.com/services/shopify-development">
+                            <a href="https://www.qonkar.com/services/shopify-development.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -169,7 +169,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.qonkar.com/services/shopify-development">
+                            <a href="https://www.qonkar.com/services/shopify-development.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -181,7 +181,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.qonkar.com/services/shopify-development">
+                            <a href="https://www.qonkar.com/services/shopify-development.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
@@ -193,7 +193,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.qonkar.com/services/shopify-development">
+                            <a href="https://www.qonkar.com/services/shopify-development.php">
                               <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" fill="none"
                                   viewBox="0 0 6 10">
