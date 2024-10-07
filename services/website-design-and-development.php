@@ -141,51 +141,41 @@ include(__DIR__ . '/../sections/progress-bar.php')
       <div class="sub-services">
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Web Applications</h2>
+            <h2 class="heading">Landing Page Design
+            </h2>
           </div>
           <p>
-            In today’s strong and fast-paced world, to keep up with your audience & customers’ needs, you should have an
-            influential web application. Due to lack of modern technology, are you concerned about security risks and
-            the lack of potential clients? Or maybe facing problems due to outdated design? We understand running a
-            business is not a small act but staying ahead requires a strong grasp of today’s technology to reach on top.
+            Here at Qonkar Technologies, we build Landing Pages that turn leads into sales and boost your marketing ROI.
+            A good landing page plays a key role in any marketing campaign that works. Our team makes pages that look
+            great and are set up to turn visitors into buyers.
+
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Custom Software Applications</h2>
+            <h2 class="heading">Web Portals
+            </h2>
           </div>
           <p>
-            Just imagine a software that work smoothly, solving technical problems which occur during process and boost
-            productivity exactly how you need it. Just tools that make your work easy without any irritating limitations
-            or unnecessary feature.
-          </p>
-          <p>
-            At Qonkar Technologies, we understand your struggles and challenges. Relax, because we offer Custom Software
-            Applications designs tailored to your specific need. With our custom solutions, you gain a partner - more
-            than just a software. We give priority to your needs, pain points to create applications that reduce cost
-            and enhance customer experience.
+            At Qonakr Technologies, we excel in creating strong and expandable Web Portals that act as central hubs for
+            companies and users. Our team has the skills to provide useful and protected solutions tailored to your
+            exact needs, whether it's a business portal, a customer support portal, or a large-scale application.
+
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Development</h2>
+            <h2 class="heading">Custom Website Design & Maintenance</h2>
           </div>
           <p>
-            Launching an online store business can be overwhelming. Your website needs to look great, be user-friendly
-            and function perfectly. Shopify developers take the stress out from the CEO’s shoulder for their online
-            store.
+            At Qonakr Technologies, we offer complete Custom Website Design & Maintenance services to help businesses
+            build and keep up a strong online presence. Our team creates unique, user-focused websites and makes sure
+            they always run providing solutions that match your brand and business aims.
+
           </p>
-          <p>
-            At Qonkar Technologies, we build websites that are mobile friendly, easy to navigate and optimized for
-            conversions for your customers’ seamless experience. We ensure that your online store works efficiently,
-            provide smooth and enjoyable experience from random customers to loyal customers.
-          </p>
-          <p>
-            With our expertise, you are getting energetic partner with dedicated team for your online business startup.
-            Let’s transform your online presence into a powerful and strong tool for success with us.
-          </p>
+
         </div>
 
       </div>

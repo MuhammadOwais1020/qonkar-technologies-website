@@ -37,11 +37,12 @@ include(__DIR__ . '/../sections/progress-bar.php')
             </svg>
           </div>
 
-          <h1 class="heading subheading">Expert Shopify Solutions for Every Business</h1>
+          <h1 class="heading subheading">Expert Digital Marketing Solutions for Every Business</h1>
         </div>
         <p class="paragraph hero-paragraph">
-          Transform your online store with customized Shopify solutions designed to elevate your brand, enhance user
-          experience, and drive growth across all platforms.
+          With digital marketing, you can reach a large audience without breaking the bank. Compared to traditional
+          marketing methods, our digital strategies offer a higher return on investment (ROI), allowing you to achieve
+          your marketing goals within your budget constraints.
         </p>
         <div class="button hero-button">Book A Strategy Call</div>
       </div>
@@ -106,7 +107,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
     <section class="section-service-details">
       <div class="detail">
         <div class="section-heading">
-          <h2 class="heading">Shopify Development Services We Provide</h2>
+          <h2 class="heading">Digital Marketing Services We Provide</h2>
           <div class="heading-svg">
             <svg width="" height="" class="svg-path" viewBox="0 0 297 35" fill="" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -116,55 +117,63 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
         </div>
         <p>
-          Our tailored Shopify development services ensure your store stands out from the crowd. Whether you need a new
-          setup, theme customization, or advanced functionality, we provide solutions that enhance user experience and
-          drive conversions. From seamless integrations to mobile-optimized designs, we build stores that grow with your
-          business. Let’s create a Shopify store that reflects your brand and delivers results.
+          In the ever-evolving landscape of digital marketing, navigating the complexities can feel like a daunting
+          task. As a business owner or manager, you're constantly faced with the challenge of reaching your target
+          audience effectively, driving engagement, and ultimately, boosting sales. But with so many strategies and
+          platforms available, where do you even begin? Let's explore how Qonkar Technologies can help you
+          overcome these hurdles and achieve your business goals.
         </p>
-        <a href="#" class="btn btn-call-to-action">Start My Shopify Project</a>
+        <a href="#" class="btn btn-call-to-action">Start My Marketing Project</a>
       </div>
       <div class="sub-services">
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Store Setup & Customization</h2>
+            <h2 class="heading">PPC & Facebook Ads</h2>
           </div>
           <p>
-            Launch your Shopify store with a fully customized design that aligns with your brand’s identity. From
-            setting up your store to adding tailored features, we ensure a smooth user experience that drives sales and
-            customer satisfaction.
+            Qonakr Technologies is an expert in high-performance managing PPC and Facebook Ads campaigns for your
+            business to increase targeted traffic and attract leads. Data-driven strategies are used by our certified
+            team to guide the way for your efficiency (ROI) and get your marketing plans done perfectly.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Theme Development</h2>
+            <h2 class="heading">SEO (Search Engine Optimization Services)</h2>
           </div>
           <p>
-            We specialize in developing unique, responsive Shopify themes that not only look great but are built to
-            enhance performance. Our themes are designed to engage customers, work flawlessly across all devices, and
-            boost your store’s functionality.
+            At Qonakr Technologies, we help businesses gain organic visibility through bespoke SEO strategies which not
+            only help search engine rankings but also increase traffic and conversions. Our SEO specialists utilize the
+            most recent and advanced techniques to make sure your website not only satisfies the search engine
+            requirements but also provides a flawless user experience.
+
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Store Redesign</h2>
+            <h2 class="heading">Email Marketing
+            </h2>
           </div>
           <p>
-            Revitalize your existing Shopify store with a professional redesign. We focus on improving user experience,
-            enhancing site speed, and implementing modern design trends to increase engagement and conversions for your
-            business.
+            At Qonakr Technologies, we provide complete Email Marketing services that aim at building a direct
+            connection with your audience, nurturing the leads, and increasing the conversion rate. Our email campaigns
+            are carefully designed to provide your subscribers with personalized content that strikes a chord with them
+            and drives them to take action.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Management & Store Maintenance</h2>
+            <h2 class="heading">Social Media Management
+            </h2>
           </div>
           <p>
-            Keep your Shopify store running at its best with our management and maintenance services. We handle
-            everything from regular updates to troubleshooting, security enhancements, and performance optimization, so
-            you can focus on growing your business.
+            In the cyber world of today, social media is a vitally important component of your brand's online presence.
+            Qonakr Technologies, a company that specializes in social media management, has come up with one of the most
+            innovative Social Media Management services to help you get more people, keep them engaged, and stand out on
+            these platforms: Facebook, Instagram, Twitter LinkedIn, and more.
+
           </p>
         </div>
       </div>
@@ -196,8 +205,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
           <h2>Enhanced Brand Image and User Experience</h2>
           <p>
-            We create visually stunning and user-friendly stores that reflect your brand’s identity, ensuring a seamless
-            shopping experience.
+            We create powerfull stategies that reflect your brand’s identity.
           </p>
         </div>
 
@@ -210,9 +218,10 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Advanced Technology and Performance</h2>
+          <h2>Advanced Techniques and Performance</h2>
           <p>
-            Utilizing the latest Shopify features and technologies, we deliver fast, secure, and high-performing stores.
+            Utilizing the latest techniques and features, we deliver fast, secure, and high-performing
+            marketing campaigns.
           </p>
         </div>
 
@@ -227,8 +236,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
           <h2>Increased Conversions and Business Growth</h2>
           <p>
-            Our optimized designs and strategies focus on improving conversion rates, helping your business grow and
-            thrive.
+            Our optimized campaigns and strategies focus on improving conversion rates, helping your business grow.
           </p>
         </div>
 
@@ -243,7 +251,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
           <h2>Sustainable Practices</h2>
           <p>
-            We develop stores with sustainability in mind, using practices that ensure long-term success and minimal
+            We develop strategies with sustainability in mind, using practices that ensure long-term success and minimal
             environmental impact.
           </p>
         </div>
