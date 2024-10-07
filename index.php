@@ -221,7 +221,7 @@ include('./sections/progress-bar.php')
           </a>
         </div>
         <div class="service">
-          <a href="https://www.qonkar.com/services/digital-marketing.php">
+          <a href="https://www.qonkar.com/services/marketing.html">
             <svg class="service-svg" xmlns="http://www.w3.org/2000/svg" width="84" height="84" fill="none"
               viewBox="0 0 84 84">
               <mask id="mask0_1020_1442" width="" height="" x="0" y="0" maskUnits="userSpaceOnUse"
@@ -245,7 +245,7 @@ include('./sections/progress-bar.php')
               <li>Social Media Management</li>
             </ul>
             <div class="service-link">
-              <a href="https://www.qonkar.com/services/digital-marketing.php">
+              <a href="https://www.qonkar.com/services/marketing.html">
                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M20.3408 27.4683C20.5911 27.7186 20.9094 27.8359 21.2266 27.8359C21.5437 27.8359 21.862 27.7186 22.1123 27.4683L31.0415 18.5391C31.5267 18.0539 31.5267 17.2528 31.0415 16.7676L22.1123 7.8384C21.6271 7.35322 20.826 7.35322 20.3408 7.8384C19.8557 8.32358 19.8557 9.12466 20.3408 9.60984L28.3844 17.6534L20.3408 25.6969C19.8557 26.1821 19.8557 26.9831 20.3408 27.4683Z"
