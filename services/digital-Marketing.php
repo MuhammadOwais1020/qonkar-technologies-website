@@ -26,7 +26,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
       <div class="hero-section-title">
         <div class="hero-head">
           <h1 class="heading hero-heading">
-            Shopify Development Agency
+            Digital Marketing Agency
           </h1>
           <div class="hero-svg">
             <svg width="297" height="35" class="svg-path" viewBox="0 0 297 35" fill="none"
