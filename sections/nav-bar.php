@@ -49,7 +49,8 @@
 
                       <div class="cateorgy_namee">
                         <h4>
-                          <a aria-current="page" class="" href="./services/website-design-and-development.php">Website
+                          <a aria-current="page" class=""
+                            href="https://www.qonkar.com/services/website-design-and-development.php">Website
                             Design &
                             Development
                           </a>
@@ -95,7 +96,8 @@
                       </div>
                       <div class="cateorgy_namee">
                         <h4>
-                          <a aria-current="page" class="" href="./services/digital-marketing.php">Digital Marketing
+                          <a aria-current="page" class=""
+                            href="https://www.qonkar.com/services/digital-marketing.php">Digital Marketing
                           </a>
                         </h4>
                         <ul class="menu_items">
