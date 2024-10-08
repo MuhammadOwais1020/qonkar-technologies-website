@@ -13,5 +13,5 @@
     Experience the power of turning your digital dreams into tangible results.
     We offer comprehensive IT solutions to empower your vision.
   </p>
-  <a href="contact-us.php" class="btn btn-call-to-action">Start with a Free Call</a>
+  <a href="https://qonkar.com/contact-us.php" class="btn btn-call-to-action">Start with a Free Call</a>
 </section>
