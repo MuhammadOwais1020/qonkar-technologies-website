@@ -128,8 +128,6 @@ include(__DIR__ . '/../sections/progress-bar.php')
         <a href="#" class="btn btn-call-to-action">Start My SEO Project</a>
       </div>
       <div class="sub-services">
-        +
-
         <div class="sub-service">
           <div class="section-heading">
             <h2 class="heading">On-Page SEO</h2>
