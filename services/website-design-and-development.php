@@ -47,7 +47,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
           business. With our expertise, let’s grow your business and thrive in the digital world that will beat your
           expectations.
         </p>
-        <a href="contact-us.php">
+        <a href="https://qonkar.com/contact-us.php">
           <button class="button">
             Book A Strategy Call
           </button>
@@ -135,7 +135,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
           to engage your regular customers into loyal customers. Whether enhancing user experience, boosting your online
           visibility, or improving customer engagement, we focus on what actually matters to you.
         </p>
-        <a href="contact-us.php">
+        <a href="https://qonkar.com/contact-us.php">
           <button class="button">
             Start My Project
           </button>

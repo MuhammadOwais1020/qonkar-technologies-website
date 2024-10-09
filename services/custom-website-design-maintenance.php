@@ -48,7 +48,11 @@ include(__DIR__ . '/../sections/progress-bar.php')
           always run providing solutions that match your brand and business aims
 
         </p>
-        <div class="button hero-button">Book A Strategy Call</div>
+        <a href="https://qonkar.com/contact-us.php">
+          <button class="button">
+            Book A Strategy Call
+          </button>
+        </a>
       </div>
       <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
@@ -125,7 +129,11 @@ include(__DIR__ . '/../sections/progress-bar.php')
           build and keep up a strong online presence. Our team creates unique, user-focused websites and makes sure they
           always run providing solutions that match your brand and business aims
         </p>
-        <a href="#" class="btn btn-call-to-action">Start My Project</a>
+        <a href="https://qonkar.com/contact-us.php">
+          <button class="button">
+            Start My Project
+          </button>
+        </a>
       </div>
       <div class="sub-services">
         +

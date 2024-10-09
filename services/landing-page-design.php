@@ -48,7 +48,11 @@ include(__DIR__ . '/../sections/progress-bar.php')
           and are set up to turn visitors into buyers.
 
         </p>
-        <div class="button hero-button">Book A Strategy Call</div>
+        <a href="https://qonkar.com/contact-us.php">
+          <button class="button">
+            Book A Strategy Call
+          </button>
+        </a>
       </div>
       <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
@@ -126,7 +130,11 @@ include(__DIR__ . '/../sections/progress-bar.php')
           and are set up to turn visitors into buyers.
 
         </p>
-        <a href="#" class="btn btn-call-to-action">Start My Landing Page Design Project</a>
+        <a href="https://qonkar.com/contact-us.php">
+          <button class="button">
+            Start My Landing Page Design
+          </button>
+        </a>
       </div>
       <div class="sub-services">
         +

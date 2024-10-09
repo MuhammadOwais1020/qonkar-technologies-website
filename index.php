@@ -82,7 +82,7 @@ include('./sections/progress-bar.php')
           optimize advertisements, launch creative campaigns, and transform
           reporting.
         </p>
-        <a href="contact-us.php">
+        <a href="https://qonkar.com/contact-us.php">
           <button class="button">
             Book A Strategy Call
           </button>
@@ -303,7 +303,8 @@ include('./sections/progress-bar.php')
             <span class="faq-symbol">+</span>
           </label>
           <div class="faq-content">
-            You can <a href="contact-us.php">contact us</a> via our website or send an email with your project details,
+            You can <a href="https://qonkar.com/contact-us.php">contact us</a> via our website or send an email with
+            your project details,
             and
             we’ll
             provide you with a

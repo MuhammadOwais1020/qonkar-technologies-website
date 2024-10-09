@@ -49,7 +49,11 @@ include(__DIR__ . '/../sections/progress-bar.php')
           requirements but also provides a flawless user experience.
 
         </p>
-        <div class="button hero-button">Book A Strategy Call</div>
+        <a href="https://qonkar.com/contact-us.php">
+          <button class="button">
+            Book A Strategy Call
+          </button>
+        </a>
       </div>
       <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
@@ -128,7 +132,11 @@ include(__DIR__ . '/../sections/progress-bar.php')
           requirements but also provides a flawless user experience.
 
         </p>
-        <a href="#" class="btn btn-call-to-action">Start My SEO Project</a>
+        <a href="https://qonkar.com/contact-us.php">
+          <button class="button">
+            Start My SEO Project
+          </button>
+        </a>
       </div>
       <div class="sub-services">
         <div class="sub-service">

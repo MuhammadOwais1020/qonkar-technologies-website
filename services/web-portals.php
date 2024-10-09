@@ -48,7 +48,11 @@ include(__DIR__ . '/../sections/progress-bar.php')
           needs, whether it's a business portal, a customer support portal, or a large-scale application
 
         </p>
-        <div class="button hero-button">Book A Strategy Call</div>
+        <a href="https://qonkar.com/contact-us.php">
+          <button class="button">
+            Book A Strategy Call
+          </button>
+        </a>
       </div>
       <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
@@ -126,7 +130,11 @@ include(__DIR__ . '/../sections/progress-bar.php')
           needs, whether it's a business portal, a customer support portal, or a large-scale application
 
         </p>
-        <a href="#" class="btn btn-call-to-action">Start My Web Portals Project</a>
+        <a href="https://qonkar.com/contact-us.php">
+          <button class="button">
+            StartMy Web Portals Projects
+          </button>
+        </a>
       </div>
       <div class="sub-services">
         +

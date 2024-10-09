@@ -50,7 +50,11 @@ include(__DIR__ . '/../sections/progress-bar.php')
 
 
         </p>
-        <div class="button hero-button">Book A Strategy Call</div>
+        <a href="https://qonkar.com/contact-us.php">
+          <button class="button">
+            Book A Strategy Call
+          </button>
+        </a>
       </div>
       <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
@@ -130,7 +134,12 @@ include(__DIR__ . '/../sections/progress-bar.php')
 
 
         </p>
-        <a href="#" class="btn btn-call-to-action">Start My Social Media Management Project</a>
+
+        <a href="https://qonkar.com/contact-us.php">
+          <button class="button">
+            Start My Social Media Management Project
+          </button>
+        </a>
       </div>
       <div class="sub-services">
         +
