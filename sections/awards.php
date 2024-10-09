@@ -9,11 +9,6 @@
               fill="#8AD2DC"></path>
           </svg>
         </div>
-        <p>
-          We thrive on accelerating the path to disruption and implementing agile methodologies to design, build,
-          deliver, and scale digital solutions. Our future-proof, growth-centric tech has earned us notable awards and
-          recognition across industries and regions.
-        </p>
       </div>
       <div class="awards-container">
         <div class="awards-content">
