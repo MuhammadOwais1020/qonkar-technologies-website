@@ -269,7 +269,10 @@ include('./sections/progress-bar.php')
     include('./sections/call-to-action.php');
     ?>
 
-
+    <!-- award section -->
+    <?php
+    include('./sections/awards.php');
+    ?>
     <!-- faq section -->
     <section class="faq-sections">
       <div class="faq-container">
