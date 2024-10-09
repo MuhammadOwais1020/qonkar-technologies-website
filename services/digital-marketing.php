@@ -40,9 +40,11 @@ include(__DIR__ . '/../sections/progress-bar.php')
           <h1 class="heading subheading">Expert Digital Marketing Solutions for Every Business</h1>
         </div>
         <p class="paragraph hero-paragraph">
-          With digital marketing, you can reach a large audience without breaking the bank. Compared to traditional
-          marketing methods, our digital strategies offer a higher return on investment (ROI), allowing you to achieve
-          your marketing goals within your budget constraints.
+          In today's quick-moving online world, standing out from rivals is crucial for success. At Qonakr Technologies,
+          our Digital Marketing services aim to boost your online presence, attract the right visitors, and help you
+          grow in ways you can measure. Whether you need effective paid advertising skilled SEO services, or focused
+          social media campaigns, we offer custom solutions that get results..
+
         </p>
         <div class="button hero-button">Book A Strategy Call</div>
       </div>
@@ -117,62 +119,86 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
         </div>
         <p>
-          In the ever-evolving landscape of digital marketing, navigating the complexities can feel like a daunting
-          task. As a business owner or manager, you're constantly faced with the challenge of reaching your target
-          audience effectively, driving engagement, and ultimately, boosting sales. But with so many strategies and
-          platforms available, where do you even begin? Let's explore how Qonkar Technologies can help you
-          overcome these hurdles and achieve your business goals.
+          In today's quick-moving online world, standing out from rivals is crucial for success. At Qonakr Technologies,
+          our Digital Marketing services aim to boost your online presence, attract the right visitors, and help you
+          grow in ways you can measure. Whether you need effective paid advertising skilled SEO services, or focused
+          social media campaigns, we offer custom solutions that get results.
+
         </p>
-        <a href="#" class="btn btn-call-to-action">Start My Marketing Project</a>
+        <a href="#" class="btn btn-call-to-action">Start My Digital Marketing Project</a>
       </div>
       <div class="sub-services">
+        +
+
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">PPC & Facebook Ads</h2>
+            <h2 class="heading">Paid Advertising</h2>
           </div>
           <p>
-            Qonakr Technologies is an expert in high-performance managing PPC and Facebook Ads campaigns for your
-            business to increase targeted traffic and attract leads. Data-driven strategies are used by our certified
-            team to guide the way for your efficiency (ROI) and get your marketing plans done perfectly.
+            Our professional paid advertising services give your brand immediate exposure on platforms such as Google
+            Ads and Bing. Our group designs focused campaigns to connect with your target audience bringing quality
+            visitors to your site and boosting your return on investment. We take care of all parts of your paid
+            advertising campaign, from researching keywords to making ads and managing bids.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">SEO (Search Engine Optimization Services)</h2>
+            <h2 class="heading">Facebook Paid Advertising</h2>
           </div>
           <p>
-            At Qonakr Technologies, we help businesses gain organic visibility through bespoke SEO strategies which not
-            only help search engine rankings but also increase traffic and conversions. Our SEO specialists utilize the
-            most recent and advanced techniques to make sure your website not only satisfies the search engine
-            requirements but also provides a flawless user experience.
-
+            Reach millions of potential customers through Facebook paid advertising. We develop and manage targeted
+            Facebook ad campaigns that boost engagement, generate leads, and increase conversions. By using Facebook's
+            advanced targeting tools, we make sure your ads get to the right audience based on demographics, interests,
+            behaviors, and more.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Email Marketing
-            </h2>
+            <h2 class="heading">Paid Social Media Advertising</h2>
           </div>
           <p>
-            At Qonakr Technologies, we provide complete Email Marketing services that aim at building a direct
-            connection with your audience, nurturing the leads, and increasing the conversion rate. Our email campaigns
-            are carefully designed to provide your subscribers with personalized content that strikes a chord with them
-            and drives them to take action.
+            Social media platforms like Instagram LinkedIn, and Twitter are powerful channels to grow your business. Our
+            paid social media advertising services help you build brand awareness, connect with your audience, and
+            increase traffic. We create compelling ads that match your brand's message making sure you get the best
+            results from your social media investment.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Social Media Management
-            </h2>
+            <h2 class="heading">Search Engine Optimization (SEO)</h2>
           </div>
           <p>
-            In the cyber world of today, social media is a vitally important component of your brand's online presence.
-            Qonakr Technologies, a company that specializes in social media management, has come up with one of the most
-            innovative Social Media Management services to help you get more people, keep them engaged, and stand out on
-            these platforms: Facebook, Instagram, Twitter LinkedIn, and more.
+            Qonkar Technologies, a leading SEO firm and company, aims to boost your website's position on search engines
+            like Google. Our full-range SEO services cover keyword analysis, webpage enhancement, backlink creation, and
+            technical optimization to increase your online presence. As a top-notch SEO and marketing company, we
+            emphasize tactics that bring long-lasting results helping your business stand out in search rankings.
+          </p>
+        </div>
+
+        <div class="sub-service">
+          <div class="section-heading">
+            <h2 class="heading">E-commerce SEO Agency</h2>
+          </div>
+          <p>
+            Online retailers need to show up in search results to succeed. As a skilled e-commerce SEO agency, we excel
+            at boosting eCommerce websites to rank for tough keywords, make products more visible, and boost sales. We
+            zero in on improving product pages, category pages, and technical bits to ensure your store does well on
+            search engines.
+          </p>
+        </div>
+
+        <div class="sub-service">
+          <div class="section-heading">
+            <h2 class="heading">SEO Marketing Agency</h2>
+          </div>
+          <p>
+            As a top SEO marketing firm, we assist companies in various fields to build a robust organic online
+            presence. Our SEO tactics align with your overall marketing aims making sure your site not ranks well but
+            also draws in the ideal traffic. We focus on long-lasting sustainable outcomes, which makes us one of the
+            top SEO firms in the industry.
 
           </p>
         </div>
@@ -203,9 +229,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Enhanced Brand Image and User Experience</h2>
+          <h2>More Online Visibility</h2>
           <p>
-            We create powerfull stategies that reflect your brand’s identity.
+            We put your business in front of the right audience through smart SEO and paid ads.
           </p>
         </div>
 
@@ -218,10 +244,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Advanced Techniques and Performance</h2>
+          <h2>Targeted Traffic</h2>
           <p>
-            Utilizing the latest techniques and features, we deliver fast, secure, and high-performing
-            marketing campaigns.
+            We bring in qualified leads with ads and content made just for your ideal customers.
           </p>
         </div>
 
@@ -234,9 +259,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Increased Conversions and Business Growth</h2>
+          <h2>Better ROI</h2>
           <p>
-            Our optimized campaigns and strategies focus on improving conversion rates, helping your business grow.
+            Get more from your marketing spend with strategies based on data that show clear results you can measure.
           </p>
         </div>
 
@@ -249,10 +274,10 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Sustainable Practices</h2>
+          <h2>Brand Connection</h2>
           <p>
-            We develop strategies with sustainability in mind, using practices that ensure long-term success and minimal
-            environmental impact.
+            Create stronger ties with your audience through social media campaigns, email marketing, and other methods
+            that grab attention.
           </p>
         </div>
       </div>

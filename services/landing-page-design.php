@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Shopify Development Agency | Qonkar Technologies</title>
+  <title>Landing Page Design Agency | Qonkar Technologies</title>
 
   <?php
   include(__DIR__ . '/../sections/head.php');
@@ -26,7 +26,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
       <div class="hero-section-title">
         <div class="hero-head">
           <h1 class="heading hero-heading">
-            Shopify Development Agency
+            Landing Page Design Agency
           </h1>
           <div class="hero-svg">
             <svg width="297" height="35" class="svg-path" viewBox="0 0 297 35" fill="none"
@@ -37,14 +37,12 @@ include(__DIR__ . '/../sections/progress-bar.php')
             </svg>
           </div>
 
-          <h1 class="heading subheading">Expert Shopify Development Solutions for Every Business</h1>
+          <h1 class="heading subheading">Expert Landing Page Design Solutions for Every Business</h1>
         </div>
         <p class="paragraph hero-paragraph">
-          A reliable Shopify development company, Qonkar Technologies presents strong, user-friendly, and scalable
-          Shopify stores. Whether you need a brand-new online store or want to provide an existing one with a boosting
-          campaign, our company provides comprehensive Shopify development solutions according to your business goals.
-          From setting up Shopify stores up to management, we offer each service to triumph in the very competitive
-          e-commerce world.
+          Here at Qonkar Technologies, we build Landing Pages that turn leads into sales and boost your marketing ROI. A
+          good landing page plays a key role in any marketing campaign that works. Our team makes pages that look great
+          and are set up to turn visitors into buyers.
 
         </p>
         <div class="button hero-button">Book A Strategy Call</div>
@@ -110,7 +108,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
     <section class="section-service-details">
       <div class="detail">
         <div class="section-heading">
-          <h2 class="heading">Shopify Development Services We Provide</h2>
+          <h2 class="heading">Landing Page Design Services We Provide</h2>
           <div class="heading-svg">
             <svg width="" height="" class="svg-path" viewBox="0 0 297 35" fill="" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -120,88 +118,74 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
         </div>
         <p>
-          A reliable Shopify development company, Qonakr Technologies presents strong, user-friendly, and scalable
-          Shopify stores. Whether you need a brand-new online store or want to provide an existing one with a boosting
-          campaign, our company provides comprehensive Shopify development solutions according to your business goals.
-          From setting up Shopify stores up to management, we offer each service to triumph in the very competitive
-          e-commerce world.
+          Here at Qonkar Technologies, we build Landing Pages that turn leads into sales and boost your marketing ROI. A
+          good landing page plays a key role in any marketing campaign that works. Our team makes pages that look great
+          and are set up to turn visitors into buyers.
 
         </p>
-        <a href="#" class="btn btn-call-to-action">Start My Shopify Project</a>
+        <a href="#" class="btn btn-call-to-action">Start My Landing Page Design Project</a>
       </div>
       <div class="sub-services">
         +
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Store Configuration: </h2>
+            <h2 class="heading">Custom Design for Your Campaigns</h2>
           </div>
           <p>
-            Setup your Shopify store with ease. Being Shopify store setup experts, we take care of configuring the
-            store, listing products, connecting a suitable payment gateway, and shipping configuration. We devise
-            Shopify store configuration services to give you a completely ready, professional online store that is ready
-            to attract the interest of targeted customers and generate sales
+            We make each landing page just for your marketing campaign's goals. The page matches your brand's look while
+            being easy to use. It guides visitors to do what you want them to do.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Themes Product Development</h2>
+            <h2 class="heading">Layout that Drives Action</h2>
           </div>
           <p>
-            The design of your store is fundamental in getting the attention of visitors and assuring trust. Our team
-            provides tailored shop development through your brand and audience. Do you want a totally new design or
-            adjust an existing one?
-            Our Shopify specialists ensure that your Shopify store looks great with an unbeatable user experience. We
-            will give you mobile-friendly, fast-loading, and conversion-focused designs, being capable of offering
-            different types of services in Shopify development themes.
+            We put CTAs (Call to Action), forms, and buttons in the right spots to make the user's journey smooth and
+            get more people to act. Every part of the page aims to grab the visitor's attention and push them to take
+            the next step.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Store Redesign</h2>
+            <h2 class="heading">Mobile-Responsive Design</h2>
           </div>
           <p>
-            Perhaps you have a Shopify store that just needs a little pick-me-up. With our redesigned Shopify store
-            services, give your eCommerce business some fresh life. Maybe you just want some cosmetic changes or maybe
-            require a comprehensive redesign Shopify store. We work on your shop's functionality and enhance the
-            aesthetic appeal and user experience to maximize customer satisfaction as well as revenue.
+            As more and more people use their phones to surf the web, we make sure your landing pages work on mobile
+            devices. This means users have a smooth experience no matter what screen size they're using.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Store Management Services </h2>
+            <h2 class="heading">A/B Testing and Optimization</h2>
           </div>
           <p>
-            There is always room for attention to detail when it comes to a Shopify store. We are a dedicated Shopify
-            store management agency that offer full Shopify store management with upgrades, inventory management,
-            performance optimization, as well as troubleshooting. We take care of your day-to-day work so that you can
-            concentrate on the growth of your business.
+            We provide A/B testing to figure out which design and content versions work best. This ongoing improvement
+            boosts conversion rates and helps you reach your campaign goals.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Development Partners</h2>
+            <h2 class="heading">Fast Loading Pages</h2>
           </div>
           <p>
-            As Shopify development partners, we collaborate closely with businesses to develop custom Shopify solutions
-            that meet their needs. We can help you if you require integration with third-party apps, offer custom
-            functionality, or need even more advanced features in Shopify. Our solutions are meant to extend the
-            capabilities of your store to support growth.
+            Pages that take too long to load can make visitors leave . We build our landing pages with speed in mind, so
+            they open fast and give all users a smooth experience.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Analytics & Reporting</h2>
+            <h2 class="heading">Analytics Integration</h2>
           </div>
           <p>
-            We give our customers comprehensive reports that highlight the main metrics of the campaign like clicks,
-            impressions, conversions, etc. This openness guarantees that you are always up to date with the progress of
-            your campaign.
+            We hook up tracking tools like Google Analytics, Facebook Pixel, and other analytics systems. This helps you
+            keep an eye on how visitors behave and see how well your landing page is doing.
 
           </p>
         </div>
@@ -232,10 +216,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Experienced Shopify Developers:</h2>
+          <h2>Increased Conversions</h2>
           <p>
-            Our expertise in Shopify development is vast, and we have developed and handled stores for businesses from
-            various industries.
+            Turn more visitors into prospects and buyers with designs that work better.
           </p>
         </div>
 
@@ -248,10 +231,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Customized Solutions:</h2>
+          <h2>Custom-Made User Journey</h2>
           <p>
-            All matters, from the Shopify store setting up to managing and maintaining the ongoing work, will be offered
-            to you as customized solutions so that your store will be apt for your business.
+            Design and content that matches your marketing aims .
           </p>
         </div>
 
@@ -264,10 +246,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Responsive Mobile-Friendly Designs </h2>
+          <h2>Improved Campaign Results</h2>
           <p>
-            All of our Shopify themes and store designs are mobile-friendly and responsive so that consumers can shop
-            anywhere on any device.
+            Get the most out of your marketing efforts.
           </p>
         </div>
 
@@ -280,10 +261,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>From Setting Up to Managing</h2>
+          <h2>Better Mobile Use</h2>
           <p>
-            End-to-End Support With initial setup through to everyday management, we give you all-in-one solutions so
-            that your focus on core business may be steady while knowing that the technical aspects fall into our hands.
+            Connect with users well on all devices.
           </p>
         </div>
       </div>

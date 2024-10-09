@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Shopify Development Agency | Qonkar Technologies</title>
+  <title>Web Portal Agency | Qonkar Technologies</title>
 
   <?php
   include(__DIR__ . '/../sections/head.php');
@@ -26,7 +26,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
       <div class="hero-section-title">
         <div class="hero-head">
           <h1 class="heading hero-heading">
-            Shopify Development Agency
+            Web Portal Agency
           </h1>
           <div class="hero-svg">
             <svg width="297" height="35" class="svg-path" viewBox="0 0 297 35" fill="none"
@@ -37,14 +37,12 @@ include(__DIR__ . '/../sections/progress-bar.php')
             </svg>
           </div>
 
-          <h1 class="heading subheading">Expert Shopify Development Solutions for Every Business</h1>
+          <h1 class="heading subheading">Expert Web Portals Solutions for Every Business</h1>
         </div>
         <p class="paragraph hero-paragraph">
-          A reliable Shopify development company, Qonkar Technologies presents strong, user-friendly, and scalable
-          Shopify stores. Whether you need a brand-new online store or want to provide an existing one with a boosting
-          campaign, our company provides comprehensive Shopify development solutions according to your business goals.
-          From setting up Shopify stores up to management, we offer each service to triumph in the very competitive
-          e-commerce world.
+          At Qonkar Technologies, we excel in creating strong and expandable Web Portals that act as central hubs for
+          companies and users. Our team has the skills to provide useful and protected solutions tailored to your exact
+          needs, whether it's a business portal, a customer support portal, or a large-scale application
 
         </p>
         <div class="button hero-button">Book A Strategy Call</div>
@@ -110,7 +108,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
     <section class="section-service-details">
       <div class="detail">
         <div class="section-heading">
-          <h2 class="heading">Shopify Development Services We Provide</h2>
+          <h2 class="heading">Web Portals Services We Provide</h2>
           <div class="heading-svg">
             <svg width="" height="" class="svg-path" viewBox="0 0 297 35" fill="" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -120,88 +118,73 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </div>
         </div>
         <p>
-          A reliable Shopify development company, Qonakr Technologies presents strong, user-friendly, and scalable
-          Shopify stores. Whether you need a brand-new online store or want to provide an existing one with a boosting
-          campaign, our company provides comprehensive Shopify development solutions according to your business goals.
-          From setting up Shopify stores up to management, we offer each service to triumph in the very competitive
-          e-commerce world.
+          At Qonkar Technologies, we excel in creating strong and expandable Web Portals that act as central hubs for
+          companies and users. Our team has the skills to provide useful and protected solutions tailored to your exact
+          needs, whether it's a business portal, a customer support portal, or a large-scale application
 
         </p>
-        <a href="#" class="btn btn-call-to-action">Start My Shopify Project</a>
+        <a href="#" class="btn btn-call-to-action">Start My Web Portals Project</a>
       </div>
       <div class="sub-services">
         +
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Store Configuration: </h2>
+            <h2 class="heading">Custom Portal Design & Development</h2>
           </div>
           <p>
-            Setup your Shopify store with ease. Being Shopify store setup experts, we take care of configuring the
-            store, listing products, connecting a suitable payment gateway, and shipping configuration. We devise
-            Shopify store configuration services to give you a completely ready, professional online store that is ready
-            to attract the interest of targeted customers and generate sales
+            We design and build web portals to match your business needs. We make sure the platform meets your goals,
+            whether you need a portal for customers or an internal one for staff to work together.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Themes Product Development</h2>
+            <h2 class="heading">User-Friendly Interface</h2>
           </div>
           <p>
-            The design of your store is fundamental in getting the attention of visitors and assuring trust. Our team
-            provides tailored shop development through your brand and audience. Do you want a totally new design or
-            adjust an existing one?
-            Our Shopify specialists ensure that your Shopify store looks great with an unbeatable user experience. We
-            will give you mobile-friendly, fast-loading, and conversion-focused designs, being capable of offering
-            different types of services in Shopify development themes.
+            We focus on making things easy to use by creating clear navigation and designs that users find simple. This
+            helps people find what they're looking for and finish tasks without hassle
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Store Redesign</h2>
+            <h2 class="heading">Role-Based Access Control</h2>
           </div>
           <p>
-            Perhaps you have a Shopify store that just needs a little pick-me-up. With our redesigned Shopify store
-            services, give your eCommerce business some fresh life. Maybe you just want some cosmetic changes or maybe
-            require a comprehensive redesign Shopify store. We work on your shop's functionality and enhance the
-            aesthetic appeal and user experience to maximize customer satisfaction as well as revenue.
+            Safe, role-based access makes sure users see the information and features that matter to their jobs. This
+            boosts both usefulness and security.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Store Management Services </h2>
+            <h2 class="heading">Integration with Existing Systems</h2>
           </div>
           <p>
-            There is always room for attention to detail when it comes to a Shopify store. We are a dedicated Shopify
-            store management agency that offer full Shopify store management with upgrades, inventory management,
-            performance optimization, as well as troubleshooting. We take care of your day-to-day work so that you can
-            concentrate on the growth of your business.
+            We connect the web portal to your current systems, databases, and outside apps without a hitch. This allows
+            data to flow and helps your operations work better.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Shopify Development Partners</h2>
+            <h2 class="heading">Advanced Security Features</h2>
           </div>
           <p>
-            As Shopify development partners, we collaborate closely with businesses to develop custom Shopify solutions
-            that meet their needs. We can help you if you require integration with third-party apps, offer custom
-            functionality, or need even more advanced features in Shopify. Our solutions are meant to extend the
-            capabilities of your store to support growth.
+            Protecting sensitive data matters a lot. Our portals come with strong security features. These include
+            encryption, two-step verification, and safe user management to keep your data secure.
           </p>
         </div>
 
         <div class="sub-service">
           <div class="section-heading">
-            <h2 class="heading">Analytics & Reporting</h2>
+            <h2 class="heading">Scalability & Performance</h2>
           </div>
           <p>
-            We give our customers comprehensive reports that highlight the main metrics of the campaign like clicks,
-            impressions, conversions, etc. This openness guarantees that you are always up to date with the progress of
-            your campaign.
+            Your business will grow, and your portal needs to grow with it. We create scalable portals that can handle
+            more traffic and users without slowing down.
 
           </p>
         </div>
@@ -232,10 +215,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Experienced Shopify Developers:</h2>
+          <h2>Streamlined Operations</h2>
           <p>
-            Our expertise in Shopify development is vast, and we have developed and handled stores for businesses from
-            various industries.
+            Our platform brings together your business processes in one place.
           </p>
         </div>
 
@@ -248,10 +230,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Customized Solutions:</h2>
+          <h2>Improved User Experience</h2>
           <p>
-            All matters, from the Shopify store setting up to managing and maintaining the ongoing work, will be offered
-            to you as customized solutions so that your store will be apt for your business.
+            A portal that's simple to use boosts engagement.
           </p>
         </div>
 
@@ -264,10 +245,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>Responsive Mobile-Friendly Designs </h2>
+          <h2>Increased Security</h2>
           <p>
-            All of our Shopify themes and store designs are mobile-friendly and responsive so that consumers can shop
-            anywhere on any device.
+            Strong safety measures guard your sensitive information.
           </p>
         </div>
 
@@ -280,10 +260,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
               </svg>
             </div>
           </div>
-          <h2>From Setting Up to Managing</h2>
+          <h2>Scalability</h2>
           <p>
-            End-to-End Support With initial setup through to everyday management, we give you all-in-one solutions so
-            that your focus on core business may be steady while knowing that the technical aspects fall into our hands.
+            Your portal can grow as your business expands.
           </p>
         </div>
       </div>
