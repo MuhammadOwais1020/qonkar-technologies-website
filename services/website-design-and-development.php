@@ -10,6 +10,9 @@
 </head>
 
 <body>
+  <?php 
+  include('./sections/gtm-body.php')
+  ?>
   <?php
 include(__DIR__ . '/../sections/progress-bar.php')
 ?>

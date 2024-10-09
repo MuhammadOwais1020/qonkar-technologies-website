@@ -14,6 +14,9 @@
 </head>
 
 <body>
+  <?php 
+  include('./sections/gtm-body.php')
+  ?>
   <?php
 include('./sections/progress-bar.php')
 ?>
