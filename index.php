@@ -83,7 +83,7 @@ include('./sections/progress-bar.php')
           reporting.
         </p>
         <a href="https://qonkar.com/contact-us.php">
-          <button class="button">
+          <button class="button call-btn">
             Book A Strategy Call
           </button>
         </a>

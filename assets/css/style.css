@@ -903,6 +903,7 @@ a {
   position: relative;
   display: flex;
   padding: 0;
+  background-color:var(--white) ;
 }
 
 .cateorgy_namee .bulit {
@@ -1764,9 +1765,13 @@ nav.navbar {
   cursor: pointer;
   color: var(--bg-color);
   font-weight: 600;
-  z-index: 0;
+  /* z-index: 0; */
   text-transform: uppercase;
-  background-color: transparent;
+  /* background-color: transparent; */
+}
+
+.call-btn {
+  margin-top: 30px;
 }
 
 .button a {
@@ -1832,7 +1837,7 @@ nav.navbar {
 
 .hero-section .button,
 .navbar .button {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .hero-section .button a,
@@ -2106,7 +2111,7 @@ textarea {
 }
 
 button {
-  background-color: #007bff;
+  background-color: #3f89c9;
   color: #fff;
   padding: 10px 15px;
   border: none;
@@ -2186,7 +2191,7 @@ button:hover {
   width: 100%;
 }
 
-.award-content h5 {
+.award-content h2 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;

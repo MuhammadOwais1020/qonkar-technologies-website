@@ -7,6 +7,7 @@
 @media screen and (max-width: 768px) {
   .hero-section {
     flex-direction: column;
+    gap: 50px;
   }
 
   .wrapper-image img {

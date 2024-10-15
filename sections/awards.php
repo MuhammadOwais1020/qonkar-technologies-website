@@ -19,7 +19,7 @@
               </div>
             </div>
             <div class="award-content">
-              <h5>INC. 5000</h5>
+              <h2>INC. 5000</h2>
               <p>America's Fastest Growing Companies</p>
             </div>
           </div>
