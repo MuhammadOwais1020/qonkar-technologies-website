@@ -93,10 +93,10 @@ include('./sections/progress-bar.php')
       </div>
       <div class="hero-section-image">
         <div class="wrapper-image">
-          <img src="./assets/image/circle.png" alt="" />
+          <img src="./assets/image/circle.png" alt="Colorfull circle svg" />
         </div>
         <div class="wrapper-inner-image">
-          <img src="./assets/image/prototype.png" alt="" />
+          <img src="./assets/image/prototype.png" alt="A girl holding and using a mobile phone, focused on the screen" />
         </div>
       </div>
     </section>
