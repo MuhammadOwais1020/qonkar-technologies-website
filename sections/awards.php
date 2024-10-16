@@ -30,7 +30,7 @@
               </div>
             </div>
             <div class="award-content">
-              <h5>Dot Comm</h5>
+              <h2>Dot Comm</h2>
               <p>Excellence in Web Creativity & Digital Communication</p>
             </div>
           </div>
@@ -41,7 +41,7 @@
               </div>
             </div>
             <div class="award-content">
-              <h5>Clutch</h5>
+              <h2>Clutch</h2>
               <p>Top 1000 Companies</p>
             </div>
           </div>
@@ -52,7 +52,7 @@
               </div>
             </div>
             <div class="award-content">
-              <h5>Top Developers</h5>
+              <h2>Top Developers</h2>
               <p>Top Entertainment App Developers</p>
             </div>
           </div>
@@ -63,7 +63,7 @@
               </div>
             </div>
             <div class="award-content">
-              <h5>Expertise</h5>
+              <h2>Expertise</h2>
               <p>Best Mobile App Developer</p>
             </div>
           </div>
@@ -74,7 +74,7 @@
               </div>
             </div>
             <div class="award-content">
-              <h5>Software World</h5>
+              <h2>Software World</h2>
               <p>Top App Development Companies</p>
             </div>
           </div>
@@ -85,7 +85,7 @@
               </div>
             </div>
             <div class="award-content">
-              <h5>Horizon Award</h5>
+              <h2>Horizon Award</h2>
               <p>Gold Awards Winner 2020</p>
             </div>
           </div>
@@ -96,7 +96,7 @@
               </div>
             </div>
             <div class="award-content">
-              <h5>Rank Watch</h5>
+              <h2>Rank Watch</h2>
               <p>Top Web Development Agencies 2023</p>
             </div>
           </div>
@@ -107,7 +107,7 @@
               </div>
             </div>
             <div class="award-content">
-              <h5>Horizon Award</h5>
+              <h2>Horizon Award</h2>
               <p>Silver Awards Winner 2020</p>
             </div>
           </div>
@@ -118,7 +118,7 @@
               </div>
             </div>
             <div class="award-content">
-              <h5>Right firms</h5>
+              <h2>Right firms</h2>
               <p>Top Mobile App Development Company 2023</p>
             </div>
           </div>

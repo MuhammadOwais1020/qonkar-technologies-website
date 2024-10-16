@@ -460,7 +460,7 @@
                   <a href="portfolio">Portfolio</a>
                 </li>
                 <a href="https://qonkar.com/contact-us.php">
-                  <button class="button call-btn">
+                  <button class="button">
                     Get A Quote
                   </button>
                 </a>
