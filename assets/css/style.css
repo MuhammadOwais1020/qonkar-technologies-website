@@ -1823,6 +1823,7 @@ nav.navbar {
 .button:hover {
   border: 2px solid var(--secondary-color);
   transition: all 0.3s ease-in;
+  background-color: var(--secondary-color);
 }
 
 .button:hover a {
@@ -1888,6 +1889,7 @@ nav.navbar {
 .navbar .button:hover {
   border: 2px solid var(--secondary-color);
   transition: all 0.3s ease-in;
+  background-color: var(--secondary-color);
 }
 
 .hero-section .button:hover a,
@@ -2294,7 +2296,7 @@ button:hover {
   }
 
   .hero-section-image {
-    display: none;
+    display: none !important;
   }
   .section-heading h2 {
     font-size: 25px;
