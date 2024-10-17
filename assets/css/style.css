@@ -2249,7 +2249,13 @@ button:hover {
   .footer-logo {
     display: block;
   }
-
+  .awards-content {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .services-section .services {
+    grid-template-columns: 1fr;
+  }
 }
 
 
@@ -2262,14 +2268,6 @@ button:hover {
     font-size: 13px;
     padding-inline: 12px;
     line-height: 24px;
-  }
-
-  .award-wrap {
-    max-width: 150px;
-  }
-
-  .services-section .services {
-    grid-template-columns: 1fr;
   }
 
   .sub-heading {
@@ -2316,12 +2314,19 @@ button:hover {
   .call-to-action-section {
     margin-block: 20px;
     padding: 0;
+    padding-block: 20px;
   }
   .footer-socials {
     margin-top: 20px;
   }
   .footer-inner {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .award-wrap {
+    max-width: 50%;
+  }
+  .form-sections {
+    padding: 0;
   }
  
 }
@@ -2336,6 +2341,9 @@ button:hover {
   }
   .section-service-details>div{
     width: 100%;
+  }
+  .services-section .services {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
