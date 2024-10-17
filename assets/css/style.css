@@ -2256,6 +2256,9 @@ button:hover {
   .services-section .services {
     grid-template-columns: 1fr;
   }
+  .award-wrap {
+    max-width: 100%;
+  }
 }
 
 
