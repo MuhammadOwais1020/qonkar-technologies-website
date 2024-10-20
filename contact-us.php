@@ -4,6 +4,14 @@
 <head>
   <title>Contact Us | Qonkar Technologies</title>
 
+  <!-- Meta Description -->
+  <meta name="description"
+    content="Qonkar Technologies is a trusted development and digital marketing company, offering expert Shopify store setup, custom theme development, ecommerce SEO strategies, and digital marketing solutions to boost your online business visibility and growth.">
+
+  <!-- Meta Keywords -->
+  <meta name="keywords"
+    content="Shopify development, Shopify store setup, Shopify theme development, SEO services, Ecommerce SEO agency, Digital marketing, Web design and development, Ecommerce solutions, Shopify experts, SEO marketing company">
+
   <?php
   include('./sections/head.php');
   ?>
