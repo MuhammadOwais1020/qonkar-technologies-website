@@ -280,8 +280,11 @@ section {
 
 /* services */
 .services-section .services {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -295,6 +298,8 @@ section {
   gap: 10px;
   justify-content: space-between;
   cursor: pointer;
+  width: 400px;
+  height: auto;
 }
 
 .services .service a {
@@ -487,6 +492,7 @@ footer {
 
 .footer-logo img {
   height: 30px;
+  max-width: 202px;
 }
 
 .footer-section .footer-icon svg {
@@ -1526,6 +1532,7 @@ nav.navbar {
     padding-left: 19px;
     margin-right: 35px;
   }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -2216,9 +2223,13 @@ button:hover {
   text-align: center;
 }
 
+.award-image-sec .image {
+  max-width: 202px;
+  height: auto;
+}
 
 
-@media screen and (max-width:367px) {
+@media screen and (max-width:480px) {
   .hero-section-title .hero-heading {
     font-size: 20px;
   }
@@ -2227,42 +2238,49 @@ button:hover {
     font-size: 20px;
   }
 
-  .hero-section-title .hero-paragraph {
-    font-size: 16px;
-    line-height: 25px;
-  }
   .section-heading h2 {
     font-size: 20px;
   }
+
   .section-service-details .sub-service .heading {
     font-size: 20px;
   }
+
   .section-heading .heading {
     font-size: 20px;
   }
+
   .section-service-details .detail .heading {
     font-size: 20px;
   }
+
   .benefit h2 {
     margin-bottom: 0;
   }
+
   .footer-logo {
     display: block;
   }
+
   .awards-content {
     flex-direction: column;
+    max-width: 100%;
+  }
+
+  .services-section .services {
+    grid-template-columns: 1fr;
+  }
+
+  .award-wrap {
     max-width: 100%;
   }
   .services-section .services {
     grid-template-columns: 1fr;
   }
-  .award-wrap {
-    max-width: 100%;
-  }
 }
 
 
-@media screen and (max-width:667px) {
+@media screen and (max-width:768px) {
   .row-content h2 {
     font-size: 23px;
   }
@@ -2299,54 +2317,75 @@ button:hover {
   .hero-section-image {
     display: none !important;
   }
+
   .section-heading h2 {
     font-size: 25px;
   }
+
   .section-heading {
-    margin-bottom:0;
+    margin-bottom: 0;
   }
+
   .wrapper-image {
     display: none;
   }
+
   .services-section .services .service {
-    padding:0;
+    padding: 0;
   }
+
   .section-heading .heading {
     font-size: 25px;
   }
+
   .call-to-action-section {
     margin-block: 20px;
     padding: 0;
     padding-block: 20px;
   }
+
   .footer-socials {
     margin-top: 20px;
   }
+
   .footer-inner {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
+
   .award-wrap {
     max-width: 50%;
   }
+
   .form-sections {
     padding: 0;
   }
- 
+
+  .hero-small-circle {
+    display: none;
+  }
+  .services-section .services {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width:1024px) {
   .section-service-details {
     display: block;
   }
+
   .section-service-details .detail {
     width: 100%;
     height: auto;
   }
-  .section-service-details>div{
+
+  .section-service-details>div {
     width: 100%;
   }
-  .services-section .services {
-    grid-template-columns: 1fr 1fr;
+
+  .hero-section-title .hero-paragraph {
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
   }
 }
 
@@ -2357,4 +2396,3 @@ button:hover {
     margin-bottom: 10px;
   }
 }
-
