@@ -100,7 +100,7 @@ include('./sections/progress-bar.php')
         <img src="./assets/image/small-circle.png" alt="" />
       </div>
       <div class="hero-section-image">
-        <div class="wrapper-image">
+        <div class="wrapper-image circle-image">
           <img src="./assets/image/circle.png" alt="Colorfull circle svg" />
         </div>
         <div class="wrapper-inner-image">
