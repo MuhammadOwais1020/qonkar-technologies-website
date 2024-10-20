@@ -18,7 +18,146 @@
     display: flex;
     justify-content: center;
   }
+
+  .row-content h2 {
+    font-size: 23px;
+  }
+
+  .row-content p {
+    font-size: 13px;
+    padding-inline: 12px;
+    line-height: 24px;
+  }
+
+  .sub-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    padding-inline: 10px;
+  }
+
+  .section-heading .heading {
+    font-size: 20px;
+  }
+
+  .call-to-action-section a {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .call-to-action-section p {
+    /* text-align: left; */
+    font-size: 16px;
+  }
+
+  /* .hero-section-image {
+    display: none !important;
+  } */
+
+  .section-heading h2 {
+    font-size: 25px;
+  }
+
+  .section-heading {
+    margin-bottom: 0;
+  }
+
+  /* .wrapper-image {
+    display: none;
+  } */
+
+  .services-section .services .service {
+    padding: 0;
+  }
+
+  .section-heading .heading {
+    font-size: 25px;
+  }
+
+  .call-to-action-section {
+    margin-block: 20px;
+    padding: 0;
+    padding-block: 20px;
+  }
+
+  .footer-socials {
+    margin-top: 20px;
+  }
+
+  .footer-inner {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .award-wrap {
+    max-width: 50%;
+  }
+
+  .form-sections {
+    padding: 0;
+  }
+
+  .hero-small-circle {
+    display: none;
+  }
+
+  .services-section .services {
+    grid-template-columns: 1fr 1fr;
+  }
 }
+
+@media screen and (max-width:480px) {
+  .hero-section-title .hero-heading {
+    font-size: 20px;
+  }
+
+  .hero-section-title .subheading {
+    font-size: 20px;
+  }
+
+  .section-heading h2 {
+    font-size: 20px;
+  }
+
+  .section-service-details .sub-service .heading {
+    font-size: 20px;
+  }
+
+  .section-heading .heading {
+    font-size: 20px;
+  }
+
+  .section-service-details .detail .heading {
+    font-size: 20px;
+  }
+
+  .benefit h2 {
+    margin-bottom: 0;
+  }
+
+  .footer-logo {
+    display: block;
+  }
+
+  .awards-content {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .services-section .services {
+    grid-template-columns: 1fr;
+  }
+
+  .award-wrap {
+    max-width: 100%;
+  }
+
+  .services-section .services {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 /* line 262 style.css */
 .wrapper-inner-image {

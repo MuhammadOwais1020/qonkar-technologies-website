@@ -104,7 +104,7 @@ include('./sections/progress-bar.php')
           <img src="./assets/image/circle.png" alt="Colorfull circle svg" />
         </div>
         <div class="wrapper-inner-image">
-          <img src="./assets/image/Tablet Mockup new.png" alt="A girl holding and using a mobile phone, focused on the screen" />
+          <img src="./assets/image/mockup 1.png" alt="A girl holding and using a mobile phone, focused on the screen" />
         </div>
       </div>
     </section>
