@@ -96,7 +96,7 @@ include('./sections/progress-bar.php')
           </button>
         </a>
       </div>
-      <div class="wrapper-inner-image">
+      <div class="wrapper-image-hero">
         <img src="./assets/image/mockup 1.png" alt="">
       </div>
       <!-- <div class="hero-small-circle">

@@ -277,6 +277,9 @@ section {
   transform: translate(-50%, -50%);
 }
 
+.wrapper-image-hero {
+  max-width: 40%;
+}
 /* services */
 .services-section .services {
   display: flex;
