@@ -97,7 +97,7 @@ include('./sections/progress-bar.php')
         </a>
       </div>
       <div class="wrapper-image-hero">
-        <img src="./assets/image/mockup 1.png" alt="">
+        <img src="./assets/image/mockup 1.png" alt="Qonkar Technologies Hero Section image">
       </div>
       <!-- <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />

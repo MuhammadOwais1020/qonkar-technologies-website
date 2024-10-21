@@ -73,6 +73,7 @@
 
   .services-section .services .service {
     padding: 0;
+    width: 300px;
   }
 
   .section-heading .heading {
@@ -106,9 +107,9 @@
   }
 
   .services-section .services {
-    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
   }
-  
+
   .hero-section-image {
     display: flex;
     justify-content: center;
@@ -197,13 +198,13 @@
 }
 
 /* line 262 style.css */
-.wrapper-inner-image {
-  /* position: absolute;
+/* .wrapper-inner-image {
+  position: absolute;
   left: 50%;
   top: 50%;
   width: 100%;
-  transform: translate(-50%, -50%); */
-}
+  transform: translate(-50%, -50%);
+} */
 
 /* line 270 style.css */
 .wrapper-inner-image img {
@@ -230,5 +231,12 @@
     font-size: 16px;
     margin: 0;
     line-height: 24px;
+  }
+}
+
+
+@media screen and (max-width:667px) {
+  .services-section .services .service {
+    width: 500px;
   }
 }
