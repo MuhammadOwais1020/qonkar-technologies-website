@@ -8,6 +8,7 @@
   .hero-section {
     flex-direction: column;
     gap: 50px;
+    padding-bottom: 0;
   }
 
   .wrapper-image img {
@@ -132,6 +133,9 @@
 
   .section-logos>.margin-top {
     margin-top: 4rem;
+  }
+  .wrapper-image-hero {[
+    max-width: 100%;
   }
   
 }
