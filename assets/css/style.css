@@ -240,11 +240,11 @@ section {
   padding-block: 40px;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .hero-section {
     flex-direction: column;
   }
-}
+} */
 
 .hero-section-image {
   flex-basis: 30%;

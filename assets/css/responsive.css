@@ -108,11 +108,7 @@
   .services-section .services {
     grid-template-columns: 1fr 1fr;
   }
-
-  .hero-section {
-    flex-direction: column;
-  }
-
+  
   .hero-section-image {
     display: flex;
     justify-content: center;
