@@ -209,3 +209,24 @@
   width: 100%;
   /* max-width: 300px; */
 }
+
+@media screen and (max-width:1024px) {
+  .section-service-details {
+    display: block;
+  }
+
+  .section-service-details .detail {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-service-details>div {
+    width: 100%;
+  }
+
+  .hero-section-title .hero-paragraph {
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
+  }
+}

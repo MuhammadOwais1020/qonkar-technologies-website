@@ -96,7 +96,10 @@ include('./sections/progress-bar.php')
           </button>
         </a>
       </div>
-      <div class="hero-small-circle">
+      <div class="wrapper-inner-image">
+        <img src="./assets/image/mockup 1.png" alt="">
+      </div>
+      <!-- <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
       </div>
       <div class="hero-section-image">
@@ -106,7 +109,7 @@ include('./sections/progress-bar.php')
         <div class="wrapper-inner-image">
           <img src="./assets/image/mockup 1.png" alt="A girl holding and using a mobile phone, focused on the screen" />
         </div>
-      </div>
+      </div> -->
     </section>
 
     <!-- logos section -->
