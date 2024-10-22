@@ -56,7 +56,10 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </button>
         </a>
       </div>
-      <div class="hero-small-circle">
+      <div class="wrapper-image-hero">
+        <img src="./assets/image/Shopify hero section.png" alt="Qonkar Technologies Shopify Hero Section image">
+      </div>
+      <!-- <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
       </div>
       <div class="hero-section-image">
@@ -66,7 +69,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
         <div class="wrapper-inner-image">
           <img src="../assets/image/prototype.png" alt="" />
         </div>
-      </div>
+      </div> -->
     </section>
 
     <!-- logos section -->
