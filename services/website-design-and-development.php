@@ -54,7 +54,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
         </a>
       </div>
       <div class="wrapper-image-hero">
-        <img src="./assets/image/web Design & development.png" alt="Qonkar Technologies Web Design and Development Hero Section image">
+        <img src="./assets/image/web-Design-development.png" alt="Qonkar Technologies Web Design and Development Hero Section image">
       </div>
       <!-- <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
