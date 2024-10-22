@@ -9,6 +9,8 @@
     flex-direction: column;
     gap: 50px;
     padding-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .wrapper-image img {
@@ -137,6 +139,16 @@
     max-width: 100%;
   }
 
+  .hero-section {
+    padding-block: 0;
+  }
+
+  section {
+    margin-block: 0;
+  }
+  .award-container .container {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -202,12 +214,6 @@
     margin-top: 15px;
     font-size: 20px;
     margin-bottom: 0;
-  }
-  .hero-section {
-    padding-block:0 ;
-  }
-  section {
-    margin-block:0;
   }
 }
 
@@ -279,6 +285,7 @@
   .container {
     padding: 15px;
   }
+
   .section-contact-us {
     margin-top: 0;
   }
