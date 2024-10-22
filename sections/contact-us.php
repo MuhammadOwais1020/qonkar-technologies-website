@@ -68,7 +68,7 @@
           <label for="aboutProject">About Project</label>
           <textarea id="aboutProject" name="aboutProject" rows="4" required></textarea>
 
-          <button class="call-btn" type="submit">Submit</button>
+          <button  type="submit">Submit</button>
         </form>
         <div id="formMessage" style="display:none;"></div>
       </div>

@@ -41,7 +41,8 @@
     padding-inline: 10px;
   }
 
-  .section-heading .heading {
+  .section-heading .heading,
+  .section-service-details .detail .heading {
     font-size: 20px;
   }
 
@@ -91,7 +92,7 @@
   }
 
   .footer-inner {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
   }
 
   .award-wrap {
@@ -131,10 +132,11 @@
   .section-logos>.margin-top {
     margin-top: 4rem;
   }
+
   .wrapper-image-hero {
     max-width: 100%;
   }
-  
+
 }
 
 @media screen and (max-width:480px) {
@@ -171,7 +173,7 @@
   }
 
   .awards-content {
-   flex-direction: column;
+    flex-direction: column;
     max-width: 100%;
     flex-wrap: nowrap;
   }
@@ -187,14 +189,35 @@
   .services-section .services {
     grid-template-columns: 1fr;
   }
+
+  .container {
+    padding: 0;
+  }
+
+  .section-heading .heading {
+    font-size: 20px;
+  }
+
+  .sub-heading {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .hero-section {
+    padding-block:0 ;
+  }
+  section {
+    margin-block:0;
+  }
 }
 
 
 @media screen and (max-width:367px) {
   .services-section .services .service {
     max-width: 300px;
-    padding-inline:10px ;
+    padding-inline: 10px;
   }
+
 }
 
 /* line 262 style.css */
@@ -232,6 +255,7 @@
     margin: 0;
     line-height: 24px;
   }
+
   .header-logo {
     padding-top: 10px;
   }
@@ -241,5 +265,21 @@
 @media screen and (max-width:667px) {
   .services-section .services .service {
     width: 500px;
+  }
+
+  .form-sections {
+    padding: 0;
+  }
+
+  .details-section,
+  .form-section {
+    padding: 0;
+  }
+
+  .container {
+    padding: 15px;
+  }
+  .section-contact-us {
+    margin-top: 0;
   }
 }

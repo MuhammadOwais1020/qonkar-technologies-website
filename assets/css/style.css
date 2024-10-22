@@ -1783,18 +1783,12 @@ nav.navbar {
 
 .call-btn,
 .call-btn2 {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .button a {
   color: var(--text-color);
   transition: all 0.3s ease-in;
-}
-
-@media screen and (max-width: 990px) {
-  .button {
-    margin-top: 10px;
-  }
 }
 
 .button:before {

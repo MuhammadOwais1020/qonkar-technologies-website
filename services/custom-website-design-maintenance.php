@@ -133,7 +133,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
           always run providing solutions that match your brand and business aims
         </p>
         <a href="https://qonkar.com/contact-us.php">
-          <button class="button">
+          <button class="button call-btn">
             Start My Project
           </button>
         </a>

@@ -51,7 +51,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
 
         </p>
         <a href="https://qonkar.com/contact-us.php">
-          <button class="button call-btn">
+          <button class="button">
             Book A Strategy Call
           </button>
         </a>

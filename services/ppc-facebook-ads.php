@@ -131,7 +131,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
 
         </p>
         <a href="https://qonkar.com/contact-us.php">
-          <button class="button">
+          <button class="button call-btn">
             Start My Ads Project
           </button>
         </a>

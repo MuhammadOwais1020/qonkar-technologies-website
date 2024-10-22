@@ -49,7 +49,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
 
         </p>
         <a href="https://qonkar.com/contact-us.php">
-          <button class="button">
+          <button class="button call-btn">
             Book A Strategy Call
           </button>
         </a>
@@ -134,7 +134,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
 
         </p>
         <a href="https://qonkar.com/contact-us.php">
-          <button class="button">
+          <button class="button call-btn">
             StartMy Web Portals Projects
           </button>
         </a>
