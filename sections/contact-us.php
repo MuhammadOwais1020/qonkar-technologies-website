@@ -58,11 +58,11 @@
         <div class="contact-info-web">
           <h5>Contact Info:</h5>
           <div class="contact-info-content">
-            <img src="./assets/image/united-kingdom-flag.webp" alt="">
-            <a href="">info@qonkar.com<</a>
+            <img src="https://en.wikipedia.org/wiki/Union_Jack#/media/File:Flag_of_the_United_Kingdom.svg" alt="">
+            <a href="">info@qonkar.com</a>
           </div>
           <div class="contact-info-content">
-            <img src="./assets/image/mail.webp" alt="">
+            <img src="https://www.tekrevol.com/new-assets/images/common/mail.webp" alt="">
             <a href="">+44 74 76451747</a>
           </div>
         </div>
@@ -116,7 +116,7 @@
           <input type="tel" id="number" name="number" required placeholder="Number">
 
           <!-- <label for="aboutProject">About Project</label> -->
-          <textarea id="aboutProject" name="aboutProject" rows="4" required placeholder="About project"></textarea>
+          <textarea id="aboutProject" name="aboutProject" rows="4" required placeholder="About Project"></textarea>
 
           <button  type="submit">Submit</button>
         </form>

@@ -2131,7 +2131,8 @@ textarea {
   line-height: 50px; 
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: #000;
 }
 
@@ -2160,6 +2161,26 @@ button:hover {
 .contact-award-image a img {
   width: 100%;
   height: 100%;
+}
+
+.contact-info-web h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 33px;
+  font-weight: 600;
+}
+
+.contact-info-content a {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #000;
+  transition: .2s ease-in-out;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.contact-info-content a:hover {
+  color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
