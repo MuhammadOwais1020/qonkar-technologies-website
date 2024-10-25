@@ -58,11 +58,11 @@
         <div class="contact-info-web">
           <h5>Contact Info:</h5>
           <div class="contact-info-content">
-            <img src="/assets/image/united-kingdom-flag.webp" alt="">
+            <img class="country-flag" src="/assets/image/mail.jpg" alt="">
             <a href="">info@qonkar.com</a>
           </div>
           <div class="contact-info-content">
-            <img src="/assets/image/mail.webp" alt="">
+            <img src="/assets/image/united-kingdom-flag.webp" alt="">
             <a href="">+44 74 76451747</a>
           </div>
         </div>

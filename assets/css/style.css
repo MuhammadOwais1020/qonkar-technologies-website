@@ -2190,6 +2190,39 @@ button:hover {
   gap: 10px;
 }
 
+.contact-info-content .country-flag {
+  max-width: 40px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.contact-info-web {
+  margin-top: 30px;
+}
+
+.contact-award-image {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-content {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.contact-award-image a img {
+  max-width: 60px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.contact-images {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
 @media (max-width: 768px) {
   .form-container {
     flex-direction: column;
