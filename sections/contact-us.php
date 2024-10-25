@@ -66,25 +66,7 @@
             <a href="">+44 74 76451747</a>
           </div>
         </div>
-        <div class="form-section">
-        <h2>Contact Us</h2>
-        <form id="contactForm">
-          <!-- <label for="fullName">Full Name</label> -->
-          <input type="text" id="fullName" name="fullName" required placeholder="Full Name">
-
-          <!-- <label for="email">Email</label> -->
-          <input type="email" id="email" name="email" required placeholder="Email">
-
-          <!-- <label for="number">Number</label> -->
-          <input type="tel" id="number" name="number" required placeholder="Number">
-
-          <!-- <label for="aboutProject">About Project</label> -->
-          <textarea id="aboutProject" name="aboutProject" rows="4" required placeholder="About project"></textarea>
-
-          <button  type="submit">Submit</button>
-        </form>
-        <div id="formMessage" style="display:none;"></div>
-      </div>
+        
         <!-- <div class="badges">
           <div class="badge">
             <img src="" alt="">
@@ -121,6 +103,25 @@
       
 
     </div>
+    <div class="form-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+          <!-- <label for="fullName">Full Name</label> -->
+          <input type="text" id="fullName" name="fullName" required placeholder="Full Name">
+
+          <!-- <label for="email">Email</label> -->
+          <input type="email" id="email" name="email" required placeholder="Email">
+
+          <!-- <label for="number">Number</label> -->
+          <input type="tel" id="number" name="number" required placeholder="Number">
+
+          <!-- <label for="aboutProject">About Project</label> -->
+          <textarea id="aboutProject" name="aboutProject" rows="4" required placeholder="About project"></textarea>
+
+          <button  type="submit">Submit</button>
+        </form>
+        <div id="formMessage" style="display:none;"></div>
+      </div>
   </div>
 </section>
 <!-- ajax request for sending email to info@qonakr.com -->
