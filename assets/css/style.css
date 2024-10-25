@@ -2152,12 +2152,6 @@ button:hover {
   background-color: var(--primary-color);
 }
 
-.contact-award-image {
-  max-width: 57px;
-  height: auto;
-  object-fit: cover;
-}
-
 .contact-award-image a img {
   width: 100%;
   height: 100%;
@@ -2212,7 +2206,7 @@ button:hover {
 }
 
 .contact-award-image a img {
-  max-width: 60px;
+  max-width: 70px;
   height: auto;
   width: 100%;
   object-fit: cover;
