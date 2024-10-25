@@ -27,8 +27,8 @@
                 <img src="./assets/image/awards/contact-us-image.webp" alt="">
               </a>
               <div class="contact-content">
-                <h2>5.0</h2>
-                <h2>Goodfirms</h2>
+                <h6>5.0</h6>
+                <h6>Goodfirms</h6>
               </div>
             </div>
           </div>
@@ -38,8 +38,8 @@
                 <img src="./assets/image/awards/contact-us-image.webp" alt="">
               </a>
               <div class="contact-content">
-                <h2>5.0</h2>
-                <h2>Goodfirms</h2>
+                <h6>5.0</h6>
+                <h6>Goodfirms</h6>
               </div>
             </div>
           </div>
@@ -49,8 +49,8 @@
                 <img src="./assets/image/awards/contact-us-image.webp" alt="">
               </a>
               <div class="contact-content">
-                <h2>5.0</h2>
-                <h2>Goodfirms</h2>
+                <h6>5.0</h6>
+                <h6>Goodfirms</h6>
               </div>
             </div>
           </div>
