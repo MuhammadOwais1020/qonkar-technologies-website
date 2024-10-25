@@ -35,7 +35,7 @@
           <div class="contact-item">
           <div class="contact-award-image">
               <a href="">
-                <img src="./assets/image/awards/contact-us-image.webp" alt="">
+                <img src=".\assets\image\awards\contact-us-image.webp" alt="">
               </a>
               <div class="contact-content">
                 <h6>5.0</h6>
@@ -58,7 +58,7 @@
         <div class="contact-info-web">
           <h5>Contact Info:</h5>
           <div class="contact-info-content">
-            <img src="https://en.wikipedia.org/wiki/Union_Jack#/media/File:Flag_of_the_United_Kingdom.svg" alt="">
+            <img src="https://www.tekrevol.com/new-assets/images/common/phone_num.webp" alt="">
             <a href="">info@qonkar.com</a>
           </div>
           <div class="contact-info-content">

@@ -2183,6 +2183,13 @@ button:hover {
   color: var(--primary-color);
 }
 
+.contact-info-content {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
 @media (max-width: 768px) {
   .form-container {
     flex-direction: column;
