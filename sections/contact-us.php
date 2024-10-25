@@ -20,7 +20,53 @@
         <p>
           Collaborate with us and become a trendsetter with our reliable mobile application development company.
         </p>
-        <div class="badges">
+        <div class="contact-images">
+          <div class="contact-item">
+            <div class="contact-award-image">
+              <a href="">
+                <img src="./assets/image/awards/contact-us-image.webp" alt="">
+              </a>
+              <div class="contact-content">
+                <h2>5.0</h2>
+                <h2>Goodfirms</h2>
+              </div>
+            </div>
+          </div>
+          <div class="contact-item">
+          <div class="contact-award-image">
+              <a href="">
+                <img src="./assets/image/awards/contact-us-image.webp" alt="">
+              </a>
+              <div class="contact-content">
+                <h2>5.0</h2>
+                <h2>Goodfirms</h2>
+              </div>
+            </div>
+          </div>
+          <div class="contact-item">
+          <div class="contact-award-image">
+              <a href="">
+                <img src="./assets/image/awards/contact-us-image.webp" alt="">
+              </a>
+              <div class="contact-content">
+                <h2>5.0</h2>
+                <h2>Goodfirms</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-info-web">
+          <h5>Contact Info:</h5>
+          <div class="contact-info-content">
+            <img src="./assets/image/united-kingdom-flag.webp" alt="">
+            <a href="">info@qonkar.com<</a>
+          </div>
+          <div class="contact-info-content">
+            <img src="./assets/image/mail.webp" alt="">
+            <a href="">+44 74 76451747</a>
+          </div>
+        </div>
+        <!-- <div class="badges">
           <div class="badge">
             <img src="" alt="">
             <div class="rating">
@@ -52,21 +98,21 @@
           <img src="" alt="">
           <p>+44 74 76451747</p>
         </div>
-      </div>
+      </div> -->
       <div class="form-section">
         <h2>Contact Us</h2>
         <form id="contactForm">
-          <label for="fullName">Full Name</label>
-          <input type="text" id="fullName" name="fullName" required>
+          <!-- <label for="fullName">Full Name</label> -->
+          <input type="text" id="fullName" name="fullName" required placeholder="Full Name">
 
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
+          <!-- <label for="email">Email</label> -->
+          <input type="email" id="email" name="email" required placeholder="Email">
 
-          <label for="number">Number</label>
-          <input type="tel" id="number" name="number" required>
+          <!-- <label for="number">Number</label> -->
+          <input type="tel" id="number" name="number" required placeholder="Number">
 
-          <label for="aboutProject">About Project</label>
-          <textarea id="aboutProject" name="aboutProject" rows="4" required></textarea>
+          <!-- <label for="aboutProject">About Project</label> -->
+          <textarea id="aboutProject" name="aboutProject" rows="4" required placeholder="About project"></textarea>
 
           <button  type="submit">Submit</button>
         </form>
