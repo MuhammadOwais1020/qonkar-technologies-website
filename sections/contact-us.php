@@ -33,9 +33,9 @@
             </div>
           </div>
           <div class="contact-item">
-          <div class="contact-award-image">
+            <div class="contact-award-image">
               <a href="">
-                <img src="/assets/image/contact-us-image.webp" alt="">
+                <img class="test" src="/assets/image/contact-us-image.webp" alt="">
               </a>
               <div class="contact-content">
                 <h6>5.0</h6>
@@ -44,9 +44,9 @@
             </div>
           </div>
           <div class="contact-item">
-          <div class="contact-award-image">
+            <div class="contact-award-image">
               <a href="">
-                <img src="/assets/image/contact-us-image.webp" alt="">
+                <img class="test" src="/assets/image/contact-us-image.webp" alt="">
               </a>
               <div class="contact-content">
                 <h6>5.0</h6>
@@ -54,15 +54,16 @@
               </div>
             </div>
           </div>
+         
         </div>
         <div class="contact-info-web">
           <h5>Contact Info:</h5>
           <div class="contact-info-content">
-            <img class="country-flag" src="/assets/image/mail.jpg" alt="">
+            <img src="/assets/image/mail.jpg" alt="">
             <a href="">info@qonkar.com</a>
           </div>
           <div class="contact-info-content">
-            <img src="/assets/image/united-kingdom-flag.webp" alt="">
+            <img class="country-flag" src="/assets/image/united-kingdom-flag.webp" alt="">
             <a href="">+44 74 76451747</a>
           </div>
         </div>
