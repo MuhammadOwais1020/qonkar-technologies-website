@@ -119,7 +119,7 @@
           <!-- <label for="aboutProject">About Project</label> -->
           <textarea id="aboutProject" name="aboutProject" rows="4" required placeholder="About Project"></textarea>
 
-          <button  type="submit">Submit</button>
+          <button class="button"  type="submit">Submit</button>
         </form>
         <div id="formMessage" style="display:none;"></div>
       </div>

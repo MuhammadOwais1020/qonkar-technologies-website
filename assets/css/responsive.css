@@ -215,6 +215,12 @@
     font-size: 20px;
     margin-bottom: 0;
   }
+  .contact-info-content a {
+    margin-bottom: 0;
+  }
+  .contact-award-image {
+    margin-bottom: 10px;
+  }
 }
 
 
@@ -288,5 +294,12 @@
 
   .section-contact-us {
     margin-top: 0;
+  }
+  .contact-images {
+    flex-direction: column;
+  }
+
+  .contact-award-image {
+    justify-content: start;
   }
 }

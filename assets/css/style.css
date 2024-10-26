@@ -2184,10 +2184,9 @@ button:hover {
   gap: 10px;
 }
 
-.contact-info-content .country-flag {
-  max-width: 40px;
+.contact-info-content img {
+  width: 25px;
   height: 25px;
-  object-fit: cover;
 }
 
 .contact-info-web {
@@ -2197,6 +2196,7 @@ button:hover {
 .contact-award-image {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact-content {
@@ -2206,10 +2206,10 @@ button:hover {
 }
 
 .contact-award-image a img {
-  max-width: 70px;
-  height: auto;
-  width: 100%;
   object-fit: cover;
+  width: 76px;
+  aspect-ratio: auto 76 / 61;
+  height: 61px;
 }
 .contact-images {
   display: flex;
@@ -2260,6 +2260,8 @@ button:hover {
 .details-section p {
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;
 
 }
 
