@@ -39,7 +39,7 @@
               </a>
               <div class="contact-content">
                 <h6>5.0</h6>
-                <h6>Goodfirms</h6>
+                <h6>Rightfirms</h6>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@
               </a>
               <div class="contact-content">
                 <h6>5.0</h6>
-                <h6>Goodfirms</h6>
+                <h6>Clutch</h6>
               </div>
             </div>
           </div>
