@@ -2303,7 +2303,203 @@ button:hover {
   height: auto;
 }
 
+/* Font */
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inner_container{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.inner_container .content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.content_1{
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.flexx{
+  display: flex;
+  
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.content_1 .h2 h2, .content_1 h5{
+  color: #314252;
+  margin-top: 0px;
+}
+.content_1 p{
+  margin-top: 0px;
+}
+.margin h6{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #314252;
+}
+.margin{
+  margin-left: 5px;
+}
+
+.flexx_center .flexx{
+  align-items: center;
+}
+.contact_info{
+  margin-top: 30px;
+  color: #314252;
+}
+.flexx div a img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.margin-left{
+  margin-left: 10px;
+}
+.contact_info .flexx{
+  align-items: center;
+}
+.contact_info .flexx div a{
+  text-decoration: none;
+  color: #314252;
+  font-size: 16px;
+  line-height: 26px;
+}
+.email{
+  margin-bottom: 10px;
+}
+.email div img, .call div img{
+  margin-right: 10px;
+}
+.content_2{
+  margin-bottom: auto !important;
+  margin-top: auto !important;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.content_2_inner{
+  background: #fff;
+  box-shadow: 0 0 50px rgba(40, 36, 54, .05);
+  padding: 50px 30px;
+  margin-left: auto;
+  
+}
+form h3, form div input, form p{
+  width: fit-content;
+}
+form h3{
+  color: #314252;
+}
+
+form div input{
+  border: 0;
+  border-bottom: 2px solid #d3d3d3;
+  border-radius: 0;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0;
+  height: 50px;
+  line-height: 50px;
+  color: #000;
+  width: 100%;
+}
+form .from_item{
+  margin-bottom: 25px;
+}
+form div textarea{
+  border: 0;
+  border-bottom: 2px solid #d3d3d3;
+  border-radius: 0;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0;
+  line-height: 50px;
+  height: 130px;
+  color: #000;
+  width: 100%;
+}
+.privacy{
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+.privacy a{
+  text-decoration: none;
+  color: #3f89c9;
+}
+form .btn_submit{
+  display: block;
+  font-size: 18px;
+  height: 50px;
+  margin: 30px 0;
+  width: 40%;
+  background-color: white;
+  border: 2px solid #3f89c9;;
+  border-radius: 40px;
+  color: #3f89c9;;
+  line-height: normal;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
+form .btn_submit:hover{
+  background-color: #3f89c9;;
+  color: white;
+}
+#formMessage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3f89c9;
+  background-color: white;
+  border: 2px solid #3f89c9;
+  border-radius: 50px;
+  width: 100%;
+  font-size: 16px;
+  height: 40px;
+
+}
 @media screen and (max-width:1300px) {
   .row-content h2 {
     margin-bottom: 10px;
