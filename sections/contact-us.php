@@ -24,7 +24,7 @@
           <div class="contact-item">
             <div class="contact-award-image">
               <a href="">
-                <img class="test" src="/assets/image/contact-us-image.webp" alt="">
+                <img class="test" src="/assets/image/goodfirms.webp" alt="">
               </a>
               <div class="contact-content">
                 <h6>5.0</h6>
@@ -35,7 +35,7 @@
           <div class="contact-item">
             <div class="contact-award-image">
               <a href="">
-                <img class="test" src="/assets/image/contact-us-image.webp" alt="">
+                <img class="test" src="/assets/image/rightfrims.webp" alt="">
               </a>
               <div class="contact-content">
                 <h6>5.0</h6>
@@ -46,7 +46,7 @@
           <div class="contact-item">
             <div class="contact-award-image">
               <a href="">
-                <img class="test" src="/assets/image/contact-us-image.webp" alt="">
+                <img class="test" src="/assets/image/clutch_rating.webp" alt="">
               </a>
               <div class="contact-content">
                 <h6>5.0</h6>
