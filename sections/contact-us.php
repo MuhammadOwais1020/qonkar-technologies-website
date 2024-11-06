@@ -1,164 +1,142 @@
-<section class="section-contact-us">
-  <div class="form-sections">
-    <div class="form-container">
-      <div class="details-section">
-        <div class="section-heading">
-          <h2 class="heading">Let's Connect With Our Experts</h2>
-          <div class="heading-svg">
-            <svg class="svg-path" viewBox="0 0 297 35" fill="" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M1.22961 19.3056C3.69595 15.4548 12.9448 12.4865 17.2609 11.4837C36.9917 6.67039 68.7458 4.26347 82.0024 5.46693C95.2591 6.67039 80.7693 9.07692 68.1292 11.4836C55.4892 13.8904 64.738 15.0937 76.1449 13.8904C87.5517 12.687 111.29 11.4836 131.638 10.882C151.985 10.2803 131.329 9.07692 111.29 9.07692C91.2513 9.07692 91.5595 6.67029 98.6503 5.46693C105.741 4.26357 121.772 -0.549874 140.578 0.0518062C159.384 0.653487 203.778 1.85685 222.893 6.06861C242.007 10.2804 281.468 21.7123 291.025 25.3224C300.583 28.9325 299.349 39.161 282.393 33.1442C265.437 27.1274 230.292 16.2972 153.218 14.4921C76.1449 12.6871 17.5691 22.9157 11.4032 27.1274C5.23738 31.3392 0.921268 31.3392 3.38762 27.7291C5.85396 24.119 6.47059 23.5174 4.00425 24.7207C1.5379 25.9241 -1.85333 24.119 1.22961 19.3056Z"
-                fill="#8AD2DC"></path>
-            </svg>
-          </div>
-        </div>
-        <p>
-          Get valuable consultation from our professionals to discuss your mobile application development project. We
-          are here to help you with all of your queries.
-        </p>
-        <h2 class="sub-heading">Revolutionize Your Business</h2>
-        <p>
-          Collaborate with us and become a trendsetter with our reliable mobile application development company.
-        </p>
-        <div class="contact-images">
-          <div class="contact-item">
-            <div class="contact-award-image">
-              <a href="">
-                <img class="test" src="/assets/image/contact-us-image.webp" alt="">
-              </a>
-              <div class="contact-content">
-                <h6>5.0</h6>
-                <h6>Goodfirms</h6>
-              </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contact_mediaQuery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="inner_container">
+                <div class="content">
+                    <div class="content_1">
+                        <div class="h2">
+                            <h2 class="poppins-bold">Let's Connect With Our Experts</h2>
+                        </div>
+                        <p class="poppins-regular">Get valuable consultation from our professionals to discuss your mobile application development project. We are here to help you with all of your queries.</p>
+                        <h5 class="poppins-semibold">Revolutionize Your Business</h5>
+                        <p class="poppins-regular">Collaborate with us and become a trendsetter with our reliable mobile application development company.</p>
+                        <div class="flexx flexx_center block_award">
+                            <div class="flexx">
+                                <div>
+                                    <a href=""><img src="images/goodfrims.webp" alt=""></a>
+                                </div>
+                                <div class="poppins-semibold margin">
+                                    <h6>5.0</h6>
+                                    <h6>Goodfrims</h6>
+                                </div>
+                            </div>
+                            <div  class="flexx margin-left">
+                                <div>
+                                    <a href=""><img src="images/rightfirms.webp" alt=""></a>
+                                </div>
+                                <div class="poppins-semibold margin">
+                                    <h6>4.8</h6>
+                                    <h6>Rightfrims</h6>
+                                </div>
+                            </div>
+                            <div  class="flexx margin-left">
+                                <div>
+                                    <a href=""><img src="images/clutch_rating.webp" alt=""></a>
+                                </div>
+                                <div class="poppins-semibold margin">
+                                    <h6>4.8</h6>
+                                    <h6>Clutch</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact_info">
+                            <h5 class="poppins-semibold">Contact info:</h5>
+                            <div class="flexx email">
+                                <div>
+                                    <img src="images/mail.webp" alt="">
+                                </div>
+                                <div>
+                                    <a href="mailto:info@tekrevol.com" aria-label="TekRevol Contact" class="poppins-regular">info@tekrevol.com</a>
+                                </div>
+                            </div>
+                            <div class="flexx call">
+                                <div>
+                                    <img src="images/phone_num.webp" alt="">
+                                </div>
+                                <div>
+                                    <a href="tel:+18003629239" aria-label="TekRevol Contact" class="poppins-regular">+1 800-362-9239</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_2">
+                        <div class="content_2_inner">
+                            <form id="contactForm"> <!-- Added form ID for AJAX -->
+                                <h3 class="poppins-semibold">Get in Touch Now!</h3>
+                                <div class="form-group from_item"> 
+                                  <input placeholder="Full Name" name="footer_name" class="form-control" id="footer_name" type="text" required="">
+                                </div>
+                                <div class="form-group from_item">
+                                  <input type="email" class="form-control" id="footer_email" name="footer_email" placeholder="Email" required="">
+                                </div>
+                                <div class="form-group from_item">
+                                  <input type="tel" class="form-control" id="footer_phone" name="footer_phone" placeholder="Number" required="">
+                                </div>
+                                <div class="form-group text_area">
+                                  <textarea class="form-control" rows="4" id="footer_description" name="footer_description" placeholder="Describe Your Project Need." required=""></textarea>
+                                </div>
+                                <p class="privacy poppins-regular">
+                                  By submitting this form, you agree to our
+                                  <a href="https://www.tekrevol.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                                </p>
+                                <button type="submit" class="btn btn_submit">Get In Touch</button>
+                                
+                              </form>
+                              <div id="formMessage" class="poppins-medium" style="display: none;"></div> <!-- Message div for AJAX response -->
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-award-image">
-              <a href="">
-                <img class="test" src="/assets/image/contact-us-image.webp" alt="">
-              </a>
-              <div class="contact-content">
-                <h6>5.0</h6>
-                <h6>Goodfirms</h6>
-              </div>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-award-image">
-              <a href="">
-                <img class="test" src="/assets/image/contact-us-image.webp" alt="">
-              </a>
-              <div class="contact-content">
-                <h6>5.0</h6>
-                <h6>Goodfirms</h6>
-              </div>
-            </div>
-          </div>
-         
         </div>
-        <div class="contact-info-web">
-          <h5>Contact Info:</h5>
-          <div class="contact-info-content">
-            <img src="/assets/image/mail.jpg" alt="">
-            <a href="">info@qonkar.com</a>
-          </div>
-          <div class="contact-info-content">
-            <img class="country-flag" src="/assets/image/united-kingdom-flag.webp" alt="">
-            <a href="">+44 74 76451747</a>
-          </div>
-        </div>
-        
-        <!-- <div class="badges">
-          <div class="badge">
-            <img src="" alt="">
-            <div class="rating">
-              <p>5.0</p>
-              <p>Goodfirms</p>
-            </div>
-          </div>
-          <div class="badge">
-            <img src="" alt="">
-            <div class="rating">
-              <p>5.0</p>
-              <p>Goodfirms</p>
-            </div>
-          </div>
-          <div class="badge">
-            <img src="" alt="">
-            <div class="rating">
-              <p>5.0</p>
-              <p>Goodfirms</p>
-            </div>
-          </div>
-        </div>
-        <p>Contact Info:</p>
-        <div class="contact-info">
-          <img src="" alt="">
-          <p>info@qonkar.com</p>
-        </div>
-        <div class="contact-info">
-          <img src="" alt="">
-          <p>+44 74 76451747</p>
-        </div>
-      </div> -->
-      
+    </section>
 
-    </div>
-    <div class="form-section">
-        <h2>Contact Us</h2>
-        <form id="contactForm">
-          <!-- <label for="fullName">Full Name</label> -->
-          <input type="text" id="fullName" name="fullName" required placeholder="Full Name">
+    <!-- jQuery and AJAX script for form submission -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#contactForm').on('submit', function(e) {
+        e.preventDefault();
 
-          <!-- <label for="email">Email</label> -->
-          <input type="email" id="email" name="email" required placeholder="Email">
+        var formData = {
+          fullName: $('#footer_name').val(),
+          email: $('#footer_email').val(),
+          number: $('#footer_phone').val(),
+          aboutProject: $('#footer_description').val()
+        };
 
-          <!-- <label for="number">Number</label> -->
-          <input type="tel" id="number" name="number" required placeholder="Number">
-
-          <!-- <label for="aboutProject">About Project</label> -->
-          <textarea id="aboutProject" name="aboutProject" rows="4" required placeholder="About Project"></textarea>
-
-          <button class="button"  type="submit">Submit</button>
-        </form>
-        <div id="formMessage" style="display:none;"></div>
-      </div>
-  </div>
-</section>
-<!-- ajax request for sending email to info@qonakr.com -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(document).ready(function() {
-  $('#contactForm').on('submit', function(e) {
-    e.preventDefault();
-
-    var formData = {
-      fullName: $('#fullName').val(),
-      email: $('#email').val(),
-      number: $('#number').val(),
-      aboutProject: $('#aboutProject').val()
-    };
-
-    $.ajax({
-      url: 'send-email.php',
-      type: 'POST',
-      data: formData,
-      success: function(response) {
-        $('#formMessage').text(response).addClass('success').removeClass('error').show();
-        $("#formMessage").fadeIn("slow");
-        setTimeout(function() {
-          $("#formMessage").fadeOut("slow");
-        }, 3000);
-      },
-      error: function() {
-        $('#formMessage').text('There was an error sending the email.').addClass('error').removeClass(
-          'success').show();
-        $("#formMessage").fadeIn("slow");
-        setTimeout(function() {
-          $("#formMessage").fadeOut("slow");
-        }, 3000);
-      }
+        $.ajax({
+          url: 'send-email.php', // Ensure this PHP file handles form data and email sending
+          type: 'POST',
+          data: formData,
+          success: function(response) {
+            $('#formMessage').text(response).addClass('success').removeClass('error').show();
+            $("#formMessage").fadeIn("slow");
+            setTimeout(function() {
+              $("#formMessage").fadeOut("slow");
+            }, 3000);
+          },
+          error: function() {
+            $('#formMessage').text('There was an error sending the email.').addClass('error').removeClass('success').show();
+            $("#formMessage").fadeIn("slow");
+            setTimeout(function() {
+              $("#formMessage").fadeOut("slow");
+            }, 3000);
+          }
+        });
+      });
     });
-  });
-});
-</script>
+    </script>
+</body>
+</html>
