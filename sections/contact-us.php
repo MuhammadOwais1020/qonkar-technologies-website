@@ -90,8 +90,8 @@
     </section>
 
     <!-- jQuery and AJAX script for form submission -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
     $(document).ready(function() {
       $('#contactForm').on('submit', function(e) {
         e.preventDefault();
@@ -124,4 +124,4 @@
         });
       });
     });
-    </script>
+</script>
