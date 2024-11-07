@@ -2207,6 +2207,9 @@ button:hover {
   width: 100% !important;
   height: 100% !important;
 }
+.content-item{
+  background-color: #3f89c9;
+}
 .contact-images {
   display: flex;
   gap: 20px;
