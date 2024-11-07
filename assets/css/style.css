@@ -2207,10 +2207,10 @@ button:hover {
   width: 100% !important;
   height: 100% !important;
 }
-.contact-item.goodfrims{
+.goodfrims{
     display:flex;
     align-items: center;
-    
+
 }
 .contact-images {
   display: flex;
