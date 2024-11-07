@@ -21,8 +21,8 @@
           Collaborate with us and become a trendsetter with our reliable mobile application development company.
         </p>
         <div class="contact-images">
-          <div class="contact-item goodfrims">
-            <div class="contact-award-image ">
+          <div class="contact-item">
+            <div class="contact-award-image goodfrims">
               <a href="">
                 <img class="test" src="/assets/image/goodfrims.webp" alt="">
               </a>
