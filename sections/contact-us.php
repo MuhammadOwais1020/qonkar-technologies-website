@@ -29,7 +29,7 @@
               <div class="contact-content">
                 <h6>5.0</h6>
                 <h6>Goodfirms</h6>
-                <p>Hello</p>
+                
               </div>
             </div>
           </div>
