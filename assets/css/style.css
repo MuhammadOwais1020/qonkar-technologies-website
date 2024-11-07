@@ -2207,9 +2207,7 @@ button:hover {
 
 .contact-award-image a img {
   object-fit: cover;
-  width: 100% !important;
   aspect-ratio: auto 76 / 61;
-  height: 100% !important;
 }
 .contact-images {
   display: flex;
