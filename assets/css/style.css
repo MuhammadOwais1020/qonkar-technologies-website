@@ -2207,7 +2207,9 @@ button:hover {
   width: 100% !important;
   height: 100% !important;
 }
-
+.clutch{
+  margin-left: 5px;
+}
 .contact-images {
   display: flex;
   gap: 20px;

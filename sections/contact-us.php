@@ -49,7 +49,7 @@
               <a href="">
                 <img class="test" src="/assets/image/clutch_rating.webp" alt="">
               </a>
-              <div class="contact-content">
+              <div class="contact-content clutch">
                 <h6>5.0</h6>
                 <h6>Clutch</h6>
               </div>
