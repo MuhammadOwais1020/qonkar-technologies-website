@@ -2203,7 +2203,7 @@ button:hover {
 
 .contact-award-image a img {
   object-fit: cover;
-  
+  aspect-ratio: auto 76 / 61;
   width: 100% !important;
   height: 100% !important;
 }
