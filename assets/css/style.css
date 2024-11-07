@@ -2207,11 +2207,7 @@ button:hover {
   width: 100% !important;
   height: 100% !important;
 }
-.goodfrims{
-    display:flex;
-    align-items: center;
 
-}
 .contact-images {
   display: flex;
   gap: 20px;
