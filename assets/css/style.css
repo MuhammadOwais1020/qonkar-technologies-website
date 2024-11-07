@@ -2210,6 +2210,7 @@ button:hover {
 .contact-item.goodfrims{
     display:flex;
     align-items: center;
+    
 }
 .contact-images {
   display: flex;
