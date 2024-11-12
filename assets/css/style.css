@@ -2078,8 +2078,7 @@ nav.navbar {
 
 .form-sections {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
 .form-container {
@@ -2087,6 +2086,8 @@ nav.navbar {
   max-width: 1240px;
   height: 100%;
   box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .details-section,
