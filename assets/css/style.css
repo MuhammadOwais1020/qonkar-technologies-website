@@ -2212,6 +2212,7 @@ button:hover {
 }
 .contact-images {
   display: flex;
+  flex-direction: row;
   gap: 20px;
   margin-top: 20px;
   align-items: center;
