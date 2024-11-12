@@ -2214,6 +2214,7 @@ button:hover {
   display: flex;
   gap: 20px;
   margin-top: 20px;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
