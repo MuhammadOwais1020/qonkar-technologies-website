@@ -428,7 +428,7 @@ footer {
 }
 @media (max-width: 1055px) and (min-width: 0px){
   .footer-inner{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr !important;
   }
 }
 .footer-menus ul li {
