@@ -419,10 +419,10 @@ footer {
   width: fit-content;
 }
 
+
 .footer-inner {
   display: grid;
   grid-template-columns: repeat(4, minmax(250px, 1fr));
-
   row-gap: 20px;
   justify-content: space-between;
   padding-bottom: 30px;
@@ -2078,6 +2078,8 @@ nav.navbar {
 
 .form-sections {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form-container {
