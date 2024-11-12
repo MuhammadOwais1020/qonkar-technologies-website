@@ -426,7 +426,11 @@ footer {
   justify-content: space-between;
   padding-bottom: 30px;
 }
-
+@media (min-width: 1055px) {
+  .footer-inner{
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .footer-menus ul li {
   margin-top: 10px;
 }
