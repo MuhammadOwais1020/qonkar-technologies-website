@@ -1219,7 +1219,9 @@ nav.navbar {
     width: auto;
   }
 }
-
+#contactForm button{
+  width: 100%;
+}
 @media screen and (min-width: 1025px) {
   .container-mega {
     max-width: 1070px;
