@@ -2091,7 +2091,7 @@ nav.navbar {
 .form-section {
   flex: 1;
   padding: 20px;
-
+  
   border-radius: 5px;
 }
 
@@ -2101,7 +2101,7 @@ nav.navbar {
 
 .details-section {
   max-width: 60%;
-  margin-right: 20px;
+  margin-right: 50px;
   width: 100%;
 }
 
@@ -2110,6 +2110,7 @@ nav.navbar {
   max-width: 400px;
   padding: 50px 30px;
   margin-left: auto;
+
   width: 100%;
 }
 
