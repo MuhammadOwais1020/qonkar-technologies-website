@@ -37,7 +37,7 @@ section {
 .container {
   max-width: 1600px;
   margin: 0 auto;
-  
+  padding-inline: 30px;
 }
 
 .cursor-wrapper {
@@ -2091,7 +2091,7 @@ nav.navbar {
 .form-section {
   flex: 1;
   padding: 20px;
-  
+
   border-radius: 5px;
 }
 
@@ -2110,7 +2110,6 @@ nav.navbar {
   max-width: 400px;
   padding: 50px 30px;
   margin-left: auto;
-
   width: 100%;
 }
 
