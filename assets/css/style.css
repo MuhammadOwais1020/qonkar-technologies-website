@@ -31,8 +31,8 @@ section {
 }
 @media (min-width: 0px) and (max-width: 467px){
   img.test{
-    width: 50px !important;
-    height: 50px !important;
+    width: 30px !important;
+    height: 30px !important;
   }
 }
 
