@@ -2091,7 +2091,7 @@ nav.navbar {
 
 .form-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   max-width: 1600px;
   height: 100%;
   box-sizing: border-box;
