@@ -29,12 +29,7 @@ body {
 section {
   margin-block: 50px;
 }
-@media (min-width: 0px) and (max-width: 467px){
-  img.test{
-    width: 50px !important;
-    height: 50px !important;
-  }
-}
+
 
 .cursor-wrapper {
   pointer-events: none;
@@ -2333,5 +2328,11 @@ button:hover {
 @media screen and (max-width:1300px) {
   .row-content h2 {
     margin-bottom: 10px;
+  }
+}
+@media (min-width: 0px) and (max-width: 467px){
+  img.test{
+    width: 50px !important;
+    height: 50px !important;
   }
 }
