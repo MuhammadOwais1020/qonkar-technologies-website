@@ -2091,6 +2091,7 @@ nav.navbar {
 
 .form-container {
   display: flex;
+  justify-content: space-between;
   max-width: 1600px;
   height: 100%;
   box-sizing: border-box;
@@ -2099,8 +2100,6 @@ nav.navbar {
 .details-section,
 .form-section {
   flex: 1;
-  
-
   border-radius: 5px;
 }
 
