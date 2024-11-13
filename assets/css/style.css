@@ -30,7 +30,7 @@ section {
   margin-block: 50px;
 }
 @media (min-width: 0px) and (max-width: 467px){
-  .contact-content{
+  .contact-content h6{
     font-size: 10px;
   }
 }
