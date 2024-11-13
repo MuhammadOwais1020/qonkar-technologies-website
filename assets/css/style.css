@@ -33,7 +33,11 @@ section {
 .cursor-wrapper {
   pointer-events: none;
 }
-
+@media screen and (max-width: 1440px) {
+  .container{
+    padding-inline: 0px
+  }
+}
 .container {
   max-width: 1600px;
   margin: 0 auto;
