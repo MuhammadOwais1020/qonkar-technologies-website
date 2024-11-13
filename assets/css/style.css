@@ -29,12 +29,7 @@ body {
 section {
   margin-block: 50px;
 }
-@media (min-width: 0px) and (max-width: 467px){
-  img.test{
-    width: 35px !important;
-    height: 35px !important;
-  }
-}
+
 
 .cursor-wrapper {
   pointer-events: none;
