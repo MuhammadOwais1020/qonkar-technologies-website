@@ -28,7 +28,7 @@
               </a>
               <div class="contact-content">
                 <h6>5.0</h6>
-                <h6>Goodfirms</h6>
+                <h6 class="font">Goodfirms</h6>
                 
               </div>
             </div>
@@ -40,7 +40,7 @@
               </a>
               <div class="contact-content">
                 <h6>5.0</h6>
-                <h6>Rightfirms</h6>
+                <h6 class="font">Rightfirms</h6>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@
               </a>
               <div class="contact-content clutch">
                 <h6>5.0</h6>
-                <h6>Clutch</h6>
+                <h6 class="font">Clutch</h6>
               </div>
             </div>
           </div>
