@@ -54,18 +54,18 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </button>
         </a>
       </div>
-      <div class="hero-small-circle">
+      <!-- <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
-      </div>
+      </div> -->
       <div class="hero-section-image">
         <div class="wrapper-image">
         <img src="https://qonkar.com/assets/image/Qonkar-technology-hero-sec.webp" alt="Qonkar Technologies Hero Section image">
 
 
         </div>
-        <div class="wrapper-inner-image">
+        <!-- <div class="wrapper-inner-image">
           
-        </div>
+        </div> -->
       </div>
     </section>
 
