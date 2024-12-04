@@ -125,7 +125,7 @@
     justify-content: center;
   } */
   .wrapper-image img {
-    width: 90%;  /* Shrinks the image slightly for better fitting */
+    width: 50%;  /* Shrinks the image slightly for better fitting */
     margin: 0 auto; /* Centers the image */
   }
 
