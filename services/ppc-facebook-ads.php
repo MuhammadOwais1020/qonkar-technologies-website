@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
   <title>PPC & Facebook Ads Agency | Qonkar Technologies</title>
@@ -54,16 +55,18 @@ include(__DIR__ . '/../sections/progress-bar.php')
           </button>
         </a>
       </div>
-      <div class="hero-small-circle">
+      <!-- <div class="hero-small-circle">
         <img src="./assets/image/small-circle.png" alt="" />
-      </div>
+      </div> -->
       <div class="hero-section-image">
         <div class="wrapper-image">
-          <img src="../assets/image/circle.png" alt="" />
+        <img src="https://qonkar.com/assets/image/Qonkar-technology-hero-sec.webp" alt="Qonkar Technologies Hero Section image">
+
+
         </div>
-        <div class="wrapper-inner-image">
-          <img src="../assets/image/prototype.png" alt="" />
-        </div>
+        <!-- <div class="wrapper-inner-image">
+          
+        </div> -->
       </div>
     </section>
 
