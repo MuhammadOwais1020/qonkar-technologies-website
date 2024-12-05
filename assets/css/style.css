@@ -2357,3 +2357,7 @@ button:hover {
 .heading .hero-heading{
   font-size: 40px;
 }
+
+.section-heading .heading{
+  font-size: 30px;
+}
