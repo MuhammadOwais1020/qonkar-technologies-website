@@ -28,7 +28,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
     <section class="hero-section">
       <div class="hero-section-title">
         <div class="hero-head">
-          <h1 class="heading hero-heading">
+          <h1 class="heading hero-heading" style="font-size: 20px;">
             Shopify Development Agency
           </h1>
           <div class="hero-svg">
