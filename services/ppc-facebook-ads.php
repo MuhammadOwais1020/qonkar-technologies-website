@@ -118,7 +118,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
     <section class="section-service-details">
       <div class="detail">
         <div class="section-heading">
-          <h2 class="heading">PPC & Facebook Ads Services We Provide</h2>
+          <h2 class="heading" style="font-size: 30px;">PPC & Facebook Ads Services We Provide</h2>
           <div class="heading-svg">
             <svg width="" height="" class="svg-path" viewBox="0 0 297 35" fill="" xmlns="http://www.w3.org/2000/svg">
               <path
