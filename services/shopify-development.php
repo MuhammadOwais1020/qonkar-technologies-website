@@ -40,7 +40,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
             </svg>
           </div>
 
-          <h1 class="heading subheading">Expert Shopify Development Solutions for Every Business</h1>
+          <h2 class="heading subheading">Expert Shopify Development Solutions for Every Business</h2>
         </div>
         <p class="paragraph hero-paragraph">
           A reliable Shopify development company, Qonkar Technologies presents strong, user-friendly, and scalable
