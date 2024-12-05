@@ -28,7 +28,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
     <section class="hero-section">
       <div class="hero-section-title">
         <div class="hero-head">
-          <h1 class="heading hero-heading">
+          <h1 class="heading hero-heading" style="font-size: 40px;">
             SEO Services Agency
           </h1>
           <div class="hero-svg">
@@ -40,9 +40,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
             </svg>
           </div>
 
-          <h1 class="heading subheading">Expert SEO Solutions for Every Business</h1>
+          <h1 class="heading subheading" style="font-size: 30px; margin-bottom: 8px">Expert SEO Solutions for Every Business</h1>
         </div>
-        <p class="paragraph hero-paragraph">
+        <p class="paragraph hero-paragraph" style="font-size: 18px; padding: 0px 25px 0px 0px">
           At Qonkar Technologies, we help businesses gain organic visibility through bespoke SEO strategies which not
           only help search engine rankings but also increase traffic and conversions. Our SEO specialists utilize the
           most recent and advanced techniques to make sure your website not only satisfies the search engine

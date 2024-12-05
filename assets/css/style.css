@@ -2343,3 +2343,17 @@ button:hover {
     margin-bottom: 10px;
   }
 }
+
+.paragraph .hero-paragraph{
+  font-size: 18px; 
+  padding: 0px 25px 0px 0px;
+}
+
+.heading .subheading{
+  font-size: 30px; 
+  margin-bottom: 8px;
+}
+
+.heading .hero-heading{
+  font-size: 40px;
+}
