@@ -555,7 +555,7 @@ footer {
 /* comment */
 .section-service-details {
   display: flex;
-  align-items: start;
+  align-items: center;
   gap: 75px;
 }
 
