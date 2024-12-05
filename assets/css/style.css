@@ -272,8 +272,10 @@ section {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 0;
   
+  left: 50%;
+  right: 50%;
+  bottom: 0;
 }
 
 .hero-small-circle {
