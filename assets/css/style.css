@@ -566,8 +566,9 @@ footer {
 .section-service-details .detail {
   padding-right: 30px;
   padding-top: 50px;
+  padding-bottom: 20px;
   position: sticky;
-  top: 1;
+  top: 0;
   
 }
 
