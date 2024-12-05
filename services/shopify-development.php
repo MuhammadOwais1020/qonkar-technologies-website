@@ -42,7 +42,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
 
           <h2 class="heading subheading" style="font-size: 28px; margin-bottom: 8px">Expert Shopify Development Solutions for Every Business</h2>
         </div>
-        <p class="paragraph hero-paragraph" style="font-size: 18px; padding: 0px 25px 0px 0px">
+        <p class="paragraph hero-paragraph" style="font-size: 15px; padding: 0px 25px 0px 0px">
           A reliable Shopify development company, Qonkar Technologies presents strong, user-friendly, and scalable
           Shopify stores. Whether you need a brand-new online store or want to provide an existing one with a boosting
           campaign, our company provides comprehensive Shopify development solutions according to your business goals.
