@@ -29,7 +29,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
     <section class="hero-section">
       <div class="hero-section-title">
         <div class="hero-head">
-          <h1 class="heading hero-heading" style="font-size: 40px;">
+          <h1 class="heading hero-heading">
             PPC & Facebook Ads Agency
           </h1>
           <div class="hero-svg">
@@ -41,7 +41,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
             </svg>
           </div>
 
-          <h1 class="heading subheading" style="font-size: 30px; margin-bottom: 8px">Expert PPC & Facebook Ads Solutions for Every Business</h1>
+          <h1 class="heading subheading">Expert PPC & Facebook Ads Solutions for Every Business</h1>
         </div>
         <p class="paragraph hero-paragraph" >
           Qonakr Technologies is an expert in high-performance managing PPC and Facebook Ads campaigns for your business
