@@ -28,7 +28,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
     <section class="hero-section">
       <div class="hero-section-title">
         <div class="hero-head">
-          <h1 class="heading hero-heading" style="font-size: 30px;">
+          <h1 class="heading hero-heading" style="font-size: 60px;">
             Shopify Development Agency
           </h1>
           <div class="hero-svg">
@@ -40,9 +40,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
             </svg>
           </div>
 
-          <h2 class="heading subheading">Expert Shopify Development Solutions for Every Business</h2>
+          <h2 class="heading subheading" style="font-size: 50px;">Expert Shopify Development Solutions for Every Business</h2>
         </div>
-        <p class="paragraph hero-paragraph">
+        <p class="paragraph hero-paragraph" style="font-size: 30px;">
           A reliable Shopify development company, Qonkar Technologies presents strong, user-friendly, and scalable
           Shopify stores. Whether you need a brand-new online store or want to provide an existing one with a boosting
           campaign, our company provides comprehensive Shopify development solutions according to your business goals.
