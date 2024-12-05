@@ -555,6 +555,7 @@ footer {
 /* comment */
 .section-service-details {
   display: flex;
+  align-items: start;
   gap: 75px;
 }
 
@@ -564,6 +565,7 @@ footer {
 
 .section-service-details .detail {
   padding-right: 30px;
+  position: sticky;
 }
 
 .section-service-details .detail .heading {
