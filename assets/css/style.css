@@ -269,12 +269,13 @@ section {
 }
 
 .wrapper-inner-image {
- width: 100%;
- height: auto;
- position: absolute;
- top: 0;
- margin-left: auto;
- margin-right: auto;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust position to center */
+  
 }
 
 .hero-small-circle {
