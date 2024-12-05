@@ -29,7 +29,7 @@ include(__DIR__ . '/../sections/progress-bar.php')
     <section class="hero-section">
       <div class="hero-section-title">
         <div class="hero-head">
-          <h1 class="heading hero-heading">
+          <h1 class="heading hero-heading" style="font-size: 35px;">
             PPC & Facebook Ads Agency
           </h1>
           <div class="hero-svg">
@@ -41,9 +41,9 @@ include(__DIR__ . '/../sections/progress-bar.php')
             </svg>
           </div>
 
-          <h1 class="heading subheading">Expert PPC & Facebook Ads Solutions for Every Business</h1>
+          <h1 class="heading subheading" style="font-size: 28px; margin-bottom: 8px">Expert PPC & Facebook Ads Solutions for Every Business</h1>
         </div>
-        <p class="paragraph hero-paragraph">
+        <p class="paragraph hero-paragraph" style="font-size: 15px; padding: 0px 25px 0px 0px">
           Qonakr Technologies is an expert in high-performance managing PPC and Facebook Ads campaigns for your business
           to increase targeted traffic and attract leads. Data-driven strategies are used by our certified team to guide
           the way for your efficiency (ROI) and get your marketing plans done perfectly.
