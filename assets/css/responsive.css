@@ -124,10 +124,10 @@
     align-items: center;
     justify-content: center;
   } */
-  .wrapper-image img {
-    width: 80%;  /* Shrinks the image slightly for better fitting */
-    margin: 0 auto; /* Centers the image */
-  }
+  /* .wrapper-image img {
+    width: 80%;  
+    margin: 0 auto;  
+  } */
 
 
   .wrapper-inner-image {
