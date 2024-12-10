@@ -116,6 +116,7 @@
 
   .wrapper-image {
     display: flex;
+    width: 100%;
   }
   
 
