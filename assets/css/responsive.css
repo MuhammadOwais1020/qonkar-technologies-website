@@ -109,10 +109,10 @@
     flex-wrap: wrap;
   }
 
-  .hero-section-image {
+  /* .hero-section-image {
     display: flex;
     justify-content: center;
-  }
+  } */
 
   .wrapper-image {
     display: flex;
