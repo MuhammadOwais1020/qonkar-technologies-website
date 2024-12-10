@@ -1,7 +1,7 @@
 @media screen and (min-width:1024) {
-  .wrapper-inner-image {
+  /* .wrapper-inner-image {
     width: 100%;
-  }
+  } */
 }
 
 @media screen and (max-width: 768px) {
