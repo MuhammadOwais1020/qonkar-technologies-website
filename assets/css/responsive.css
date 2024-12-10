@@ -117,6 +117,9 @@
   .wrapper-image {
     display: flex;
   }
+  .wrapper-image img {
+    width: 100%;
+  }
 
   
 
