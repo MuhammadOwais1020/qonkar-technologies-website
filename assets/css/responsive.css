@@ -126,10 +126,7 @@
   } */
 
 
-  .wrapper-inner-image {
-    display: flex;
-    justify-content: center;
-  }
+  
 
   .section-logos>.margin-top {
     margin-top: 4rem;
