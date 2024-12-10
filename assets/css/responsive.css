@@ -117,12 +117,9 @@
     justify-content: center;
   }
 
-  /* .wrapper-image {
-    height: 286px;
+  .wrapper-image {
     display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
+  }
   /* .wrapper-image img {
     width: 80%;  
     margin: 0 auto;  
