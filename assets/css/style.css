@@ -268,11 +268,11 @@ section {
 } */
 
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .hero-section-image img {
       object-fit: contain; 
   }
-}
+} */
 
 /* .wrapper-inner-image {
   width: 100%;
