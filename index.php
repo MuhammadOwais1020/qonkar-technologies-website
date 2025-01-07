@@ -111,7 +111,6 @@ include('./sections/progress-bar.php')
         </div>
       </div> -->
     </section>
-
     <!-- logos section -->
     <section class="section-logos">
       <div class="logos-container margin-top">
