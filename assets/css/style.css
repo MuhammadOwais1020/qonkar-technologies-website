@@ -2369,3 +2369,86 @@ button:hover {
 .section-heading .heading{
   font-size: 25px;
 }
+/* Portfolio Page Specific Styles */
+/* Font */
+.portfolio_page {
+  padding: 20px;
+}
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+} 
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+} 
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.project_list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.project div img{
+  width: 100%; 
+  height: auto;
+  object-fit: cover;
+  max-height: 288px; 
+}
+.project .image{
+  padding: 30px;
+}
+.prj_1{
+  background-color: #ff9a8a;
+}
+.prj_2{
+  background-color: #5569c6;
+  
+}
+.prj_3{
+  background-color: #67C5BA;
+}
+.project_list a{
+  text-decoration: none;
+}
+.project_content{
+  color: rgb(255, 255, 255);
+  padding: 0px 40px 40px 40px;
+  font-family: 'Lobster', serif !important;
+  font-weight: 400;
+  font-style: normal;
+} 
+.project_content h3 {
+  font-family: 'Lobster', serif !important;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+} 
+/*  start code of Text part  */
+.text_part{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text_part h1{
+ 
+  margin-top: 30px;   
+}
+/*  End code of Text part  */
+.project_content{
+  text-align: center;
+}
