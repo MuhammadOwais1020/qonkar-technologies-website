@@ -41,7 +41,7 @@
                 <a href="#">
                     <div class="project prj_2">
                         <div class="image">
-                            <img src="images/web-development-image.png" alt="Expert Web Development">
+                            <img src="../assets/images/web-development-image.png" alt="Expert Web Development">
                         </div>
                         <div class="project_content">
                             <h3 class="poppins-semibold">Expert Web Development</h3>
