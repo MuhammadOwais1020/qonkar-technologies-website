@@ -30,7 +30,7 @@
                 <a href="#">
                     <div class="project prj_1">
                         <div class="image">
-                            <img src="images/Graphic-image.png" alt="Creative Graphic Design">
+                            <img src="qonkar-technologies-website/assets/image/Graphic-image.png" alt="Creative Graphic Design">
                         </div>
                         <div class="project_content">
                             <h3 class="poppins-semibold">Creative Graphic Design</h3>
