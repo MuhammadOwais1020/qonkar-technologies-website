@@ -375,7 +375,6 @@
       text-align: start;
   }
 }
-
 @media (min-width: 0px) and (max-width: 666px) {
   .text_part{
       max-width: 100%;
