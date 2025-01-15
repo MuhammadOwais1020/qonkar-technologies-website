@@ -22,8 +22,7 @@
     <section class="portfolio_page">
         <div class="text_part">
             <h1 class="poppins-bold">View Our Latest PROJECTS</h1>
-            <p class="poppins-regular">From award-winning Graphic Designing and Shopify theme development to elegant, seamless web development, we build products
-                that thrive at the intersection of business goals and user needs.</p>
+            <p class="poppins-regular">From award-winning Graphic Designing and Shopify theme development to elegant, seamless web development, we build products that thrive at the intersection of business goals and user needs.</p>
         </div>
         <div class="project_details">
             <div class="project_list">
