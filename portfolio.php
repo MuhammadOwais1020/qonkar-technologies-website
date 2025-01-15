@@ -62,5 +62,9 @@
             </div>
         </div>
     </section>
+    <div class="pdf-section">
+        <div class="pdf-heading">Learn More About Pesticides</div>
+        <a href="pdfs/pesticides-document.pdf" class="pdf-button" target="_blank">View Pesticides PDF</a>
+    </div>
 </body>
 </html>
