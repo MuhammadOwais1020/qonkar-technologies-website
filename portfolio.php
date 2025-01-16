@@ -64,7 +64,7 @@
     </section>
     <div class="pdf-section">
         <div class="pdf-heading">Learn More About Pesticides</div>
-        <a href="https://qonkar.com/qonkar-technologies-website/Pesticide/Proposal Updated.pdf" class="pdf-button" target="_blank">View Pesticides PDF</a>
+        <a href="https://qonkar.com/qonkar-technologies-website/Pesticide-Proposal-Updated.pdf" class="pdf-button" target="_blank">View Pesticides PDF</a>
     </div>
 </body>
 </html>
