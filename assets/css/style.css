@@ -2455,3 +2455,33 @@ body{
 .project_content{
   text-align: center;
 }
+
+.project {
+  margin-bottom: 30px;
+}
+
+.pdf-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pdf-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.pdf-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pdf-button:hover {
+  background-color: #2980b9;
+}
